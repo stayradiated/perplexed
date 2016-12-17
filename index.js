@@ -1,54 +1,27 @@
-const PlexAPI = require('plex-api')
+let config
 
-const config = require('./config.json')
-
-const client = new PlexAPI(config.server)
-
-function getRoot () {
-  return client.query('/')
+try {
+  config = require('./config.json')
+} catch (err) {
+  console.error('Could not load config.json')
+  return
 }
 
-function getSections () {
-  return client.query('/library/sections')
-}
+const Client = require('./types/Client')
 
-function getSection () {
-  return client.query('/library/sections/1')
-}
+const client = new Client(config.server)
 
-function getAlbums () {
-  return client.query({
-    uri: '/library/sections/1/albums',
-    extraHeaders: {
-      'X-Plex-Container-Size': '3',
-      'X-Plex-Container-Start': '0',
-    },
-  })
-}
-
-function filter () {
-  return client.query('/library/sections/1/albums?year=2016')
-}
-
-function search (query) {
-  return client.query(`/library/sections/1/search?type=10&query=${query}`)
-}
-
-getAlbums()
-  .then((result) => {
-    // array of children, such as Directory or Server items
-    // will have the .uri-property attached
-    console.log(JSON.stringify(result, null, 2))
+client.albums()
+  .then((media) => {
+    media.metadata.forEach((album) => {
+      album.fetchTracks().then((res) => {
+        console.log(`${album.title} (${album.year}) - ${album.parentTitle}`)
+        res.metadata.forEach((track) => {
+          console.log(` - ${track.index}. ${track.title}`)
+        })
+      })
+    })
   })
   .catch((err) => {
     console.error(err)
   })
-
-module.exprots = {
-  getRoot,
-  getSections,
-  getSection,
-  getAlbums,
-  filter,
-  search,
-}
