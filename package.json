@@ -1,0 +1,14 @@
+{
+  "name": "plex",
+  "version": "0.0.1",
+  "description": "Plex API Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "George Czabania <george@czabania.com>",
+  "license": "MIT",
+  "dependencies": {
+    "plex-api": "^5.0.1"
+  }
+}

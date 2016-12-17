@@ -1,0 +1,8 @@
+{
+  "server": {
+    "hostname": "localhost",
+    "port": 32400,
+    "username": "username",
+    "password": "password"
+  }
+}
