@@ -34,7 +34,7 @@
     "qs": "^6.3.0"
   },
   "devDependencies": {
-    "@stayradiated/pkg": "^1.0.2"
+    "@stayradiated/pkg": "^1.1.0"
   },
   "babel": {
     "presets": [
