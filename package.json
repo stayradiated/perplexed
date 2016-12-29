@@ -1,14 +1,49 @@
 {
-  "name": "plex",
+  "name": "perplexed",
   "version": "0.0.1",
   "description": "Plex API Client",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "dist/index.js",
   "author": "George Czabania <george@czabania.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stayradiated/perplexed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stayradiated/perplexed/issues"
+  },
+  "homepage": "https://github.com/stayradiated/perplexed#readme",
+  "keywords": [
+    "plex",
+    "api",
+    "client"
+  ],
+  "srcPath": "lib",
+  "buildPath": "dist",
+  "testsPath": "test",
+  "scripts": {
+    "build": "pkg-build",
+    "prepublish": "pkg-build",
+    "test": "pkg-test",
+    "coverage": "pkg-coverage",
+    "lint": "pkg-lint"
+  },
   "dependencies": {
-    "plex-api": "^5.0.1"
+    "normalizr": "^3.0.0-beta",
+    "plex-api": "^5.0.2",
+    "qs": "^6.3.0"
+  },
+  "devDependencies": {
+    "@stayradiated/pkg": "^1.0.2"
+  },
+  "babel": {
+    "presets": [
+      "stayradiated"
+    ]
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
   }
 }
