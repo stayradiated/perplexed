@@ -38,7 +38,9 @@
   },
   "babel": {
     "presets": [
-      "stayradiated"
+      ["stayradiated", {
+        "runtime": false
+      }]
     ]
   },
   "ava": {
