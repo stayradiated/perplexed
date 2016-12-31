@@ -1,6 +1,6 @@
 {
   "name": "perplexed",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Plex API Client",
   "main": "dist/index.js",
   "author": "George Czabania <george@czabania.com>",
