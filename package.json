@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "assert": "^1.4.1",
+    "nock": "^9.0.2",
     "normalizr": "^3.0.0-beta",
     "plex-api": "^5.0.2",
     "qs": "^6.3.0"
