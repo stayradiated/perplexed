@@ -1,8 +1,15 @@
-# Plex API Client
+# Plex Media Server HTTP API Client
 
-Query a Plex server.
+This library makes it easier to use the Plex Media Server HTTP API.
 
-**Note: This only support music libraries at the moment.**
+This library was written to be used to create fully featured PMS clients, which
+would allow users to login with a Plex account and select an available server.
+
+It also provides quite a few helper methods in the `Library` class so you don't
+have to manually construct the API paths yourself.
+
+**Note: This library only support music libraries at the moment, but there is
+no reason it couldn't support other library types as well.**
 
 ## Usage
 
@@ -12,8 +19,9 @@ First add the library to your project
 $ yarn add perplexed
 ```
 
-Then create a client instance, which describes the device that is making the
-request.
+Then create a new client instance. This describes the client that is making the
+request. You can find more about these options on [the node-plex-api
+README](https://github.com/phillipj/node-plex-api).
 
 ```javascript
 const {Client} = require('perplexed')
