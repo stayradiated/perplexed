@@ -111,6 +111,23 @@ test('fetchXML with params', (t) => {
   })
 })
 
+test('authenticate failure', (t) => {
+  const account = new Account(t.context.client)
+
+  const username = 'username'
+  const password = 'password'
+
+  const scope = nock(PLEX_API)
+    .post('/users/sign_in.json')
+    .reply(401, {
+      error: 'Invalid email, username, or password.',
+    })
+
+  return account.authenticate(username, password).catch((res) => {
+    scope.done()
+    t.is(res.error, 'Invalid email, username, or password.')
+  })
+})
 
 test('authenticate', (t) => {
   const account = new Account(t.context.client)
@@ -132,6 +149,7 @@ test('authenticate', (t) => {
     t.is(account.authToken, AUTH_TOKEN)
   })
 })
+
 
 test('info', (t) => {
   const {account} = t.context
