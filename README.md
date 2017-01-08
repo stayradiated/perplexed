@@ -46,13 +46,20 @@ Now you can create an server connection.
 ```javascript
 const {ServerConnection} = require('perplexed')
 
-const serverConnection = new ServerConnection(url, account)
+const uri = 'http://192.168.1.100:32400'
+const serverConnection = new ServerConnection(uri, account)
 ```
 
-Now use this connection to create a Library.
+Now use this connection to create a Library, which allows you to do awesome
+stuff.
 
 ```javascript
 const {Library} = require('perplexed')
 
 const library = new Library(serverConnection)
+
+// like get all the playlists in a library
+library.playlists().then((playlists) => {
+  // do something with playlists
+})
 ```
