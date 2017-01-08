@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@stayradiated/pkg@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@stayradiated/pkg/-/pkg-1.1.0.tgz#30b28f43e642856d572a0e436b6a13193aacba61"
+"@stayradiated/pkg@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@stayradiated/pkg/-/pkg-1.1.2.tgz#243d67e5ebae2aead06bfaa49f0e440ca447efab"
   dependencies:
     ava "^0.17.0"
     babel-cli "^6.18.0"
@@ -13,7 +13,7 @@
     child-process-promise "^2.2.0"
     documentation "^4.0.0-beta16"
     es6-promisify "^5.0.0"
-    eslint-config-stayradiated "^1.1.0"
+    eslint-config-stayradiated "^1.3.0"
     npm-check-updates "^2.8.9"
     nyc "^10.0.0"
     postcss "^5.2.8"
@@ -1192,7 +1192,7 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
-bluebird@3.x.x, bluebird@^3.0.0, bluebird@^3.0.6, bluebird@^3.3, bluebird@^3.3.5, bluebird@^3.4.1, bluebird@^3.4.3, bluebird@^3.4.7:
+bluebird@3.x.x, bluebird@^3.0.0, bluebird@^3.0.6, bluebird@^3.4.1, bluebird@^3.4.3, bluebird@^3.4.7:
   version "3.4.7"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.4.7.tgz#f72d760be09b7f76d08ed8fae98b289a8d05fab3"
 
@@ -1981,6 +1981,12 @@ empower-core@^0.6.1:
     call-signature "0.0.2"
     core-js "^2.0.0"
 
+encoding@^0.1.11:
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/encoding/-/encoding-0.1.12.tgz#538b66f3ee62cd1ab51ec323829d1f9480c74beb"
+  dependencies:
+    iconv-lite "~0.4.13"
+
 end-of-stream@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.0.0.tgz#d4596e702734a93e40e9af864319eabd99ff2f0e"
@@ -2078,9 +2084,9 @@ eslint-config-airbnb@13.0.0:
   dependencies:
     eslint-config-airbnb-base "^10.0.0"
 
-eslint-config-stayradiated@^1.1.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-stayradiated/-/eslint-config-stayradiated-1.2.0.tgz#4a32dd0257e933255349bb43ec9f9a8dc634cd7f"
+eslint-config-stayradiated@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-stayradiated/-/eslint-config-stayradiated-1.3.0.tgz#6262fc6bc5f9cd19e8240139c533b09c8782be47"
   dependencies:
     babel-eslint "7.1.1"
     eslint "3.12.2"
@@ -2089,6 +2095,7 @@ eslint-config-stayradiated@^1.1.0:
     eslint-plugin-babel "4.0.0"
     eslint-plugin-import "2.2.0"
     eslint-plugin-jsx-a11y "2.2.3"
+    eslint-plugin-no-foreach "^1.0.0"
     eslint-plugin-react "6.8.0"
 
 eslint-import-resolver-node@^0.2.0:
@@ -2136,6 +2143,10 @@ eslint-plugin-jsx-a11y@2.2.3:
     damerau-levenshtein "^1.0.0"
     jsx-ast-utils "^1.0.0"
     object-assign "^4.0.1"
+
+eslint-plugin-no-foreach@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-no-foreach/-/eslint-plugin-no-foreach-1.0.0.tgz#944ccb8a39c27d24c83d1270981446f25a816c45"
 
 eslint-plugin-react@6.8.0:
   version "6.8.0"
@@ -2785,7 +2796,7 @@ http-signature@~1.1.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-iconv-lite@0.4.13:
+iconv-lite@0.4.13, iconv-lite@~0.4.13:
   version "0.4.13"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.13.tgz#1f88aba4ab0b1508e8312acc39345f36e992e2f2"
 
@@ -3136,6 +3147,17 @@ isobject@^2.0.0:
   dependencies:
     isarray "1.0.0"
 
+isomorphic-base64@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/isomorphic-base64/-/isomorphic-base64-1.0.2.tgz#f426aae82569ba8a4ec5ca73ad21a44ab1ee7803"
+
+isomorphic-fetch@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
+  dependencies:
+    node-fetch "^1.0.1"
+    whatwg-fetch ">=0.10.0"
+
 isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
@@ -3454,13 +3476,13 @@ lodash@^3.10.1:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^4.0.0, lodash@^4.11.1, lodash@^4.15.0, lodash@^4.2.0, lodash@^4.3.0, lodash@^4.6.1:
-  version "4.17.3"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.3.tgz#557ed7d2a9438cac5fd5a43043ca60cb455e01f7"
-
-lodash@~4.9.0:
+lodash@^4.0.0, lodash@^4.2.0, lodash@~4.9.0:
   version "4.9.0"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.9.0.tgz#4c20d742f03ce85dc700e0dd7ab9bcab85e6fc14"
+
+lodash@^4.11.1, lodash@^4.15.0, lodash@^4.3.0:
+  version "4.17.3"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.3.tgz#557ed7d2a9438cac5fd5a43043ca60cb455e01f7"
 
 log-symbols@^1.0.2:
   version "1.0.2"
@@ -3722,6 +3744,13 @@ node-alias@^1.0.4:
     chalk "^1.1.1"
     lodash "^4.2.0"
 
+node-fetch@^1.0.1:
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.6.3.tgz#dc234edd6489982d58e8f0db4f695029abcd8c04"
+  dependencies:
+    encoding "^0.1.11"
+    is-stream "^1.0.1"
+
 node-gyp@~3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-3.4.0.tgz#dda558393b3ecbbe24c9e6b8703c71194c63fa36"
@@ -3794,9 +3823,9 @@ normalize-uri@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/normalize-uri/-/normalize-uri-1.1.0.tgz#01fb440c7fd059b9d9be8645aac14341efd059dd"
 
-normalizr@^3.0.0-beta:
-  version "3.0.0-beta"
-  resolved "https://registry.yarnpkg.com/normalizr/-/normalizr-3.0.0-beta.tgz#9f3cb52efd98504f6d6525dd9d584c56c7cee2de"
+normalizr@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/normalizr/-/normalizr-3.0.2.tgz#ac51ab65af807e9022b9f16a767fb1449c0dae6a"
 
 npm-cache-filename@~1.0.2:
   version "1.0.2"
@@ -4275,29 +4304,6 @@ pkg-up@^1.0.0:
   resolved "https://registry.yarnpkg.com/pkg-up/-/pkg-up-1.0.0.tgz#3e08fb461525c4421624a33b9f7e6d0af5b05a26"
   dependencies:
     find-up "^1.0.0"
-
-plex-api-credentials@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/plex-api-credentials/-/plex-api-credentials-3.0.0.tgz#1320a587379dc5e2e8d6c1d915945d6bb0fe8e69"
-  dependencies:
-    bluebird "^3.3.5"
-    plex-api-headers "1.1.0"
-    request-promise "^3.0.0"
-    xml2js "^0.4.16"
-
-plex-api-headers@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/plex-api-headers/-/plex-api-headers-1.1.0.tgz#4ce364715d9648cccf2c064583279ef87c12fbf2"
-
-plex-api@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/plex-api/-/plex-api-5.0.2.tgz#7a1573175625fe94a3fb1b86fbbecd1ddc6759e8"
-  dependencies:
-    plex-api-credentials "^3.0.0"
-    plex-api-headers "1.1.0"
-    request "2.79.0"
-    uuid "2.0.2"
-    xml2js "0.4.16"
 
 plur@^1.0.0:
   version "1.0.0"
@@ -4881,40 +4887,7 @@ replace-ext@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/replace-ext/-/replace-ext-0.0.1.tgz#29bbd92078a739f0bcce2b4ee41e837953522924"
 
-request-promise@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/request-promise/-/request-promise-3.0.0.tgz#be1edb26f41c49cd1d5656c6753d6842a1249f46"
-  dependencies:
-    bluebird "^3.3"
-    lodash "^4.6.1"
-    request "^2.34"
-
-request@2, request@2.79.0, request@^2.34, request@^2.74.0, request@^2.79.0:
-  version "2.79.0"
-  resolved "https://registry.yarnpkg.com/request/-/request-2.79.0.tgz#4dfe5bf6be8b8cdc37fcf93e04b65577722710de"
-  dependencies:
-    aws-sign2 "~0.6.0"
-    aws4 "^1.2.1"
-    caseless "~0.11.0"
-    combined-stream "~1.0.5"
-    extend "~3.0.0"
-    forever-agent "~0.6.1"
-    form-data "~2.1.1"
-    har-validator "~2.0.6"
-    hawk "~3.1.3"
-    http-signature "~1.1.0"
-    is-typedarray "~1.0.0"
-    isstream "~0.1.2"
-    json-stringify-safe "~5.0.1"
-    mime-types "~2.1.7"
-    oauth-sign "~0.8.1"
-    qs "~6.3.0"
-    stringstream "~0.0.4"
-    tough-cookie "~2.3.0"
-    tunnel-agent "~0.4.1"
-    uuid "^3.0.0"
-
-request@~2.75.0:
+request@2, request@^2.74.0, request@~2.75.0:
   version "2.75.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.75.0.tgz#d2b8268a286da13eaa5d01adf5d18cc90f657d93"
   dependencies:
@@ -4939,6 +4912,31 @@ request@~2.75.0:
     stringstream "~0.0.4"
     tough-cookie "~2.3.0"
     tunnel-agent "~0.4.1"
+
+request@^2.79.0:
+  version "2.79.0"
+  resolved "https://registry.yarnpkg.com/request/-/request-2.79.0.tgz#4dfe5bf6be8b8cdc37fcf93e04b65577722710de"
+  dependencies:
+    aws-sign2 "~0.6.0"
+    aws4 "^1.2.1"
+    caseless "~0.11.0"
+    combined-stream "~1.0.5"
+    extend "~3.0.0"
+    forever-agent "~0.6.1"
+    form-data "~2.1.1"
+    har-validator "~2.0.6"
+    hawk "~3.1.3"
+    http-signature "~1.1.0"
+    is-typedarray "~1.0.0"
+    isstream "~0.1.2"
+    json-stringify-safe "~5.0.1"
+    mime-types "~2.1.7"
+    oauth-sign "~0.8.1"
+    qs "~6.3.0"
+    stringstream "~0.0.4"
+    tough-cookie "~2.3.0"
+    tunnel-agent "~0.4.1"
+    uuid "^3.0.0"
 
 require-dir@^0.3.0:
   version "0.3.1"
@@ -5643,11 +5641,11 @@ util@0.10.3:
   dependencies:
     inherits "2.0.1"
 
-uuid@2.0.2, uuid@^2.0.1:
+uuid@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-2.0.2.tgz#48bd5698f0677e3c7901a1c46ef15b1643794726"
 
-uuid@^3.0.0:
+uuid@^3.0.0, uuid@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.0.1.tgz#6544bba2dfda8c1cf17e629a3a305e2bb1fee6c1"
 
@@ -5781,6 +5779,10 @@ websocket-extensions@>=0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.1.tgz#76899499c184b6ef754377c2dbb0cd6cb55d29e7"
 
+whatwg-fetch@>=0.10.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.1.tgz#078b9461bbe91cea73cbce8bb122a05f9e92b772"
+
 which-module@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/which-module/-/which-module-1.0.0.tgz#bba63ca861948994ff307736089e3b96026c2a4f"
@@ -5878,9 +5880,9 @@ xdg-basedir@^2.0.0:
   dependencies:
     os-homedir "^1.0.0"
 
-xml2js@0.4.16, xml2js@^0.4.16:
-  version "0.4.16"
-  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.4.16.tgz#f82fccd2f9540d7e0a9b5dac163e7471195c9db3"
+xml2js@^0.4.17:
+  version "0.4.17"
+  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.4.17.tgz#17be93eaae3f3b779359c795b419705a8817e868"
   dependencies:
     sax ">=0.6.0"
     xmlbuilder "^4.1.0"
