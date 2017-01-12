@@ -1,0 +1,70 @@
+{
+  "MediaContainer": {
+    "size": 10,
+    "totalSize": 30,
+    "allowSync": false,
+    "art": "/:/resources/artist-fanart.jpg",
+    "identifier": "com.plexapp.plugins.library",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "nocache": true,
+    "offset": 0,
+    "thumb": "/:/resources/artist.png",
+    "title1": "Music",
+    "title2": "By First Letter",
+    "viewGroup": "track",
+    "viewMode": 65593,
+    "Directory": [
+      {
+        "size": 7,
+        "key": "%23",
+        "title": "#"
+      },
+      {
+        "size": 65,
+        "key": "A",
+        "title": "A"
+      },
+      {
+        "size": 139,
+        "key": "B",
+        "title": "B"
+      },
+      {
+        "size": 93,
+        "key": "C",
+        "title": "C"
+      },
+      {
+        "size": 65,
+        "key": "D",
+        "title": "D"
+      },
+      {
+        "size": 38,
+        "key": "E",
+        "title": "E"
+      },
+      {
+        "size": 70,
+        "key": "F",
+        "title": "F"
+      },
+      {
+        "size": 54,
+        "key": "G",
+        "title": "G"
+      },
+      {
+        "size": 53,
+        "key": "H",
+        "title": "H"
+      },
+      {
+        "size": 19,
+        "key": "I",
+        "title": "I"
+      }
+    ]
+  }
+}

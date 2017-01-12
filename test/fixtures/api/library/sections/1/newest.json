@@ -1,0 +1,295 @@
+{
+  "MediaContainer": {
+    "size": 10,
+    "totalSize": 70,
+    "allowSync": true,
+    "art": "/:/resources/artist-fanart.jpg",
+    "identifier": "com.plexapp.plugins.library",
+    "librarySectionID": 1,
+    "librarySectionTitle": "Music",
+    "librarySectionUUID": "5085a855-78e9-4dd7-9d70-a4ac296e28ee",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "mixedParents": true,
+    "nocache": true,
+    "offset": 0,
+    "thumb": "/:/resources/artist.png",
+    "title1": "Music",
+    "title2": "Recently Aired",
+    "viewGroup": "track",
+    "viewMode": 65593,
+    "Metadata": [
+      {
+        "ratingKey": "41243",
+        "key": "/library/metadata/41243/children",
+        "parentRatingKey": "4559",
+        "studio": "Elektra (NEK)",
+        "type": "album",
+        "title": "saintmotelevision",
+        "parentKey": "/library/metadata/4559",
+        "parentTitle": "Saint Motel",
+        "summary": "",
+        "index": 1,
+        "viewCount": 31,
+        "lastViewedAt": 1482641223,
+        "year": 2016,
+        "thumb": "/library/metadata/41243/thumb/1481750786",
+        "parentThumb": "/library/metadata/4559/thumb/1482421370",
+        "originallyAvailableAt": "2016-10-21",
+        "leafCount": 10,
+        "viewedLeafCount": 10,
+        "addedAt": 1481750745,
+        "updatedAt": 1481750786,
+        "Genre": [
+          {
+            "tag": "Indie Rock, Indie Pop, Pop"
+          }
+        ]
+      },
+      {
+        "ratingKey": "36933",
+        "key": "/library/metadata/36933/children",
+        "parentRatingKey": "13045",
+        "studio": "Jagjaguwar",
+        "type": "album",
+        "title": "22, a Million",
+        "parentKey": "/library/metadata/13045",
+        "parentTitle": "Bon Iver",
+        "summary": "",
+        "index": 1,
+        "userRating": 10,
+        "viewCount": 9,
+        "lastViewedAt": 1480547543,
+        "year": 2016,
+        "thumb": "/library/metadata/36933/thumb/1475270705",
+        "art": "/library/metadata/13045/art/1482592217",
+        "parentThumb": "/library/metadata/13045/thumb/1482592217",
+        "originallyAvailableAt": "2016-09-30",
+        "leafCount": 10,
+        "viewedLeafCount": 5,
+        "addedAt": 1475270652,
+        "updatedAt": 1475270705,
+        "Genre": [
+          {
+            "tag": "Electronic, Experimental Pop, Indie Folk"
+          }
+        ]
+      },
+      {
+        "ratingKey": "41409",
+        "key": "/library/metadata/41409/children",
+        "parentRatingKey": "9027",
+        "studio": "Cabin 24",
+        "type": "album",
+        "title": "It Doesn’t Have to Make Sense",
+        "parentKey": "/library/metadata/9027",
+        "parentTitle": "Ingrid Michaelson",
+        "summary": "",
+        "index": 1,
+        "year": 2016,
+        "thumb": "/library/metadata/41409/thumb/1482749463",
+        "art": "/library/metadata/9027/art/1482749449",
+        "parentThumb": "/library/metadata/9027/thumb/1482749449",
+        "originallyAvailableAt": "2016-08-26",
+        "leafCount": 10,
+        "viewedLeafCount": 0,
+        "addedAt": 1482749438,
+        "updatedAt": 1482749463,
+        "Genre": [
+          {
+            "tag": "Indie Pop, Pop"
+          }
+        ]
+      },
+      {
+        "ratingKey": "35751",
+        "key": "/library/metadata/35751/children",
+        "parentRatingKey": "35750",
+        "studio": "Because Music/WMI",
+        "type": "album",
+        "title": "Ibifornia",
+        "parentKey": "/library/metadata/35750",
+        "parentTitle": "Cassius",
+        "summary": "",
+        "index": 1,
+        "lastViewedAt": 1477419885,
+        "year": 2016,
+        "thumb": "/library/metadata/35751/thumb/1473592667",
+        "parentThumb": "/library/metadata/35750/thumb/1482758779",
+        "originallyAvailableAt": "2016-08-26",
+        "leafCount": 13,
+        "viewedLeafCount": 0,
+        "addedAt": 1473592445,
+        "updatedAt": 1473592667,
+        "Genre": [
+          {
+            "tag": "House, Electronic, Dance"
+          }
+        ]
+      },
+      {
+        "ratingKey": "40783",
+        "key": "/library/metadata/40783/children",
+        "parentRatingKey": "40782",
+        "studio": "Old Bag Records",
+        "type": "album",
+        "title": "On Melancholy Hill - Single",
+        "parentKey": "/library/metadata/40782",
+        "parentTitle": "Matt Forbes",
+        "summary": "",
+        "index": 1,
+        "viewCount": 2,
+        "lastViewedAt": 1480793867,
+        "year": 2016,
+        "thumb": "/library/metadata/40783/thumb/1480560174",
+        "originallyAvailableAt": "2016-07-21",
+        "leafCount": 1,
+        "viewedLeafCount": 1,
+        "addedAt": 1480560158,
+        "updatedAt": 1480560174,
+        "Genre": [
+          {
+            "tag": "Pop"
+          }
+        ]
+      },
+      {
+        "ratingKey": "32605",
+        "key": "/library/metadata/32605/children",
+        "parentRatingKey": "5312",
+        "type": "album",
+        "title": "Squad Goals",
+        "parentKey": "/library/metadata/5312",
+        "parentTitle": "Postmodern Jukebox",
+        "summary": "",
+        "index": 1,
+        "viewCount": 30,
+        "lastViewedAt": 1482284690,
+        "year": 2016,
+        "thumb": "/library/metadata/32605/thumb/1473051227",
+        "parentThumb": "/library/metadata/5312/thumb/1482592254",
+        "originallyAvailableAt": "2016-07-14",
+        "leafCount": 14,
+        "viewedLeafCount": 13,
+        "addedAt": 1469346547,
+        "updatedAt": 1473051227,
+        "Genre": [
+          {
+            "tag": "Jazz, Swing, Cabaret"
+          }
+        ]
+      },
+      {
+        "ratingKey": "40911",
+        "key": "/library/metadata/40911/children",
+        "parentRatingKey": "40910",
+        "studio": "Record Records",
+        "type": "album",
+        "title": "Floating Harmonies",
+        "parentKey": "/library/metadata/40910",
+        "parentTitle": "Júníus Meyvant",
+        "summary": "",
+        "index": 1,
+        "year": 2016,
+        "thumb": "/library/metadata/40911/thumb/1481013536",
+        "originallyAvailableAt": "2016-07-08",
+        "leafCount": 12,
+        "viewedLeafCount": 0,
+        "addedAt": 1481013368,
+        "updatedAt": 1481013536,
+        "Genre": [
+          {
+            "tag": "Soul, Chamber Pop, Folk Pop"
+          }
+        ]
+      },
+      {
+        "ratingKey": "41075",
+        "key": "/library/metadata/41075/children",
+        "parentRatingKey": "41074",
+        "studio": "Tru Thoughts",
+        "type": "album",
+        "title": "1000 Watts",
+        "parentKey": "/library/metadata/41074",
+        "parentTitle": "Quantic presents Flowering Inferno",
+        "summary": "",
+        "index": 1,
+        "viewCount": 4,
+        "lastViewedAt": 1481050306,
+        "year": 2016,
+        "thumb": "/library/metadata/41075/thumb/1481020818",
+        "parentThumb": "/library/metadata/41074/thumb/1482333889",
+        "originallyAvailableAt": "2016-06-17",
+        "leafCount": 14,
+        "viewedLeafCount": 2,
+        "addedAt": 1481016729,
+        "updatedAt": 1481020818,
+        "Genre": [
+          {
+            "tag": "Dub, Downtempo, Reggae"
+          }
+        ]
+      },
+      {
+        "ratingKey": "40747",
+        "key": "/library/metadata/40747/children",
+        "parentRatingKey": "40733",
+        "type": "album",
+        "title": "Death Valley",
+        "parentKey": "/library/metadata/40733",
+        "parentTitle": "L.P.",
+        "summary": "",
+        "index": 1,
+        "viewCount": 20,
+        "lastViewedAt": 1482737847,
+        "year": 2016,
+        "thumb": "/library/metadata/40747/thumb/1480547767",
+        "parentThumb": "/library/metadata/40733/thumb/1482593376",
+        "originallyAvailableAt": "2016-06-17",
+        "leafCount": 5,
+        "viewedLeafCount": 5,
+        "addedAt": 1480547762,
+        "updatedAt": 1480547767,
+        "Genre": [
+          {
+            "tag": "Rock, Indie Rock, Soft Rock"
+          }
+        ]
+      },
+      {
+        "ratingKey": "1650",
+        "key": "/library/metadata/1650/children",
+        "parentRatingKey": "1649",
+        "studio": "ITNO/Columbia",
+        "type": "album",
+        "title": "Wrong Crowd",
+        "parentKey": "/library/metadata/1649",
+        "parentTitle": "Tom Odell",
+        "summary": "",
+        "index": 1,
+        "viewCount": 13,
+        "lastViewedAt": 1481918308,
+        "year": 2016,
+        "thumb": "/library/metadata/1650/thumb/1474889690",
+        "art": "/library/metadata/1649/art/1482677859",
+        "parentThumb": "/library/metadata/1649/thumb/1482677859",
+        "originallyAvailableAt": "2016-06-10",
+        "leafCount": 15,
+        "viewedLeafCount": 6,
+        "addedAt": 1459742087,
+        "updatedAt": 1474889690,
+        "Genre": [
+          {
+            "tag": "Alternative Pop Singer-Songwriter"
+          },
+          {
+            "tag": "Alternative Singer-Songwriter"
+          },
+          {
+            "tag": "Alternative"
+          }
+        ]
+      }
+    ]
+  }
+}

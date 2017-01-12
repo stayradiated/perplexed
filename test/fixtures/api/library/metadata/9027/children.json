@@ -1,0 +1,480 @@
+{
+  "MediaContainer": {
+    "size": 10,
+    "totalSize": 10,
+    "allowSync": true,
+    "art": "/library/metadata/9027/art/1482749449",
+    "grandparentRatingKey": 9027,
+    "grandparentThumb": "/library/metadata/9027/thumb/1482749449",
+    "grandparentTitle": "Ingrid Michaelson",
+    "identifier": "com.plexapp.plugins.library",
+    "key": "41409",
+    "librarySectionID": 1,
+    "librarySectionTitle": "Music",
+    "librarySectionUUID": "5085a855-78e9-4dd7-9d70-a4ac296e28ee",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "nocache": true,
+    "offset": 0,
+    "parentIndex": "1",
+    "parentTitle": "It Doesn’t Have to Make Sense",
+    "parentYear": "2016",
+    "thumb": "/library/metadata/41409/thumb/1482749463",
+    "title1": "Ingrid Michaelson",
+    "title2": "It Doesn’t Have to Make Sense",
+    "viewGroup": "track",
+    "viewMode": 65593,
+    "Metadata": [
+      {
+        "ratingKey": "41410",
+        "key": "/library/metadata/41410",
+        "parentRatingKey": "41409",
+        "grandparentRatingKey": "9027",
+        "type": "track",
+        "title": "Light Me Up",
+        "grandparentKey": "/library/metadata/9027",
+        "parentKey": "/library/metadata/41409",
+        "grandparentTitle": "Ingrid Michaelson",
+        "parentTitle": "It Doesn’t Have to Make Sense",
+        "originalTitle": "Ingrid Michaelson",
+        "summary": "",
+        "index": 1,
+        "parentIndex": 1,
+        "thumb": "/library/metadata/41409/thumb/1482749463",
+        "art": "/library/metadata/9027/art/1482749449",
+        "parentThumb": "/library/metadata/41409/thumb/1482749463",
+        "grandparentThumb": "/library/metadata/9027/thumb/1482749449",
+        "grandparentArt": "/library/metadata/9027/art/1482749449",
+        "duration": 247876,
+        "addedAt": 1482749438,
+        "updatedAt": 1482749463,
+        "Media": [
+          {
+            "id": 55066,
+            "duration": 247876,
+            "bitrate": 330,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 55066,
+                "key": "/library/parts/55066/1482749427/file.mp3",
+                "duration": 247876,
+                "file": "/mnt/data/music/albums/Ingrid Michaelson/It Doesn't Have to Make Sense/01 Light Me Up.mp3",
+                "size": 10211764,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "41411",
+        "key": "/library/metadata/41411",
+        "parentRatingKey": "41409",
+        "grandparentRatingKey": "9027",
+        "type": "track",
+        "title": "Whole Lot of Heart",
+        "grandparentKey": "/library/metadata/9027",
+        "parentKey": "/library/metadata/41409",
+        "grandparentTitle": "Ingrid Michaelson",
+        "parentTitle": "It Doesn’t Have to Make Sense",
+        "originalTitle": "Ingrid Michaelson",
+        "summary": "",
+        "index": 2,
+        "parentIndex": 1,
+        "thumb": "/library/metadata/41409/thumb/1482749463",
+        "art": "/library/metadata/9027/art/1482749449",
+        "parentThumb": "/library/metadata/41409/thumb/1482749463",
+        "grandparentThumb": "/library/metadata/9027/thumb/1482749449",
+        "grandparentArt": "/library/metadata/9027/art/1482749449",
+        "duration": 225045,
+        "addedAt": 1482749438,
+        "updatedAt": 1482749463,
+        "Media": [
+          {
+            "id": 55067,
+            "duration": 225045,
+            "bitrate": 331,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 55067,
+                "key": "/library/parts/55067/1482749427/file.mp3",
+                "duration": 225045,
+                "file": "/mnt/data/music/albums/Ingrid Michaelson/It Doesn't Have to Make Sense/02 Whole Lot of Heart.mp3",
+                "size": 9297618,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "41412",
+        "key": "/library/metadata/41412",
+        "parentRatingKey": "41409",
+        "grandparentRatingKey": "9027",
+        "type": "track",
+        "title": "Miss America",
+        "grandparentKey": "/library/metadata/9027",
+        "parentKey": "/library/metadata/41409",
+        "grandparentTitle": "Ingrid Michaelson",
+        "parentTitle": "It Doesn’t Have to Make Sense",
+        "originalTitle": "Ingrid Michaelson",
+        "summary": "",
+        "index": 3,
+        "parentIndex": 1,
+        "thumb": "/library/metadata/41409/thumb/1482749463",
+        "art": "/library/metadata/9027/art/1482749449",
+        "parentThumb": "/library/metadata/41409/thumb/1482749463",
+        "grandparentThumb": "/library/metadata/9027/thumb/1482749449",
+        "grandparentArt": "/library/metadata/9027/art/1482749449",
+        "duration": 212872,
+        "addedAt": 1482749438,
+        "updatedAt": 1482749463,
+        "Media": [
+          {
+            "id": 55068,
+            "duration": 212872,
+            "bitrate": 331,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 55068,
+                "key": "/library/parts/55068/1482749427/file.mp3",
+                "duration": 212872,
+                "file": "/mnt/data/music/albums/Ingrid Michaelson/It Doesn't Have to Make Sense/03 Miss America.mp3",
+                "size": 8810202,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "41413",
+        "key": "/library/metadata/41413",
+        "parentRatingKey": "41409",
+        "grandparentRatingKey": "9027",
+        "type": "track",
+        "title": "Another Life",
+        "grandparentKey": "/library/metadata/9027",
+        "parentKey": "/library/metadata/41409",
+        "grandparentTitle": "Ingrid Michaelson",
+        "parentTitle": "It Doesn’t Have to Make Sense",
+        "originalTitle": "Ingrid Michaelson",
+        "summary": "",
+        "index": 4,
+        "parentIndex": 1,
+        "thumb": "/library/metadata/41409/thumb/1482749463",
+        "art": "/library/metadata/9027/art/1482749449",
+        "parentThumb": "/library/metadata/41409/thumb/1482749463",
+        "grandparentThumb": "/library/metadata/9027/thumb/1482749449",
+        "grandparentArt": "/library/metadata/9027/art/1482749449",
+        "duration": 253414,
+        "addedAt": 1482749438,
+        "updatedAt": 1482749463,
+        "Media": [
+          {
+            "id": 55069,
+            "duration": 253414,
+            "bitrate": 329,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 55069,
+                "key": "/library/parts/55069/1482749427/file.mp3",
+                "duration": 253414,
+                "file": "/mnt/data/music/albums/Ingrid Michaelson/It Doesn't Have to Make Sense/04 Another Life.mp3",
+                "size": 10433505,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "41414",
+        "key": "/library/metadata/41414",
+        "parentRatingKey": "41409",
+        "grandparentRatingKey": "9027",
+        "type": "track",
+        "title": "I Remember Her",
+        "grandparentKey": "/library/metadata/9027",
+        "parentKey": "/library/metadata/41409",
+        "grandparentTitle": "Ingrid Michaelson",
+        "parentTitle": "It Doesn’t Have to Make Sense",
+        "originalTitle": "Ingrid Michaelson",
+        "summary": "",
+        "index": 5,
+        "parentIndex": 1,
+        "thumb": "/library/metadata/41409/thumb/1482749463",
+        "art": "/library/metadata/9027/art/1482749449",
+        "parentThumb": "/library/metadata/41409/thumb/1482749463",
+        "grandparentThumb": "/library/metadata/9027/thumb/1482749449",
+        "grandparentArt": "/library/metadata/9027/art/1482749449",
+        "duration": 209580,
+        "addedAt": 1482749438,
+        "updatedAt": 1482749463,
+        "Media": [
+          {
+            "id": 55070,
+            "duration": 209580,
+            "bitrate": 331,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 55070,
+                "key": "/library/parts/55070/1482749427/file.mp3",
+                "duration": 209580,
+                "file": "/mnt/data/music/albums/Ingrid Michaelson/It Doesn't Have to Make Sense/05 I Remember Her.mp3",
+                "size": 8678415,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "41415",
+        "key": "/library/metadata/41415",
+        "parentRatingKey": "41409",
+        "grandparentRatingKey": "9027",
+        "type": "track",
+        "title": "Drink You Gone",
+        "grandparentKey": "/library/metadata/9027",
+        "parentKey": "/library/metadata/41409",
+        "grandparentTitle": "Ingrid Michaelson",
+        "parentTitle": "It Doesn’t Have to Make Sense",
+        "originalTitle": "Ingrid Michaelson",
+        "summary": "",
+        "index": 6,
+        "parentIndex": 1,
+        "thumb": "/library/metadata/41409/thumb/1482749463",
+        "art": "/library/metadata/9027/art/1482749449",
+        "parentThumb": "/library/metadata/41409/thumb/1482749463",
+        "grandparentThumb": "/library/metadata/9027/thumb/1482749449",
+        "grandparentArt": "/library/metadata/9027/art/1482749449",
+        "duration": 220186,
+        "addedAt": 1482749438,
+        "updatedAt": 1482749463,
+        "Media": [
+          {
+            "id": 55071,
+            "duration": 220186,
+            "bitrate": 331,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 55071,
+                "key": "/library/parts/55071/1482749427/file.mp3",
+                "duration": 220186,
+                "file": "/mnt/data/music/albums/Ingrid Michaelson/It Doesn't Have to Make Sense/06 Drink You Gone.mp3",
+                "size": 9103067,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "41416",
+        "key": "/library/metadata/41416",
+        "parentRatingKey": "41409",
+        "grandparentRatingKey": "9027",
+        "type": "track",
+        "title": "Hell No",
+        "grandparentKey": "/library/metadata/9027",
+        "parentKey": "/library/metadata/41409",
+        "grandparentTitle": "Ingrid Michaelson",
+        "parentTitle": "It Doesn’t Have to Make Sense",
+        "originalTitle": "Ingrid Michaelson",
+        "summary": "",
+        "index": 7,
+        "parentIndex": 1,
+        "thumb": "/library/metadata/41409/thumb/1482749463",
+        "art": "/library/metadata/9027/art/1482749449",
+        "parentThumb": "/library/metadata/41409/thumb/1482749463",
+        "grandparentThumb": "/library/metadata/9027/thumb/1482749449",
+        "grandparentArt": "/library/metadata/9027/art/1482749449",
+        "duration": 174838,
+        "addedAt": 1482749438,
+        "updatedAt": 1482749463,
+        "Media": [
+          {
+            "id": 55072,
+            "duration": 174838,
+            "bitrate": 333,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 55072,
+                "key": "/library/parts/55072/1482749427/file.mp3",
+                "duration": 174838,
+                "file": "/mnt/data/music/albums/Ingrid Michaelson/It Doesn't Have to Make Sense/07 Hell No.mp3",
+                "size": 7287304,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "41417",
+        "key": "/library/metadata/41417",
+        "parentRatingKey": "41409",
+        "grandparentRatingKey": "9027",
+        "type": "track",
+        "title": "Still the One",
+        "grandparentKey": "/library/metadata/9027",
+        "parentKey": "/library/metadata/41409",
+        "grandparentTitle": "Ingrid Michaelson",
+        "parentTitle": "It Doesn’t Have to Make Sense",
+        "originalTitle": "Ingrid Michaelson",
+        "summary": "",
+        "index": 8,
+        "parentIndex": 1,
+        "thumb": "/library/metadata/41409/thumb/1482749463",
+        "art": "/library/metadata/9027/art/1482749449",
+        "parentThumb": "/library/metadata/41409/thumb/1482749463",
+        "grandparentThumb": "/library/metadata/9027/thumb/1482749449",
+        "grandparentArt": "/library/metadata/9027/art/1482749449",
+        "duration": 152973,
+        "addedAt": 1482749438,
+        "updatedAt": 1482749463,
+        "Media": [
+          {
+            "id": 55073,
+            "duration": 152973,
+            "bitrate": 335,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 55073,
+                "key": "/library/parts/55073/1482749427/file.mp3",
+                "duration": 152973,
+                "file": "/mnt/data/music/albums/Ingrid Michaelson/It Doesn't Have to Make Sense/08 Still the One.mp3",
+                "size": 6411856,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "41418",
+        "key": "/library/metadata/41418",
+        "parentRatingKey": "41409",
+        "grandparentRatingKey": "9027",
+        "type": "track",
+        "title": "Celebrate",
+        "grandparentKey": "/library/metadata/9027",
+        "parentKey": "/library/metadata/41409",
+        "grandparentTitle": "Ingrid Michaelson",
+        "parentTitle": "It Doesn’t Have to Make Sense",
+        "originalTitle": "Ingrid Michaelson",
+        "summary": "",
+        "index": 9,
+        "parentIndex": 1,
+        "thumb": "/library/metadata/41409/thumb/1482749463",
+        "art": "/library/metadata/9027/art/1482749449",
+        "parentThumb": "/library/metadata/41409/thumb/1482749463",
+        "grandparentThumb": "/library/metadata/9027/thumb/1482749449",
+        "grandparentArt": "/library/metadata/9027/art/1482749449",
+        "duration": 209607,
+        "addedAt": 1482749438,
+        "updatedAt": 1482749463,
+        "Media": [
+          {
+            "id": 55074,
+            "duration": 209607,
+            "bitrate": 331,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 55074,
+                "key": "/library/parts/55074/1482749427/file.mp3",
+                "duration": 209607,
+                "file": "/mnt/data/music/albums/Ingrid Michaelson/It Doesn't Have to Make Sense/09 Celebrate.mp3",
+                "size": 8679456,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "41419",
+        "key": "/library/metadata/41419",
+        "parentRatingKey": "41409",
+        "grandparentRatingKey": "9027",
+        "type": "track",
+        "title": "Old Days",
+        "grandparentKey": "/library/metadata/9027",
+        "parentKey": "/library/metadata/41409",
+        "grandparentTitle": "Ingrid Michaelson",
+        "parentTitle": "It Doesn’t Have to Make Sense",
+        "originalTitle": "Ingrid Michaelson",
+        "summary": "",
+        "index": 10,
+        "parentIndex": 1,
+        "thumb": "/library/metadata/41409/thumb/1482749463",
+        "art": "/library/metadata/9027/art/1482749449",
+        "parentThumb": "/library/metadata/41409/thumb/1482749463",
+        "grandparentThumb": "/library/metadata/9027/thumb/1482749449",
+        "grandparentArt": "/library/metadata/9027/art/1482749449",
+        "duration": 244950,
+        "addedAt": 1482749438,
+        "updatedAt": 1482749463,
+        "Media": [
+          {
+            "id": 55075,
+            "duration": 244950,
+            "bitrate": 330,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 55075,
+                "key": "/library/parts/55075/1482749427/file.mp3",
+                "duration": 244950,
+                "file": "/mnt/data/music/albums/Ingrid Michaelson/It Doesn't Have to Make Sense/10 Old Days.mp3",
+                "size": 10094617,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

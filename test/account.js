@@ -123,9 +123,11 @@ test('authenticate failure', (t) => {
       error: 'Invalid email, username, or password.',
     })
 
-  return account.authenticate(username, password).catch((res) => {
+  return account.authenticate(username, password).catch((error) => {
     scope.done()
-    t.is(res.error, 'Invalid email, username, or password.')
+    t.deepEqual(error.response, {
+      error: 'Invalid email, username, or password.',
+    })
   })
 })
 
@@ -176,6 +178,25 @@ test('resources', (t) => {
   return account.resources().then((resources) => {
     scope.done()
     t.is(resources.devices.length, 0)
+  })
+})
+
+test('servers', (t) => {
+  const {account} = t.context
+
+  const scope = nock(PLEX_API)
+    .get('/api/resources?includeHttps=1&includeRelay=1')
+    .reply(200, `<MediaContainer size="0">
+      <Device clientIdentifier="1" provides="server" />
+      <Device clientIdentifier="2" provides="client" />
+      <Device clientIdentifier="3" provides="client,server" />
+    </MediaContainer>`)
+
+  return account.servers().then((servers) => {
+    scope.done()
+    t.is(servers.devices.length, 2)
+    t.is(servers.devices[0].clientIdentifier, '1')
+    t.is(servers.devices[1].clientIdentifier, '3')
   })
 })
 

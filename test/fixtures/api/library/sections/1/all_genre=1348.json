@@ -1,0 +1,113 @@
+{
+  "MediaContainer": {
+    "size": 3,
+    "totalSize": 3,
+    "allowSync": true,
+    "art": "/:/resources/artist-fanart.jpg",
+    "identifier": "com.plexapp.plugins.library",
+    "librarySectionID": 1,
+    "librarySectionTitle": "Music",
+    "librarySectionUUID": "5085a855-78e9-4dd7-9d70-a4ac296e28ee",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "nocache": true,
+    "offset": 0,
+    "thumb": "/:/resources/artist.png",
+    "title1": "Music",
+    "title2": "All Artists",
+    "viewGroup": "artist",
+    "viewMode": 65592,
+    "Metadata": [
+      {
+        "ratingKey": "3526",
+        "key": "/library/metadata/3526/children",
+        "type": "artist",
+        "title": "The Barr Brothers",
+        "titleSort": "Barr Brothers, The",
+        "summary": "The Barr Brothers is a Canadian folk quartet founded in Montreal, Quebec, consisting of Andrew and Brad Barr (of The Slip), Sarah Page and Andres Vial. Their first (and eponymous-titled) album was released in 2011.",
+        "index": 1,
+        "viewCount": 6,
+        "lastViewedAt": 1477711156,
+        "thumb": "/library/metadata/3526/thumb/1482592755",
+        "addedAt": 1445677698,
+        "updatedAt": 1482592755,
+        "Genre": [
+          {
+            "tag": "Alt Country"
+          },
+          {
+            "tag": "Alt Country"
+          },
+          {
+            "tag": "Indie"
+          }
+        ],
+        "Country": [
+          {
+            "tag": "Canada"
+          }
+        ]
+      },
+      {
+        "ratingKey": "34904",
+        "key": "/library/metadata/34904/children",
+        "type": "artist",
+        "title": "Carl Broemel",
+        "titleSort": "Broemel, Carl",
+        "summary": "Carl Broemel is a guitarist best known for playing guitar, pedal steel guitar, saxophone and singing back-up for the Louisville, Kentucky band My Morning Jacket. He is a former member of Old Pike and Planet Earth. Broemel is a classically trained guitarist and graduated from Indiana University. was listed among Rolling Stone's \"20 New Guitar Gods\" along with My Morning Jacket frontman Jim James under the title of \"Skynard-Art Theorists. He currently resides in Nashville, TN. He lived in Los Angeles for several years when he recorded a solo record, Lose What's Left. In 2010 he released the album All Birds Say. Read more on Last.fm. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply",
+        "index": 1,
+        "viewCount": 9,
+        "lastViewedAt": 1480922547,
+        "thumb": "/library/metadata/34904/thumb/1482592564",
+        "addedAt": 1473333150,
+        "updatedAt": 1482592564,
+        "Genre": [
+          {
+            "tag": "Alt Country"
+          },
+          {
+            "tag": "Alt Country"
+          },
+          {
+            "tag": "Indie"
+          }
+        ],
+        "Country": [
+          {
+            "tag": "United States"
+          }
+        ]
+      },
+      {
+        "ratingKey": "3166",
+        "key": "/library/metadata/3166/children",
+        "type": "artist",
+        "title": "The Donkeys",
+        "titleSort": "Donkeys, The",
+        "summary": "Multiple artists exist by this name:",
+        "index": 1,
+        "viewCount": 6,
+        "lastViewedAt": 1480572451,
+        "thumb": "/library/metadata/3166/thumb/1482593146",
+        "addedAt": 1437907650,
+        "updatedAt": 1482593146,
+        "Genre": [
+          {
+            "tag": "Alt Country"
+          },
+          {
+            "tag": "Alt Country"
+          },
+          {
+            "tag": "Indie"
+          }
+        ],
+        "Country": [
+          {
+            "tag": "United States"
+          }
+        ]
+      }
+    ]
+  }
+}

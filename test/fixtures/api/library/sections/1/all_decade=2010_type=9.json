@@ -1,0 +1,290 @@
+{
+  "MediaContainer": {
+    "size": 10,
+    "totalSize": 992,
+    "allowSync": true,
+    "art": "/:/resources/artist-fanart.jpg",
+    "identifier": "com.plexapp.plugins.library",
+    "librarySectionID": 1,
+    "librarySectionTitle": "Music",
+    "librarySectionUUID": "5085a855-78e9-4dd7-9d70-a4ac296e28ee",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "nocache": true,
+    "offset": 0,
+    "thumb": "/:/resources/artist.png",
+    "title1": "Music",
+    "title2": "All Artists",
+    "viewGroup": "artist",
+    "viewMode": 65592,
+    "Metadata": [
+      {
+        "ratingKey": "35340",
+        "key": "/library/metadata/35340/children",
+        "parentRatingKey": "35339",
+        "studio": "Hidden records",
+        "type": "album",
+        "title": "&",
+        "parentKey": "/library/metadata/35339",
+        "parentTitle": "The Moth & The Flame",
+        "summary": "",
+        "index": 1,
+        "viewCount": 2,
+        "lastViewedAt": 1478405744,
+        "year": 2013,
+        "thumb": "/library/metadata/35340/thumb/1473509934",
+        "parentThumb": "/library/metadata/35339/thumb/1482677884",
+        "originallyAvailableAt": "2013-11-05",
+        "addedAt": 1473509786,
+        "updatedAt": 1473509934,
+        "Genre": [
+          {
+            "tag": "Electronic, Progressive Rock"
+          }
+        ]
+      },
+      {
+        "ratingKey": "32022",
+        "key": "/library/metadata/32022/children",
+        "parentRatingKey": "32021",
+        "studio": "Sony Music Entertainment",
+        "type": "album",
+        "title": "... And Star Power",
+        "parentKey": "/library/metadata/32021",
+        "parentTitle": "Foxygen",
+        "summary": "",
+        "index": 1,
+        "viewCount": 18,
+        "lastViewedAt": 1480189205,
+        "year": 2014,
+        "thumb": "/library/metadata/32022/thumb/1476847248",
+        "parentThumb": "/library/metadata/32021/thumb/1482593258",
+        "originallyAvailableAt": "2014-10-14",
+        "addedAt": 1468579730,
+        "updatedAt": 1476847248,
+        "Genre": [
+          {
+            "tag": "Psychedelic Rock, Psychedelic Pop, Indie Pop"
+          }
+        ]
+      },
+      {
+        "ratingKey": "36234",
+        "key": "/library/metadata/36234/children",
+        "parentRatingKey": "36233",
+        "studio": "12 Tónar",
+        "type": "album",
+        "title": "0",
+        "parentKey": "/library/metadata/36233",
+        "parentTitle": "Low Roar",
+        "summary": "",
+        "index": 1,
+        "viewCount": 4,
+        "lastViewedAt": 1475454028,
+        "year": 2014,
+        "thumb": "/library/metadata/36234/thumb/1474367824",
+        "parentThumb": "/library/metadata/36233/thumb/1482592224",
+        "originallyAvailableAt": "2014-07-08",
+        "addedAt": 1474367567,
+        "updatedAt": 1474367824,
+        "Genre": [
+          {
+            "tag": "Ambient, Indie Folk"
+          }
+        ]
+      },
+      {
+        "ratingKey": "30817",
+        "key": "/library/metadata/30817/children",
+        "parentRatingKey": "30816",
+        "type": "album",
+        "title": "100 Records Vol. 3",
+        "parentKey": "/library/metadata/30816",
+        "parentTitle": "Sonny Smith",
+        "summary": "",
+        "index": 1,
+        "viewCount": 4,
+        "lastViewedAt": 1470449918,
+        "year": 2012,
+        "thumb": "/library/metadata/30817/thumb/1468592958",
+        "parentThumb": "/library/metadata/30816/thumb/1482758439",
+        "originallyAvailableAt": "2012-01-01",
+        "addedAt": 1467503242,
+        "updatedAt": 1468592958,
+        "Genre": [
+          {
+            "tag": "Garage Rock Revival"
+          },
+          {
+            "tag": "Garage Rock Revival"
+          },
+          {
+            "tag": "Indie"
+          }
+        ]
+      },
+      {
+        "ratingKey": "41075",
+        "key": "/library/metadata/41075/children",
+        "parentRatingKey": "41074",
+        "studio": "Tru Thoughts",
+        "type": "album",
+        "title": "1000 Watts",
+        "parentKey": "/library/metadata/41074",
+        "parentTitle": "Quantic presents Flowering Inferno",
+        "summary": "",
+        "index": 1,
+        "viewCount": 4,
+        "lastViewedAt": 1481050306,
+        "year": 2016,
+        "thumb": "/library/metadata/41075/thumb/1481020818",
+        "parentThumb": "/library/metadata/41074/thumb/1482333889",
+        "originallyAvailableAt": "2016-06-17",
+        "addedAt": 1481016729,
+        "updatedAt": 1481020818,
+        "Genre": [
+          {
+            "tag": "Dub, Downtempo, Reggae"
+          }
+        ]
+      },
+      {
+        "ratingKey": "8031",
+        "key": "/library/metadata/8031/children",
+        "parentRatingKey": "8030",
+        "studio": "Pod/Inertia",
+        "type": "album",
+        "title": "151a",
+        "parentKey": "/library/metadata/8030",
+        "parentTitle": "Kishi Bashi",
+        "summary": "",
+        "index": 1,
+        "viewCount": 9,
+        "lastViewedAt": 1475871428,
+        "year": 2012,
+        "thumb": "/library/metadata/8031/thumb/1475409902",
+        "parentThumb": "/library/metadata/8030/thumb/1482592570",
+        "originallyAvailableAt": "2012-01-01",
+        "addedAt": 1460522800,
+        "updatedAt": 1475409902,
+        "Genre": [
+          {
+            "tag": "General Indie Pop"
+          },
+          {
+            "tag": "Indie Pop"
+          },
+          {
+            "tag": "Indie"
+          }
+        ]
+      },
+      {
+        "ratingKey": "3669",
+        "key": "/library/metadata/3669/children",
+        "parentRatingKey": "3668",
+        "studio": "Dirty Hit/Polydor",
+        "type": "album",
+        "title": "The 1975",
+        "titleSort": "1975",
+        "parentKey": "/library/metadata/3668",
+        "parentTitle": "The 1975",
+        "summary": "",
+        "index": 1,
+        "viewCount": 20,
+        "lastViewedAt": 1474170139,
+        "year": 2013,
+        "thumb": "/library/metadata/3669/thumb/1468586043",
+        "art": "/library/metadata/3668/art/1482592609",
+        "parentThumb": "/library/metadata/3668/thumb/1482592609",
+        "originallyAvailableAt": "2013-08-30",
+        "addedAt": 1458456632,
+        "updatedAt": 1468586043,
+        "Genre": [
+          {
+            "tag": "Indie Pop, Indie Rock, Electronic"
+          }
+        ]
+      },
+      {
+        "ratingKey": "12207",
+        "key": "/library/metadata/12207/children",
+        "parentRatingKey": "12206",
+        "studio": "Columbia",
+        "type": "album",
+        "title": "2 Heads",
+        "parentKey": "/library/metadata/12206",
+        "parentTitle": "Coleman Hell",
+        "summary": "",
+        "index": 1,
+        "viewCount": 6,
+        "lastViewedAt": 1471578414,
+        "year": 2015,
+        "thumb": "/library/metadata/12207/thumb/1468589736",
+        "parentThumb": "/library/metadata/12206/thumb/1482676883",
+        "originallyAvailableAt": "2015-02-04",
+        "addedAt": 1449921395,
+        "updatedAt": 1468589736,
+        "Genre": [
+          {
+            "tag": "Electronic"
+          }
+        ]
+      },
+      {
+        "ratingKey": "14151",
+        "key": "/library/metadata/14151/children",
+        "parentRatingKey": "14150",
+        "studio": "XL Recordings",
+        "type": "album",
+        "title": "21",
+        "parentKey": "/library/metadata/14150",
+        "parentTitle": "Adele",
+        "summary": "",
+        "index": 1,
+        "userRating": 8,
+        "viewCount": 43,
+        "lastViewedAt": 1482562577,
+        "year": 2011,
+        "thumb": "/library/metadata/14151/thumb/1468587251",
+        "art": "/library/metadata/14150/art/1482592674",
+        "parentThumb": "/library/metadata/14150/thumb/1482592674",
+        "originallyAvailableAt": "2011-01-24",
+        "addedAt": 1438076173,
+        "updatedAt": 1468587251,
+        "Genre": [
+          {
+            "tag": "Soul, Pop"
+          }
+        ]
+      },
+      {
+        "ratingKey": "36933",
+        "key": "/library/metadata/36933/children",
+        "parentRatingKey": "13045",
+        "studio": "Jagjaguwar",
+        "type": "album",
+        "title": "22, a Million",
+        "parentKey": "/library/metadata/13045",
+        "parentTitle": "Bon Iver",
+        "summary": "",
+        "index": 1,
+        "userRating": 10,
+        "viewCount": 9,
+        "lastViewedAt": 1480547543,
+        "year": 2016,
+        "thumb": "/library/metadata/36933/thumb/1475270705",
+        "art": "/library/metadata/13045/art/1482592217",
+        "parentThumb": "/library/metadata/13045/thumb/1482592217",
+        "originallyAvailableAt": "2016-09-30",
+        "addedAt": 1475270652,
+        "updatedAt": 1475270705,
+        "Genre": [
+          {
+            "tag": "Electronic, Experimental Pop, Indie Folk"
+          }
+        ]
+      }
+    ]
+  }
+}

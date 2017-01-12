@@ -1,0 +1,279 @@
+{
+  "MediaContainer": {
+    "size": 6,
+    "allowSync": true,
+    "art": "/:/resources/artist-fanart.jpg",
+    "identifier": "com.plexapp.plugins.library",
+    "key": "35339",
+    "librarySectionID": 1,
+    "librarySectionTitle": "Music",
+    "librarySectionUUID": "5085a855-78e9-4dd7-9d70-a4ac296e28ee",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "mixedParents": true,
+    "nocache": true,
+    "parentIndex": "1",
+    "parentTitle": "The Moth & The Flame",
+    "title1": "Music",
+    "title2": "The Moth & The Flame",
+    "viewGroup": "track",
+    "viewMode": 65593,
+    "Metadata": [
+      {
+        "ratingKey": "35341",
+        "key": "/library/metadata/35341",
+        "parentRatingKey": "35340",
+        "type": "track",
+        "title": "Sorry",
+        "parentKey": "/library/metadata/35340",
+        "grandparentTitle": "The Moth & The Flame",
+        "parentTitle": "&",
+        "originalTitle": "The Moth & The Flame",
+        "summary": "",
+        "index": 1,
+        "parentIndex": 1,
+        "ratingCount": 11,
+        "userRating": 7,
+        "viewCount": 2,
+        "lastViewedAt": 1478405744,
+        "parentYear": 2013,
+        "thumb": "/library/metadata/35340/thumb/1473509934",
+        "parentThumb": "/library/metadata/35340/thumb/1473509934",
+        "duration": 210495,
+        "addedAt": 1473509786,
+        "updatedAt": 1473509933,
+        "Media": [
+          {
+            "id": 49448,
+            "duration": 210495,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 49448,
+                "key": "/library/parts/49448/1473509724/file.mp3",
+                "duration": 210495,
+                "file": "/mnt/data/music/albums/The Moth & The Flame/&/01 Sorry.mp3",
+                "size": 9999313,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "35342",
+        "key": "/library/metadata/35342",
+        "parentRatingKey": "35340",
+        "type": "track",
+        "title": "Winsome",
+        "parentKey": "/library/metadata/35340",
+        "grandparentTitle": "The Moth & The Flame",
+        "parentTitle": "&",
+        "originalTitle": "The Moth & The Flame",
+        "summary": "",
+        "index": 2,
+        "parentIndex": 1,
+        "ratingCount": 5767,
+        "parentYear": 2013,
+        "thumb": "/library/metadata/35340/thumb/1473509934",
+        "parentThumb": "/library/metadata/35340/thumb/1473509934",
+        "duration": 236408,
+        "addedAt": 1473509786,
+        "updatedAt": 1473509933,
+        "Media": [
+          {
+            "id": 49449,
+            "duration": 236408,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 49449,
+                "key": "/library/parts/49449/1473509724/file.mp3",
+                "duration": 236408,
+                "file": "/mnt/data/music/albums/The Moth & The Flame/&/02 Winsome.mp3",
+                "size": 11036891,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "35343",
+        "key": "/library/metadata/35343",
+        "parentRatingKey": "35340",
+        "type": "track",
+        "title": "Silver Tongue",
+        "parentKey": "/library/metadata/35340",
+        "grandparentTitle": "The Moth & The Flame",
+        "parentTitle": "&",
+        "originalTitle": "The Moth & The Flame",
+        "summary": "",
+        "index": 3,
+        "parentIndex": 1,
+        "ratingCount": 5350,
+        "parentYear": 2013,
+        "thumb": "/library/metadata/35340/thumb/1473509934",
+        "parentThumb": "/library/metadata/35340/thumb/1473509934",
+        "duration": 231393,
+        "addedAt": 1473509786,
+        "updatedAt": 1473509933,
+        "Media": [
+          {
+            "id": 49450,
+            "duration": 231393,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 49450,
+                "key": "/library/parts/49450/1473509724/file.mp3",
+                "duration": 231393,
+                "file": "/mnt/data/music/albums/The Moth & The Flame/&/03 Silver Tongue.mp3",
+                "size": 10836076,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "35344",
+        "key": "/library/metadata/35344",
+        "parentRatingKey": "35340",
+        "type": "track",
+        "title": "Monster",
+        "parentKey": "/library/metadata/35340",
+        "grandparentTitle": "The Moth & The Flame",
+        "parentTitle": "&",
+        "originalTitle": "The Moth & The Flame",
+        "summary": "",
+        "index": 4,
+        "parentIndex": 1,
+        "ratingCount": 7052,
+        "parentYear": 2013,
+        "thumb": "/library/metadata/35340/thumb/1473509934",
+        "parentThumb": "/library/metadata/35340/thumb/1473509934",
+        "duration": 231105,
+        "addedAt": 1473509786,
+        "updatedAt": 1473509934,
+        "Media": [
+          {
+            "id": 49451,
+            "duration": 231105,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 49451,
+                "key": "/library/parts/49451/1473509724/file.mp3",
+                "duration": 231105,
+                "file": "/mnt/data/music/albums/The Moth & The Flame/&/04 Monster.mp3",
+                "size": 10824565,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "35345",
+        "key": "/library/metadata/35345",
+        "parentRatingKey": "35340",
+        "type": "track",
+        "title": "Holy War",
+        "parentKey": "/library/metadata/35340",
+        "grandparentTitle": "The Moth & The Flame",
+        "parentTitle": "&",
+        "originalTitle": "The Moth & The Flame",
+        "summary": "",
+        "index": 5,
+        "parentIndex": 1,
+        "ratingCount": 3943,
+        "parentYear": 2013,
+        "thumb": "/library/metadata/35340/thumb/1473509934",
+        "parentThumb": "/library/metadata/35340/thumb/1473509934",
+        "duration": 136046,
+        "addedAt": 1473509787,
+        "updatedAt": 1473509934,
+        "Media": [
+          {
+            "id": 49452,
+            "duration": 136046,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 49452,
+                "key": "/library/parts/49452/1473509724/file.mp3",
+                "duration": 136046,
+                "file": "/mnt/data/music/albums/The Moth & The Flame/&/05 Holy War.mp3",
+                "size": 7018380,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "35346",
+        "key": "/library/metadata/35346",
+        "parentRatingKey": "35340",
+        "type": "track",
+        "title": "How We Woke Up",
+        "parentKey": "/library/metadata/35340",
+        "grandparentTitle": "The Moth & The Flame",
+        "parentTitle": "&",
+        "originalTitle": "The Moth & The Flame",
+        "summary": "",
+        "index": 6,
+        "parentIndex": 1,
+        "ratingCount": 4364,
+        "parentYear": 2013,
+        "thumb": "/library/metadata/35340/thumb/1473509934",
+        "parentThumb": "/library/metadata/35340/thumb/1473509934",
+        "duration": 282932,
+        "addedAt": 1473509787,
+        "updatedAt": 1473509934,
+        "Media": [
+          {
+            "id": 49453,
+            "duration": 282932,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 49453,
+                "key": "/library/parts/49453/1473509724/file.mp3",
+                "duration": 282932,
+                "file": "/mnt/data/music/albums/The Moth & The Flame/&/06 How We Woke Up.mp3",
+                "size": 12899722,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

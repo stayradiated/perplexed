@@ -1,0 +1,55 @@
+{
+  "MediaContainer": {
+    "size": 7,
+    "totalSize": 7,
+    "allowSync": false,
+    "art": "/:/resources/artist-fanart.jpg",
+    "identifier": "com.plexapp.plugins.library",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "nocache": true,
+    "offset": 0,
+    "thumb": "/:/resources/artist.png",
+    "title1": "Music",
+    "title2": "By Decade",
+    "viewGroup": "track",
+    "viewMode": 65593,
+    "Directory": [
+      {
+        "fastKey": "/library/sections/1/all?decade=2010&type=9",
+        "key": "2010",
+        "title": "2010s"
+      },
+      {
+        "fastKey": "/library/sections/1/all?decade=2000&type=9",
+        "key": "2000",
+        "title": "2000s"
+      },
+      {
+        "fastKey": "/library/sections/1/all?decade=1990&type=9",
+        "key": "1990",
+        "title": "1990s"
+      },
+      {
+        "fastKey": "/library/sections/1/all?decade=1980&type=9",
+        "key": "1980",
+        "title": "1980s"
+      },
+      {
+        "fastKey": "/library/sections/1/all?decade=1970&type=9",
+        "key": "1970",
+        "title": "1970s"
+      },
+      {
+        "fastKey": "/library/sections/1/all?decade=1960&type=9",
+        "key": "1960",
+        "title": "1960s"
+      },
+      {
+        "fastKey": "/library/sections/1/all?decade=1950&type=9",
+        "key": "1950",
+        "title": "1950s"
+      }
+    ]
+  }
+}

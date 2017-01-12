@@ -1,0 +1,50 @@
+{
+  "MediaContainer": {
+    "size": 1,
+    "allowSync": true,
+    "art": "/:/resources/artist-fanart.jpg",
+    "identifier": "com.plexapp.plugins.library",
+    "key": "35339",
+    "librarySectionID": 1,
+    "librarySectionTitle": "Music",
+    "librarySectionUUID": "5085a855-78e9-4dd7-9d70-a4ac296e28ee",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "nocache": true,
+    "parentIndex": "1",
+    "parentTitle": "The Moth & The Flame",
+    "summary": "Brandon Robbins, often referred to as The Flame, and Mark Garbett, commensurately dubbed The Moth, first met on a train ride through the Alaskan outback. It's said that Mark was humming some indistinct tune while Brandon, seated rowed the opposite of his tall passenger-companion, feverishly scribed words into a moleskin. A few measures into his tune, respectively a few stanzas into his quatrain, Mark's and Brandon's efforts reached a pinnacle of symbiosis. Mark's vocal modulations and Brandon's muttered assonance's suddenly fell into a perfect rhythm. Slowly they turned to look at one another, their eyes wide. There was struck the ongoing friendship between these two. Musically, it never stopped. Together they agreed to leave their wonderland of lumber-jacking to pursue a musical career.\nLeaving their bucolic ice-land, they trekked to Provo, Utah with only their feet to carry them. The result of their 11 month journey to Utah Valley was a renewed sense of wonder and enough know-how to get them a weekly slot at the local open mic.\nIt didn't take long for word of their matching hair and musical prowess to spread and soon The Moth & The Flame had officially formed.",
+    "thumb": "/library/metadata/35339/thumb/1482677884",
+    "title1": "Music",
+    "title2": "The Moth & The Flame",
+    "viewGroup": "album",
+    "viewMode": 65592,
+    "Metadata": [
+      {
+        "ratingKey": "35340",
+        "key": "/library/metadata/35340/children",
+        "parentRatingKey": "35339",
+        "studio": "Hidden records",
+        "type": "album",
+        "title": "&",
+        "parentKey": "/library/metadata/35339",
+        "parentTitle": "The Moth & The Flame",
+        "summary": "",
+        "index": 1,
+        "viewCount": 2,
+        "lastViewedAt": 1478405744,
+        "year": 2013,
+        "thumb": "/library/metadata/35340/thumb/1473509934",
+        "parentThumb": "/library/metadata/35339/thumb/1482677884",
+        "originallyAvailableAt": "2013-11-05",
+        "addedAt": 1473509786,
+        "updatedAt": 1473509934,
+        "Genre": [
+          {
+            "tag": "Electronic, Progressive Rock"
+          }
+        ]
+      }
+    ]
+  }
+}

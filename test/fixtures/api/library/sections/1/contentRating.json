@@ -1,0 +1,25 @@
+{
+  "MediaContainer": {
+    "size": 1,
+    "totalSize": 1,
+    "allowSync": false,
+    "art": "/:/resources/artist-fanart.jpg",
+    "identifier": "com.plexapp.plugins.library",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "nocache": true,
+    "offset": 0,
+    "thumb": "/:/resources/artist.png",
+    "title1": "Music",
+    "title2": "By Content Rating",
+    "viewGroup": "track",
+    "viewMode": 65593,
+    "Directory": [
+      {
+        "fastKey": "/library/sections/1/all?contentRating=None",
+        "key": "None",
+        "title": "None"
+      }
+    ]
+  }
+}

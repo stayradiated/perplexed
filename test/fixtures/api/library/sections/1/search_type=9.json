@@ -1,0 +1,88 @@
+{
+  "MediaContainer": {
+    "size": 3,
+    "totalSize": 3,
+    "allowSync": false,
+    "art": "/:/resources/artist-fanart.jpg",
+    "identifier": "com.plexapp.plugins.library",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "mixedParents": true,
+    "nocache": true,
+    "offset": 0,
+    "thumb": "/:/resources/artist.png",
+    "title1": "Music",
+    "title2": "Search for 'ocean'",
+    "viewGroup": "album",
+    "viewMode": 65592,
+    "Metadata": [
+      {
+        "ratingKey": "34331",
+        "key": "/library/metadata/34331/children",
+        "parentRatingKey": "34330",
+        "type": "album",
+        "title": "The Atlantic Ocean",
+        "titleSort": "Atlantic Ocean",
+        "parentKey": "/library/metadata/34330",
+        "parentTitle": "Richard Swift",
+        "summary": "",
+        "index": 1,
+        "lastViewedAt": 1479963344,
+        "thumb": "/library/metadata/34330/thumb/1482592412",
+        "parentThumb": "/library/metadata/34330/thumb/1482592412",
+        "addedAt": 1472548676,
+        "updatedAt": 1472573367
+      },
+      {
+        "ratingKey": "25085",
+        "key": "/library/metadata/25085/children",
+        "parentRatingKey": "25084",
+        "studio": "Nettwerk",
+        "type": "album",
+        "title": "Indian Ocean",
+        "parentKey": "/library/metadata/25084",
+        "parentTitle": "Frazey Ford",
+        "summary": "The second solo long-player from the Canadian folk-pop songstress and former Be Good Tanya, Indian Ocean finds Frazey Ford enlisting the help of the legendary Hi Rhythm Section, who were Al Green's not-so-secret weapons and the prime architects of the Memphis soul sound during the Stax era, and kicking out a warm, breezy, and not surprisingly soulful set of R&B-kissed country-pop confections that sound as timeless as they do of a particular era. Falling somewhere between Cat Power, Carole King, and Linda Ronstadt, Ford's sophomore outing dials back on some of the on the nose, soul-pop contrivances of 2010's Obadiah, which while solid and surprising enough at the time, at this point sounds more like an abandoned set of blueprints for what would eventually become Indian Ocean. The songs and performances are altogether more confident, due in large part to the near constant presence of some talented guests, most notably the aforementioned sibling soul alchemists Charles Hodges (organ), Leroy Hodges (bass), and Teenie Hodges (guitar), the latter of whom passed away during the recording of the album, and standout cuts like the world weary \"September Fields,\" the bluesy and evocative \"Runnin',\" the gospel-tinged \"Season After Season,\" and the epic and elegiac title track bring with them a patina of pure, tube-driven, smoky goodness that surrounds the listener in a cloud of nostalgia that yields no obvious compass points. Indian Ocean is sad, sweet, and warm as an August afternoon, and while its charms may feel old-fashioned and better suited to vinyl, the hardships it details are undeniably contemporary, and their conclusions oddly comforting. [Indian Ocean was also released on LP.] ~ James Christopher Monger",
+        "index": 1,
+        "viewCount": 65,
+        "lastViewedAt": 1482788236,
+        "year": 2014,
+        "thumb": "/library/metadata/25085/thumb/1468741515",
+        "parentThumb": "/library/metadata/25084/thumb/1482676718",
+        "originallyAvailableAt": "2014-10-14",
+        "addedAt": 1466422717,
+        "updatedAt": 1468741515,
+        "Genre": [
+          {
+            "tag": "Country, Americana"
+          }
+        ]
+      },
+      {
+        "ratingKey": "99",
+        "key": "/library/metadata/99/children",
+        "parentRatingKey": "1",
+        "type": "album",
+        "title": "Tom Novy: Chillin' at Ocean Drive Hotel Ibiza, Volume 1",
+        "parentKey": "/library/metadata/1",
+        "parentTitle": "Various Artists",
+        "summary": "",
+        "index": 1,
+        "viewCount": 1,
+        "lastViewedAt": 1463181016,
+        "year": 2010,
+        "thumb": "/library/metadata/99/thumb/1481019670",
+        "art": "/library/metadata/1/art/1482333860",
+        "parentThumb": "/library/metadata/1/thumb/1482333860",
+        "originallyAvailableAt": "2010-01-01",
+        "addedAt": 1437907650,
+        "updatedAt": 1481019670,
+        "Genre": [
+          {
+            "tag": "Acid Jazz"
+          }
+        ]
+      }
+    ]
+  }
+}

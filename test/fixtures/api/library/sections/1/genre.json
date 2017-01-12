@@ -1,0 +1,80 @@
+{
+  "MediaContainer": {
+    "size": 10,
+    "totalSize": 974,
+    "allowSync": false,
+    "art": "/:/resources/artist-fanart.jpg",
+    "identifier": "com.plexapp.plugins.library",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "nocache": true,
+    "offset": 0,
+    "thumb": "/:/resources/artist.png",
+    "title1": "Music",
+    "title2": "By Genre",
+    "viewGroup": "track",
+    "viewMode": 65593,
+    "Directory": [
+      {
+        "fastKey": "/library/sections/1/all?genre=1500",
+        "key": "1500",
+        "title": "60's Oldies",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=49",
+        "key": "49",
+        "title": "Acid Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4385",
+        "key": "4385",
+        "title": "Acid Jazz, Chillout, Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2613",
+        "key": "2613",
+        "title": "Acid Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4884",
+        "key": "4884",
+        "title": "Adult Alternative New Age",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=169",
+        "key": "169",
+        "title": "Adult Alternative Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=432",
+        "key": "432",
+        "title": "Adult Alternative Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=3241",
+        "key": "3241",
+        "title": "Adult Contemporary",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1348",
+        "key": "1348",
+        "title": "Alt Country",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=637",
+        "key": "637",
+        "title": "Alt-Rock",
+        "type": "genre"
+      }
+    ]
+  }
+}

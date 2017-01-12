@@ -1,0 +1,277 @@
+{
+  "MediaContainer": {
+    "size": 10,
+    "totalSize": 100,
+    "allowSync": true,
+    "art": "/:/resources/artist-fanart.jpg",
+    "identifier": "com.plexapp.plugins.library",
+    "librarySectionID": 1,
+    "librarySectionTitle": "Music",
+    "librarySectionUUID": "5085a855-78e9-4dd7-9d70-a4ac296e28ee",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "mixedParents": true,
+    "nocache": true,
+    "offset": 0,
+    "thumb": "/:/resources/artist.png",
+    "title1": "Music",
+    "title2": "Recently Viewed Episodes",
+    "viewGroup": "track",
+    "viewMode": 65593,
+    "Metadata": [
+      {
+        "ratingKey": "1211",
+        "key": "/library/metadata/1211/children",
+        "parentRatingKey": "1",
+        "studio": "Epic/Legacy",
+        "type": "album",
+        "title": "Forrest Gump: The Soundtrack",
+        "parentKey": "/library/metadata/1",
+        "summary": "The surprise hit of the 1994 summer movie season traces the life of a half-wit through the major historical events of the 1950s, '60s, and '70s, and this soundtrack album is a travelogue of the same period, from Elvis Presley's 1956 hit \"Hound Dog\" to Bob Seger's 1980 hit \"Against the Wind.\" Like the movie, the soundtrack to Forrest Gump succeeds at repackaging the familiar -- in the film, we revisit everything from desegregation and the Vietnam War to the self-centered trends of the '70s, and on the soundtrack, we hear the concurrent hits for the umpteenth time -- although, unlike the movie, the soundtrack doesn't trivialize what it recycles. Playing it is basically like listening to an oldies radio station, minus the commercials and annoying DJ patter, but just like many other song-oriented soundtracks, this is still a miscellaneous collection. That, however, didn't keep it from shooting into the Top Ten as the movie became a blockbuster. The double-CD version contains eight more tracks than the cassette. ~ William Ruhlmann",
+        "index": 1,
+        "viewCount": 168,
+        "lastViewedAt": 1482793765,
+        "year": 2001,
+        "thumb": "/library/metadata/1211/thumb/1481018311",
+        "originallyAvailableAt": "2001-08-21",
+        "leafCount": 34,
+        "viewedLeafCount": 30,
+        "addedAt": 1438945565,
+        "updatedAt": 1481018311,
+        "Genre": [
+          {
+            "tag": "Soundtrack"
+          }
+        ]
+      },
+      {
+        "ratingKey": "41339",
+        "key": "/library/metadata/41339/children",
+        "parentRatingKey": "8490",
+        "studio": "Pointblank",
+        "type": "album",
+        "title": "Wicked Grin",
+        "parentKey": "/library/metadata/8490",
+        "summary": "After 35 years into a career that spans 35 albums recorded for seven labels, you'd think John Hammond might get a little complacent. Thankfully the opposite is true, as 2001's Wicked Grin is the artist's most daring musical departure and arguably greatest achievement to date. Mining the rich Tom Waits catalog for 12 of its 13 tracks (the closing is a traditional gospel tune) and bringing Waits himself along as producer has resulted in a stunning collection that stands as one of the best in Hammond's bulging catalog. Never a songwriter, the singer/guitarist/harmonica bluesman has maintained a knack for picking top-notch material from the rich blues tradition without resorting to the hoary, over-covered classics of the genre. It's that quality that transforms these tunes into Hammond songs, regardless of their origin. His history of working with exceptional session musicians is also legendary, and this album's band, which features Doug Sahm sideman Augie Meyers on keyboards, harmonica wiz Charlie Musselwhite, longtime Waits associate Larry Taylor on bass, and Waits himself poking around on various songs, is perfect for the spooky, swampy feel he effortlessly conjures here. Choosing from a wide variety of Waits' material, Hammond infuses these unusual tracks with a bluesman's spirit and a crackling energy that practically reinvents the songs, instilling them with an ominous, rhythmic swampy feel. The producer contributes two new tracks (\"2:19\" and \"Fannin' Street,\" the latter is the album's only acoustic cut) that maintain the creepy but upbeat voodoo spirit that trickles and twists throughout. Hammond sings with a renewed spirit, adding a smoother but no less intense edge than Waits' typical rusty razor blade soaked whisky growl. With his dusky croon and idiosyncratic delivery, Hammond tears into this material with relish, spitting out the often offbeat, stream of consciousness lyrics as if he wrote them himself. Only the slow, ambling blues of \"Murder in the Red Barn\" would comfortably slot into Hammond's existing oeuvre; the remainder push the bluesman into previously uncharted territory with results that reveal fascinating layers of his own interpretive abilities. An experiment whose success will hopefully yield another volume, this partnership of John Hammond and Tom Waits brings out the best in both artists' substantial talents. ~ Hal Horowitz",
+        "index": 1,
+        "viewCount": 9,
+        "lastViewedAt": 1482793759,
+        "year": 2001,
+        "thumb": "/library/metadata/41339/thumb/1482464686",
+        "originallyAvailableAt": "2001-03-13",
+        "leafCount": 13,
+        "viewedLeafCount": 3,
+        "addedAt": 1482464633,
+        "updatedAt": 1482464686,
+        "Genre": [
+          {
+            "tag": "Blues"
+          }
+        ]
+      },
+      {
+        "ratingKey": "37562",
+        "key": "/library/metadata/37562/children",
+        "parentRatingKey": "3748",
+        "studio": "Liberation Music Pty Ltd",
+        "type": "album",
+        "title": "Brilliant Sanity",
+        "parentKey": "/library/metadata/3748",
+        "summary": "If Teleman's debut album, Breakfast, found Thomas and Jonny Sanders and Pete Cattermoul branching out after their time in Pete & the Pirates, then Brilliant Sanity is all about refinement. Working with producer Dan Carey, the men of Teleman (who also include drummer Hiro Amamiya) focused Breakfast's airy pop and chugging rock into songs that are honed, but not necessarily tamed. The results are quirky yet classic-sounding English guitar pop full of a nervy essence and hooks that sneak up on listeners' ears and refuse to leave. On songs like the wonderfully insistent \"Superglue,\" Thomas Sanders sounds equally detached and emotional as he sings about the eternal tug-of-war between freedom and constraints that defines relationships -- and pop music. \"Glory Hallelujah\"'s \"happy ever after\" feels both genuine and ironic, while \"Drop Out\" stealthily cuts all ties, its lengthy bridge capturing the giddy rush of escaping the gravity of commitment. A similar weightlessness animates \"English Architecture\"'s sweet ambivalence, \"Melrose\"'s levitating synths, and \"Tangerine\"'s psychedelic synth pop daydreams, but the sense of loss -- or something missing -- gives this drift a surprising amount of purpose. Once again, Brilliant Sanity's sharpened songwriting lets its haunting mood cut more deeply, with odd yet potent motifs (glue, shoes, flickering lights) guiding Teleman's meditations on permanence and impermanence. The times the band addresses these feelings directly make for some of the album's most affecting moments: \"Düsseldorf\"'s melting ice, grey towns, and disappearing girls linger in the memory longer than might be expected, while \"Fall in Time\"'s battle between intimacy and fear is both eerie and earnest. While Breakfast's amiable ambling is sometimes missed -- \"Canvas Shoe\" is the closest this album comes to it -- it's hard to deny that Teleman's hard work paid off: Brilliant Sanity's musings on uncertainty are some of their most confident songs yet. ~ Heather Phares",
+        "index": 1,
+        "viewCount": 270,
+        "lastViewedAt": 1482789974,
+        "year": 2016,
+        "thumb": "/library/metadata/37562/thumb/1476222334",
+        "originallyAvailableAt": "2016-04-08",
+        "leafCount": 11,
+        "viewedLeafCount": 11,
+        "addedAt": 1476222283,
+        "updatedAt": 1476222334,
+        "Genre": [
+          {
+            "tag": "Indie Pop, Soft Rock, Pop"
+          }
+        ]
+      },
+      {
+        "ratingKey": "25085",
+        "key": "/library/metadata/25085/children",
+        "parentRatingKey": "25084",
+        "studio": "Nettwerk",
+        "type": "album",
+        "title": "Indian Ocean",
+        "parentKey": "/library/metadata/25084",
+        "summary": "The second solo long-player from the Canadian folk-pop songstress and former Be Good Tanya, Indian Ocean finds Frazey Ford enlisting the help of the legendary Hi Rhythm Section, who were Al Green's not-so-secret weapons and the prime architects of the Memphis soul sound during the Stax era, and kicking out a warm, breezy, and not surprisingly soulful set of R&B-kissed country-pop confections that sound as timeless as they do of a particular era. Falling somewhere between Cat Power, Carole King, and Linda Ronstadt, Ford's sophomore outing dials back on some of the on the nose, soul-pop contrivances of 2010's Obadiah, which while solid and surprising enough at the time, at this point sounds more like an abandoned set of blueprints for what would eventually become Indian Ocean. The songs and performances are altogether more confident, due in large part to the near constant presence of some talented guests, most notably the aforementioned sibling soul alchemists Charles Hodges (organ), Leroy Hodges (bass), and Teenie Hodges (guitar), the latter of whom passed away during the recording of the album, and standout cuts like the world weary \"September Fields,\" the bluesy and evocative \"Runnin',\" the gospel-tinged \"Season After Season,\" and the epic and elegiac title track bring with them a patina of pure, tube-driven, smoky goodness that surrounds the listener in a cloud of nostalgia that yields no obvious compass points. Indian Ocean is sad, sweet, and warm as an August afternoon, and while its charms may feel old-fashioned and better suited to vinyl, the hardships it details are undeniably contemporary, and their conclusions oddly comforting. [Indian Ocean was also released on LP.] ~ James Christopher Monger",
+        "index": 1,
+        "viewCount": 65,
+        "lastViewedAt": 1482788236,
+        "year": 2014,
+        "thumb": "/library/metadata/25085/thumb/1468741515",
+        "originallyAvailableAt": "2014-10-14",
+        "leafCount": 11,
+        "viewedLeafCount": 11,
+        "addedAt": 1466422717,
+        "updatedAt": 1468741515,
+        "Genre": [
+          {
+            "tag": "Country, Americana"
+          }
+        ]
+      },
+      {
+        "ratingKey": "41434",
+        "key": "/library/metadata/41434/children",
+        "parentRatingKey": "41433",
+        "studio": "EMI",
+        "type": "album",
+        "title": "Tubthumper",
+        "parentKey": "/library/metadata/41433",
+        "summary": "",
+        "index": 1,
+        "viewCount": 3,
+        "lastViewedAt": 1482782695,
+        "year": 1997,
+        "thumb": "/library/metadata/41434/thumb/1482749474",
+        "originallyAvailableAt": "1997-09-23",
+        "leafCount": 12,
+        "viewedLeafCount": 2,
+        "addedAt": 1482749442,
+        "updatedAt": 1482749474,
+        "Genre": [
+          {
+            "tag": "Pop, Rock, Post-Punk"
+          }
+        ]
+      },
+      {
+        "ratingKey": "41421",
+        "key": "/library/metadata/41421/children",
+        "parentRatingKey": "41420",
+        "studio": "Blanco Y Negro/Atlantic",
+        "type": "album",
+        "title": "Amplified Heart",
+        "parentKey": "/library/metadata/41420",
+        "summary": "Despite its title, Amplified Heart is one of Everything but the Girl's more acoustic works. A simple instrumentation of guitars and keyboards, augmented here and there by British folk-rock veterans like Richard Thompson, Danny Thompson, and Dave Mattacks, serves to set up a series of songs of romantic disillusionment. Declaring \"my life is just an image of a roller coaster, anyway\" and \"I don't understand anything,\" among other things, over and over the songs speak of confusion and disappointment deriving from failed love affairs. The approach is much more introspective than that taken on the group's previous album of new music, Worldwide, but Tracey Thorn and Ben Watt's musical restraint supports it well. This is an album to listen to when you've just broken up with your lover, or even when you're just in the mood to think about lost lovers from long ago -- self-pity set to music. ~ William Ruhlmann",
+        "index": 1,
+        "viewCount": 28,
+        "lastViewedAt": 1482782079,
+        "year": 1995,
+        "thumb": "/library/metadata/41421/thumb/1482749455",
+        "originallyAvailableAt": "1995-01-01",
+        "leafCount": 11,
+        "viewedLeafCount": 10,
+        "addedAt": 1482749440,
+        "updatedAt": 1482749455,
+        "Genre": [
+          {
+            "tag": "Chillout, Electronic, Downtempo"
+          }
+        ]
+      },
+      {
+        "ratingKey": "41287",
+        "key": "/library/metadata/41287/children",
+        "parentRatingKey": "41274",
+        "type": "album",
+        "title": "Cabin Pressure: Series 3",
+        "parentKey": "/library/metadata/41274",
+        "summary": "",
+        "index": 1,
+        "viewCount": 9,
+        "lastViewedAt": 1482747784,
+        "year": 2012,
+        "thumb": "/library/metadata/41287/thumb/1482451486",
+        "originallyAvailableAt": "2012-09-06",
+        "leafCount": 6,
+        "viewedLeafCount": 6,
+        "addedAt": 1482451478,
+        "updatedAt": 1482451486,
+        "Genre": [
+          {
+            "tag": "Comedy, Humor"
+          }
+        ]
+      },
+      {
+        "ratingKey": "40734",
+        "key": "/library/metadata/40734/children",
+        "parentRatingKey": "40733",
+        "type": "album",
+        "title": "Forever For Now",
+        "parentKey": "/library/metadata/40733",
+        "summary": "If Forever for Now, the first album by modern singer/songwriter LP, sounds a bit too assured for a debut, there's a reason for that: like many overnight sensations, LP has paid her share of dues. Some of those dues came in quite prominent places, particularly Rihanna's 2011 single \"Cheers (Drink to That),\" which LP co-wrote, but she had been writing and recording independently for nearly a decade prior, a long history that can be felt in the craft of Forever for Now but never once heard among its 12 songs. Far from sounding like the fussy work of a professional songwriter, there's a sharp, stylish gleam to the very sound of Forever for Now, a combination of LP's savvy pop sensibility and the cool commercial instincts of Rob Cavallo, a producer best known for his work with Green Day, Goo Goo Dolls, and My Chemical Romance. Cavallo is a good fit for LP, for he accentuates and accessorizes the contours of her songs without diluting the eccentricities. He gives her plenty of space to roam, allowing her to soar as high as a skyscraper on \"Tokyo Sunrise\" and \"Salvation,\" but also knows when to keep things intimate, as on the haunting coda of the title track. What distinguishes LP is when she ties these two extremes together with dramatic flair, as she does in the showpiece \"Into the Wild,\" a song that starts hushed but soon explodes. When she's in full flight on \"Into the Wild,\" LP can vocally resemble Neko Case, a comparison that is somewhat misleading; LP may share a taste for melodrama and powerful lungs like Case, but she's not an Americana artist, no matter how heavily she adheres to the tradition of auteur singer/songwriters. What makes LP and Forever for Now compelling is how she brings that distinctive individual stamp into commercial pop; she's part of a tradition but beholden to her times, not the past. As such, she draws upon anyone from Case and Rihanna to Lady Gaga and Patti Smith, turning Forever for Now into a bracing, distinctive debut that's also a statement of purpose. ~ Stephen Thomas Erlewine",
+        "index": 1,
+        "viewCount": 13,
+        "lastViewedAt": 1482743426,
+        "year": 2014,
+        "thumb": "/library/metadata/40734/thumb/1480547774",
+        "originallyAvailableAt": "2014-06-02",
+        "leafCount": 12,
+        "viewedLeafCount": 5,
+        "addedAt": 1480547761,
+        "updatedAt": 1480547774,
+        "Genre": [
+          {
+            "tag": "Rock, Indie Rock, Soft Rock"
+          }
+        ]
+      },
+      {
+        "ratingKey": "40682",
+        "key": "/library/metadata/40682/children",
+        "parentRatingKey": "40681",
+        "studio": "Geffen Records",
+        "type": "album",
+        "title": "Blues Greats: John Lee Hooker",
+        "parentKey": "/library/metadata/40681",
+        "summary": "",
+        "index": 1,
+        "viewCount": 4,
+        "lastViewedAt": 1480378677,
+        "year": 2011,
+        "thumb": "/library/metadata/40682/thumb/1480310430",
+        "originallyAvailableAt": "2011-01-01",
+        "leafCount": 20,
+        "viewedLeafCount": 4,
+        "addedAt": 1480310420,
+        "updatedAt": 1480310430,
+        "Genre": [
+          {
+            "tag": "General Electric Blues"
+          },
+          {
+            "tag": "Electric Blues"
+          },
+          {
+            "tag": "Blues"
+          }
+        ]
+      },
+      {
+        "ratingKey": "40747",
+        "key": "/library/metadata/40747/children",
+        "parentRatingKey": "40733",
+        "type": "album",
+        "title": "Death Valley",
+        "parentKey": "/library/metadata/40733",
+        "summary": "",
+        "index": 1,
+        "viewCount": 20,
+        "lastViewedAt": 1482737847,
+        "year": 2016,
+        "thumb": "/library/metadata/40747/thumb/1480547767",
+        "originallyAvailableAt": "2016-06-17",
+        "leafCount": 5,
+        "viewedLeafCount": 5,
+        "addedAt": 1480547762,
+        "updatedAt": 1480547767,
+        "Genre": [
+          {
+            "tag": "Rock, Indie Rock, Soft Rock"
+          }
+        ]
+      }
+    ]
+  }
+}

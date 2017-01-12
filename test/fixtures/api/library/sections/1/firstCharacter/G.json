@@ -1,0 +1,255 @@
+{
+  "MediaContainer": {
+    "size": 10,
+    "totalSize": 54,
+    "allowSync": true,
+    "art": "/:/resources/artist-fanart.jpg",
+    "identifier": "com.plexapp.plugins.library",
+    "librarySectionID": 1,
+    "librarySectionTitle": "Music",
+    "librarySectionUUID": "5085a855-78e9-4dd7-9d70-a4ac296e28ee",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "nocache": true,
+    "offset": 0,
+    "thumb": "/:/resources/artist.png",
+    "title1": "Music",
+    "title2": "Start with 'G'",
+    "viewGroup": "artist",
+    "viewMode": 65592,
+    "Metadata": [
+      {
+        "ratingKey": "5561",
+        "key": "/library/metadata/5561/children",
+        "type": "artist",
+        "title": "Peter Gabriel",
+        "titleSort": "Gabriel, Peter",
+        "summary": "As the leader of Genesis in the early '70s, Peter Gabriel helped move progressive rock to new levels of theatricality. He was no less ambitious as a solo artist, but he was more subtle in his methods. With his first eponymous solo album in 1977, he began exploring darker, more cerebral territory, incorporating avant-garde, electronic, and worldbeat influences into his music. The record, as well as its two similarly titled successors, established Gabriel as a critically acclaimed cult artist, and with 1982's Security, he began to move into the mainstream; \"Shock the Monkey\" became his first Top 40 hit, paving the way for his multi-platinum breakthrough So in 1986. Accompanied by a series of groundbreaking videos and the number one single \"Sledgehammer,\" So became a multi-platinum hit, and Gabriel became an international star. Instead of capitalizing on his sudden success, he began to explore other interests, including recording soundtracks and running his company Real World. By the time he returned to pop with 1992's Us, his mass audience had faded away and he spent the remainder of the '90s working on multimedia projects for Real World.\r\nFollowing his departure from Genesis in 1976, Peter Gabriel began work on the first of three consecutive eponymously titled albums; each record was named Peter Gabriel, he said, as if they were editions of the same magazine. In 1977, his first solo album appeared and became a moderate success due to the single \"Solsbury Hill.\" Another self-titled record followed in 1978, yet received comparatively weaker reviews. Gabriel's third eponymous album proved to be his artistic breakthrough, however. Produced by Steve Lillywhite and released in 1980, the album established Gabriel as one of rock's most ambitious, innovative musicians, as well as one of its most political -- \"Biko,\" a song about a murdered anti-apartheid activist, became one of the biggest protest anthems of the '80s. \"Games Without Frontiers,\" with its eerie chorus, nearly reached the Top 40. \r\nIn 1982, Gabriel released Security, which was an even bigger success, earning positive reviews and going gold on the strength of the startling video for \"Shock the Monkey.\" Just as his solo career was taking off, Gabriel participated in a one-shot Genesis reunion in order to finance his WOMAD -- World of Music, Arts and Dance -- Festival. WOMAD was designed to bring various world musics and customs to a Western audience, and it soon turned into an annual event, and a live double album was released that year to commemorate the event. As Gabriel worked on his fifth album, he contributed the soundtrack to Alan Parker's 1984 film Birdy. His score was highly praised and it won the Grand Jury Prize at Cannes that year. After founding Real World, Inc. -- a corporation devoted to developing bridges between technology and multi-ethnic arts -- in 1985, he completed his fifth album, So.\r\nReleased in 1986, So became Gabriel's commercial breakthrough, largely because his Stax homage \"Sledgehammer\" was blessed with an innovative video that combined stop-action animation with live action. So climbed to number two as \"Sledgehammer\" hit number one, with \"Big Time\" -- featuring a video very similar to \"Sledgehammer\" -- reaching the Top Ten and \"In Your Eyes\" hitting the Top 30. As So was riding high on the American and British charts, Gabriel co-headlined the first benefit tour for Amnesty International in 1986 with Sting and U2. Another Amnesty International Tour followed in 1988, and the following year, Gabriel released Passion: Music for The Last Temptation of Christ, a collection of instrumentals used in Martin Scorsese's film. Passion was the furthest Gabriel delved into worldbeat, and the album was widely acclaimed, winning the Grammy Award in 1989 for Best New Age Performance. In 1990, he released the hits compilation Shaking the Tree.\r\nGabriel labored long on the pop music follow-up to So, finally releasing Us in the spring of 1992. During the recording of Us, Gabriel went through a number of personal upheavals, including a painful divorce, and those tensions manifested themselves on Us, a much darker record than So. For various reasons, not the least of which was the fact that it was released six years after its predecessor, Us wasn't as commercially successful as So, despite positive reviews. Only one single, the \"Sledgehammer\" knockoff \"Steam,\" reached the Top 40, and the album stalled at platinum sales. In 1993, Gabriel embarked on the most ambitious WOMAD tour to date, touring the United States with a roster including Crowded House, James, and Sinéad O'Connor, with whom he had an on-off romantic relationship. The following year, he released the double-disc Secret World Live, which went gold. Later in 1994, he released the CD-ROM Xplora, one of many projects he developed with Real World. For the rest of the decade, Gabriel concentrated on developing more multimedia projects for the company and working on a new studio album. \r\nUp was released in 2002, a full decade after Gabriel's last studio effort. Dense, cerebral, and often difficult, the record peaked at number nine but failed to sell well in America. It fared slightly better in Canada, where it went gold. He then turned his attention to a host of different projects, although the release of Big Blue Ball -- a compilation of collaborative performances recorded at Real World Studios during the '90s -- helped placate fans while Gabriel focused his energies elsewhere. He eventually returned to the studio for another album, 2010's Scratch My Back, which featured orchestral covers of songs originally performed by Radiohead, Arcade Fire, Paul Simon, David Bowie, and others. Gabriel uncharacteristically delivered the sequel to Scratch My Back quickly, releasing New Blood -- a collection of orchestral reinterpretations of his own songs -- in the fall of 2011. The following year, Gabriel held a lavish celebration of the 25th anniversary of So, releasing several deluxe editions of the record -- the largest being a four-CD, two-DVD, two-vinyl box -- and launching the Back to Front tour, where he played So in its entirety. ~ Stephen Thomas Erlewine",
+        "index": 1,
+        "viewCount": 5,
+        "lastViewedAt": 1482395113,
+        "thumb": "/library/metadata/5561/thumb/1482676780",
+        "art": "/library/metadata/5561/art/1482676780",
+        "addedAt": 1437907650,
+        "updatedAt": 1482676780,
+        "Genre": [
+          {
+            "tag": "Progressive Rock, Rock, Pop"
+          }
+        ],
+        "Country": [
+          {
+            "tag": "United Kingdom"
+          }
+        ]
+      },
+      {
+        "ratingKey": "10033",
+        "key": "/library/metadata/10033/children",
+        "type": "artist",
+        "title": "Gail Page",
+        "summary": "",
+        "index": 1,
+        "viewCount": 11,
+        "lastViewedAt": 1479634080,
+        "thumb": "/library/metadata/10033/thumb/1482676734",
+        "addedAt": 1442745427,
+        "updatedAt": 1482676734
+      },
+      {
+        "ratingKey": "30878",
+        "key": "/library/metadata/30878/children",
+        "type": "artist",
+        "title": "Galapaghost",
+        "summary": "Galapaghost is the conception of singer/songwriter/one man arsenal Casey Chandler. He is a recent graduate of SUNY Purchase, which he attended from 2005-2009 and graduated with a bachelor’s degree in Music production. He hails from the small hippie town of Woodstock, NY. He now resides in Austin, TX. His debut album Runnin' was released on January 9th 2012 on the Lady Lovely label, a small indie label based out of Italy. He had a successful tour of Italy in January 2012 to promote the album. He also toured Europe and North America with John Grant in 2010, which included a prestigious slot on Later…With Jools Holland. \nHis song writing pulls from many different influences from Midlake to Simon and Garfunkel to Neil Young to Espers. He recently recorded his 2nd album in Italy, which will be entitled 'Dandelion'. He started a crowdfunding project for the album because he is too broke to release it and you'd give him the biggest heart on if you donated! It's for a good cause! The link to the project is here: http://www.musicraiser.com/projects/55-small-pockets-big-hearts Read more on Last.fm. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply",
+        "index": 1,
+        "viewCount": 51,
+        "lastViewedAt": 1481917448,
+        "thumb": "/library/metadata/30878/thumb/1482676756",
+        "addedAt": 1467503264,
+        "updatedAt": 1482676756,
+        "Genre": [
+          {
+            "tag": "General Country"
+          },
+          {
+            "tag": "Country"
+          },
+          {
+            "tag": "Country & Western"
+          }
+        ]
+      },
+      {
+        "ratingKey": "11938",
+        "key": "/library/metadata/11938/children",
+        "type": "artist",
+        "title": "David Garrett",
+        "titleSort": "Garrett, David",
+        "summary": "The child of an American mother and a German father, prodigy violin soloist David Garrett, born David Bongartz in Aachen, Germany, reached and surpassed many an important milestone before his matriculation at Juilliard in New York. David's interest in violin began at the age of four, when his older brother received a violin from his father -- who himself was a antique stringed-instrument dealer. A year later, David had already won a competition, and by seven he was playing in public as often as possible. Within five more years, David had gone on to perform with an orchestra (playing Mozart) and at the age of ten made his concert debut. As his teenage years dawned, David had already released two albums and appeared on television. This kind of talent was quickly picked up by Deutsche Grammophone, which offered and signed a contract with the violinist when he was only 14 years old. He graduated from Juilliard in New York in 2004, after having been a student with Itzhak Perlman. David Garrett has performed with many of the world's orchestras, and in 2007 he played with the Israel Philharmonic Orchestra, touring the United States with the orchestra in 2008. In 2009 he released a self-titled album on the Decca label. The varied repertoire included music from Bizet, a version of “Dueling Banjos” plus a cover version of Michael Jackson’s “Smooth Criminal”. A year later he returned with Rock Symphonies, an album featuring material from Nirvana, Guns ‘N’ Roses, and Metallica. ~ Chris True",
+        "index": 1,
+        "viewCount": 4,
+        "lastViewedAt": 1469793627,
+        "thumb": "/library/metadata/11938/thumb/1482676808",
+        "art": "/library/metadata/11938/art/1482676808",
+        "addedAt": 1437907650,
+        "updatedAt": 1482676808,
+        "Genre": [
+          {
+            "tag": "Classical, Pop, Rock"
+          }
+        ],
+        "Country": [
+          {
+            "tag": "Germany"
+          }
+        ]
+      },
+      {
+        "ratingKey": "7247",
+        "key": "/library/metadata/7247/children",
+        "type": "artist",
+        "title": "Marvin Gaye",
+        "titleSort": "Gaye, Marvin",
+        "summary": "Marvin Pentz Gay, Jr. (2 April 1939 - 1 April 1984) was an American soul and rnb singer, songwriter, producer, and multi-instrumentalist, known as \"The Prince of Soul\", or \"The Prince of Motown.\" Originally a member of the doo-wop group The Moonglows, he pursued a solo career after the group disbanded and released many successful solo hits including \"I Heard It Through the Grapevine\", \"Let's Get It On\" and  \"What's Going On\". His best albums are still held in extremely high regard, and he is often cited as one of the finest singers of his era.",
+        "index": 1,
+        "viewCount": 86,
+        "lastViewedAt": 1482532129,
+        "thumb": "/library/metadata/7247/thumb/1482676854",
+        "art": "/library/metadata/7247/art/1482676854",
+        "addedAt": 1452150501,
+        "updatedAt": 1482676854,
+        "Genre": [
+          {
+            "tag": "General Classic Soul"
+          },
+          {
+            "tag": "Classic Soul/R&B"
+          },
+          {
+            "tag": "Soul/R&B"
+          }
+        ],
+        "Country": [
+          {
+            "tag": "United States"
+          }
+        ]
+      },
+      {
+        "ratingKey": "10021",
+        "key": "/library/metadata/10021/children",
+        "type": "artist",
+        "title": "General Fuzz",
+        "summary": "General Fuzz is James Kirsch's electronic music project. Kirsch's first electronic album, \"General Fuzz,\" was released under the name DJ Messy in 2002. All subsequent releases were put out under the General Fuzz name. Six albums have been completed and are distributed freely on Kirsch's website.",
+        "index": 1,
+        "thumb": "/library/metadata/10021/thumb/1482676812",
+        "addedAt": 1437907650,
+        "updatedAt": 1482676812,
+        "Genre": [
+          {
+            "tag": "Electronic, Downtempo, Ambient"
+          }
+        ]
+      },
+      {
+        "ratingKey": "10024",
+        "key": "/library/metadata/10024/children",
+        "type": "artist",
+        "title": "General Midi",
+        "summary": "Paul Crossman a.k.a General Midi has always managed to master a more level-crunching, dub-flavoured and bass-fuelled musical ride than his peers and it is this that has earned him his fast growing reputation as the source of a great night out when he's at the controls and as 'the producer's producer'.",
+        "index": 1,
+        "viewCount": 7,
+        "lastViewedAt": 1482451479,
+        "thumb": "/library/metadata/10024/thumb/1482676758",
+        "addedAt": 1437907650,
+        "updatedAt": 1482676758,
+        "Genre": [
+          {
+            "tag": "Dance"
+          },
+          {
+            "tag": "Breakbeat, Electronic, Electro"
+          }
+        ],
+        "Country": [
+          {
+            "tag": "United Kingdom"
+          }
+        ]
+      },
+      {
+        "ratingKey": "9998",
+        "key": "/library/metadata/9998/children",
+        "type": "artist",
+        "title": "Generation X",
+        "summary": "Although not as well as known as some of their peers (the Clash, the Sex Pistols, the Damned, etc.), first wave U.K. punk rockers Generation X burst onto the scene at the same time as the others. And while they enjoyed some moderate success in their homeland, Generation X would become better-known as the launching pad for their singer, Billy Idol, who would go on to achieve great commercial success come the '80s. Originally formed in 1976, Generation X (which was named after a book that focused on battles between the Mods and the Rockers during the '60s) was comprised of guitarist Bob Andrews, bassist Tony James, drummer Mark Laff, and fronted by Idol. The group was eventually signed up by Chrysalis Records, resulting in a self-titled debut album in 1978 (the U.S. and U.K. versions contained different track listings), as Generation X became one of the first punk bands to appear on the popular British TV music program Top of the Pops. \r\nUnlike other punk bands, Generation X wasn't afraid to turn a blind eye to the supposed \"accepted\" ideals by punk rockers as they covered a John Lennon song on their debut (\"Gimme Some Truth\") and even hooked up with veteran rocker Ian Hunter to handle the production chores for their sophomore effort, 1979's Valley of the Dolls. Perhaps as a result, however, the group's musical direction became cloudy (some wanting the group to remain true to their punk roots, while others feeling that they should pursue a heavier rock sound) and bandmembers began to leave one by one, until Idol and James were the only remaining original members. Generation X managed to squeeze out one final album, 1981's Kiss Me Deadly (which contained the original version of a song that Idol would later cover as a solo artist and score a massive hit with, \"Dancing With Myself\"), before splitting up. \r\nAfter the group's breakup, James later turned up as a member of '80s glam-punkers Sigue Sigue Sputnik, while Idol relocated to New York and embarked on his aforementioned solo career. As Idol's solo success created interest in his first band, numerous Generation X best-of and rarity collections began to crop up, including 1985's Perfect Hits: 1975-1981, 1998's Sweet Revenge, and 2000's Original Debut, the latter of which was a reissue of the U.K. version of Generation X's self-titled debut. ~ Greg Prato",
+        "index": 1,
+        "viewCount": 6,
+        "lastViewedAt": 1448308764,
+        "thumb": "/library/metadata/9998/thumb/1482676797",
+        "addedAt": 1439366859,
+        "updatedAt": 1482676797,
+        "Genre": [
+          {
+            "tag": "Post-Punk, Punk Rock"
+          }
+        ],
+        "Country": [
+          {
+            "tag": "United Kingdom"
+          }
+        ]
+      },
+      {
+        "ratingKey": "25072",
+        "key": "/library/metadata/25072/children",
+        "type": "artist",
+        "title": "Generationals",
+        "summary": "The two men behind the creation of Generationals - Ted Joyner and Grant Widmer - don't know what they've done. They couldn't possibly have that sort of clairvoyance to perceive the effect that one of the songs they wrote has had on the few and will have on the many before the year is up.",
+        "index": 1,
+        "viewCount": 55,
+        "lastViewedAt": 1482722808,
+        "thumb": "/library/metadata/25072/thumb/1482758769",
+        "addedAt": 1466422714,
+        "updatedAt": 1482758769,
+        "Genre": [
+          {
+            "tag": "Rock, Indie Rock"
+          },
+          {
+            "tag": "Indie Pop"
+          }
+        ],
+        "Country": [
+          {
+            "tag": "United States"
+          }
+        ]
+      },
+      {
+        "ratingKey": "34207",
+        "key": "/library/metadata/34207/children",
+        "type": "artist",
+        "title": "Gengahr",
+        "summary": "Gengahr are a four-piece indie group originally from London signed to Transgressive Records. Their debut AA-side single, 'Powder/Bathed In Light' was released October 2014. The band are Felix Bushe (vocals/guitar), John Victor (guitar), Hugh Schulte (bass) and Danny Ward (drums). Read more on Last.fm. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply",
+        "index": 1,
+        "viewCount": 8,
+        "lastViewedAt": 1478145964,
+        "thumb": "/library/metadata/34207/thumb/1482592277",
+        "addedAt": 1472379437,
+        "updatedAt": 1482592277,
+        "Genre": [
+          {
+            "tag": "Indie Pop"
+          }
+        ],
+        "Country": [
+          {
+            "tag": "United States"
+          }
+        ]
+      }
+    ]
+  }
+}

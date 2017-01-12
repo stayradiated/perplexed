@@ -1,0 +1,300 @@
+{
+  "MediaContainer": {
+    "size": 10,
+    "totalSize": 51,
+    "allowSync": true,
+    "art": "/:/resources/artist-fanart.jpg",
+    "identifier": "com.plexapp.plugins.library",
+    "librarySectionID": 1,
+    "librarySectionTitle": "Music",
+    "librarySectionUUID": "5085a855-78e9-4dd7-9d70-a4ac296e28ee",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "nocache": true,
+    "offset": 0,
+    "thumb": "/:/resources/artist.png",
+    "title1": "Music",
+    "title2": "All Artists",
+    "viewGroup": "artist",
+    "viewMode": 65592,
+    "Metadata": [
+      {
+        "ratingKey": "41075",
+        "key": "/library/metadata/41075/children",
+        "parentRatingKey": "41074",
+        "studio": "Tru Thoughts",
+        "type": "album",
+        "title": "1000 Watts",
+        "parentKey": "/library/metadata/41074",
+        "parentTitle": "Quantic presents Flowering Inferno",
+        "summary": "",
+        "index": 1,
+        "viewCount": 4,
+        "lastViewedAt": 1481050306,
+        "year": 2016,
+        "thumb": "/library/metadata/41075/thumb/1481020818",
+        "parentThumb": "/library/metadata/41074/thumb/1482333889",
+        "originallyAvailableAt": "2016-06-17",
+        "addedAt": 1481016729,
+        "updatedAt": 1481020818,
+        "Genre": [
+          {
+            "tag": "Dub, Downtempo, Reggae"
+          }
+        ]
+      },
+      {
+        "ratingKey": "36933",
+        "key": "/library/metadata/36933/children",
+        "parentRatingKey": "13045",
+        "studio": "Jagjaguwar",
+        "type": "album",
+        "title": "22, a Million",
+        "parentKey": "/library/metadata/13045",
+        "parentTitle": "Bon Iver",
+        "summary": "",
+        "index": 1,
+        "userRating": 10,
+        "viewCount": 9,
+        "lastViewedAt": 1480547543,
+        "year": 2016,
+        "thumb": "/library/metadata/36933/thumb/1475270705",
+        "art": "/library/metadata/13045/art/1482592217",
+        "parentThumb": "/library/metadata/13045/thumb/1482592217",
+        "originallyAvailableAt": "2016-09-30",
+        "addedAt": 1475270652,
+        "updatedAt": 1475270705,
+        "Genre": [
+          {
+            "tag": "Electronic, Experimental Pop, Indie Folk"
+          }
+        ]
+      },
+      {
+        "ratingKey": "31548",
+        "key": "/library/metadata/31548/children",
+        "parentRatingKey": "18948",
+        "studio": "Flying Nun Records",
+        "type": "album",
+        "title": "Absolute Truth",
+        "parentKey": "/library/metadata/18948",
+        "parentTitle": "Lawrence Arabia",
+        "summary": "",
+        "index": 1,
+        "viewCount": 20,
+        "lastViewedAt": 1480194964,
+        "year": 2016,
+        "thumb": "/library/metadata/31548/thumb/1468590544",
+        "parentThumb": "/library/metadata/18948/thumb/1482677280",
+        "originallyAvailableAt": "2016-01-01",
+        "addedAt": 1468294906,
+        "updatedAt": 1468590544,
+        "Genre": [
+          {
+            "tag": "General Indie Pop"
+          },
+          {
+            "tag": "Indie Pop"
+          },
+          {
+            "tag": "Indie"
+          }
+        ]
+      },
+      {
+        "ratingKey": "40374",
+        "key": "/library/metadata/40374/children",
+        "parentRatingKey": "40371",
+        "type": "album",
+        "title": "Alio",
+        "parentKey": "/library/metadata/40371",
+        "parentTitle": "Fort Frances",
+        "summary": "",
+        "index": 1,
+        "viewCount": 30,
+        "lastViewedAt": 1482042363,
+        "year": 2016,
+        "thumb": "/library/metadata/40374/thumb/1479374850",
+        "parentThumb": "/library/metadata/40371/thumb/1482758810",
+        "originallyAvailableAt": "2016-01-01",
+        "addedAt": 1479374646,
+        "updatedAt": 1479374850,
+        "Genre": [
+          {
+            "tag": "General Indie Rock"
+          },
+          {
+            "tag": "Indie Rock"
+          },
+          {
+            "tag": "Indie"
+          }
+        ]
+      },
+      {
+        "ratingKey": "2658",
+        "key": "/library/metadata/2658/children",
+        "parentRatingKey": "2623",
+        "studio": "Universal Music Group",
+        "type": "album",
+        "title": "Angela",
+        "parentKey": "/library/metadata/2623",
+        "parentTitle": "The Lumineers",
+        "summary": "",
+        "index": 1,
+        "viewCount": 1,
+        "lastViewedAt": 1475692745,
+        "year": 2016,
+        "thumb": "/library/metadata/2658/thumb/1468590792",
+        "art": "/library/metadata/2623/art/1482677427",
+        "parentThumb": "/library/metadata/2623/thumb/1482677427",
+        "originallyAvailableAt": "2016-01-01",
+        "addedAt": 1459742087,
+        "updatedAt": 1468590792,
+        "Genre": [
+          {
+            "tag": "Alternative Folk"
+          },
+          {
+            "tag": "Alternative Folk"
+          },
+          {
+            "tag": "Indie"
+          }
+        ]
+      },
+      {
+        "ratingKey": "19044",
+        "key": "/library/metadata/19044/children",
+        "parentRatingKey": "18948",
+        "studio": "Record Label Name",
+        "type": "album",
+        "title": "Another Century",
+        "parentKey": "/library/metadata/18948",
+        "parentTitle": "Lawrence Arabia",
+        "summary": "",
+        "index": 1,
+        "viewCount": 4,
+        "lastViewedAt": 1473209651,
+        "year": 2016,
+        "thumb": "/library/metadata/19044/thumb/1468590548",
+        "parentThumb": "/library/metadata/18948/thumb/1482677280",
+        "originallyAvailableAt": "2016-01-01",
+        "addedAt": 1465810380,
+        "updatedAt": 1468590548,
+        "Genre": [
+          {
+            "tag": "General Indie Pop"
+          },
+          {
+            "tag": "Indie Pop"
+          },
+          {
+            "tag": "Indie"
+          }
+        ]
+      },
+      {
+        "ratingKey": "34992",
+        "key": "/library/metadata/34992/children",
+        "parentRatingKey": "34991",
+        "studio": "Capitol Records (US1A)",
+        "type": "album",
+        "title": "ArrangingTime",
+        "parentKey": "/library/metadata/34991",
+        "parentTitle": "Pete Yorn",
+        "summary": "Arriving after a six-year silence, ArrangingTime does seem like something of a rebirth for Pete Yorn: it finds the singer/songwriter re-teaming with his original producer R. Walt Vincent and debuting on a shiny new major label, Capitol. Yorn didn't quite disappear in the time since 2010's eponymous Black Francis-produced album -- he paired with J.D. King on the 2013 project the Olms -- but in a sense it seemed like he was wandering in the wilderness for even longer, never quite capitalizing on the promise he showed in the dawning days of the 21st century. On ArrangingTime, he doesn't seem anxious to recapture his puppy-dog optimism, nor does he seem bitter -- bruised, maybe, happy to slide into the smooth, slow electronic pulse that blankets the album. This manicured mellowness feels mature, a progression from a past that is nevertheless referenced: \"In Your Head\" recalls his original idol Ryan Adams and \"Halifax\" echoes \"Black,\" yet there's little suggestion that Yorn is eager to recapture the mantle of the guitar-wielding troubadour so anxious to aspire to authenticity. Now a little bit older and wiser, Yorn feels settled in his skin, as happy to strum a song or sharpen a new wave hook (\"Screaming at the Setting Sun\") as he is to linger in pretty melancholy. On this record, Yorn seems to master mood more than tune, but that winds up being to his benefit. This tonal elasticity gives ArrangingTime an enveloping warmth, one that is alluring even if it tends to shift concentration away from the songwriting that allegedly was his greatest strength. [ArrangingTime was also released on LP.] ~ Stephen Thomas Erlewine",
+        "index": 1,
+        "viewCount": 1,
+        "lastViewedAt": 1477986124,
+        "year": 2016,
+        "thumb": "/library/metadata/34992/thumb/1473417626",
+        "art": "/library/metadata/34991/art/1482593232",
+        "parentThumb": "/library/metadata/34991/thumb/1482593232",
+        "originallyAvailableAt": "2016-03-11",
+        "addedAt": 1473417488,
+        "updatedAt": 1473417626,
+        "Genre": [
+          {
+            "tag": "Rock, Indie Rock, Alternative Rock"
+          }
+        ]
+      },
+      {
+        "ratingKey": "37562",
+        "key": "/library/metadata/37562/children",
+        "parentRatingKey": "3748",
+        "studio": "Liberation Music Pty Ltd",
+        "type": "album",
+        "title": "Brilliant Sanity",
+        "parentKey": "/library/metadata/3748",
+        "parentTitle": "Teleman",
+        "summary": "If Teleman's debut album, Breakfast, found Thomas and Jonny Sanders and Pete Cattermoul branching out after their time in Pete & the Pirates, then Brilliant Sanity is all about refinement. Working with producer Dan Carey, the men of Teleman (who also include drummer Hiro Amamiya) focused Breakfast's airy pop and chugging rock into songs that are honed, but not necessarily tamed. The results are quirky yet classic-sounding English guitar pop full of a nervy essence and hooks that sneak up on listeners' ears and refuse to leave. On songs like the wonderfully insistent \"Superglue,\" Thomas Sanders sounds equally detached and emotional as he sings about the eternal tug-of-war between freedom and constraints that defines relationships -- and pop music. \"Glory Hallelujah\"'s \"happy ever after\" feels both genuine and ironic, while \"Drop Out\" stealthily cuts all ties, its lengthy bridge capturing the giddy rush of escaping the gravity of commitment. A similar weightlessness animates \"English Architecture\"'s sweet ambivalence, \"Melrose\"'s levitating synths, and \"Tangerine\"'s psychedelic synth pop daydreams, but the sense of loss -- or something missing -- gives this drift a surprising amount of purpose. Once again, Brilliant Sanity's sharpened songwriting lets its haunting mood cut more deeply, with odd yet potent motifs (glue, shoes, flickering lights) guiding Teleman's meditations on permanence and impermanence. The times the band addresses these feelings directly make for some of the album's most affecting moments: \"Düsseldorf\"'s melting ice, grey towns, and disappearing girls linger in the memory longer than might be expected, while \"Fall in Time\"'s battle between intimacy and fear is both eerie and earnest. While Breakfast's amiable ambling is sometimes missed -- \"Canvas Shoe\" is the closest this album comes to it -- it's hard to deny that Teleman's hard work paid off: Brilliant Sanity's musings on uncertainty are some of their most confident songs yet. ~ Heather Phares",
+        "index": 1,
+        "viewCount": 270,
+        "lastViewedAt": 1482789974,
+        "year": 2016,
+        "thumb": "/library/metadata/37562/thumb/1476222334",
+        "parentThumb": "/library/metadata/3748/thumb/1482677826",
+        "originallyAvailableAt": "2016-04-08",
+        "addedAt": 1476222283,
+        "updatedAt": 1476222334,
+        "Genre": [
+          {
+            "tag": "Indie Pop, Soft Rock, Pop"
+          }
+        ]
+      },
+      {
+        "ratingKey": "2641",
+        "key": "/library/metadata/2641/children",
+        "parentRatingKey": "2623",
+        "studio": "Dualtone Music",
+        "type": "album",
+        "title": "Cleopatra",
+        "parentKey": "/library/metadata/2623",
+        "parentTitle": "The Lumineers",
+        "summary": "Maybe the Lumineers got tired of hearing other bands replicate the big-footed stomp of \"Ho Hey,\" an aesthetic that was impossible to avoid in the wake of their eponymous 2012 debut. So many bands adopted this thunderous folk that it no longer seemed to belong to the Lumineers; it appeared communal, perhaps existing to the earlier generations the Lumineers so clearly loved yet never quite replicated. Given this omnipresence, maybe it's not a surprise that the trio avoid any semblance of infectious rhythms on Cleopatra, their long-awaited second album, yet the sobriety of this 2016 affair is striking. Melancholy and sullen, Cleopatra feels like a conscious reaction to the idea that the band was merely a boisterous retro-throwback, a band that existed primarily on the surface. Apart from the lead single \"Ophelia\" and \"Cleopatra,\" this sophomore set avoids tempos that could be called sprightly, and melody comes second to mood as well. Sometimes, the Lumineers are quite effective at being evocative: there's a certain dusky shimmer to the album, an atmosphere that tends to hang as heavy as fog as the record rolls along. This sequencing, where the relatively hookier tunes are pushed toward the front, is typical in the 21st century -- albums are front-loaded to pull in casual listeners, making the bet that the serious fans will stick around for the serious stuff that arrives at the end of the record -- but this also robs Cleopatra of velocity, with whatever energy there was dissipating by the album's conclusion, when the record winds down with its quietest moments. Nevertheless, there's something admirable about the album's solemnity: the Lumineers are on a quest to be taken seriously, and even if they overplay their hand, the earnestness is ingratiating. ~ Stephen Thomas Erlewine",
+        "index": 1,
+        "viewCount": 25,
+        "lastViewedAt": 1482451481,
+        "year": 2016,
+        "thumb": "/library/metadata/2641/thumb/1468590807",
+        "art": "/library/metadata/2623/art/1482677427",
+        "parentThumb": "/library/metadata/2623/thumb/1482677427",
+        "originallyAvailableAt": "2016-04-08",
+        "addedAt": 1460522800,
+        "updatedAt": 1468590807,
+        "Genre": [
+          {
+            "tag": "Folk Rock, Rock, Indie Folk"
+          }
+        ]
+      },
+      {
+        "ratingKey": "40747",
+        "key": "/library/metadata/40747/children",
+        "parentRatingKey": "40733",
+        "type": "album",
+        "title": "Death Valley",
+        "parentKey": "/library/metadata/40733",
+        "parentTitle": "L.P.",
+        "summary": "",
+        "index": 1,
+        "viewCount": 20,
+        "lastViewedAt": 1482737847,
+        "year": 2016,
+        "thumb": "/library/metadata/40747/thumb/1480547767",
+        "parentThumb": "/library/metadata/40733/thumb/1482593376",
+        "originallyAvailableAt": "2016-06-17",
+        "addedAt": 1480547762,
+        "updatedAt": 1480547767,
+        "Genre": [
+          {
+            "tag": "Rock, Indie Rock, Soft Rock"
+          }
+        ]
+      }
+    ]
+  }
+}

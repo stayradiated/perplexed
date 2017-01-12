@@ -1,0 +1,293 @@
+{
+  "MediaContainer": {
+    "size": 10,
+    "totalSize": 25,
+    "allowSync": true,
+    "art": "/:/resources/artist-fanart.jpg",
+    "identifier": "com.plexapp.plugins.library",
+    "librarySectionID": 1,
+    "librarySectionTitle": "Music",
+    "librarySectionUUID": "5085a855-78e9-4dd7-9d70-a4ac296e28ee",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "mixedParents": true,
+    "nocache": true,
+    "offset": 0,
+    "thumb": "/:/resources/artist.png",
+    "title1": "Music",
+    "title2": "Recently Added",
+    "viewGroup": "album",
+    "viewMode": 65592,
+    "Metadata": [
+      {
+        "ratingKey": "41434",
+        "key": "/library/metadata/41434/children",
+        "parentRatingKey": "41433",
+        "studio": "EMI",
+        "type": "album",
+        "title": "Tubthumper",
+        "parentKey": "/library/metadata/41433",
+        "parentTitle": "Chumbawamba",
+        "summary": "",
+        "index": 1,
+        "viewCount": 3,
+        "lastViewedAt": 1482782695,
+        "year": 1997,
+        "thumb": "/library/metadata/41434/thumb/1482749474",
+        "art": "/library/metadata/41433/art/1482749465",
+        "parentThumb": "/library/metadata/41433/thumb/1482749465",
+        "originallyAvailableAt": "1997-09-23",
+        "leafCount": 12,
+        "viewedLeafCount": 2,
+        "addedAt": 1482749442,
+        "updatedAt": 1482749474,
+        "Genre": [
+          {
+            "tag": "Pop, Rock, Post-Punk"
+          }
+        ]
+      },
+      {
+        "ratingKey": "41421",
+        "key": "/library/metadata/41421/children",
+        "parentRatingKey": "41420",
+        "studio": "Blanco Y Negro/Atlantic",
+        "type": "album",
+        "title": "Amplified Heart",
+        "parentKey": "/library/metadata/41420",
+        "parentTitle": "Everything but the Girl",
+        "summary": "Despite its title, Amplified Heart is one of Everything but the Girl's more acoustic works. A simple instrumentation of guitars and keyboards, augmented here and there by British folk-rock veterans like Richard Thompson, Danny Thompson, and Dave Mattacks, serves to set up a series of songs of romantic disillusionment. Declaring \"my life is just an image of a roller coaster, anyway\" and \"I don't understand anything,\" among other things, over and over the songs speak of confusion and disappointment deriving from failed love affairs. The approach is much more introspective than that taken on the group's previous album of new music, Worldwide, but Tracey Thorn and Ben Watt's musical restraint supports it well. This is an album to listen to when you've just broken up with your lover, or even when you're just in the mood to think about lost lovers from long ago -- self-pity set to music. ~ William Ruhlmann",
+        "index": 1,
+        "viewCount": 28,
+        "lastViewedAt": 1482782079,
+        "year": 1995,
+        "thumb": "/library/metadata/41421/thumb/1482749455",
+        "parentThumb": "/library/metadata/41420/thumb/1482749449",
+        "originallyAvailableAt": "1995-01-01",
+        "leafCount": 11,
+        "viewedLeafCount": 10,
+        "addedAt": 1482749440,
+        "updatedAt": 1482749455,
+        "Genre": [
+          {
+            "tag": "Chillout, Electronic, Downtempo"
+          }
+        ]
+      },
+      {
+        "ratingKey": "41409",
+        "key": "/library/metadata/41409/children",
+        "parentRatingKey": "9027",
+        "studio": "Cabin 24",
+        "type": "album",
+        "title": "It Doesn’t Have to Make Sense",
+        "parentKey": "/library/metadata/9027",
+        "parentTitle": "Ingrid Michaelson",
+        "summary": "",
+        "index": 1,
+        "year": 2016,
+        "thumb": "/library/metadata/41409/thumb/1482749463",
+        "art": "/library/metadata/9027/art/1482749449",
+        "parentThumb": "/library/metadata/9027/thumb/1482749449",
+        "originallyAvailableAt": "2016-08-26",
+        "leafCount": 10,
+        "viewedLeafCount": 0,
+        "addedAt": 1482749438,
+        "updatedAt": 1482749463,
+        "Genre": [
+          {
+            "tag": "Indie Pop, Pop"
+          }
+        ]
+      },
+      {
+        "ratingKey": "41369",
+        "key": "/library/metadata/41369/children",
+        "parentRatingKey": "41368",
+        "studio": "EMI",
+        "type": "album",
+        "title": "The Very Best of Canned Heat",
+        "titleSort": "Very Best of Canned Heat",
+        "parentKey": "/library/metadata/41368",
+        "parentTitle": "Canned Heat",
+        "summary": "",
+        "index": 1,
+        "viewCount": 15,
+        "lastViewedAt": 1482719127,
+        "year": 2005,
+        "thumb": "/library/metadata/41369/thumb/1482464697",
+        "parentThumb": "/library/metadata/41368/thumb/1482464681",
+        "originallyAvailableAt": "2005-05-24",
+        "leafCount": 19,
+        "viewedLeafCount": 7,
+        "addedAt": 1482464645,
+        "updatedAt": 1482464697,
+        "Genre": [
+          {
+            "tag": "Blues, Southern Rock"
+          }
+        ]
+      },
+      {
+        "ratingKey": "41339",
+        "key": "/library/metadata/41339/children",
+        "parentRatingKey": "8490",
+        "studio": "Pointblank",
+        "type": "album",
+        "title": "Wicked Grin",
+        "parentKey": "/library/metadata/8490",
+        "parentTitle": "John Hammond",
+        "summary": "After 35 years into a career that spans 35 albums recorded for seven labels, you'd think John Hammond might get a little complacent. Thankfully the opposite is true, as 2001's Wicked Grin is the artist's most daring musical departure and arguably greatest achievement to date. Mining the rich Tom Waits catalog for 12 of its 13 tracks (the closing is a traditional gospel tune) and bringing Waits himself along as producer has resulted in a stunning collection that stands as one of the best in Hammond's bulging catalog. Never a songwriter, the singer/guitarist/harmonica bluesman has maintained a knack for picking top-notch material from the rich blues tradition without resorting to the hoary, over-covered classics of the genre. It's that quality that transforms these tunes into Hammond songs, regardless of their origin. His history of working with exceptional session musicians is also legendary, and this album's band, which features Doug Sahm sideman Augie Meyers on keyboards, harmonica wiz Charlie Musselwhite, longtime Waits associate Larry Taylor on bass, and Waits himself poking around on various songs, is perfect for the spooky, swampy feel he effortlessly conjures here. Choosing from a wide variety of Waits' material, Hammond infuses these unusual tracks with a bluesman's spirit and a crackling energy that practically reinvents the songs, instilling them with an ominous, rhythmic swampy feel. The producer contributes two new tracks (\"2:19\" and \"Fannin' Street,\" the latter is the album's only acoustic cut) that maintain the creepy but upbeat voodoo spirit that trickles and twists throughout. Hammond sings with a renewed spirit, adding a smoother but no less intense edge than Waits' typical rusty razor blade soaked whisky growl. With his dusky croon and idiosyncratic delivery, Hammond tears into this material with relish, spitting out the often offbeat, stream of consciousness lyrics as if he wrote them himself. Only the slow, ambling blues of \"Murder in the Red Barn\" would comfortably slot into Hammond's existing oeuvre; the remainder push the bluesman into previously uncharted territory with results that reveal fascinating layers of his own interpretive abilities. An experiment whose success will hopefully yield another volume, this partnership of John Hammond and Tom Waits brings out the best in both artists' substantial talents. ~ Hal Horowitz",
+        "index": 1,
+        "viewCount": 9,
+        "lastViewedAt": 1482749239,
+        "year": 2001,
+        "thumb": "/library/metadata/41339/thumb/1482464686",
+        "art": "/library/metadata/8490/art/1482464674",
+        "parentThumb": "/library/metadata/8490/thumb/1482464674",
+        "originallyAvailableAt": "2001-03-13",
+        "leafCount": 13,
+        "viewedLeafCount": 3,
+        "addedAt": 1482464633,
+        "updatedAt": 1482464686,
+        "Genre": [
+          {
+            "tag": "Blues"
+          }
+        ]
+      },
+      {
+        "ratingKey": "41308",
+        "key": "/library/metadata/41308/children",
+        "parentRatingKey": "874",
+        "studio": "Rhino/Atlantic",
+        "type": "album",
+        "title": "The Definitive Soul Collection",
+        "titleSort": "Definitive Soul Collection",
+        "parentKey": "/library/metadata/874",
+        "parentTitle": "Wilson Pickett",
+        "summary": "While Pickett hadn't been recording for Atlantic all that long, the label managed to put together a powerhouse single hits collection. Pickett's rampaging screams, shouts, and cries, plus his powerful, furious sound and voice, were at their best on every track featured on the collection. ~ Ron Wynn",
+        "index": 1,
+        "viewCount": 5,
+        "lastViewedAt": 1482526986,
+        "year": 2006,
+        "thumb": "/library/metadata/41308/thumb/1482464697",
+        "art": "/library/metadata/874/art/1482464674",
+        "parentThumb": "/library/metadata/874/thumb/1482464674",
+        "originallyAvailableAt": "2006-07-11",
+        "leafCount": 30,
+        "viewedLeafCount": 2,
+        "addedAt": 1482464620,
+        "updatedAt": 1482464697,
+        "Genre": [
+          {
+            "tag": "Soul, Rhythm And Blues, Funk"
+          }
+        ]
+      },
+      {
+        "ratingKey": "41301",
+        "key": "/library/metadata/41301/children",
+        "parentRatingKey": "41274",
+        "type": "album",
+        "title": "Cabin Pressure: Series 1",
+        "parentKey": "/library/metadata/41274",
+        "parentTitle": "John Finnemore",
+        "summary": "",
+        "index": 1,
+        "userRating": 10,
+        "viewCount": 10,
+        "lastViewedAt": 1482562172,
+        "year": 2012,
+        "thumb": "/library/metadata/41301/thumb/1482451520",
+        "parentThumb": "/library/metadata/41274/thumb/1482451473",
+        "originallyAvailableAt": "2012-07-05",
+        "leafCount": 6,
+        "viewedLeafCount": 5,
+        "addedAt": 1482451490,
+        "updatedAt": 1482451520,
+        "Genre": [
+          {
+            "tag": "Comedy, Humor"
+          }
+        ]
+      },
+      {
+        "ratingKey": "41294",
+        "key": "/library/metadata/41294/children",
+        "parentRatingKey": "41274",
+        "type": "album",
+        "title": "Cabin Pressure: Series 2",
+        "parentKey": "/library/metadata/41274",
+        "parentTitle": "John Finnemore",
+        "summary": "",
+        "index": 1,
+        "viewCount": 1,
+        "lastViewedAt": 1482630919,
+        "year": 2012,
+        "thumb": "/library/metadata/41294/thumb/1482451514",
+        "parentThumb": "/library/metadata/41274/thumb/1482451473",
+        "originallyAvailableAt": "2012-08-03",
+        "leafCount": 6,
+        "viewedLeafCount": 1,
+        "addedAt": 1482451484,
+        "updatedAt": 1482451514,
+        "Genre": [
+          {
+            "tag": "Comedy, Humor"
+          }
+        ]
+      },
+      {
+        "ratingKey": "41287",
+        "key": "/library/metadata/41287/children",
+        "parentRatingKey": "41274",
+        "type": "album",
+        "title": "Cabin Pressure: Series 3",
+        "parentKey": "/library/metadata/41274",
+        "parentTitle": "John Finnemore",
+        "summary": "",
+        "index": 1,
+        "viewCount": 9,
+        "lastViewedAt": 1482747784,
+        "year": 2012,
+        "thumb": "/library/metadata/41287/thumb/1482451486",
+        "parentThumb": "/library/metadata/41274/thumb/1482451473",
+        "originallyAvailableAt": "2012-09-06",
+        "leafCount": 6,
+        "viewedLeafCount": 6,
+        "addedAt": 1482451478,
+        "updatedAt": 1482451486,
+        "Genre": [
+          {
+            "tag": "Comedy, Humor"
+          }
+        ]
+      },
+      {
+        "ratingKey": "41280",
+        "key": "/library/metadata/41280/children",
+        "parentRatingKey": "41274",
+        "type": "album",
+        "title": "Cabin Pressure: Series 4",
+        "parentKey": "/library/metadata/41274",
+        "parentTitle": "John Finnemore",
+        "summary": "",
+        "index": 1,
+        "year": 2013,
+        "thumb": "/library/metadata/41280/thumb/1482451480",
+        "parentThumb": "/library/metadata/41274/thumb/1482451473",
+        "originallyAvailableAt": "2013-05-02",
+        "leafCount": 6,
+        "viewedLeafCount": 0,
+        "addedAt": 1482451472,
+        "updatedAt": 1482451480,
+        "Genre": [
+          {
+            "tag": "Comedy, Humor"
+          }
+        ]
+      }
+    ]
+  }
+}

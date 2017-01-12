@@ -1,0 +1,68 @@
+{
+  "MediaContainer": {
+    "size": 1,
+    "totalSize": 1,
+    "allowSync": false,
+    "art": "/:/resources/artist-fanart.jpg",
+    "identifier": "com.plexapp.plugins.library",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "mixedParents": true,
+    "nocache": true,
+    "offset": 0,
+    "thumb": "/:/resources/artist.png",
+    "title1": "Music",
+    "title2": "Search for 'superglue'",
+    "viewGroup": "track",
+    "viewMode": 65593,
+    "Metadata": [
+      {
+        "ratingKey": "37567",
+        "key": "/library/metadata/37567",
+        "parentRatingKey": "37562",
+        "grandparentRatingKey": "3748",
+        "type": "track",
+        "title": "Superglue",
+        "grandparentKey": "/library/metadata/3748",
+        "parentKey": "/library/metadata/37562",
+        "grandparentTitle": "Teleman",
+        "parentTitle": "Brilliant Sanity",
+        "originalTitle": "Teleman",
+        "summary": "",
+        "index": 5,
+        "parentIndex": 1,
+        "ratingCount": 8425,
+        "userRating": 6,
+        "viewCount": 196,
+        "lastViewedAt": 1482789617,
+        "thumb": "/library/metadata/37562/thumb/1476222334",
+        "parentThumb": "/library/metadata/37562/thumb/1476222334",
+        "grandparentThumb": "/library/metadata/3748/thumb/1482677826",
+        "duration": 201404,
+        "addedAt": 1476222283,
+        "updatedAt": 1476222333,
+        "Media": [
+          {
+            "id": 51465,
+            "duration": 201404,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 51465,
+                "key": "/library/parts/51465/1476220814/file.mp3",
+                "duration": 201404,
+                "file": "/mnt/data/music/albums/Teleman/Brilliant Sanity/05 Superglue.mp3",
+                "size": 9196695,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
