@@ -1,0 +1,1267 @@
+{
+  "entities": {
+    "tracks": {
+      "117": {
+        "_type": "track",
+        "id": 117,
+        "media": [
+          {
+            "_type": "media",
+            "id": 105,
+            "duration": 311666,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 105,
+                "key": "/library/parts/105/1465114144/file.mp3",
+                "duration": 311666,
+                "file": "/mnt/data/music/compilations/The Secret Life of Walter Mitty/10 Space Oddity (Mitty mix).mp3",
+                "size": 12670402,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1437907650,
+        "duration": 311666,
+        "grandparentKey": "/library/metadata/1",
+        "grandparentRatingKey": "1",
+        "grandparentThumb": "/library/metadata/1/thumb/1484063327",
+        "grandparentTitle": "Various Artists",
+        "index": 10,
+        "key": "/library/metadata/117",
+        "lastViewedAt": 1482481788,
+        "originalTitle": "David Bowie feat. Kristen Wiig",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/107",
+        "parentRatingKey": "107",
+        "parentThumb": "/library/metadata/107/thumb/1481019387",
+        "parentTitle": "The Secret Life of Walter Mitty",
+        "ratingCount": null,
+        "ratingKey": "117",
+        "summary": "",
+        "thumb": "/library/metadata/107/thumb/1481019387",
+        "title": "Space Oddity (Mitty mix)",
+        "type": "track",
+        "updatedAt": 1481019387,
+        "userRating": 10,
+        "viewCount": 23
+      },
+      "438": {
+        "_type": "track",
+        "id": 438,
+        "media": [
+          {
+            "_type": "media",
+            "id": 406,
+            "duration": 399046,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 406,
+                "key": "/library/parts/406/1465114093/file.mp3",
+                "duration": 399046,
+                "file": "/mnt/data/music/compilations/Music for Dreams Vol. 1/11 Better Place (Def Jaguar Mix).mp3",
+                "size": 16038547,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1453956328,
+        "duration": 399046,
+        "grandparentKey": "/library/metadata/1",
+        "grandparentRatingKey": "1",
+        "grandparentThumb": "/library/metadata/1/thumb/1484063327",
+        "grandparentTitle": "Various Artists",
+        "index": 11,
+        "key": "/library/metadata/438",
+        "lastViewedAt": null,
+        "originalTitle": "Djosos Krost",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/427",
+        "parentRatingKey": "427",
+        "parentThumb": "/library/metadata/427/thumb/1481018615",
+        "parentTitle": "Music for Dreams Vol. 1",
+        "ratingCount": null,
+        "ratingKey": "438",
+        "summary": "",
+        "thumb": "/library/metadata/427/thumb/1481018615",
+        "title": "Better Place (Def Jaguar mix)",
+        "type": "track",
+        "updatedAt": 1481018615,
+        "userRating": 4,
+        "viewCount": null
+      },
+      "3598": {
+        "_type": "track",
+        "id": 3598,
+        "media": [
+          {
+            "_type": "media",
+            "id": 3535,
+            "duration": 152398,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 3535,
+                "key": "/library/parts/3535/1465113095/file.mp3",
+                "duration": 152398,
+                "file": "/mnt/data/music/albums/The Axis of Awesome/Animal Vehicle/07 Skeleton Man.mp3",
+                "size": 6091911,
+                "container": "mp3",
+                "hasThumbnail": null
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1455881187,
+        "duration": 152398,
+        "grandparentKey": "/library/metadata/3568",
+        "grandparentRatingKey": "3568",
+        "grandparentThumb": "/library/metadata/3568/thumb/1483888620",
+        "grandparentTitle": "The Axis of Awesome",
+        "index": 7,
+        "key": "/library/metadata/3598",
+        "lastViewedAt": 1462045269,
+        "originalTitle": "The Axis of Awesome",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/3591",
+        "parentRatingKey": "3591",
+        "parentThumb": "/library/metadata/3591/thumb/1483219387",
+        "parentTitle": "Animal Vehicle",
+        "ratingCount": 10132,
+        "ratingKey": "3598",
+        "summary": "",
+        "thumb": "/library/metadata/3591/thumb/1483219387",
+        "title": "Skeleton Man",
+        "type": "track",
+        "updatedAt": 1483219386,
+        "userRating": 8,
+        "viewCount": 3
+      },
+      "5294": {
+        "_type": "track",
+        "id": 5294,
+        "media": [
+          {
+            "_type": "media",
+            "id": 5187,
+            "duration": 260937,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 5187,
+                "key": "/library/parts/5187/1465112905/file.mp3",
+                "duration": 260937,
+                "file": "/mnt/data/music/albums/Powderfinger/Odyssey Number Five/06 Up & Down & Back Again.mp3",
+                "size": 10467151,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1455876730,
+        "duration": 260937,
+        "grandparentKey": "/library/metadata/5287",
+        "grandparentRatingKey": "5287",
+        "grandparentThumb": "/library/metadata/5287/thumb/1484062759",
+        "grandparentTitle": "Powderfinger",
+        "index": 6,
+        "key": "/library/metadata/5294",
+        "lastViewedAt": null,
+        "originalTitle": "Powderfinger",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/5288",
+        "parentRatingKey": "5288",
+        "parentThumb": "/library/metadata/5288/thumb/1483223054",
+        "parentTitle": "Odyssey Number Five",
+        "ratingCount": 60396,
+        "ratingKey": "5294",
+        "summary": "",
+        "thumb": "/library/metadata/5288/thumb/1483223054",
+        "title": "Up & Down & Back Again",
+        "type": "track",
+        "updatedAt": 1483223054,
+        "userRating": 8,
+        "viewCount": null
+      },
+      "5617": {
+        "_type": "track",
+        "id": 5617,
+        "media": [
+          {
+            "_type": "media",
+            "id": 5476,
+            "duration": 247771,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 5476,
+                "key": "/library/parts/5476/1465112868/file.mp3",
+                "duration": 247771,
+                "file": "/mnt/data/music/albums/Passion Pit/Manners/08 To Kingdom Come.mp3",
+                "size": 10037804,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1453887076,
+        "duration": 247771,
+        "grandparentKey": "/library/metadata/5608",
+        "grandparentRatingKey": "5608",
+        "grandparentThumb": "/library/metadata/5608/thumb/1483970103",
+        "grandparentTitle": "Passion Pit",
+        "index": 8,
+        "key": "/library/metadata/5617",
+        "lastViewedAt": null,
+        "originalTitle": "Passion Pit",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/5609",
+        "parentRatingKey": "5609",
+        "parentThumb": "/library/metadata/5609/thumb/1483222922",
+        "parentTitle": "Manners",
+        "ratingCount": 1671784,
+        "ratingKey": "5617",
+        "summary": "",
+        "thumb": "/library/metadata/5609/thumb/1483222922",
+        "title": "To Kingdom Come",
+        "type": "track",
+        "updatedAt": 1483222922,
+        "userRating": 6,
+        "viewCount": null
+      },
+      "7083": {
+        "_type": "track",
+        "id": 7083,
+        "media": [
+          {
+            "_type": "media",
+            "id": 7008,
+            "duration": 255921,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 7008,
+                "key": "/library/parts/7008/1465112710/file.mp3",
+                "duration": 255921,
+                "file": "/mnt/data/music/albums/Midnight Oil/Diesel and Dust/01 Beds Are Burning.mp3",
+                "size": 10255288,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1439366859,
+        "duration": 255921,
+        "grandparentKey": "/library/metadata/7079",
+        "grandparentRatingKey": "7079",
+        "grandparentThumb": "/library/metadata/7079/thumb/1483969852",
+        "grandparentTitle": "Midnight Oil",
+        "index": 1,
+        "key": "/library/metadata/7083",
+        "lastViewedAt": 1482701616,
+        "originalTitle": "Midnight Oil",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/7082",
+        "parentRatingKey": "7082",
+        "parentThumb": "/library/metadata/7082/thumb/1483222257",
+        "parentTitle": "Diesel and Dust",
+        "ratingCount": 1333215,
+        "ratingKey": "7083",
+        "summary": "",
+        "thumb": "/library/metadata/7082/thumb/1483222257",
+        "title": "Beds Are Burning",
+        "type": "track",
+        "updatedAt": 1483222257,
+        "userRating": 10,
+        "viewCount": 12
+      },
+      "10457": {
+        "_type": "track",
+        "id": 10457,
+        "media": [
+          {
+            "_type": "media",
+            "id": 10133,
+            "duration": 241580,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 10133,
+                "key": "/library/parts/10133/1465112374/file.mp3",
+                "duration": 241580,
+                "file": "/mnt/data/music/albums/First Aid Kit/Stay Gold/10 A Long Time Ago.mp3",
+                "size": 10203419,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1461976173,
+        "duration": 241580,
+        "grandparentKey": "/library/metadata/10433",
+        "grandparentRatingKey": "10433",
+        "grandparentThumb": "/library/metadata/10433/thumb/1483889376",
+        "grandparentTitle": "First Aid Kit",
+        "index": 10,
+        "key": "/library/metadata/10457",
+        "lastViewedAt": 1472502595,
+        "originalTitle": "First Aid Kit",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/10447",
+        "parentRatingKey": "10447",
+        "parentThumb": "/library/metadata/10447/thumb/1483220796",
+        "parentTitle": "Stay Gold",
+        "ratingCount": 229104,
+        "ratingKey": "10457",
+        "summary": "",
+        "thumb": "/library/metadata/10447/thumb/1483220796",
+        "title": "A Long Time Ago",
+        "type": "track",
+        "updatedAt": 1483220796,
+        "userRating": 8,
+        "viewCount": 1
+      },
+      "11537": {
+        "_type": "track",
+        "id": 11537,
+        "media": [
+          {
+            "_type": "media",
+            "id": 11180,
+            "duration": 192417,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 11180,
+                "key": "/library/parts/11180/1465112248/file.mp3",
+                "duration": 192417,
+                "file": "/mnt/data/music/albums/Dresses/Pandora Whiteboard Session_ February 3, 2014/02 Back to Life (Live at Pandora).mp3",
+                "size": 7692720,
+                "container": "mp3",
+                "hasThumbnail": null
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1463873414,
+        "duration": 192417,
+        "grandparentKey": "/library/metadata/11517",
+        "grandparentRatingKey": "11517",
+        "grandparentThumb": "/library/metadata/11517/thumb/1483889237",
+        "grandparentTitle": "Dresses",
+        "index": 2,
+        "key": "/library/metadata/11537",
+        "lastViewedAt": 1483834485,
+        "originalTitle": "Dresses",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/11535",
+        "parentRatingKey": "11535",
+        "parentThumb": "/library/metadata/11535/thumb/1483220458",
+        "parentTitle": "Pandora Whiteboard Session: February 3, 2014",
+        "ratingCount": 607,
+        "ratingKey": "11537",
+        "summary": "",
+        "thumb": "/library/metadata/11535/thumb/1483220458",
+        "title": "Back to Life (Live at Pandora)",
+        "type": "track",
+        "updatedAt": 1483220458,
+        "userRating": null,
+        "viewCount": 1
+      },
+      "12525": {
+        "_type": "track",
+        "id": 12525,
+        "media": [
+          {
+            "_type": "media",
+            "id": 12103,
+            "duration": 289358,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 12103,
+                "key": "/library/parts/12103/1465112142/file.mp3",
+                "duration": 289358,
+                "file": "/mnt/data/music/albums/Chris Isaak/Heart Shaped World/05 Wicked Game.mp3",
+                "size": 11633655,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1437907650,
+        "duration": 289358,
+        "grandparentKey": "/library/metadata/12523",
+        "grandparentRatingKey": "12523",
+        "grandparentThumb": "/library/metadata/12523/thumb/1483969390",
+        "grandparentTitle": "Chris Isaak",
+        "index": 5,
+        "key": "/library/metadata/12525",
+        "lastViewedAt": 1469832661,
+        "originalTitle": "Chris Isaak",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/12524",
+        "parentRatingKey": "12524",
+        "parentThumb": "/library/metadata/12524/thumb/1483221422",
+        "parentTitle": "Heart Shaped World",
+        "ratingCount": 2699396,
+        "ratingKey": "12525",
+        "summary": "",
+        "thumb": "/library/metadata/12524/thumb/1483221422",
+        "title": "Wicked Game",
+        "type": "track",
+        "updatedAt": 1483221422,
+        "userRating": null,
+        "viewCount": 14
+      },
+      "12711": {
+        "_type": "track",
+        "id": 12711,
+        "media": [
+          {
+            "_type": "media",
+            "id": 12307,
+            "duration": 200385,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 12307,
+                "key": "/library/parts/12307/1465112127/file.mp3",
+                "duration": 200385,
+                "file": "/mnt/data/music/albums/Cat Stevens/Tea for the Tillerman/03 Wild World.mp3",
+                "size": 8029483,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1462362630,
+        "duration": 200385,
+        "grandparentKey": "/library/metadata/12635",
+        "grandparentRatingKey": "12635",
+        "grandparentThumb": "/library/metadata/12635/thumb/1484063151",
+        "grandparentTitle": "Cat Stevens",
+        "index": 3,
+        "key": "/library/metadata/12711",
+        "lastViewedAt": null,
+        "originalTitle": "Cat Stevens",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/12708",
+        "parentRatingKey": "12708",
+        "parentThumb": "/library/metadata/12708/thumb/1483223801",
+        "parentTitle": "Tea for the Tillerman",
+        "ratingCount": 2650943,
+        "ratingKey": "12711",
+        "summary": "",
+        "thumb": "/library/metadata/12708/thumb/1483223801",
+        "title": "Wild World",
+        "type": "track",
+        "updatedAt": 1483223801,
+        "userRating": 8,
+        "viewCount": null
+      },
+      "31065": {
+        "_type": "track",
+        "id": 31065,
+        "media": [
+          {
+            "_type": "media",
+            "id": 45657,
+            "duration": 172083,
+            "bitrate": 288,
+            "audioChannels": 2,
+            "audioCodec": "aac",
+            "container": "mp4",
+            "part": [
+              {
+                "_type": "part",
+                "id": 45657,
+                "key": "/library/parts/45657/1467504891/file.m4a",
+                "duration": 172083,
+                "file": "/mnt/data/music/albums/Moniker/Hunt for the Wilderpeople (Original Motion Picture Soundtrack)/19 Trifecta.m4a",
+                "size": 6204514,
+                "container": "mp4",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1467505090,
+        "duration": 172083,
+        "grandparentKey": "/library/metadata/31045",
+        "grandparentRatingKey": "31045",
+        "grandparentThumb": "/library/metadata/31045/thumb/1483969907",
+        "grandparentTitle": "Moniker",
+        "index": 19,
+        "key": "/library/metadata/31065",
+        "lastViewedAt": 1483944072,
+        "originalTitle": "Moniker",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/31046",
+        "parentRatingKey": "31046",
+        "parentThumb": "/library/metadata/31046/thumb/1483222454",
+        "parentTitle": "Hunt for the Wilderpeople (Original Motion Picture Soundtrack)",
+        "ratingCount": null,
+        "ratingKey": "31065",
+        "summary": "",
+        "thumb": "/library/metadata/31046/thumb/1483222454",
+        "title": "Trifecta",
+        "type": "track",
+        "updatedAt": 1483222454,
+        "userRating": 10,
+        "viewCount": 1
+      },
+      "31439": {
+        "_type": "track",
+        "id": 31439,
+        "media": [
+          {
+            "_type": "media",
+            "id": 45982,
+            "duration": 187899,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 45982,
+                "key": "/library/parts/45982/1468294583/file.mp3",
+                "duration": 187899,
+                "file": "/mnt/data/music/albums/OK Go/Hungry Ghosts/01 Upside Down & Inside Out.mp3",
+                "size": 8213140,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1468294891,
+        "duration": 187899,
+        "grandparentKey": "/library/metadata/31373",
+        "grandparentRatingKey": "31373",
+        "grandparentThumb": "/library/metadata/31373/thumb/1483970069",
+        "grandparentTitle": "OK Go",
+        "index": 1,
+        "key": "/library/metadata/31439",
+        "lastViewedAt": null,
+        "originalTitle": "OK Go",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/31438",
+        "parentRatingKey": "31438",
+        "parentThumb": "/library/metadata/31438/thumb/1483222782",
+        "parentTitle": "Hungry Ghosts",
+        "ratingCount": 76162,
+        "ratingKey": "31439",
+        "summary": "",
+        "thumb": "/library/metadata/31438/thumb/1483222782",
+        "title": "Upside Down & Inside Out",
+        "type": "track",
+        "updatedAt": 1483222782,
+        "userRating": null,
+        "viewCount": null
+      },
+      "32445": {
+        "_type": "track",
+        "id": 32445,
+        "media": [
+          {
+            "_type": "media",
+            "id": 46872,
+            "duration": 214047,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 46872,
+                "key": "/library/parts/46872/1468957411/file.mp3",
+                "duration": 214047,
+                "file": "/mnt/data/music/albums/Karen O/Live From Crush Palace/08 Beast.mp3",
+                "size": 8735696,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1468957530,
+        "duration": 214047,
+        "grandparentKey": "/library/metadata/32436",
+        "grandparentRatingKey": "32436",
+        "grandparentThumb": "/library/metadata/32436/thumb/1483970051",
+        "grandparentTitle": "Karen O",
+        "index": 8,
+        "key": "/library/metadata/32445",
+        "lastViewedAt": null,
+        "originalTitle": "Karen O",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/32437",
+        "parentRatingKey": "32437",
+        "parentThumb": "/library/metadata/32437/thumb/1483222733",
+        "parentTitle": "Live From Crush Palace",
+        "ratingCount": 64802,
+        "ratingKey": "32445",
+        "summary": "",
+        "thumb": "/library/metadata/32437/thumb/1483222733",
+        "title": "Beast",
+        "type": "track",
+        "updatedAt": 1483222732,
+        "userRating": null,
+        "viewCount": null
+      },
+      "32996": {
+        "_type": "track",
+        "id": 32996,
+        "media": [
+          {
+            "_type": "media",
+            "id": 47360,
+            "duration": 173714,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 47360,
+                "key": "/library/parts/47360/1469993317/file.mp3",
+                "duration": 173714,
+                "file": "/mnt/data/music/albums/Matthew and the Arrogant Sea/Family Family Family Meets the Magic Christian/06 Mock Origami.mp3",
+                "size": 6950844,
+                "container": "mp3",
+                "hasThumbnail": null
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1469993442,
+        "duration": 173714,
+        "grandparentKey": "/library/metadata/32989",
+        "grandparentRatingKey": "32989",
+        "grandparentThumb": "/library/metadata/32989/thumb/1483969779",
+        "grandparentTitle": "Matthew and the Arrogant Sea",
+        "index": 6,
+        "key": "/library/metadata/32996",
+        "lastViewedAt": 1470255208,
+        "originalTitle": "Matthew and the Arrogant Sea",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/32990",
+        "parentRatingKey": "32990",
+        "parentThumb": "/library/metadata/32990/thumb/1483222164",
+        "parentTitle": "Family Family Family Meets the Magic Christian",
+        "ratingCount": 13114,
+        "ratingKey": "32996",
+        "summary": "",
+        "thumb": "/library/metadata/32990/thumb/1483222164",
+        "title": "Mock Origami",
+        "type": "track",
+        "updatedAt": 1483222164,
+        "userRating": null,
+        "viewCount": 2
+      },
+      "33892": {
+        "_type": "track",
+        "id": 33892,
+        "media": [
+          {
+            "_type": "media",
+            "id": 48158,
+            "duration": 341238,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 48158,
+                "key": "/library/parts/48158/1471893839/file.mp3",
+                "duration": 341238,
+                "file": "/mnt/data/music/albums/BADBADNOTGOOD/III/06 Hedron.mp3",
+                "size": 13704104,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1471894027,
+        "duration": 341238,
+        "grandparentKey": "/library/metadata/33885",
+        "grandparentRatingKey": "33885",
+        "grandparentThumb": "/library/metadata/33885/thumb/1483888634",
+        "grandparentTitle": "BADBADNOTGOOD",
+        "index": 6,
+        "key": "/library/metadata/33892",
+        "lastViewedAt": 1472184344,
+        "originalTitle": "BADBADNOTGOOD",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/33886",
+        "parentRatingKey": "33886",
+        "parentThumb": "/library/metadata/33886/thumb/1483219393",
+        "parentTitle": "III",
+        "ratingCount": 289327,
+        "ratingKey": "33892",
+        "summary": "",
+        "thumb": "/library/metadata/33886/thumb/1483219393",
+        "title": "Hedron",
+        "type": "track",
+        "updatedAt": 1483219393,
+        "userRating": null,
+        "viewCount": null
+      },
+      "35291": {
+        "_type": "track",
+        "id": 35291,
+        "media": [
+          {
+            "_type": "media",
+            "id": 49406,
+            "duration": 408033,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 49406,
+                "key": "/library/parts/49406/1473509739/file.mp3",
+                "duration": 408033,
+                "file": "/mnt/data/music/albums/Yo La Tengo/Fade/01 Ohm.mp3",
+                "size": 17762531,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1473509779,
+        "duration": 408033,
+        "grandparentKey": "/library/metadata/35289",
+        "grandparentRatingKey": "35289",
+        "grandparentThumb": "/library/metadata/35289/thumb/1484063455",
+        "grandparentTitle": "Yo La Tengo",
+        "index": 1,
+        "key": "/library/metadata/35291",
+        "lastViewedAt": null,
+        "originalTitle": "Yo La Tengo",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/35290",
+        "parentRatingKey": "35290",
+        "parentThumb": "/library/metadata/35290/thumb/1483224403",
+        "parentTitle": "Fade",
+        "ratingCount": 337189,
+        "ratingKey": "35291",
+        "summary": "",
+        "thumb": "/library/metadata/35290/thumb/1483224403",
+        "title": "Ohm",
+        "type": "track",
+        "updatedAt": 1483224403,
+        "userRating": null,
+        "viewCount": null
+      },
+      "36146": {
+        "_type": "track",
+        "id": 36146,
+        "media": [
+          {
+            "_type": "media",
+            "id": 50138,
+            "duration": 177110,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 50138,
+                "key": "/library/parts/50138/1474367380/file.mp3",
+                "duration": 177110,
+                "file": "/mnt/data/music/albums/Sylvan Esso/Sylvan Esso/10 Come Down.mp3",
+                "size": 7202947,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1474367550,
+        "duration": 177110,
+        "grandparentKey": "/library/metadata/36135",
+        "grandparentRatingKey": "36135",
+        "grandparentThumb": "/library/metadata/36135/thumb/1484063203",
+        "grandparentTitle": "Sylvan Esso",
+        "index": 10,
+        "key": "/library/metadata/36146",
+        "lastViewedAt": null,
+        "originalTitle": "Sylvan Esso",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/36136",
+        "parentRatingKey": "36136",
+        "parentThumb": "/library/metadata/36136/thumb/1483223910",
+        "parentTitle": "Sylvan Esso",
+        "ratingCount": 124964,
+        "ratingKey": "36146",
+        "summary": "",
+        "thumb": "/library/metadata/36136/thumb/1483223910",
+        "title": "Come Down",
+        "type": "track",
+        "updatedAt": 1483223910,
+        "userRating": null,
+        "viewCount": null
+      },
+      "37532": {
+        "_type": "track",
+        "id": 37532,
+        "media": [
+          {
+            "_type": "media",
+            "id": 51431,
+            "duration": 109035,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 51431,
+                "key": "/library/parts/51431/1476087018/file.mp3",
+                "duration": 109035,
+                "file": "/mnt/data/music/albums/Blank & Jones/Nightclubbing (10th Anniversary Deluxe Edition)/01 Invocatio.mp3",
+                "size": 4363689,
+                "container": "mp3",
+                "hasThumbnail": null
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1476087138,
+        "duration": 109035,
+        "grandparentKey": "/library/metadata/13235",
+        "grandparentRatingKey": "13235",
+        "grandparentThumb": "/library/metadata/13235/thumb/1483888763",
+        "grandparentTitle": "Blank & Jones",
+        "index": 1,
+        "key": "/library/metadata/37532",
+        "lastViewedAt": null,
+        "originalTitle": "Blank & Jones",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/37531",
+        "parentRatingKey": "37531",
+        "parentThumb": "/library/metadata/37531/thumb/1483219644",
+        "parentTitle": "Nightclubbing (10th Anniversary Deluxe Edition)",
+        "ratingCount": 24045,
+        "ratingKey": "37532",
+        "summary": "",
+        "thumb": "/library/metadata/37531/thumb/1483219644",
+        "title": "Invocatio",
+        "type": "track",
+        "updatedAt": 1483219644,
+        "userRating": null,
+        "viewCount": null
+      },
+      "40080": {
+        "_type": "track",
+        "id": 40080,
+        "media": [
+          {
+            "_type": "media",
+            "id": 53889,
+            "duration": 246883,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 53889,
+                "key": "/library/parts/53889/1478928083/file.mp3",
+                "duration": 246883,
+                "file": "/mnt/data/music/albums/The Cave Singers/Welcome Joy/01 Summer Light.mp3",
+                "size": 9954926,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1478928235,
+        "duration": 246883,
+        "grandparentKey": "/library/metadata/34947",
+        "grandparentRatingKey": "34947",
+        "grandparentThumb": "/library/metadata/34947/thumb/1483888975",
+        "grandparentTitle": "The Cave Singers",
+        "index": 1,
+        "key": "/library/metadata/40080",
+        "lastViewedAt": 1483069198,
+        "originalTitle": "The Cave Singers",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/40079",
+        "parentRatingKey": "40079",
+        "parentThumb": "/library/metadata/40079/thumb/1483220023",
+        "parentTitle": "Welcome Joy",
+        "ratingCount": 86494,
+        "ratingKey": "40080",
+        "summary": "",
+        "thumb": "/library/metadata/40079/thumb/1483220023",
+        "title": "Summer Light",
+        "type": "track",
+        "updatedAt": 1483220023,
+        "userRating": null,
+        "viewCount": 1
+      },
+      "40083": {
+        "_type": "track",
+        "id": 40083,
+        "media": [
+          {
+            "_type": "media",
+            "id": 53892,
+            "duration": 279693,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 53892,
+                "key": "/library/parts/53892/1478928083/file.mp3",
+                "duration": 279693,
+                "file": "/mnt/data/music/albums/The Cave Singers/Welcome Joy/04 Shrine.mp3",
+                "size": 11268624,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1478928235,
+        "duration": 279693,
+        "grandparentKey": "/library/metadata/34947",
+        "grandparentRatingKey": "34947",
+        "grandparentThumb": "/library/metadata/34947/thumb/1483888975",
+        "grandparentTitle": "The Cave Singers",
+        "index": 4,
+        "key": "/library/metadata/40083",
+        "lastViewedAt": null,
+        "originalTitle": "The Cave Singers",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/40079",
+        "parentRatingKey": "40079",
+        "parentThumb": "/library/metadata/40079/thumb/1483220023",
+        "parentTitle": "Welcome Joy",
+        "ratingCount": 39862,
+        "ratingKey": "40083",
+        "summary": "",
+        "thumb": "/library/metadata/40079/thumb/1483220023",
+        "title": "Shrine",
+        "type": "track",
+        "updatedAt": 1483220023,
+        "userRating": null,
+        "viewCount": null
+      },
+      "40823": {
+        "_type": "track",
+        "id": 40823,
+        "media": [
+          {
+            "_type": "media",
+            "id": 54546,
+            "duration": 272509,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 54546,
+                "key": "/library/parts/54546/1481013322/file.mp3",
+                "duration": 272509,
+                "file": "/mnt/data/music/albums/The Walking Who/Lewiside/04 Royal Debris.mp3",
+                "size": 10902584,
+                "container": "mp3",
+                "hasThumbnail": null
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1481013350,
+        "duration": 272509,
+        "grandparentKey": "/library/metadata/40818",
+        "grandparentRatingKey": "40818",
+        "grandparentThumb": "/library/metadata/40818/thumb/1484063351",
+        "grandparentTitle": "The Walking Who",
+        "index": 4,
+        "key": "/library/metadata/40823",
+        "lastViewedAt": 1481222854,
+        "originalTitle": "The Walking Who",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/40819",
+        "parentRatingKey": "40819",
+        "parentThumb": "/library/metadata/40819/thumb/1483224148",
+        "parentTitle": "Lewiside",
+        "ratingCount": 906,
+        "ratingKey": "40823",
+        "summary": "",
+        "thumb": "/library/metadata/40819/thumb/1483224148",
+        "title": "Royal Debris",
+        "type": "track",
+        "updatedAt": 1483224148,
+        "userRating": 9,
+        "viewCount": 2
+      }
+    }
+  },
+  "result": {
+    "id": {
+      "_type": "playQueueContainer",
+      "size": 21,
+      "offset": 0,
+      "totalSize": 21,
+      "identifier": "com.plexapp.plugins.library",
+      "mediaTagPrefix": "/system/bundle/media/flags/",
+      "mediaTagVersion": 1481837967,
+      "id": 3147,
+      "selectedItemId": 275705,
+      "selectedItemOffset": 0,
+      "selectedMetadataItemId": 12525,
+      "shuffled": true,
+      "sourceURI": "library://5085a855-78e9-4dd7-9d70-a4ac296e28ee/directory/%2Flibrary%2Fsections%2F1%2Fall%3Fsort%3DaddedAt%253Adesc%26sourceType%3D9",
+      "totalCount": 17506,
+      "version": 1,
+      "items": [
+        {
+          "_type": "playQueueItem",
+          "id": 275705,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/3146011-6AA58341BA450952618A48EB0DB5B9B3/3146016-23D1CC020E3898F0D897EBBE237C559A?lang=en",
+          "librarySectionId": 1,
+          "track": 12525
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275706,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/436346644-0F43433E54832956317F99300BFF1614/436346646-C82BFDED0881C2C4CE1B26DA1023144D?lang=en",
+          "librarySectionId": 1,
+          "track": 11537
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275707,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/640829228-6F31BA05B39AB49F00576FF54A1DE65D/640829247-C72AA52A331EF46814C70B425156A013?lang=en",
+          "librarySectionId": 1,
+          "track": 31065
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275708,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/190460978-E15BB046DBAA6F01FA8EFEF28F5EA206/190460982-FED0A5996C91F71D1CC42099AF9278B4?lang=en",
+          "librarySectionId": 1,
+          "track": 40083
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275709,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/177688791-5ADA347EEC70736AC37361D125BA54B3/177688799-CE9E6C54D67FD78D20DEDAF390F8D1D6?lang=en",
+          "librarySectionId": 1,
+          "track": 5617
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275710,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/7300635-3F0C5338E1E43BFA58C456DF5AC23EAD/7300636-7FB2ED05C56021EB02BC4D21A3111C64?lang=en",
+          "librarySectionId": 1,
+          "track": 7083
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275711,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/392676341-5EDA25A790E3B5A0000E8D27FBCC9A47/392676351-AAFDC2F86BCDE0B833DF4D302948E6E8?lang=en",
+          "librarySectionId": 1,
+          "track": 117
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275712,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/248509567-F45E9F864885118CB619A7215941152A/248509574-E090577EFC773B31908B3001B90B7375?lang=en",
+          "librarySectionId": 1,
+          "track": 3598
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275713,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/237471666-8E27DE396C8B1F032675DE3752C48E29/237471667-F73651DD7304595B9B1C4B298FB7065E?lang=en",
+          "librarySectionId": 1,
+          "track": 37532
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275714,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/163223411-E32EFD24789045F76673CEE75AA1C7E9/163223417-CAD26B75C9877513D773FCC3292B8D64?lang=en",
+          "librarySectionId": 1,
+          "track": 32996
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275715,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/190460978-E15BB046DBAA6F01FA8EFEF28F5EA206/190460979-EBD6E1DFD29D4ACFD6BDC0D47C2EDECB?lang=en",
+          "librarySectionId": 1,
+          "track": 40080
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275716,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/191717442-39B9E1DDFB66096FCE299332CE2CC791/191717445-68C54E74A71A7F833B2D73D60CB3AF9A?lang=en",
+          "librarySectionId": 1,
+          "track": 12711
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275717,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/261071389-57149B2621B061857D8AE2B9A55CE800/261071403-B9F7EA2B24DECE18D59E60C9B1FBC96B?lang=en",
+          "librarySectionId": 1,
+          "track": 438
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275718,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/498993905-803C504D8EF43A2B7753A5E06F126E9B/498993913-75A3507BC3AEC64E8C7D6B83EFC1F97C?lang=en",
+          "librarySectionId": 1,
+          "track": 32445
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275719,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/415218917-3B194018CC17F3E9D3E43B38B5292BDB/415218927-9F152E16673047D765BF6858258939E5?lang=en",
+          "librarySectionId": 1,
+          "track": 10457
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275720,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/502391189-19257AA3EB39E26E1DDBC301B1E0AB1B/502391190-5DB574389FEBD0EAB204222662A078B2?lang=en",
+          "librarySectionId": 1,
+          "track": 31439
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275721,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/579243247-E1859297952196F25B16033846AB040E/579243252-93D0CBA633F465501B677FC7F2F4C031?lang=en",
+          "librarySectionId": 1,
+          "track": 40823
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275722,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/21986227-9F860323D195A54232118B22902697AE/21986233-C009AE332223400FD7193DADB10BFFB5?lang=en",
+          "librarySectionId": 1,
+          "track": 5294
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275723,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/308905445-DFD35CD74191782E5E2536FBDC484EF0/308905446-EFAA7E5776ACDA7FF5ABDE29E4CA11E9?lang=en",
+          "librarySectionId": 1,
+          "track": 35291
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275724,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/422905217-F6F0568C53275F0A03259FCA9002A53C/422905223-7CA1EC2EF485CCA0AF62E0F305814CAF?lang=en",
+          "librarySectionId": 1,
+          "track": 33892
+        },
+        {
+          "_type": "playQueueItem",
+          "id": 275725,
+          "guid": "com.plexapp.agents.plexmusic://gracenote/track/476372545-B91D6F38CCF1F0B481CF69206B2D8683/476372555-89D5612BD9C74E63F625F6247C6632A8?lang=en",
+          "librarySectionId": 1,
+          "track": 36146
+        }
+      ]
+    },
+    "schema": "playQueueContainer"
+  }
+}

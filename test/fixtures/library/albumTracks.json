@@ -1,0 +1,258 @@
+{
+  "MediaContainer": {
+    "size": 5,
+    "allowSync": true,
+    "art": "/:/resources/artist-fanart.jpg",
+    "grandparentRatingKey": 40811,
+    "grandparentThumb": "/library/metadata/40811/thumb/1484063045",
+    "grandparentTitle": "The Shutes",
+    "identifier": "com.plexapp.plugins.library",
+    "key": "40812",
+    "librarySectionID": 1,
+    "librarySectionTitle": "Music",
+    "librarySectionUUID": "5085a855-78e9-4dd7-9d70-a4ac296e28ee",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481837967,
+    "nocache": true,
+    "parentIndex": "1",
+    "parentTitle": "Echo of Love",
+    "parentYear": "2012",
+    "thumb": "/library/metadata/40812/thumb/1483223620",
+    "title1": "The Shutes",
+    "title2": "Echo of Love",
+    "viewGroup": "track",
+    "viewMode": 65593,
+    "Metadata": [
+      {
+        "ratingKey": "40813",
+        "key": "/library/metadata/40813",
+        "parentRatingKey": "40812",
+        "grandparentRatingKey": "40811",
+        "type": "track",
+        "title": "Echo of Love",
+        "grandparentKey": "/library/metadata/40811",
+        "parentKey": "/library/metadata/40812",
+        "grandparentTitle": "The Shutes",
+        "parentTitle": "Echo of Love",
+        "originalTitle": "The Shutes",
+        "summary": "",
+        "index": 1,
+        "parentIndex": 1,
+        "ratingCount": 32597,
+        "userRating": 10,
+        "viewCount": 5,
+        "lastViewedAt": 1481962116,
+        "thumb": "/library/metadata/40812/thumb/1483223620",
+        "parentThumb": "/library/metadata/40812/thumb/1483223620",
+        "grandparentThumb": "/library/metadata/40811/thumb/1484063045",
+        "duration": 288313,
+        "addedAt": 1481013349,
+        "updatedAt": 1483223620,
+        "Media": [
+          {
+            "id": 54538,
+            "duration": 288313,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 54538,
+                "key": "/library/parts/54538/1481013322/file.mp3",
+                "duration": 288313,
+                "file": "/mnt/data/music/albums/The Shutes/Echo of Love/01 Echo of Love.mp3",
+                "size": 11534741,
+                "container": "mp3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "40814",
+        "key": "/library/metadata/40814",
+        "parentRatingKey": "40812",
+        "grandparentRatingKey": "40811",
+        "type": "track",
+        "title": "Here, My Blood Runs Clear",
+        "grandparentKey": "/library/metadata/40811",
+        "parentKey": "/library/metadata/40812",
+        "grandparentTitle": "The Shutes",
+        "parentTitle": "Echo of Love",
+        "originalTitle": "The Shutes",
+        "summary": "",
+        "index": 2,
+        "parentIndex": 1,
+        "ratingCount": 4227,
+        "userRating": 8,
+        "viewCount": 3,
+        "lastViewedAt": 1481738643,
+        "thumb": "/library/metadata/40812/thumb/1483223620",
+        "parentThumb": "/library/metadata/40812/thumb/1483223620",
+        "grandparentThumb": "/library/metadata/40811/thumb/1484063045",
+        "duration": 192627,
+        "addedAt": 1481013349,
+        "updatedAt": 1483223620,
+        "Media": [
+          {
+            "id": 54539,
+            "duration": 192627,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 54539,
+                "key": "/library/parts/54539/1481013322/file.mp3",
+                "duration": 192627,
+                "file": "/mnt/data/music/albums/The Shutes/Echo of Love/02 Here, My Blood Runs Clear.mp3",
+                "size": 7707293,
+                "container": "mp3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "40815",
+        "key": "/library/metadata/40815",
+        "parentRatingKey": "40812",
+        "grandparentRatingKey": "40811",
+        "type": "track",
+        "title": "Only",
+        "grandparentKey": "/library/metadata/40811",
+        "parentKey": "/library/metadata/40812",
+        "grandparentTitle": "The Shutes",
+        "parentTitle": "Echo of Love",
+        "originalTitle": "The Shutes",
+        "summary": "",
+        "index": 3,
+        "parentIndex": 1,
+        "ratingCount": 4102,
+        "userRating": 10,
+        "viewCount": 3,
+        "lastViewedAt": 1481738883,
+        "thumb": "/library/metadata/40812/thumb/1483223620",
+        "parentThumb": "/library/metadata/40812/thumb/1483223620",
+        "grandparentThumb": "/library/metadata/40811/thumb/1484063045",
+        "duration": 245864,
+        "addedAt": 1481013349,
+        "updatedAt": 1483223620,
+        "Media": [
+          {
+            "id": 54540,
+            "duration": 245864,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 54540,
+                "key": "/library/parts/54540/1481013322/file.mp3",
+                "duration": 245864,
+                "file": "/mnt/data/music/albums/The Shutes/Echo of Love/03 Only.mp3",
+                "size": 9836774,
+                "container": "mp3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "40816",
+        "key": "/library/metadata/40816",
+        "parentRatingKey": "40812",
+        "grandparentRatingKey": "40811",
+        "type": "track",
+        "title": "She Said",
+        "grandparentKey": "/library/metadata/40811",
+        "parentKey": "/library/metadata/40812",
+        "grandparentTitle": "The Shutes",
+        "parentTitle": "Echo of Love",
+        "originalTitle": "The Shutes",
+        "summary": "",
+        "index": 4,
+        "parentIndex": 1,
+        "ratingCount": 9190,
+        "userRating": 10,
+        "viewCount": 3,
+        "lastViewedAt": 1481739085,
+        "thumb": "/library/metadata/40812/thumb/1483223620",
+        "parentThumb": "/library/metadata/40812/thumb/1483223620",
+        "grandparentThumb": "/library/metadata/40811/thumb/1484063045",
+        "duration": 197407,
+        "addedAt": 1481013349,
+        "updatedAt": 1483223620,
+        "Media": [
+          {
+            "id": 54541,
+            "duration": 197407,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 54541,
+                "key": "/library/parts/54541/1481013322/file.mp3",
+                "duration": 197407,
+                "file": "/mnt/data/music/albums/The Shutes/Echo of Love/04 She Said.mp3",
+                "size": 7898492,
+                "container": "mp3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "40817",
+        "key": "/library/metadata/40817",
+        "parentRatingKey": "40812",
+        "grandparentRatingKey": "40811",
+        "type": "track",
+        "title": "Bright Blue Berlin Sky",
+        "grandparentKey": "/library/metadata/40811",
+        "parentKey": "/library/metadata/40812",
+        "grandparentTitle": "The Shutes",
+        "parentTitle": "Echo of Love",
+        "originalTitle": "The Shutes",
+        "summary": "",
+        "index": 5,
+        "parentIndex": 1,
+        "ratingCount": 7726,
+        "userRating": 10,
+        "viewCount": 2,
+        "lastViewedAt": 1481739228,
+        "thumb": "/library/metadata/40812/thumb/1483223620",
+        "parentThumb": "/library/metadata/40812/thumb/1483223620",
+        "grandparentThumb": "/library/metadata/40811/thumb/1484063045",
+        "duration": 344660,
+        "addedAt": 1481013349,
+        "updatedAt": 1483223620,
+        "Media": [
+          {
+            "id": 54542,
+            "duration": 344660,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 54542,
+                "key": "/library/parts/54542/1481013322/file.mp3",
+                "duration": 344660,
+                "file": "/mnt/data/music/albums/The Shutes/Echo of Love/05 Bright Blue Berlin Sky.mp3",
+                "size": 13788596,
+                "container": "mp3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

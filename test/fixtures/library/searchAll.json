@@ -1,0 +1,595 @@
+{
+  "MediaContainer": {
+    "size": 12,
+    "Hub": [
+      {
+        "type": "track",
+        "hubIdentifier": "track",
+        "size": 10,
+        "title": "Tracks",
+        "more": false,
+        "Metadata": [
+          {
+            "ratingKey": "7784",
+            "key": "/library/metadata/7784",
+            "parentRatingKey": "7783",
+            "grandparentRatingKey": "7780",
+            "type": "track",
+            "title": "Ride",
+            "grandparentKey": "/library/metadata/7780",
+            "parentKey": "/library/metadata/7783",
+            "grandparentTitle": "Lana Del Rey",
+            "parentTitle": "Paradise",
+            "originalTitle": "Lana Del Rey",
+            "index": 1,
+            "parentIndex": 1,
+            "ratingCount": 4274216,
+            "userRating": 8,
+            "viewCount": 8,
+            "lastViewedAt": 1482286323,
+            "thumb": "/library/metadata/7783/thumb/1483220323",
+            "art": "/library/metadata/7780/art/1483889175",
+            "parentThumb": "/library/metadata/7783/thumb/1483220323",
+            "grandparentThumb": "/library/metadata/7780/thumb/1483889175",
+            "grandparentArt": "/library/metadata/7780/art/1483889175",
+            "duration": 289384,
+            "addedAt": 1459742087,
+            "updatedAt": 1483220323,
+            "Media": [
+              {
+                "id": 7684,
+                "duration": 289384,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 7684,
+                    "key": "/library/parts/7684/1465112641/file.mp3",
+                    "duration": 289384,
+                    "file": "/mnt/data/music/albums/Lana Del Rey/Paradise/01 Ride.mp3",
+                    "size": 11711675,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ratingKey": "4493",
+            "key": "/library/metadata/4493",
+            "parentRatingKey": "4492",
+            "grandparentRatingKey": "4491",
+            "type": "track",
+            "title": "Ride",
+            "grandparentKey": "/library/metadata/4491",
+            "parentKey": "/library/metadata/4492",
+            "grandparentTitle": "Sander Kleinenberg",
+            "parentTitle": "Everybody",
+            "originalTitle": "Chable & Bonnici",
+            "index": 12,
+            "parentIndex": 1,
+            "userRating": 7,
+            "viewCount": 2,
+            "lastViewedAt": 1476039316,
+            "thumb": "/library/metadata/4492/thumb/1483221775",
+            "parentThumb": "/library/metadata/4492/thumb/1483221775",
+            "grandparentThumb": "/library/metadata/4491/thumb/1483969606",
+            "duration": 540525,
+            "addedAt": 1437907650,
+            "updatedAt": 1483221775,
+            "Media": [
+              {
+                "id": 4384,
+                "duration": 540525,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 4384,
+                    "key": "/library/parts/4384/1465112994/file.mp3",
+                    "duration": 540525,
+                    "file": "/mnt/data/music/albums/Sander Kleinenberg/Everybody/12 Ride.mp3",
+                    "size": 21635146,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ratingKey": "31272",
+            "key": "/library/metadata/31272",
+            "parentRatingKey": "31265",
+            "grandparentRatingKey": "31264",
+            "type": "track",
+            "title": "Ride",
+            "grandparentKey": "/library/metadata/31264",
+            "parentKey": "/library/metadata/31265",
+            "grandparentTitle": "TV on the Radio",
+            "parentTitle": "Seeds",
+            "originalTitle": "TV on the Radio",
+            "index": 7,
+            "parentIndex": 1,
+            "viewCount": 1,
+            "lastViewedAt": 1470655350,
+            "thumb": "/library/metadata/31265/thumb/1483224044",
+            "art": "/library/metadata/31264/art/1484063286",
+            "parentThumb": "/library/metadata/31265/thumb/1483224044",
+            "grandparentThumb": "/library/metadata/31264/thumb/1484063286",
+            "grandparentArt": "/library/metadata/31264/art/1484063286",
+            "duration": 389120,
+            "addedAt": 1468294861,
+            "updatedAt": 1483224044,
+            "Media": [
+              {
+                "id": 45833,
+                "duration": 389120,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 45833,
+                    "key": "/library/parts/45833/1468294854/file.mp3",
+                    "duration": 389120,
+                    "file": "/mnt/data/music/albums/TV on the Radio/Seeds/07 Ride.mp3",
+                    "size": 15954339,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ratingKey": "591",
+            "key": "/library/metadata/591",
+            "parentRatingKey": "588",
+            "grandparentRatingKey": "559",
+            "type": "track",
+            "title": "Ride",
+            "grandparentKey": "/library/metadata/559",
+            "parentKey": "/library/metadata/588",
+            "grandparentTitle": "twenty one pilots",
+            "parentTitle": "Blurryface",
+            "originalTitle": "twenty one pilots",
+            "index": 3,
+            "parentIndex": 1,
+            "ratingCount": 830825,
+            "userRating": 10,
+            "viewCount": 5,
+            "lastViewedAt": 1484076566,
+            "thumb": "/library/metadata/588/thumb/1483224051",
+            "art": "/library/metadata/559/art/1484063284",
+            "parentThumb": "/library/metadata/588/thumb/1483224051",
+            "grandparentThumb": "/library/metadata/559/thumb/1484063284",
+            "grandparentArt": "/library/metadata/559/art/1484063284",
+            "duration": 214726,
+            "addedAt": 1454032350,
+            "updatedAt": 1483224051,
+            "Media": [
+              {
+                "id": 540,
+                "duration": 214726,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 540,
+                    "key": "/library/parts/540/1465113376/file.mp3",
+                    "duration": 214726,
+                    "file": "/mnt/data/music/albums/twenty one pilots/Blurryface/03 Ride.mp3",
+                    "size": 8935285,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "9097",
+            "key": "/library/metadata/9097",
+            "parentRatingKey": "9091",
+            "grandparentRatingKey": "9090",
+            "type": "track",
+            "title": "Ride This Out",
+            "grandparentKey": "/library/metadata/9090",
+            "parentKey": "/library/metadata/9091",
+            "grandparentTitle": "Imaginary Cities",
+            "parentTitle": "Temporary Resident",
+            "originalTitle": "Imaginary Cities",
+            "index": 6,
+            "parentIndex": 1,
+            "ratingCount": 42232,
+            "userRating": 10,
+            "viewCount": 13,
+            "lastViewedAt": 1483511183,
+            "thumb": "/library/metadata/9091/thumb/1483221393",
+            "parentThumb": "/library/metadata/9091/thumb/1483221393",
+            "grandparentThumb": "/library/metadata/9090/thumb/1483969355",
+            "duration": 170762,
+            "addedAt": 1464992471,
+            "updatedAt": 1483221393,
+            "Media": [
+              {
+                "id": 8956,
+                "duration": 170762,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 8956,
+                    "key": "/library/parts/8956/1465112516/file.mp3",
+                    "duration": 170762,
+                    "file": "/mnt/data/music/albums/Imaginary Cities/Temporary Resident/06 Ride This Out.mp3",
+                    "size": 7085992,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "34142",
+            "key": "/library/metadata/34142",
+            "parentRatingKey": "34134",
+            "grandparentRatingKey": "34133",
+            "type": "track",
+            "title": "Ride On",
+            "grandparentKey": "/library/metadata/34133",
+            "parentKey": "/library/metadata/34134",
+            "grandparentTitle": "The Strumbellas",
+            "parentTitle": "We Still Move on Dance Floors",
+            "originalTitle": "The Strumbellas",
+            "index": 8,
+            "parentIndex": 1,
+            "ratingCount": 5184,
+            "userRating": 10,
+            "viewCount": 5,
+            "lastViewedAt": 1483329219,
+            "thumb": "/library/metadata/34134/thumb/1483223827",
+            "parentThumb": "/library/metadata/34134/thumb/1483223827",
+            "grandparentThumb": "/library/metadata/34133/thumb/1484063174",
+            "duration": 218044,
+            "addedAt": 1472379424,
+            "updatedAt": 1483223827,
+            "Media": [
+              {
+                "id": 48400,
+                "duration": 218044,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 48400,
+                    "key": "/library/parts/48400/1472379388/file.mp3",
+                    "duration": 218044,
+                    "file": "/mnt/data/music/albums/The Strumbellas/We Still Move on Dance Floors/08 Ride On.mp3",
+                    "size": 9163930,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "325",
+            "key": "/library/metadata/325",
+            "parentRatingKey": "323",
+            "grandparentRatingKey": "1",
+            "type": "track",
+            "title": "Riders On The Storm",
+            "grandparentKey": "/library/metadata/1",
+            "parentKey": "/library/metadata/323",
+            "grandparentTitle": "Various Artists",
+            "parentTitle": "Music for Dreams Vol. 6",
+            "originalTitle": "DJ Disse",
+            "index": 2,
+            "parentIndex": 1,
+            "userRating": 8,
+            "viewCount": 4,
+            "lastViewedAt": 1463182184,
+            "thumb": "/library/metadata/323/thumb/1481018911",
+            "art": "/library/metadata/1/art/1484063327",
+            "parentThumb": "/library/metadata/323/thumb/1481018911",
+            "grandparentThumb": "/library/metadata/1/thumb/1484063327",
+            "grandparentArt": "/library/metadata/1/art/1484063327",
+            "duration": 442827,
+            "addedAt": 1440119415,
+            "updatedAt": 1481018911,
+            "Media": [
+              {
+                "id": 298,
+                "duration": 442827,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 298,
+                    "key": "/library/parts/298/1465114108/file.mp3",
+                    "duration": 442827,
+                    "file": "/mnt/data/music/compilations/Music for Dreams Vol. 6/02 Riders On The Storm.mp3",
+                    "size": 17786682,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "6179",
+            "key": "/library/metadata/6179",
+            "parentRatingKey": "6178",
+            "grandparentRatingKey": "6177",
+            "type": "track",
+            "title": "Riders on the Storm",
+            "grandparentKey": "/library/metadata/6177",
+            "parentKey": "/library/metadata/6178",
+            "grandparentTitle": "O'2L",
+            "parentTitle": "Doyle's Brunch",
+            "originalTitle": "O'2L",
+            "index": 4,
+            "parentIndex": 1,
+            "ratingCount": 3494,
+            "userRating": 8,
+            "viewCount": 4,
+            "lastViewedAt": 1464429380,
+            "thumb": "/library/metadata/6178/thumb/1483222712",
+            "parentThumb": "/library/metadata/6178/thumb/1483222712",
+            "grandparentThumb": "/library/metadata/6177/thumb/1483970045",
+            "duration": 315924,
+            "addedAt": 1437907650,
+            "updatedAt": 1483222712,
+            "Media": [
+              {
+                "id": 6078,
+                "duration": 315924,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 6078,
+                    "key": "/library/parts/6078/1465112808/file.mp3",
+                    "duration": 315924,
+                    "file": "/mnt/data/music/albums/O'2L/Doyle's Brunch/04 Riders on the Storm.mp3",
+                    "size": 12653329,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "1078",
+            "key": "/library/metadata/1078",
+            "parentRatingKey": "1077",
+            "grandparentRatingKey": "1076",
+            "type": "track",
+            "title": "Low Rider",
+            "grandparentKey": "/library/metadata/1076",
+            "parentKey": "/library/metadata/1077",
+            "grandparentTitle": "War",
+            "parentTitle": "Why Can't We Be Friends?",
+            "originalTitle": "War",
+            "index": 7,
+            "parentIndex": 1,
+            "userRating": 10,
+            "viewCount": 15,
+            "lastViewedAt": 1481534578,
+            "thumb": "/library/metadata/1077/thumb/1483224145",
+            "art": "/library/metadata/1076/art/1484063359",
+            "parentThumb": "/library/metadata/1077/thumb/1483224145",
+            "grandparentThumb": "/library/metadata/1076/thumb/1484063359",
+            "grandparentArt": "/library/metadata/1076/art/1484063359",
+            "duration": 189022,
+            "addedAt": 1438080073,
+            "updatedAt": 1483224145,
+            "Media": [
+              {
+                "id": 1025,
+                "duration": 189022,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 1025,
+                    "key": "/library/parts/1025/1465113329/file.mp3",
+                    "duration": 189022,
+                    "file": "/mnt/data/music/albums/War/Why Can't We Be Friends_/07 Low Rider.mp3",
+                    "size": 8783570,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "4679",
+            "key": "/library/metadata/4679",
+            "parentRatingKey": "4678",
+            "grandparentRatingKey": "4670",
+            "type": "track",
+            "title": "Carousel Ride",
+            "grandparentKey": "/library/metadata/4670",
+            "parentKey": "/library/metadata/4678",
+            "grandparentTitle": "Rubblebucket",
+            "parentTitle": "Carousel Ride EP",
+            "originalTitle": "Rubblebucket",
+            "index": 1,
+            "parentIndex": 1,
+            "ratingCount": 70801,
+            "viewCount": 14,
+            "lastViewedAt": 1462045522,
+            "thumb": "/library/metadata/4678/thumb/1483223364",
+            "art": "/library/metadata/4670/art/1484062890",
+            "parentThumb": "/library/metadata/4678/thumb/1483223364",
+            "grandparentThumb": "/library/metadata/4670/thumb/1484062890",
+            "grandparentArt": "/library/metadata/4670/art/1484062890",
+            "duration": 253257,
+            "addedAt": 1458302693,
+            "updatedAt": 1483223364,
+            "Media": [
+              {
+                "id": 4557,
+                "duration": 253257,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 4557,
+                    "key": "/library/parts/4557/1465112975/file.mp3",
+                    "duration": 253257,
+                    "file": "/mnt/data/music/albums/Rubblebucket/Carousel Ride EP/01 Carousel Ride.mp3",
+                    "size": 10125156,
+                    "container": "mp3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "show",
+        "hubIdentifier": "show",
+        "size": 0,
+        "title": "Shows",
+        "more": false
+      },
+      {
+        "type": "artist",
+        "hubIdentifier": "artist",
+        "size": 0,
+        "title": "Artists",
+        "more": false
+      },
+      {
+        "type": "album",
+        "hubIdentifier": "album",
+        "size": 1,
+        "title": "Albums",
+        "more": false,
+        "Metadata": [
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "4678",
+            "key": "/library/metadata/4678/children",
+            "parentRatingKey": "4670",
+            "studio": "Communion Records",
+            "type": "album",
+            "title": "Carousel Ride EP",
+            "parentKey": "/library/metadata/4670",
+            "parentTitle": "Rubblebucket",
+            "index": 1,
+            "viewCount": 22,
+            "lastViewedAt": 1475286126,
+            "year": 2014,
+            "thumb": "/library/metadata/4678/thumb/1483223364",
+            "art": "/library/metadata/4670/art/1484062890",
+            "parentThumb": "/library/metadata/4670/thumb/1484062890",
+            "originallyAvailableAt": "2014-08-11",
+            "addedAt": 1458302693,
+            "updatedAt": 1483223364,
+            "Genre": [
+              {
+                "tag": "Indie Pop"
+              },
+              {
+                "tag": "Rock"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "movie",
+        "hubIdentifier": "movie",
+        "size": 0,
+        "title": "Movies",
+        "more": false
+      },
+      {
+        "type": "episode",
+        "hubIdentifier": "episode",
+        "size": 0,
+        "title": "Episodes",
+        "more": false
+      },
+      {
+        "type": "photoalbum",
+        "hubIdentifier": "photoalbum",
+        "size": 0,
+        "title": "Photo Albums",
+        "more": false
+      },
+      {
+        "type": "photo",
+        "hubIdentifier": "photo",
+        "size": 0,
+        "title": "Photos",
+        "more": false
+      },
+      {
+        "type": "actor",
+        "hubIdentifier": "actor",
+        "size": 0,
+        "title": "Actors",
+        "more": false
+      },
+      {
+        "type": "director",
+        "hubIdentifier": "director",
+        "size": 0,
+        "title": "Directors",
+        "more": false
+      },
+      {
+        "type": "genre",
+        "hubIdentifier": "genre",
+        "size": 0,
+        "title": "Genres",
+        "more": false
+      },
+      {
+        "type": "playlist",
+        "hubIdentifier": "playlist",
+        "size": 0,
+        "title": "Playlists",
+        "more": false
+      }
+    ]
+  }
+}
