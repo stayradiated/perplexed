@@ -5,7 +5,7 @@ import {ServerConnection} from '../lib'
 
 const URI = 'http://192.168.1.100:32400'
 const PARENT_HEADERS = {
-  'X-Plex-Header': true,
+  'X-Plex-Token': 'abc',
 }
 const PARENT = {
   headers: () => PARENT_HEADERS,
@@ -36,6 +36,12 @@ test('getUrl', (t) => {
   const {sc} = t.context
   const url = sc.getUrl('/path', {key: 'value'})
   t.is(url, 'http://192.168.1.100:32400/path?key=value')
+})
+
+test('getAuthenticatedUrl', (t) => {
+  const {sc} = t.context
+  const url = sc.getAuthenticatedUrl('/path', {key: 'value'})
+  t.is(url, 'http://192.168.1.100:32400/path?key=value&X-Plex-Token=abc')
 })
 
 test('fetch', (t) => {

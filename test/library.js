@@ -259,3 +259,18 @@ test('searchAll', (t) => {
     return normalizeResponse(res)
   }).then((nres) => deepEqual(normalized(), nres))
 })
+
+test('resizePhoto', (t) => {
+  const {library} = t.context
+
+  const image = 'https://images.unsplash.com/photo-1429728001698-8ba1c4c64783'
+  const encodedImage = encodeURIComponent(image)
+
+  const url = library.resizePhoto({
+    uri: image,
+    width: 200,
+    height: 200,
+  })
+
+  t.is(url, `${URI}/photo/:/transcode?uri=${encodedImage}&width=200&height=200`)
+})
