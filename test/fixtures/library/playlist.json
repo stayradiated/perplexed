@@ -1,0 +1,23 @@
+{
+  "MediaContainer": {
+    "size": 1,
+    "Metadata": [
+      {
+        "content": "library://5085a855-78e9-4dd7-9d70-a4ac296e28ee/directory/%2Flibrary%2Fsections%2F1%2Fall%3FuserRating%3D-1%26sort%3DaddedAt%253Adesc%26sourceType%3D10",
+        "ratingKey": "45606",
+        "key": "/playlists/45606/items",
+        "guid": "com.plexapp.agents.none://1aaf0373-6e9f-4e92-912e-27e00fb65869",
+        "type": "playlist",
+        "title": "Unrated",
+        "summary": "",
+        "smart": 1,
+        "playlistType": "audio",
+        "composite": "/playlists/45606/composite/1484646242",
+        "duration": 1768857000,
+        "leafCount": 7252,
+        "addedAt": 1484087118,
+        "updatedAt": 1484646242
+      }
+    ]
+  }
+}

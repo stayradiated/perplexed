@@ -226,6 +226,21 @@ test('playlists', (t) => {
   }).then((nres) => deepEqual(normalized(), nres))
 })
 
+test('playlist', (t) => {
+  const {library} = t.context
+  const {response, parsed, normalized} = fixtures('playlist')
+
+  const scope = nock(URI)
+    .get('/playlists/45606')
+    .reply(200, response())
+
+  return library.playlist(45606).then((res) => {
+    scope.done()
+    deepEqual(res, parsed())
+    return normalizeResponse(res)
+  }).then((nres) => deepEqual(normalized(), nres))
+})
+
 test('playlistTracks', (t) => {
   const {library} = t.context
   const {response, parsed, normalized} = fixtures('playlistTracks')
