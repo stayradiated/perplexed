@@ -1,0 +1,357 @@
+{
+  "entities": {
+    "tracks": {
+      "4501": {
+        "_type": "track",
+        "id": 4501,
+        "media": [
+          {
+            "_type": "media",
+            "id": 4389,
+            "duration": 174419,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 4389,
+                "key": "/library/parts/4389/1465112994/file.mp3",
+                "duration": 174419,
+                "file": "/mnt/data/music/albums/Sample Answer/Good Boy/01 Good Boy.mp3",
+                "size": 7021829,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1463394769,
+        "duration": 174419,
+        "grandparentKey": "/library/metadata/4494",
+        "grandparentRatingKey": "4494",
+        "grandparentThumb": "/library/metadata/4494/thumb/1484062908",
+        "grandparentTitle": "Sample Answer",
+        "index": 1,
+        "key": "/library/metadata/4501",
+        "lastViewedAt": 1484345457,
+        "originalTitle": "Sample Answer",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/4500",
+        "parentRatingKey": "4500",
+        "parentThumb": "/library/metadata/4500/thumb/1483223425",
+        "parentTitle": "Good Boy",
+        "ratingCount": 28505,
+        "ratingKey": "4501",
+        "summary": "",
+        "thumb": "/library/metadata/4500/thumb/1483223425",
+        "title": "Good Boy",
+        "type": "track",
+        "updatedAt": 1483223425,
+        "userRating": 10,
+        "viewCount": 15
+      },
+      "4664": {
+        "_type": "track",
+        "id": 4664,
+        "media": [
+          {
+            "_type": "media",
+            "id": 4545,
+            "duration": 222693,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 4545,
+                "key": "/library/parts/4545/1465112977/file.mp3",
+                "duration": 222693,
+                "file": "/mnt/data/music/albums/Rumspringa/Rumspringa EP/01 Shake'Em Loose Tonight.mp3",
+                "size": 8970613,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1464589152,
+        "duration": 222693,
+        "grandparentKey": "/library/metadata/4662",
+        "grandparentRatingKey": "4662",
+        "grandparentThumb": "/library/metadata/4662/thumb/1484062894",
+        "grandparentTitle": "Rumspringa",
+        "index": 1,
+        "key": "/library/metadata/4664",
+        "lastViewedAt": 1483684166,
+        "originalTitle": "Rumspringa",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/4663",
+        "parentRatingKey": "4663",
+        "parentThumb": "/library/metadata/4663/thumb/1483223372",
+        "parentTitle": "Rumspringa EP",
+        "ratingCount": 48,
+        "ratingKey": "4664",
+        "summary": "",
+        "thumb": "/library/metadata/4663/thumb/1483223372",
+        "title": "Shake'Em Loose Tonight",
+        "type": "track",
+        "updatedAt": 1483223371,
+        "userRating": 10,
+        "viewCount": 15
+      },
+      "9399": {
+        "_type": "track",
+        "id": 9399,
+        "media": [
+          {
+            "_type": "media",
+            "id": 9198,
+            "duration": 308375,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 9198,
+                "key": "/library/parts/9198/1465112486/file.mp3",
+                "duration": 308375,
+                "file": "/mnt/data/music/albums/Heartless Bastards/Arrow/04 Only for You.mp3",
+                "size": 12466576,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1463873414,
+        "duration": 308375,
+        "grandparentKey": "/library/metadata/9394",
+        "grandparentRatingKey": "9394",
+        "grandparentThumb": "/library/metadata/9394/thumb/1483969289",
+        "grandparentTitle": "Heartless Bastards",
+        "index": 4,
+        "key": "/library/metadata/9399",
+        "lastViewedAt": 1484467938,
+        "originalTitle": "Heartless Bastards",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/9395",
+        "parentRatingKey": "9395",
+        "parentThumb": "/library/metadata/9395/thumb/1483221222",
+        "parentTitle": "Arrow",
+        "ratingCount": 262529,
+        "ratingKey": "9399",
+        "summary": "",
+        "thumb": "/library/metadata/9395/thumb/1483221222",
+        "title": "Only for You",
+        "type": "track",
+        "updatedAt": 1483221222,
+        "userRating": 10,
+        "viewCount": 10
+      },
+      "13075": {
+        "_type": "track",
+        "id": 13075,
+        "media": [
+          {
+            "_type": "media",
+            "id": 12614,
+            "duration": 267467,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 12614,
+                "key": "/library/parts/12614/1465112089/file.mp3",
+                "duration": 267467,
+                "file": "/mnt/data/music/albums/Bodies of Water/Twist Again/04 Open Rhythms.mp3",
+                "size": 10759875,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1463873414,
+        "duration": 267467,
+        "grandparentKey": "/library/metadata/13070",
+        "grandparentRatingKey": "13070",
+        "grandparentThumb": "/library/metadata/13070/thumb/1484573663",
+        "grandparentTitle": "Bodies of Water",
+        "index": 4,
+        "key": "/library/metadata/13075",
+        "lastViewedAt": 1484534425,
+        "originalTitle": "Bodies of Water",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/13071",
+        "parentRatingKey": "13071",
+        "parentThumb": "/library/metadata/13071/thumb/1483219693",
+        "parentTitle": "Twist Again",
+        "ratingCount": 67356,
+        "ratingKey": "13075",
+        "summary": "",
+        "thumb": "/library/metadata/13071/thumb/1483219693",
+        "title": "Open Rhythms",
+        "type": "track",
+        "updatedAt": 1483219693,
+        "userRating": 10,
+        "viewCount": 8
+      },
+      "13214": {
+        "_type": "track",
+        "id": 13214,
+        "media": [
+          {
+            "_type": "media",
+            "id": 12716,
+            "duration": 146181,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 12716,
+                "key": "/library/parts/12716/1465112073/file.mp3",
+                "duration": 146181,
+                "file": "/mnt/data/music/albums/Blind Pilot/We Are the Tide/02 Always.mp3",
+                "size": 5907718,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1437907650,
+        "duration": 146181,
+        "grandparentKey": "/library/metadata/13211",
+        "grandparentRatingKey": "13211",
+        "grandparentThumb": "/library/metadata/13211/thumb/1484147112",
+        "grandparentTitle": "Blind Pilot",
+        "index": 2,
+        "key": "/library/metadata/13214",
+        "lastViewedAt": 1484248992,
+        "originalTitle": "Blind Pilot",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/13212",
+        "parentRatingKey": "13212",
+        "parentThumb": "/library/metadata/13212/thumb/1483483926",
+        "parentTitle": "We Are the Tide",
+        "ratingCount": 150814,
+        "ratingKey": "13214",
+        "summary": "",
+        "thumb": "/library/metadata/13212/thumb/1483483926",
+        "title": "Always",
+        "type": "track",
+        "updatedAt": 1483483926,
+        "userRating": 10,
+        "viewCount": 27
+      },
+      "13857": {
+        "_type": "track",
+        "id": 13857,
+        "media": [
+          {
+            "_type": "media",
+            "id": 13278,
+            "duration": 248241,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "part": [
+              {
+                "_type": "part",
+                "id": 13278,
+                "key": "/library/parts/13278/1465112008/file.mp3",
+                "duration": 248241,
+                "file": "/mnt/data/music/albums/Angus & Julia Stone/Angus & Julia Stone/03 Grizzly Bear.mp3",
+                "size": 10316534,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ],
+        "plexMix": null,
+        "addedAt": 1454385348,
+        "duration": 248241,
+        "grandparentKey": "/library/metadata/13816",
+        "grandparentRatingKey": "13816",
+        "grandparentThumb": "/library/metadata/13816/thumb/1484063170",
+        "grandparentTitle": "Angus & Julia Stone",
+        "index": 3,
+        "key": "/library/metadata/13857",
+        "lastViewedAt": 1483684682,
+        "originalTitle": "Angus & Julia Stone",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/13851",
+        "parentRatingKey": "13851",
+        "parentThumb": "/library/metadata/13851/thumb/1483223814",
+        "parentTitle": "Angus & Julia Stone",
+        "ratingCount": 384718,
+        "ratingKey": "13857",
+        "summary": "",
+        "thumb": "/library/metadata/13851/thumb/1483223814",
+        "title": "Grizzly Bear",
+        "type": "track",
+        "updatedAt": 1483223814,
+        "userRating": 10,
+        "viewCount": 12
+      }
+    },
+    "playlists": {
+      "36071": {
+        "_type": "playlist",
+        "size": 6,
+        "offset": 0,
+        "totalSize": 6,
+        "identifier": null,
+        "mediaTagPrefix": null,
+        "mediaTagVersion": null,
+        "id": 36071,
+        "ratingKey": "36071",
+        "key": null,
+        "guid": null,
+        "type": null,
+        "title": "Best Of",
+        "summary": null,
+        "smart": false,
+        "playlistType": "audio",
+        "composite": "/playlists/36071/composite/1484614663",
+        "viewCount": null,
+        "lastViewedAt": null,
+        "duration": 1365,
+        "leafCount": 6,
+        "addedAt": null,
+        "updatedAt": null,
+        "tracks": [
+          13214,
+          4664,
+          13075,
+          4501,
+          13857,
+          9399
+        ]
+      }
+    }
+  },
+  "result": {
+    "id": 36071,
+    "schema": "playlist"
+  }
+}
