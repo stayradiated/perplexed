@@ -53,7 +53,7 @@ test('fetch', (t) => {
 
   return sc.fetch('/path').then((res) => {
     scope.done()
-    t.is(res.status, 200)
+    t.deepEqual(res, {})
   })
 })
 
@@ -65,37 +65,6 @@ test('fetch with params', (t) => {
     .reply(200, {})
 
   return sc.fetch('/path', {
-    method: 'POST',
-    params: {
-      key: 'value',
-    },
-  }).then((res) => {
-    scope.done()
-    t.is(res.status, 200)
-  })
-})
-
-test('fetchJSON', (t) => {
-  const {sc} = t.context
-
-  const scope = nock(URI)
-    .get('/path')
-    .reply(200, {})
-
-  return sc.fetchJSON('/path').then((res) => {
-    scope.done()
-    t.deepEqual(res, {})
-  })
-})
-
-test('fetchJSON with params', (t) => {
-  const {sc} = t.context
-
-  const scope = nock(URI)
-    .post('/path?key=value')
-    .reply(200, {})
-
-  return sc.fetchJSON('/path', {
     method: 'post',
     params: {
       key: 'value',

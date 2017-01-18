@@ -56,7 +56,7 @@ test('constructor', (t) => {
   t.is(sc, library.api)
 })
 
-test('fetchJSON', (t) => {
+test('fetch', (t) => {
   const {library} = t.context
 
   const scope = nock(URI)
@@ -68,7 +68,7 @@ test('fetchJSON', (t) => {
     })
     .reply(200, {value: true})
 
-  return library.fetchJSON('/path', {
+  return library.fetch('/path', {
     params: {
       key: 'value',
       start: 5,
