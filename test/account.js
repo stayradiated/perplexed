@@ -36,7 +36,7 @@ test('headers', (t) => {
   })
 })
 
-test('fetchJSON', (t) => {
+test('fetch', (t) => {
   const {account} = t.context
 
   const scope = nock(PLEX_API, {reqheaders: {accept: 'application/json'}})
@@ -45,13 +45,13 @@ test('fetchJSON', (t) => {
       key: 'value',
     })
 
-  return account.fetchJSON('/path').then((res) => {
+  return account.fetch('/path').then((res) => {
     scope.done()
     t.deepEqual(res, {key: 'value'})
   })
 })
 
-test('fetchJSON with params', (t) => {
+test('fetch with params', (t) => {
   const {account} = t.context
 
   const scope = nock(PLEX_API, {reqheaders: {accept: 'application/json'}})
@@ -60,7 +60,7 @@ test('fetchJSON with params', (t) => {
       key: 'value',
     })
 
-  return account.fetchJSON('/path', {
+  return account.fetch('/path', {
     params: {
       name: 'plex',
     },
