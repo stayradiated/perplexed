@@ -1,4 +1,3 @@
-import assert from 'assert'
 import fs from 'fs'
 import test from 'ava'
 import {join} from 'path'
@@ -6,7 +5,7 @@ import {join} from 'path'
 import nock from 'nock'
 
 import Library, {ARTIST, ALBUM, TRACK} from '../lib/library'
-import normalizeResponse from '../lib/normalize'
+import normalize from '../lib/normalize'
 import ServerConnection from '../lib/serverConnection'
 
 const URI = 'http://192.168.1.100:32400'
@@ -17,32 +16,18 @@ const PARENT = {
   headers: () => PARENT_HEADERS,
 }
 
-function fixtures (name) {
+function fixture (name) {
   const path = join(__dirname, '/fixtures/library', name)
-  return {
-    response: () => JSON.parse(fs.readFileSync(`${path}.json`)),
-    parsed: () => JSON.parse(fs.readFileSync(`${path}.parsed.json`)),
-    normalized: () => JSON.parse(fs.readFileSync(`${path}.normalized.json`)),
-    saveResponse: (res) => {
-      fs.writeFileSync(`${path}.json`, JSON.stringify(res, null, 2))
-    },
-    saveParsed: (res) => {
-      fs.writeFileSync(`${path}.parsed.json`, JSON.stringify(res, null, 2))
-    },
-    saveNormalized: (res) => {
-      fs.writeFileSync(`${path}.normalized.json`, JSON.stringify(res, null, 2))
-    },
-  }
+  return JSON.parse(fs.readFileSync(`${path}.json`))
 }
 
-function deepEqual (actual, expected) {
-  try {
-    assert.deepEqual(actual, expected)
-  } catch (err) {
-    const difflet = require('difflet')
-    const s = difflet.compare(actual, expected)
-    process.stdout.write(s)
-    throw new Error('deepEqual failed')
+function snapshot (t, scope) {
+  return (res) => {
+    scope.done()
+    t.snapshot(res)
+    return normalize(res).then((nres) => {
+      t.snapshot(nres)
+    })
   }
 }
 
@@ -76,41 +61,35 @@ test('fetch', (t) => {
     },
   }).then((res) => {
     scope.done()
-    deepEqual(res, {value: true})
+    t.deepEqual(res, {value: true})
   })
 })
 
 test('sections', (t) => {
   const {library} = t.context
-  const {response, parsed} = fixtures('sections')
+  const response = fixture('sections')
 
   const scope = nock(URI)
     .get('/library/sections')
-    .reply(200, response())
+    .reply(200, response)
 
-  return library.sections().then((res) => {
-    scope.done()
-    deepEqual(res, parsed())
-  })
+  return library.sections().then(snapshot(t, scope))
 })
 
 test('section', (t) => {
   const {library} = t.context
-  const {response, parsed} = fixtures('section')
+  const response = fixture('section')
 
   const scope = nock(URI)
     .get('/library/sections/1')
-    .reply(200, response())
+    .reply(200, response)
 
-  return library.section(1).then((res) => {
-    scope.done()
-    deepEqual(res, parsed())
-  })
+  return library.section(1).then(snapshot(t, scope))
 })
 
 test('sectionItems', (t) => {
   const {library} = t.context
-  const {response, parsed} = fixtures('sectionItems')
+  const response = fixture('sectionItems')
 
   const scope = nock(URI)
     .get('/library/sections/1/all')
@@ -118,17 +97,14 @@ test('sectionItems', (t) => {
       type: ARTIST,
       sort: 'addedAt:desc',
     })
-    .reply(200, response())
+    .reply(200, response)
 
-  return library.sectionItems(1, ARTIST).then((res) => {
-    scope.done()
-    deepEqual(res, parsed())
-  })
+  return library.sectionItems(1, ARTIST).then(snapshot(t, scope))
 })
 
 test('metadata', (t) => {
   const {library} = t.context
-  const {response, parsed} = fixtures('metadata')
+  const response = fixture('metadata')
 
   const scope = nock(URI)
     .get('/library/metadata/40812')
@@ -136,31 +112,51 @@ test('metadata', (t) => {
       type: ARTIST,
       sort: 'addedAt:desc',
     })
-    .reply(200, response())
+    .reply(200, response)
 
-  return library.metadata(40812, ALBUM).then((res) => {
-    scope.done()
-    deepEqual(res, parsed())
-  })
+  return library.metadata(40812, ALBUM).then(snapshot(t, scope))
 })
 
 test('metadataChildren', (t) => {
   const {library} = t.context
-  const {response, parsed} = fixtures('metadataChildren')
+  const response = fixture('metadataChildren')
 
   const scope = nock(URI)
     .get('/library/metadata/41409/children')
-    .reply(200, response())
+    .reply(200, response)
 
-  return library.metadataChildren(41409, TRACK).then((res) => {
-    scope.done()
-    deepEqual(res, parsed())
-  })
+  return library.metadataChildren(41409, TRACK).then(snapshot(t, scope))
+})
+
+test('tracks', (t) => {
+  const {library} = t.context
+  const response = fixture('tracks')
+
+  const scope = nock(URI)
+    .get('/library/sections/1/all')
+    .query({
+      type: 10,
+      sort: 'addedAt:desc',
+    })
+    .reply(200, response)
+
+  return library.tracks(1).then(snapshot(t, scope))
+})
+
+test('track', (t) => {
+  const {library} = t.context
+  const response = fixture('track')
+
+  const scope = nock(URI)
+    .get('/library/metadata/35341')
+    .reply(200, response)
+
+  return library.track(35341).then(snapshot(t, scope))
 })
 
 test('albums', (t) => {
   const {library} = t.context
-  const {response, parsed, normalized} = fixtures('albums')
+  const response = fixture('albums')
 
   const scope = nock(URI)
     .get('/library/sections/1/all')
@@ -168,48 +164,36 @@ test('albums', (t) => {
       type: 9,
       sort: 'addedAt:desc',
     })
-    .reply(200, response())
+    .reply(200, response)
 
-  return library.albums(1).then((res) => {
-    scope.done()
-    deepEqual(res, parsed())
-    return normalizeResponse(res)
-  }).then((nres) => deepEqual(normalized(), nres))
+  return library.albums(1).then(snapshot(t, scope))
 })
 
 test('album', (t) => {
   const {library} = t.context
-  const {response, parsed, normalized} = fixtures('album')
+  const response = fixture('album')
 
   const scope = nock(URI)
     .get('/library/metadata/40812')
-    .reply(200, response())
+    .reply(200, response)
 
-  return library.album(40812).then((res) => {
-    scope.done()
-    deepEqual(res, parsed())
-    return normalizeResponse(res)
-  }).then((nres) => deepEqual(normalized(), nres))
+  return library.album(40812).then(snapshot(t, scope))
 })
 
 test('albumTracks', (t) => {
   const {library} = t.context
-  const {response, parsed, normalized} = fixtures('albumTracks')
+  const response = fixture('albumTracks')
 
   const scope = nock(URI)
     .get('/library/metadata/40812/children')
-    .reply(200, response())
+    .reply(200, response)
 
-  return library.albumTracks(40812).then((res) => {
-    scope.done()
-    deepEqual(res, parsed())
-    return normalizeResponse(res)
-  }).then((nres) => deepEqual(normalized(), nres))
+  return library.albumTracks(40812).then(snapshot(t, scope))
 })
 
 test('playlists', (t) => {
   const {library} = t.context
-  const {response, parsed, normalized} = fixtures('playlists')
+  const response = fixture('playlists')
 
   const scope = nock(URI)
     .get('/playlists/all')
@@ -217,63 +201,47 @@ test('playlists', (t) => {
       type: 15,
       sort: 'titleSort:asc',
     })
-    .reply(200, response())
+    .reply(200, response)
 
-  return library.playlists().then((res) => {
-    scope.done()
-    deepEqual(res, parsed())
-    return normalizeResponse(res)
-  }).then((nres) => deepEqual(normalized(), nres))
+  return library.playlists().then(snapshot(t, scope))
 })
 
 test('playlist', (t) => {
   const {library} = t.context
-  const {response, parsed, normalized} = fixtures('playlist')
+  const response = fixture('playlist')
 
   const scope = nock(URI)
     .get('/playlists/45606')
-    .reply(200, response())
+    .reply(200, response)
 
-  return library.playlist(45606).then((res) => {
-    scope.done()
-    deepEqual(res, parsed())
-    return normalizeResponse(res)
-  }).then((nres) => deepEqual(normalized(), nres))
+  return library.playlist(45606).then(snapshot(t, scope))
 })
 
 test('playlistTracks', (t) => {
   const {library} = t.context
-  const {response, parsed, normalized} = fixtures('playlistTracks')
+  const response = fixture('playlistTracks')
 
   const scope = nock(URI)
     .get('/playlists/123/items')
-    .reply(200, response())
+    .reply(200, response)
 
-  return library.playlistTracks(123).then((res) => {
-    scope.done()
-    deepEqual(res, parsed())
-    return normalizeResponse(res)
-  }).then((nres) => deepEqual(normalized(), nres))
+  return library.playlistTracks(123).then(snapshot(t, scope))
 })
 
 test('playQueue', (t) => {
   const {library} = t.context
-  const {response, parsed, normalized} = fixtures('playQueue')
+  const response = fixture('playQueue')
 
   const scope = nock(URI)
     .get('/playQueues/3147')
-    .reply(200, response())
+    .reply(200, response)
 
-  return library.playQueue(3147).then((res) => {
-    scope.done()
-    deepEqual(res, parsed())
-    return normalizeResponse(res)
-  }).then((nres) => deepEqual(normalized(), nres))
+  return library.playQueue(3147).then(snapshot(t, scope))
 })
 
 test('searchAll', (t) => {
   const {library} = t.context
-  const {response, parsed, normalized} = fixtures('searchAll')
+  const response = fixture('searchAll')
 
   const scope = nock(URI)
     .get('/hubs/search')
@@ -281,13 +249,9 @@ test('searchAll', (t) => {
       query: 'ride',
       limit: 10,
     })
-    .reply(200, response())
+    .reply(200, response)
 
-  return library.searchAll('ride', 10).then((res) => {
-    scope.done()
-    deepEqual(res, parsed())
-    return normalizeResponse(res)
-  }).then((nres) => deepEqual(normalized(), nres))
+  return library.searchAll('ride', 10).then(snapshot(t, scope))
 })
 
 test('resizePhoto', (t) => {

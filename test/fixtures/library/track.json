@@ -1,0 +1,81 @@
+{
+  "MediaContainer": {
+    "size": 1,
+    "allowSync": true,
+    "identifier": "com.plexapp.plugins.library",
+    "librarySectionID": 1,
+    "librarySectionTitle": "Music",
+    "librarySectionUUID": "5085a855-78e9-4dd7-9d70-a4ac296e28ee",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481160546,
+    "Metadata": [
+      {
+        "ratingKey": "35341",
+        "key": "/library/metadata/35341",
+        "parentRatingKey": "35340",
+        "grandparentRatingKey": "35339",
+        "guid": "com.plexapp.agents.plexmusic://gracenote/track/382423778-038B27E8A8D214DA255CC25B1B41AB1C/382423779-E927213289AA4219AD6EB9C8481F06D1?lang=en",
+        "librarySectionID": 1,
+        "type": "track",
+        "title": "Sorry",
+        "grandparentKey": "/library/metadata/35339",
+        "parentKey": "/library/metadata/35340",
+        "grandparentTitle": "The Moth & The Flame",
+        "parentTitle": "&",
+        "originalTitle": "The Moth & The Flame",
+        "summary": "",
+        "index": 1,
+        "parentIndex": 1,
+        "ratingCount": 11,
+        "userRating": 7,
+        "viewCount": 2,
+        "lastViewedAt": 1478405744,
+        "thumb": "/library/metadata/35340/thumb/1473509934",
+        "parentThumb": "/library/metadata/35340/thumb/1473509934",
+        "grandparentThumb": "/library/metadata/35339/thumb/1482677884",
+        "duration": 210495,
+        "addedAt": 1473509786,
+        "updatedAt": 1473509933,
+        "Media": [
+          {
+            "id": 49448,
+            "duration": 210495,
+            "bitrate": 320,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 49448,
+                "key": "/library/parts/49448/1473509724/file.mp3",
+                "duration": 210495,
+                "file": "/mnt/data/music/albums/The Moth & The Flame/&/01 Sorry.mp3",
+                "size": 9999313,
+                "container": "mp3",
+                "hasThumbnail": "1",
+                "Stream": {
+                  "id": 92913,
+                  "streamType": 2,
+                  "selected": true,
+                  "codec": "mp3",
+                  "index": 0,
+                  "channels": 2,
+                  "bitrate": 320,
+                  "bitrateMode": "cbr",
+                  "duration": 210677,
+                  "samplingRate": 44100
+                }
+              }
+            ]
+          }
+        ],
+        "Mood": [
+          {
+            "id": 56,
+            "tag": "Dreamy Brooding"
+          }
+        ]
+      }
+    ]
+  }
+}
