@@ -8,7 +8,7 @@ import Library, {ARTIST, ALBUM, TRACK} from '../lib/library'
 import normalize from '../lib/normalize'
 import ServerConnection from '../lib/serverConnection'
 
-const URI = 'http://192.168.1.100:32400'
+const URI = 'http://192.168.0.100:32400'
 const PARENT_HEADERS = {
   'X-Plex-Header': true,
 }
@@ -107,14 +107,10 @@ test('metadata', (t) => {
   const response = fixture('metadata')
 
   const scope = nock(URI)
-    .get('/library/metadata/40812')
-    .query({
-      type: ARTIST,
-      sort: 'addedAt:desc',
-    })
+    .get('/library/metadata/74892')
     .reply(200, response)
 
-  return library.metadata(40812, ALBUM).then(snapshot(t, scope))
+  return library.metadata(74892, ALBUM).then(snapshot(t, scope))
 })
 
 test('metadataChildren', (t) => {
