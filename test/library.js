@@ -239,6 +239,28 @@ test('playQueue', (t) => {
   return library.playQueue(3147).then(snapshot(t, scope))
 })
 
+test('shufflePlayQueue', (t) => {
+  const {library} = t.context
+  const response = fixture('playQueue')
+
+  const scope = nock(URI)
+    .put('/playQueues/3921/shuffle')
+    .reply(200, response)
+
+  return library.shufflePlayQueue(3921).then(snapshot(t, scope))
+})
+
+test('unshufflePlayQueue', (t) => {
+  const {library} = t.context
+  const response = fixture('playQueue')
+
+  const scope = nock(URI)
+    .put('/playQueues/3921/unshuffle')
+    .reply(200, response)
+
+  return library.unshufflePlayQueue(3921).then(snapshot(t, scope))
+})
+
 test('searchAll', (t) => {
   const {library} = t.context
   const response = fixture('searchAll')
