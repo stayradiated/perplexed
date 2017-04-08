@@ -95,7 +95,6 @@ test('sectionItems', (t) => {
     .get('/library/sections/1/all')
     .query({
       type: ARTIST,
-      sort: 'addedAt:desc',
     })
     .reply(200, response)
 
@@ -132,7 +131,6 @@ test('tracks', (t) => {
     .get('/library/sections/1/all')
     .query({
       type: 10,
-      sort: 'addedAt:desc',
     })
     .reply(200, response)
 
@@ -158,7 +156,6 @@ test('albums', (t) => {
     .get('/library/sections/1/all')
     .query({
       type: 9,
-      sort: 'addedAt:desc',
     })
     .reply(200, response)
 
