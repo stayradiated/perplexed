@@ -199,6 +199,12 @@
                       </a></li>
                       
                       <li><a
+                        href='#Library#playlists'
+                        class='regular pre-open'>
+                        #playlists
+                      </a></li>
+                      
+                      <li><a
                         href='#Library#searchTracks'
                         class='regular pre-open'>
                         #searchTracks
@@ -2011,11 +2017,11 @@ to parse the response as XML.</p>
       </div>
     </div>
   
-    <div class='border-bottom' id='Library#searchTracks'>
+    <div class='border-bottom' id='Library#playlists'>
       <div class="clearfix small pointer toggle-sibling">
         <div class="py1 contain">
             <a class='icon pin-right py1 dark-link caret-right'>▸</a>
-            <span class='code strong strong truncate'>searchTracks(query)</span>
+            <span class='code strong strong truncate'>playlists(params)</span>
         </div>
       </div>
       <div class="clearfix display-none toggle-target">
@@ -2023,10 +2029,10 @@ to parse the response as XML.</p>
 
   
 
-  <p>Search the library for tracks matching a query</p>
+  <p>Fetch all playlists on the server</p>
 
 
-  <div class='pre p1 fill-light mt0'>searchTracks(query: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</div>
+  <div class='pre p1 fill-light mt0'>playlists(params: Any): <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
 
   
 
@@ -2039,6 +2045,77 @@ to parse the response as XML.</p>
   
     <div class='py1 quiet mt1 prose-big'>Parameters</div>
     <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>params</span> <code class='quiet'>(Any)</code> 
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+    
+      <div class='py1 quiet mt1 prose-big'>Returns</div>
+      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></code>:
+        
+      
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
+    <div class='border-bottom' id='Library#searchTracks'>
+      <div class="clearfix small pointer toggle-sibling">
+        <div class="py1 contain">
+            <a class='icon pin-right py1 dark-link caret-right'>▸</a>
+            <span class='code strong strong truncate'>searchTracks(sectionId, query)</span>
+        </div>
+      </div>
+      <div class="clearfix display-none toggle-target">
+        <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+
+  <p>Search the library for tracks matching a query</p>
+
+
+  <div class='pre p1 fill-light mt0'>searchTracks(sectionId: Any, query: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</div>
+
+  
+
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>sectionId</span> <code class='quiet'>(Any)</code> 
+          </div>
+          
+        </div>
       
         <div class='space-bottom0'>
           <div>
