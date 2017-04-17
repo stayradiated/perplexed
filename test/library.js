@@ -192,7 +192,6 @@ test('playlists', (t) => {
     .get('/playlists/all')
     .query({
       type: 15,
-      sort: 'titleSort:asc',
     })
     .reply(200, response)
 
