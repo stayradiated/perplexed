@@ -27,6 +27,7 @@ function snapshot (t, scope) {
     t.snapshot(res)
     return normalize(res).then((nres) => {
       t.snapshot(nres)
+      return nres
     })
   }
 }
@@ -182,6 +183,21 @@ test('albumTracks', (t) => {
     .reply(200, response)
 
   return library.albumTracks(40812).then(snapshot(t, scope))
+})
+
+test('artist', (t) => {
+  const {library} = t.context
+  const response = fixture('artist')
+
+  const scope = nock(URI)
+    .get('/library/metadata/8670')
+    .query({
+      includePopularLeaves: 1,
+    })
+    .reply(200, response)
+
+  return library.artist(8670, {includePopular: true})
+    .then(snapshot(t, scope))
 })
 
 test('playlists', (t) => {
