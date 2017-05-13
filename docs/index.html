@@ -115,6 +115,12 @@
                       <li class='h5'><span>Instance members</span></li>
                       
                       <li><a
+                        href='#Library#sessions'
+                        class='regular pre-open'>
+                        #sessions
+                      </a></li>
+                      
+                      <li><a
                         href='#Library#sections'
                         class='regular pre-open'>
                         #sections
@@ -798,24 +804,6 @@ to parse the response as XML.</p>
             <tbody class='mt1'>
               
                 <tr>
-                  <td class='break-word'><span class='code bold'>options.identifier</span> <code class='quiet'><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></code>
-                  </td>
-                  <td class='break-word'><span></span></td>
-                </tr>
-              
-                <tr>
-                  <td class='break-word'><span class='code bold'>options.product</span> <code class='quiet'><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></code>
-                  </td>
-                  <td class='break-word'><span></span></td>
-                </tr>
-              
-                <tr>
-                  <td class='break-word'><span class='code bold'>options.version</span> <code class='quiet'><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></code>
-                  </td>
-                  <td class='break-word'><span></span></td>
-                </tr>
-              
-                <tr>
                   <td class='break-word'><span class='code bold'>options.device</span> <code class='quiet'><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></code>
                   </td>
                   <td class='break-word'><span></span></td>
@@ -828,6 +816,12 @@ to parse the response as XML.</p>
                 </tr>
               
                 <tr>
+                  <td class='break-word'><span class='code bold'>options.identifier</span> <code class='quiet'><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></code>
+                  </td>
+                  <td class='break-word'><span></span></td>
+                </tr>
+              
+                <tr>
                   <td class='break-word'><span class='code bold'>options.platform</span> <code class='quiet'><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></code>
                   </td>
                   <td class='break-word'><span></span></td>
@@ -835,6 +829,18 @@ to parse the response as XML.</p>
               
                 <tr>
                   <td class='break-word'><span class='code bold'>options.platformVersion</span> <code class='quiet'><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></code>
+                  </td>
+                  <td class='break-word'><span></span></td>
+                </tr>
+              
+                <tr>
+                  <td class='break-word'><span class='code bold'>options.product</span> <code class='quiet'><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></code>
+                  </td>
+                  <td class='break-word'><span></span></td>
+                </tr>
+              
+                <tr>
+                  <td class='break-word'><span class='code bold'>options.version</span> <code class='quiet'><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></code>
                   </td>
                   <td class='break-word'><span></span></td>
                 </tr>
@@ -991,6 +997,51 @@ to parse the response as XML.</p>
   
     <div class='py1 quiet mt1 prose-big'>Instance Members</div>
     <div class="clearfix">
+  
+    <div class='border-bottom' id='Library#sessions'>
+      <div class="clearfix small pointer toggle-sibling">
+        <div class="py1 contain">
+            <a class='icon pin-right py1 dark-link caret-right'>▸</a>
+            <span class='code strong strong truncate'>sessions()</span>
+        </div>
+      </div>
+      <div class="clearfix display-none toggle-target">
+        <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+
+  <p>Get the status of all connected clients</p>
+
+
+  <div class='pre p1 fill-light mt0'>sessions()</div>
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
   
     <div class='border-bottom' id='Library#sections'>
       <div class="clearfix small pointer toggle-sibling">
@@ -1862,7 +1913,7 @@ to parse the response as XML.</p>
       <div class="clearfix small pointer toggle-sibling">
         <div class="py1 contain">
             <a class='icon pin-right py1 dark-link caret-right'>▸</a>
-            <span class='code strong strong truncate'>artist(artistId)</span>
+            <span class='code strong strong truncate'>artist(artistId, [options], $1)</span>
         </div>
       </div>
       <div class="clearfix display-none toggle-target">
@@ -1873,7 +1924,7 @@ to parse the response as XML.</p>
   <p>Get information about a single artist</p>
 
 
-  <div class='pre p1 fill-light mt0'>artist(artistId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>): <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+  <div class='pre p1 fill-light mt0'>artist(artistId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, options: [<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>], $1: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>): <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
 
   
 
@@ -1891,6 +1942,70 @@ to parse the response as XML.</p>
           <div>
             <span class='code bold'>artistId</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>)</code> 
           </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>options</span> <code class='quiet'>([<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>]
+            (default <code>{}</code>)
+            )</code> 
+          </div>
+          
+          <table class='mt1 mb2 fixed-table h5 col-12'>
+            <colgroup>
+              <col width='30%' />
+              <col width='70%' />
+            </colgroup>
+            <thead>
+              <tr class='bold fill-light'>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody class='mt1'>
+              
+                <tr>
+                  <td class='break-word'><span class='code bold'>options.includePopular</span> <code class='quiet'>[<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">boolean</a>]</code>
+                  
+                    (default <code>false</code>)
+                  </td>
+                  <td class='break-word'><span></span></td>
+                </tr>
+              
+            </tbody>
+          </table>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>$1</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>)</code> 
+          </div>
+          
+          <table class='mt1 mb2 fixed-table h5 col-12'>
+            <colgroup>
+              <col width='30%' />
+              <col width='70%' />
+            </colgroup>
+            <thead>
+              <tr class='bold fill-light'>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody class='mt1'>
+              
+                <tr>
+                  <td class='break-word'><span class='code bold'>$1.includePopular</span> <code class='quiet'>Any</code>
+                  
+                    (default <code>false</code>)
+                  </td>
+                  <td class='break-word'><span></span></td>
+                </tr>
+              
+            </tbody>
+          </table>
           
         </div>
       
