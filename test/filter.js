@@ -21,6 +21,15 @@ test('FilterValue.isNot', (t) => {
   t.deepEqual(f, {'key!=': 'value'})
 })
 
+test('FilterValue.options', (t) => {
+  const {filterValue} = t.context
+  const options = filterValue.options()
+  t.deepEqual(options, {
+    is: 'is',
+    isNot: 'is not',
+  })
+})
+
 test('FilterString.contains', (t) => {
   const {filterString} = t.context
   const f = filterString.contains('value')
@@ -57,41 +66,77 @@ test('FilterString.isNot', (t) => {
   t.deepEqual(f, {'key!=': 'value'})
 })
 
+test('FilterString.options', (t) => {
+  const {filterString} = t.context
+  const options = filterString.options()
+  t.deepEqual(options, {
+    contains: 'contains',
+    doesNotContain: 'does not contain',
+    beginsWith: 'begins with',
+    endsWith: 'ends with',
+    is: 'is',
+    isNot: 'is not',
+  })
+})
+
 test('FilterNumber.isGreaterThan', (t) => {
   const {filterNumber} = t.context
   const f = filterNumber.isGreaterThan(100)
   t.deepEqual(f, {'key>>': '100'})
 })
 
-test('filterNumber.isLessThan', (t) => {
+test('FilterNumber.isLessThan', (t) => {
   const {filterNumber} = t.context
   const f = filterNumber.isLessThan(100)
   t.deepEqual(f, {'key<<': '100'})
 })
 
-test('filterDate.isBefore', (t) => {
+test('FilterNumber.options', (t) => {
+  const {filterNumber} = t.context
+  const options = filterNumber.options()
+  t.deepEqual(options, {
+    is: 'is',
+    isNot: 'is not',
+    isGreaterThan: 'is greater than',
+    isLessThan: 'is less than',
+  })
+})
+
+test('FilterDate.isBefore', (t) => {
   const {filterDate} = t.context
   const f = filterDate.isBefore(100)
   t.deepEqual(f, {'key<<': '100'})
 })
 
-test('filterDate.isAfter', (t) => {
+test('FilterDate.isAfter', (t) => {
   const {filterDate} = t.context
   const f = filterDate.isAfter(100)
   t.deepEqual(f, {'key>>': '100'})
 })
 
-test('filterDate.inTheLast', (t) => {
+test('FilterDate.inTheLast', (t) => {
   const {filterDate} = t.context
   const f = filterDate.inTheLast(10, 's')
   t.deepEqual(f, {'key>>': '-10s'})
 })
 
-test('filterDate.inNotTheLast', (t) => {
+test('FilterDate.inNotTheLast', (t) => {
   const {filterDate} = t.context
   const f = filterDate.inNotTheLast(10, 's')
   t.deepEqual(f, {'key<<': '-10s'})
 })
+
+test('FilterDate.options', (t) => {
+  const {filterDate} = t.context
+  const options = filterDate.options()
+  t.deepEqual(options, {
+    isAfter: 'is after',
+    isBefore: 'is before',
+    inTheLast: 'in the last',
+    inNotTheLast: 'in not the last',
+  })
+})
+
 
 test('artistTitle', (t) => {
   const f = filter.artistTitle.is('value')
