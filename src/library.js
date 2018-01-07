@@ -365,7 +365,7 @@ export default class Library {
   }
 
   movePlaylistItem (playlistId, itemId, afterId) {
-    return this.fetch(`playlists/${playlistId}/items/${itemId}/move`, {
+    return this.fetch(`/playlists/${playlistId}/items/${itemId}/move`, {
       method: 'PUT',
       params: {
         after: afterId
