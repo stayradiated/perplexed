@@ -1,14 +1,18 @@
-export {default as Account} from './account'
-export {default as Client} from './client'
-export {default as ServerConnection} from './serverConnection'
-export {default as normalize, normalizeSync} from './normalize'
+// custom filters
+import * as filter from './filter'
+export { filter }
+
+export { default as Account } from './account'
+export { default as Client } from './client'
+export { default as ServerConnection } from './serverConnection'
+export { default as normalize, normalizeSync } from './normalize'
 export {
   default as Library,
   ARTIST,
   ALBUM,
   TRACK,
   PLAYLIST,
-  QUEUE,
+  QUEUE
 } from './library'
 
 const sort = (asc, desc = `${asc}:desc`) => [asc, desc]
@@ -22,7 +26,8 @@ export const SORT_ARTISTS_BY_PLAYS = sort('viewCount')
 export const SORT_ALBUMS_BY_TITLE = sort('titleSort')
 export const SORT_ALBUMS_BY_ALBUM_ARTIST = sort(
   'artist.titleSort,album.year',
-  'artist.titleSort:desc,album.year')
+  'artist.titleSort:desc,album.year'
+)
 export const SORT_ALBUMS_BY_YEAR = sort('year')
 export const SORT_ALBUMS_BY_RELEASE_DATE = sort('originallyAvailableAt')
 export const SORT_ALBUMS_BY_RATING = sort('userRating')
@@ -53,6 +58,3 @@ export const SORT_TRACKS_BY_POPULARITY = sort('ratingCount')
 export const PLAYLIST_TYPE_MUSIC = 'audio'
 export const PLAYLIST_TYPE_PHOTO = 'photo'
 export const PLAYLIST_TYPE_VIDEO = 'video'
-
-// custom filters
-export * as filter from './filter'

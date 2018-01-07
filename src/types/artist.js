@@ -1,14 +1,14 @@
-import {schema} from 'normalizr'
+import { schema } from 'normalizr'
 
-import {parseMediaContainer} from './mediaContainer'
-import {parseGenre, parseCountry} from './tags'
-import {trackSchema, parseTrack} from './track'
+import { parseMediaContainer } from './mediaContainer'
+import { parseGenre, parseCountry } from './tags'
+import { trackSchema, parseTrack } from './track'
 
 export const artistSchema = new schema.Entity('artists', {
-  popularTracks: new schema.Array(trackSchema),
+  popularTracks: new schema.Array(trackSchema)
 })
 export const artistContainerSchema = new schema.Object({
-  artists: new schema.Array(artistSchema),
+  artists: new schema.Array(artistSchema)
 })
 
 export function parseArtist (data) {
@@ -26,9 +26,8 @@ export function parseArtist (data) {
     addedAt = null,
     updatedAt = null,
     titleSort = null,
-    PopularLeaves = null,
+    PopularLeaves = null
   } = data
-
 
   const popularTracks = PopularLeaves != null
     ? PopularLeaves.Metadata.map(parseTrack)
@@ -55,7 +54,7 @@ export function parseArtist (data) {
     updatedAt,
     titleSort,
 
-    popularTracks,
+    popularTracks
   }
 }
 
@@ -78,7 +77,7 @@ export function parseArtistContainer (data) {
     title2 = null,
     viewGroup = null,
     viewMode = null,
-    Metadata = [],
+    Metadata = []
   } = data
 
   return {
@@ -99,6 +98,6 @@ export function parseArtistContainer (data) {
     title2,
     viewGroup,
     viewMode,
-    artists: Metadata.map(parseArtist),
+    artists: Metadata.map(parseArtist)
   }
 }

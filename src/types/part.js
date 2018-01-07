@@ -8,7 +8,7 @@ export function parsePart (data) {
     file = null,
     size = null,
     container = null,
-    hasThumbnail = null,
+    hasThumbnail = null
     // Stream,
   } = data
 
@@ -20,7 +20,7 @@ export function parsePart (data) {
     file,
     size,
     container,
-    hasThumbnail,
+    hasThumbnail
     // stream: parseStream(Stream),
   }
 }

@@ -5,7 +5,7 @@ export function parseMediaContainer (data) {
     totalSize = null,
     identifier = null,
     mediaTagPrefix = null,
-    mediaTagVersion = null,
+    mediaTagVersion = null
   } = data
 
   return {
@@ -16,6 +16,6 @@ export function parseMediaContainer (data) {
     totalSize: totalSize || size,
     identifier,
     mediaTagPrefix,
-    mediaTagVersion,
+    mediaTagVersion
   }
 }

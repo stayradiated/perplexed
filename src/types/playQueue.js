@@ -1,20 +1,20 @@
-import {schema} from 'normalizr'
+import { schema } from 'normalizr'
 
-import {parseMediaContainer} from './mediaContainer'
-import {parseTrack, trackSchema} from './track'
+import { parseMediaContainer } from './mediaContainer'
+import { parseTrack, trackSchema } from './track'
 
 export const playQueueItemSchema = new schema.Object({
-  track: trackSchema,
+  track: trackSchema
 })
 export const playQueueContainerSchema = new schema.Object({
-  items: new schema.Array(playQueueItemSchema),
+  items: new schema.Array(playQueueItemSchema)
 })
 
 export function parsePlayQueueItem (data) {
   const {
     playQueueItemID: id = null,
     guid = null,
-    librarySectionID: librarySectionId = null,
+    librarySectionID: librarySectionId = null
   } = data
 
   return {
@@ -22,7 +22,7 @@ export function parsePlayQueueItem (data) {
     id,
     guid,
     librarySectionId,
-    track: parseTrack(data),
+    track: parseTrack(data)
   }
 }
 
@@ -40,7 +40,7 @@ export function parsePlayQueue (data) {
     playQueueSourceURI: sourceURI = null,
     playQueueTotalCount: totalCount = null,
     playQueueVersion: version = null,
-    Metadata = [],
+    Metadata = []
   } = data
 
   return {
@@ -54,6 +54,6 @@ export function parsePlayQueue (data) {
     sourceURI,
     totalCount,
     version,
-    items: Metadata.map(parsePlayQueueItem),
+    items: Metadata.map(parsePlayQueueItem)
   }
 }

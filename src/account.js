@@ -1,9 +1,9 @@
-import {btoa} from 'isomorphic-base64'
+import { btoa } from 'isomorphic-base64'
 
-import {requestJSON, requestXML} from './utils/request'
-import {parseResources} from './types/resources'
-import {parseUser, parseSignIn} from './types/user'
-import {parsePin} from './types/pin'
+import { requestJSON, requestXML } from './utils/request'
+import { parseResources } from './types/resources'
+import { parseUser, parseSignIn } from './types/user'
+import { parsePin } from './types/pin'
 
 const PLEX_API = 'https://plex.tv'
 
@@ -20,7 +20,6 @@ export default class Account {
     this.authToken = authToken
   }
 
-
   /**
    * Headers we need to send to Plex whenever we make a request
    *
@@ -30,10 +29,9 @@ export default class Account {
   headers () {
     return {
       ...this.client.headers(),
-      'X-Plex-Token': this.authToken || undefined,
+      'X-Plex-Token': this.authToken || undefined
     }
   }
-
 
   /**
    * Make a JSON request to the Plex.tv API
@@ -47,8 +45,8 @@ export default class Account {
       ...options,
       headers: {
         ...options.headers,
-        ...this.headers(),
-      },
+        ...this.headers()
+      }
     })
   }
 
@@ -64,11 +62,10 @@ export default class Account {
       ...options,
       headers: {
         ...options.headers,
-        ...this.headers(),
-      },
+        ...this.headers()
+      }
     })
   }
-
 
   /**
    * Log in to a Plex account
@@ -86,8 +83,8 @@ export default class Account {
       method: 'POST',
       headers: {
         ...this.client.headers(),
-        authorization: `Basic ${token}`,
-      },
+        authorization: `Basic ${token}`
+      }
     })
       .then((res) => parseSignIn(res))
       .then((user) => {
@@ -97,7 +94,7 @@ export default class Account {
   }
 
   requestPin () {
-    return this.fetch('/pins.json', {method: 'POST'})
+    return this.fetch('/pins.json', { method: 'POST' })
       .then((res) => parsePin(res))
   }
 
@@ -137,8 +134,8 @@ export default class Account {
     return this.fetchXML('/api/resources', {
       params: {
         includeHttps: 1,
-        includeRelay: 1,
-      },
+        includeRelay: 1
+      }
     })
       .then((res) => parseResources(res))
   }
@@ -153,7 +150,7 @@ export default class Account {
     return this.resources().then((resources) => ({
       ...resources,
       devices: resources.devices.filter((device) =>
-        device.provides.includes('server')),
+        device.provides.includes('server'))
     }))
   }
 
@@ -173,7 +170,7 @@ export default class Account {
 
   removeDevice (deviceId) {
     return this.fetch(`/devices/${deviceId}.json`, {
-      method: 'DELETE',
+      method: 'DELETE'
     })
   }
 }

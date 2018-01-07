@@ -14,7 +14,7 @@ export function parseUser (data) {
     entitlements = null,
     confirmedAt = null,
     forumId = null,
-    rememberMe = null,
+    rememberMe = null
   } = data
 
   return {
@@ -33,7 +33,7 @@ export function parseUser (data) {
     entitlements,
     confirmedAt,
     forumId,
-    rememberMe,
+    rememberMe
   }
 }
 

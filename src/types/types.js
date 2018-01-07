@@ -6,4 +6,3 @@ export function parseBool (value) {
     value === true
   )
 }
-

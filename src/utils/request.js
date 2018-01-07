@@ -2,7 +2,7 @@ import xml2js from 'xml2js'
 import promisify from 'es6-promisify'
 import fetch from 'isomorphic-fetch'
 
-import {withParams} from './params'
+import { withParams } from './params'
 
 const parseXMLString = promisify(xml2js.parseString)
 
@@ -18,7 +18,7 @@ export function cleanHeaders (headers = {}) {
 }
 
 export function request (url, options = {}) {
-  const {params, ...otherOptions} = options
+  const { params, ...otherOptions } = options
   const urlWithParams = withParams(url, params)
   cleanHeaders(otherOptions.headers)
   return fetch(urlWithParams, otherOptions)
@@ -37,8 +37,8 @@ export function requestJSON (url, options = {}) {
     ...options,
     headers: {
       ...options.headers,
-      accept: 'application/json',
-    },
+      accept: 'application/json'
+    }
   })
     .then(
       (res) => res.json().catch(() => res),
@@ -50,7 +50,8 @@ export function requestJSON (url, options = {}) {
           })
         }
         throw error
-      })
+      }
+    )
 }
 
 export function requestXML (url, options) {

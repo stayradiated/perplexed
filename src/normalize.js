@@ -1,14 +1,14 @@
-import {normalize as normalizeSchema, schema} from 'normalizr'
+import { normalize as normalizeSchema, schema } from 'normalizr'
 
-import {albumSchema, albumContainerSchema} from './types/album'
-import {artistSchema, artistContainerSchema} from './types/artist'
-import {hubSchema, hubContainerSchema} from './types/hub'
-import {playlistSchema, playlistContainerSchema} from './types/playlist'
-import {playQueueItemSchema, playQueueContainerSchema} from './types/playQueue'
-import {connectionSchema, deviceSchema, resourceContainerSchema} from './types/resources'
-import {sectionSchema, sectionContainerSchema} from './types/section'
-import {trackSchema, trackContainerSchema} from './types/track'
-import {userSchema} from './types/user'
+import { albumSchema, albumContainerSchema } from './types/album'
+import { artistSchema, artistContainerSchema } from './types/artist'
+import { hubSchema, hubContainerSchema } from './types/hub'
+import { playlistSchema, playlistContainerSchema } from './types/playlist'
+import { playQueueItemSchema, playQueueContainerSchema } from './types/playQueue'
+import { connectionSchema, deviceSchema, resourceContainerSchema } from './types/resources'
+import { sectionSchema, sectionContainerSchema } from './types/section'
+import { trackSchema, trackContainerSchema } from './types/track'
+import { userSchema } from './types/user'
 
 /**
  * Normalize a __parsed__ plex response based on the data type.
@@ -44,9 +44,8 @@ const dataSchema = new schema.Union({
   track: trackSchema,
   trackContainer: trackContainerSchema,
 
-  user: userSchema,
+  user: userSchema
 }, '_type')
-
 
 /*
  * normalizeSync

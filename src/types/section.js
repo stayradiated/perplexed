@@ -1,10 +1,10 @@
-import {schema} from 'normalizr'
+import { schema } from 'normalizr'
 
-import {parseMediaContainer} from './mediaContainer'
+import { parseMediaContainer } from './mediaContainer'
 
 export const sectionSchema = new schema.Entity('sections')
 export const sectionContainerSchema = new schema.Object({
-  sections: new schema.Array(sectionSchema),
+  sections: new schema.Array(sectionSchema)
 })
 
 export function parseSection (data) {
@@ -24,7 +24,7 @@ export function parseSection (data) {
     uuid = null,
     updatedAt = null,
     createdAt = null,
-    Location = null,
+    Location = null
   } = data
 
   return {
@@ -45,7 +45,7 @@ export function parseSection (data) {
     uuid,
     updatedAt,
     createdAt,
-    location: Location,
+    location: Location
   }
 }
 
@@ -56,13 +56,13 @@ export function parseSectionContainer (data) {
 
   const {
     title1 = null,
-    Directory = [],
+    Directory = []
   } = data
 
   return {
     ...parseMediaContainer(data),
     _type: 'sectionContainer',
     title: title1,
-    sections: Directory.map(parseSection),
+    sections: Directory.map(parseSection)
   }
 }

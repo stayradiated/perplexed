@@ -1,4 +1,4 @@
-import {parsePart} from './part'
+import { parsePart } from './part'
 
 export function parseMedia (data) {
   const {
@@ -8,7 +8,7 @@ export function parseMedia (data) {
     audioChannels = null,
     audioCodec = null,
     container = null,
-    Part = [],
+    Part = []
   } = data
 
   return {
@@ -19,6 +19,6 @@ export function parseMedia (data) {
     audioChannels,
     audioCodec,
     container,
-    part: Part.map(parsePart),
+    part: Part.map(parsePart)
   }
 }

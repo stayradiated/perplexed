@@ -1,16 +1,16 @@
-import {schema} from 'normalizr'
+import { schema } from 'normalizr'
 
-import {parseMediaContainer} from './mediaContainer'
-import {parseBool} from './types'
+import { parseMediaContainer } from './mediaContainer'
+import { parseBool } from './types'
 
 export const connectionSchema = new schema.Entity('connections', {}, {
-  idAttribute: 'uri',
+  idAttribute: 'uri'
 })
 export const deviceSchema = new schema.Entity('devices', {
-  connections: new schema.Array(connectionSchema),
+  connections: new schema.Array(connectionSchema)
 })
 export const resourceContainerSchema = new schema.Object({
-  devices: new schema.Array(deviceSchema),
+  devices: new schema.Array(deviceSchema)
 })
 
 export function parseConnection (data) {
@@ -19,7 +19,7 @@ export function parseConnection (data) {
     address = null,
     port = null,
     uri = null,
-    local = null,
+    local = null
   } = data.$
 
   return {
@@ -28,7 +28,7 @@ export function parseConnection (data) {
     address,
     port,
     uri,
-    local: parseBool(local),
+    local: parseBool(local)
   }
 }
 
@@ -48,11 +48,11 @@ export function parseDevice (data) {
     accessToken = null,
     publicAddress = null,
     publicAddressMatches = null,
-    presence = null,
+    presence = null
   } = data.$
 
   const {
-    Connection = [],
+    Connection = []
   } = data
 
   return {
@@ -73,7 +73,7 @@ export function parseDevice (data) {
     publicAddress,
     publicAddressMatches: parseBool(publicAddressMatches),
     presence: parseBool(presence),
-    connections: Connection.map(parseConnection),
+    connections: Connection.map(parseConnection)
   }
 }
 
@@ -83,12 +83,12 @@ export function parseResources (data) {
   }
 
   const {
-    Device = [],
+    Device = []
   } = data
 
   return {
     ...parseMediaContainer(data.$),
     _type: 'resourceContainer',
-    devices: Device.map(parseDevice),
+    devices: Device.map(parseDevice)
   }
 }

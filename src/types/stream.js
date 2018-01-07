@@ -8,7 +8,7 @@ export function parseStream (data = {}) {
     channels = null,
     bitrate = null,
     audioChannelLayout = null,
-    samplingRate = null,
+    samplingRate = null
   } = data
 
   return {
@@ -21,6 +21,6 @@ export function parseStream (data = {}) {
     channels,
     bitrate,
     audioChannelLayout,
-    samplingRate,
+    samplingRate
   }
 }

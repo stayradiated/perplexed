@@ -1,14 +1,14 @@
 import assert from 'assert'
 
-import {withParams, withContainerParams} from './utils/params'
+import { withParams, withContainerParams } from './utils/params'
 
-import {parseSectionContainer} from './types/section'
-import {parseAlbumContainer} from './types/album'
-import {parseArtistContainer} from './types/artist'
-import {parseTrackContainer} from './types/track'
-import {parsePlayQueue} from './types/playQueue'
-import {parsePlaylist, parsePlaylistContainer} from './types/playlist'
-import {parseHubContainer} from './types/hub'
+import { parseSectionContainer } from './types/section'
+import { parseAlbumContainer } from './types/album'
+import { parseArtistContainer } from './types/artist'
+import { parseTrackContainer } from './types/track'
+import { parsePlayQueue } from './types/playQueue'
+import { parsePlaylist, parsePlaylistContainer } from './types/playlist'
+import { parseHubContainer } from './types/hub'
 
 // plex media types-- https://github.com/Arcanemagus/plex-api/wiki/MediaTypes
 export const ARTIST = 8
@@ -50,7 +50,6 @@ export function parseType (type, data) {
  */
 
 export default class Library {
-
   constructor (serverConnection) {
     this.api = serverConnection
   }
@@ -73,7 +72,7 @@ export default class Library {
   fetch (url, options = {}) {
     return this.api.fetch(url, {
       ...options,
-      params: withContainerParams(options.params),
+      params: withContainerParams(options.params)
     })
   }
 
@@ -127,8 +126,8 @@ export default class Library {
     return this.fetch(path, {
       params: {
         ...params,
-        type,
-      },
+        type
+      }
     })
       .then((res) => parseType(type, res))
   }
@@ -162,10 +161,9 @@ export default class Library {
     assert(typeof type === 'number', 'Must specify type')
 
     const path = `/library/metadata/${id}`
-    return this.fetch(path, {params})
+    return this.fetch(path, { params })
       .then((res) => parseType(type, res))
   }
-
 
   /**
    * Fetch children of a metadata item
@@ -181,10 +179,9 @@ export default class Library {
     assert(typeof type === 'number', 'Must specify type')
 
     const path = `/library/metadata/${id}/children`
-    return this.fetch(path, {params})
+    return this.fetch(path, { params })
       .then((res) => parseType(type, res))
   }
-
 
   // ==========================================================================
   // TRACKS
@@ -201,7 +198,6 @@ export default class Library {
     return this.sectionItems(sectionId, TRACK, params)
   }
 
-
   /**
    * Get information about a single track
    *
@@ -212,7 +208,6 @@ export default class Library {
   track (trackId) {
     return this.metadata(trackId, TRACK)
   }
-
 
   // ==========================================================================
   // ALBUMS
@@ -230,7 +225,6 @@ export default class Library {
     return this.sectionItems(sectionId, ALBUM, params)
   }
 
-
   /**
    * Get information about a single album
    *
@@ -241,7 +235,6 @@ export default class Library {
   album (albumId) {
     return this.metadata(albumId, ALBUM)
   }
-
 
   /**
    * Get the tracks related to an album
@@ -255,7 +248,6 @@ export default class Library {
   albumTracks (albumId, params) {
     return this.metadataChildren(albumId, TRACK, params)
   }
-
 
   // ==========================================================================
   // ARTISTS
@@ -272,7 +264,6 @@ export default class Library {
     return this.sectionItems(sectionId, ARTIST, params)
   }
 
-
   /**
    * Get information about a single artist
    *
@@ -282,12 +273,11 @@ export default class Library {
    * @returns {Promise}
    */
 
-  artist (artistId, {includePopular = false}) {
+  artist (artistId, { includePopular = false }) {
     return this.metadata(artistId, ARTIST, {
-      includePopularLeaves: includePopular ? 1 : 0,
+      includePopularLeaves: includePopular ? 1 : 0
     })
   }
-
 
   /**
    * Get the albums related to an artist
@@ -302,7 +292,6 @@ export default class Library {
     return this.metadataChildren(artistId, ALBUM, params)
   }
 
-
   // ==========================================================================
   // PLAYLISTS
   // ==========================================================================
@@ -314,8 +303,8 @@ export default class Library {
         type: 'audio',
         title,
         smart: 1,
-        uri,
-      },
+        uri
+      }
     })
       .then((res) => parsePlaylistContainer(res))
   }
@@ -334,8 +323,8 @@ export default class Library {
     return this.fetch(path, {
       params: {
         ...params,
-        type: PLAYLIST,
-      },
+        type: PLAYLIST
+      }
     })
       .then((res) => parsePlaylistContainer(res))
   }
@@ -347,16 +336,31 @@ export default class Library {
 
   playlistTracks (id, params) {
     const path = `/playlists/${id}/items`
-    return this.fetch(path, {params})
+    return this.fetch(path, { params })
       .then((res) => parsePlaylist(res))
+  }
+
+  editPlaylistDetails (playlistId, details) {
+    this.fetch(`/library/metadata/${playlistId}`, {
+      method: 'PUT',
+      params: details
+    })
+  }
+
+  editPlaylistTitle (playlistId, title) {
+    this.editPlaylistDetails(playlistId, { title })
+  }
+
+  editPlaylistSummary (playlistId, summary) {
+    this.editPlaylistDetails(playlistId, { summary })
   }
 
   addToPlaylist (playlistId, uri) {
     return this.fetch(`/playlists/${playlistId}/items`, {
       method: 'PUT',
       params: {
-        uri,
-      },
+        uri
+      }
     })
   }
 
@@ -382,8 +386,8 @@ export default class Library {
     return this.fetch('/hubs/search', {
       params: {
         query,
-        limit,
-      },
+        limit
+      }
     })
       .then((res) => parseHubContainer(res))
   }
@@ -398,11 +402,10 @@ export default class Library {
     return this.fetch(`/library/sections/${sectionId}/search`, {
       params: {
         type: TRACK,
-        query,
-      },
+        query
+      }
     })
   }
-
 
   // ==========================================================================
   // PHOTOS
@@ -422,7 +425,6 @@ export default class Library {
     return this.api.getAuthenticatedUrl('/photo/:/transcode', params)
   }
 
-
   // ==========================================================================
   // TRACKS
   // ==========================================================================
@@ -430,7 +432,6 @@ export default class Library {
   trackSrc (track) {
     return this.api.getAuthenticatedUrl(track.media[0].part[0].key)
   }
-
 
   // ==========================================================================
   // RATINGS
@@ -448,11 +449,10 @@ export default class Library {
       params: {
         key: trackId,
         identifier: 'com.plexapp.plugins.library',
-        rating,
-      },
+        rating
+      }
     })
   }
-
 
   // ==========================================================================
   // QUEUE
@@ -485,8 +485,8 @@ export default class Library {
         shuffle: options.shuffle ? 1 : 0,
         repeat: options.repeat ? 1 : 0,
         includeChapters: options.includeChapters ? 1 : 0,
-        includeRelated: options.includeRelated ? 1 : 0,
-      },
+        includeRelated: options.includeRelated ? 1 : 0
+      }
     })
       .then((res) => parseType(QUEUE, res))
   }
@@ -516,8 +516,8 @@ export default class Library {
     return this.fetch(`/playQueues/${playQueueId}/items/${itemId}/move`, {
       method: 'PUT',
       params: {
-        after: afterId,
-      },
+        after: afterId
+      }
     })
       .then((res) => parseType(QUEUE, res))
   }
@@ -530,7 +530,7 @@ export default class Library {
    */
 
   shufflePlayQueue (playQueueId) {
-    return this.fetch(`/playQueues/${playQueueId}/shuffle`, {method: 'PUT'})
+    return this.fetch(`/playQueues/${playQueueId}/shuffle`, { method: 'PUT' })
       .then((res) => parseType(QUEUE, res))
   }
 
@@ -542,10 +542,9 @@ export default class Library {
    */
 
   unshufflePlayQueue (playQueueId) {
-    return this.fetch(`/playQueues/${playQueueId}/unshuffle`, {method: 'PUT'})
+    return this.fetch(`/playQueues/${playQueueId}/unshuffle`, { method: 'PUT' })
       .then((res) => parseType(QUEUE, res))
   }
-
 
   // ==========================================================================
   // TIMELINE
@@ -565,7 +564,9 @@ export default class Library {
    */
 
   timeline (options) {
-    const {currentTime, duration, queueItemId, ratingKey, key, playerState} = options
+    const {
+      currentTime, duration, queueItemId, ratingKey, key, playerState
+    } = options
     return this.fetch('/:/timeline', {
       params: {
         hasMDE: 1,
@@ -574,11 +575,10 @@ export default class Library {
         playQueueItemID: queueItemId,
         state: playerState,
         time: currentTime,
-        duration,
-      },
+        duration
+      }
     })
   }
-
 
   // ==========================================================================
   // MODIFY GENRE
@@ -611,8 +611,8 @@ export default class Library {
         ...params,
         type,
         id,
-        'genre.locked': 1,
-      },
+        'genre.locked': 1
+      }
     })
   }
 

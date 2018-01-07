@@ -1,22 +1,22 @@
-import {schema} from 'normalizr'
+import { schema } from 'normalizr'
 
-import {parseAlbum, albumSchema} from './album'
-import {parseArtist, artistSchema} from './artist'
-import {parseTrack, trackSchema} from './track'
-import {parsePlaylist, playlistSchema} from './playlist'
+import { parseAlbum, albumSchema } from './album'
+import { parseArtist, artistSchema } from './artist'
+import { parseTrack, trackSchema } from './track'
+import { parsePlaylist, playlistSchema } from './playlist'
 
 export const hubSchema = new schema.Entity('hubs', {
   items: new schema.Array(new schema.Union({
     playlist: playlistSchema,
     artist: artistSchema,
     album: albumSchema,
-    track: trackSchema,
-  }, 'type')),
+    track: trackSchema
+  }, 'type'))
 }, {
-  idAttribute: 'type',
+  idAttribute: 'type'
 })
 export const hubContainerSchema = new schema.Object({
-  hubs: new schema.Array(hubSchema),
+  hubs: new schema.Array(hubSchema)
 })
 
 export function defaultParseFunction (data) {
@@ -45,7 +45,7 @@ export function parseHub (data) {
     size = null,
     title = null,
     more = null,
-    Metadata = [],
+    Metadata = []
   } = data
 
   const parseFn = getParseFunction(type)
@@ -64,7 +64,7 @@ export function parseHub (data) {
     size,
     title,
     more,
-    items,
+    items
   }
 }
 
@@ -74,11 +74,11 @@ export function parseHubContainer (data) {
   }
 
   const {
-    Hub = [],
+    Hub = []
   } = data
 
   return {
     _type: 'hubContainer',
-    hubs: Hub.map(parseHub),
+    hubs: Hub.map(parseHub)
   }
 }

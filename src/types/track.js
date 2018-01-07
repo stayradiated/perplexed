@@ -1,11 +1,11 @@
-import {schema} from 'normalizr'
+import { schema } from 'normalizr'
 
-import {parseMediaContainer} from './mediaContainer'
-import {parseMedia} from './media'
+import { parseMediaContainer } from './mediaContainer'
+import { parseMedia } from './media'
 
 export const trackSchema = new schema.Entity('tracks')
 export const trackContainerSchema = new schema.Object({
-  tracks: new schema.Array(trackSchema),
+  tracks: new schema.Array(trackSchema)
 })
 
 export function parseTrack (data) {
@@ -35,7 +35,7 @@ export function parseTrack (data) {
     userRating = null,
     viewCount = null,
     Media = [],
-    Related = null,
+    Related = null
   } = data
 
   return {
@@ -69,7 +69,7 @@ export function parseTrack (data) {
     type,
     updatedAt,
     userRating,
-    viewCount,
+    viewCount
   }
 }
 
@@ -98,7 +98,7 @@ export function parseTrackContainer (data) {
     title2 = null,
     viewGroup = null,
     viewMode = null,
-    Metadata = [],
+    Metadata = []
   } = data
 
   return {
@@ -125,6 +125,6 @@ export function parseTrackContainer (data) {
     title1,
     title2,
     viewGroup,
-    viewMode,
+    viewMode
   }
 }

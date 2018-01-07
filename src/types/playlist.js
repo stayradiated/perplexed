@@ -1,17 +1,17 @@
-import {schema} from 'normalizr'
+import { schema } from 'normalizr'
 
-import {parseTrack, trackSchema} from './track'
-import {parseMediaContainer} from './mediaContainer'
-import {parseBool} from './types'
+import { parseTrack, trackSchema } from './track'
+import { parseMediaContainer } from './mediaContainer'
+import { parseBool } from './types'
 
 export const playlistItemSchema = new schema.Object({
-  track: trackSchema,
+  track: trackSchema
 })
 export const playlistSchema = new schema.Entity('playlists', {
-  items: new schema.Array(playlistItemSchema),
+  items: new schema.Array(playlistItemSchema)
 })
 export const playlistContainerSchema = new schema.Object({
-  playlists: new schema.Array(playlistSchema),
+  playlists: new schema.Array(playlistSchema)
 })
 
 export const parsePlaylistItem = (playlistId) => (item) => {
@@ -19,7 +19,7 @@ export const parsePlaylistItem = (playlistId) => (item) => {
     _type: 'playlistItem',
     id: item.playlistItemID,
     playlistId,
-    track: parseTrack(item),
+    track: parseTrack(item)
   }
 }
 
@@ -44,7 +44,7 @@ export function parsePlaylist (data) {
     leafCount = null,
     addedAt = null,
     updatedAt = null,
-    Metadata = [],
+    Metadata = []
   } = data
 
   const id = parseInt(ratingKey, 10)
@@ -68,7 +68,7 @@ export function parsePlaylist (data) {
     leafCount,
     addedAt,
     updatedAt,
-    items: Metadata.map(parsePlaylistItem(id)),
+    items: Metadata.map(parsePlaylistItem(id))
   }
 }
 
@@ -78,13 +78,13 @@ export function parsePlaylistContainer (data) {
   }
 
   const {
-    Metadata = [],
+    Metadata = []
   } = data
 
   return {
     ...parseMediaContainer(data),
 
-    _type:'playlistContainer',
-    playlists: Metadata.map(parsePlaylist),
+    _type: 'playlistContainer',
+    playlists: Metadata.map(parsePlaylist)
   }
 }

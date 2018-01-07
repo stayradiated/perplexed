@@ -1,11 +1,11 @@
-import {schema} from 'normalizr'
+import { schema } from 'normalizr'
 
-import {parseMediaContainer} from './mediaContainer'
-import {parseGenre} from './tags'
+import { parseMediaContainer } from './mediaContainer'
+import { parseGenre } from './tags'
 
 export const albumSchema = new schema.Entity('albums')
 export const albumContainerSchema = new schema.Object({
-  albums: new schema.Array(albumSchema),
+  albums: new schema.Array(albumSchema)
 })
 
 export function parseAlbum (data) {
@@ -33,7 +33,7 @@ export function parseAlbum (data) {
     updatedAt = null,
     userRating = null,
     viewCount = null,
-    year = null,
+    year = null
   } = data
 
   return {
@@ -66,7 +66,7 @@ export function parseAlbum (data) {
     userRating,
     updatedAt,
     viewCount,
-    year,
+    year
   }
 }
 
@@ -85,7 +85,7 @@ export function parseAlbumContainer (data) {
     title2 = null,
     viewGroup = null,
     viewMode = null,
-    Metadata = [],
+    Metadata = []
   } = data
 
   return {
@@ -102,6 +102,6 @@ export function parseAlbumContainer (data) {
     title1,
     title2,
     viewGroup,
-    viewMode,
+    viewMode
   }
 }

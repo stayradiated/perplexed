@@ -26,7 +26,7 @@ export class Filter {
   }
 
   filter (symbol, value) {
-    return {[`${this.title}${symbol}`]: serialize(value)}
+    return { [`${this.title}${symbol}`]: serialize(value) }
   }
 }
 
@@ -35,7 +35,7 @@ export class FilterValue extends Filter {
     return {
       ...super.options(),
       is: 'is',
-      isNot: 'is not',
+      isNot: 'is not'
     }
   }
 
@@ -57,7 +57,7 @@ export class FilterString extends FilterValue {
       contains: 'contains',
       doesNotContain: 'does not contain',
       beginsWith: 'begins with',
-      endsWith: 'ends with',
+      endsWith: 'ends with'
     }
   }
 
@@ -87,7 +87,7 @@ export class FilterNumber extends FilterValue {
     return {
       ...super.options(),
       isGreaterThan: 'is greater than',
-      isLessThan: 'is less than',
+      isLessThan: 'is less than'
     }
   }
 
@@ -109,7 +109,7 @@ export class FilterDate extends Filter {
       isBefore: 'is before',
       isAfter: 'is after',
       inTheLast: 'in the last',
-      inNotTheLast: 'in not the last',
+      inNotTheLast: 'in not the last'
     }
   }
 
@@ -183,7 +183,7 @@ export const availableTrackOptions = {
   trackLastPlayed: 'Track Last Played',
   trackSkips: 'Track Skips',
   trackLastSkipped: 'Track Last Skipped',
-  trackRating: 'Track Rating',
+  trackRating: 'Track Rating'
 }
 
 export const availableDateUnits = {
@@ -193,10 +193,10 @@ export const availableDateUnits = {
   [DAYS]: 'Days',
   [WEEKS]: 'Weeks',
   [MONTHS]: 'Months',
-  [YEARS]: 'Years',
+  [YEARS]: 'Years'
 }
 
 export const limit = (value) => {
   console.assert(typeof value === 'number', 'limit must be a number')
-  return {limit: value.toString()}
+  return { limit: value.toString() }
 }

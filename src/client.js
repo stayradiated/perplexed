@@ -17,13 +17,13 @@ import os from 'os'
 
 export default class Client {
   constructor (options = {}) {
-    this.device            = options.device || os.platform()
-    this.deviceName        = options.deviceName || 'Node.js App'
-    this.identifier        = options.identifier || uuid.v4()
-    this.platform          = options.platform || 'Node.js'
-    this.platformVersion   = options.platformVersion || process.version
-    this.product           = options.product || 'Node.js App'
-    this.version           = options.version || '1.0.0'
+    this.device = options.device || os.platform()
+    this.deviceName = options.deviceName || 'Node.js App'
+    this.identifier = options.identifier || uuid.v4()
+    this.platform = options.platform || 'Node.js'
+    this.platformVersion = options.platformVersion || process.version
+    this.product = options.product || 'Node.js App'
+    this.version = options.version || '1.0.0'
   }
 
   /**
@@ -42,7 +42,7 @@ export default class Client {
       'X-Plex-Platform-Version': this.platformVersion,
       'X-Plex-Product': this.product,
       'X-Plex-Provides': 'controller',
-      'X-Plex-Version': this.version,
+      'X-Plex-Version': this.version
     }
   }
 }

@@ -1,5 +1,5 @@
-import {withParams} from './utils/params'
-import {requestJSON} from './utils/request'
+import { withParams } from './utils/params'
+import { requestJSON } from './utils/request'
 
 /**
  * A connection to a Plex server
@@ -23,7 +23,6 @@ export default class ServerConnection {
     return this.parent && this.parent.headers()
   }
 
-
   /**
    * Given a path, return a fully qualified URL
    *
@@ -46,7 +45,7 @@ export default class ServerConnection {
   getAuthenticatedUrl (path, params) {
     return this.getUrl(path, {
       ...params,
-      'X-Plex-Token': this.headers()['X-Plex-Token'],
+      'X-Plex-Token': this.headers()['X-Plex-Token']
     })
   }
 
@@ -65,8 +64,8 @@ export default class ServerConnection {
       ...options,
       headers: {
         ...this.headers(),
-        ...options.headers,
-      },
+        ...options.headers
+      }
     })
   }
 }

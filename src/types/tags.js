@@ -4,12 +4,12 @@ export function parseTags (list = []) {
 
 export function parseGenre (data) {
   return {
-    genre: parseTags(data.Genre),
+    genre: parseTags(data.Genre)
   }
 }
 
 export function parseCountry (data) {
   return {
-    country: parseTags(data.Country),
+    country: parseTags(data.Country)
   }
 }
