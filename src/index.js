@@ -1,3 +1,5 @@
+import 'babel-polyfill'
+
 // custom filters
 import * as filter from './filter'
 export { filter }

@@ -19,14 +19,15 @@
     "client"
   ],
   "scripts": {
-    "build": "pkg-build",
-    "prepublish": "pkg-build",
+    "build": "rollup -c",
+    "prepublish": "rollup -c",
     "test": "pkg-test",
     "coverage": "pkg-coverage",
     "lint": "pkg-lint"
   },
   "dependencies": {
     "assert": "^1.4.1",
+    "babel-polyfill": "^6.26.0",
     "deep-diff": "^0.3.8",
     "difflet": "^1.0.1",
     "es6-promisify": "^5.0.0",
@@ -38,8 +39,14 @@
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
+    "nock": "^9.0.22",
     "@mishguru/package": "^1.5.3",
-    "nock": "^9.0.22"
+    "babel-plugin-external-helpers": "^6.22.0",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup": "^0.53.3",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-local-resolve": "^1.0.7",
+    "eslint-config-mishguru": "^1.10.0"
   },
   "babel": {
     "presets": [
@@ -47,9 +54,7 @@
       [
         "env",
         {
-          "targets": {
-            "node": "current"
-          }
+          "forceAllTransforms": true
         }
       ]
     ],
