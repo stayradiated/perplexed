@@ -341,18 +341,18 @@ export default class Library {
   }
 
   editPlaylistDetails (playlistId, details) {
-    this.fetch(`/library/metadata/${playlistId}`, {
+    return this.fetch(`/library/metadata/${playlistId}`, {
       method: 'PUT',
       params: details
     })
   }
 
   editPlaylistTitle (playlistId, title) {
-    this.editPlaylistDetails(playlistId, { title })
+    return this.editPlaylistDetails(playlistId, { title })
   }
 
   editPlaylistSummary (playlistId, summary) {
-    this.editPlaylistDetails(playlistId, { summary })
+    return this.editPlaylistDetails(playlistId, { summary })
   }
 
   addToPlaylist (playlistId, uri) {
