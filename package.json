@@ -30,6 +30,7 @@
     "babel-polyfill": "^6.26.0",
     "deep-diff": "^0.3.8",
     "difflet": "^1.0.1",
+    "es6-promisify": "^6.0.0",
     "isomorphic-base64": "^1.0.2",
     "isomorphic-fetch": "^2.2.1",
     "normalizr": "^3.2.4",

@@ -1,6 +1,6 @@
 import xml2js from 'xml2js'
 import fetch from 'isomorphic-fetch'
-import { promisify } from 'util'
+import { promisify } from 'es6-promisify'
 
 import { withParams } from './params'
 
