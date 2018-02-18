@@ -1,7 +1,7 @@
 import test from 'ava'
 import os from 'os'
 
-import {Client} from '../lib'
+import Client from './client'
 
 test('should create a new client with default options', (t) => {
   const client = new Client()
@@ -23,7 +23,7 @@ test('should allow options to be overwritten', (t) => {
     device: 'device',
     deviceName: 'deviceName',
     platform: 'platform',
-    platformVersion: 'platformVersion',
+    platformVersion: 'platformVersion'
   })
 
   t.is(client.identifier, 'identifier')
@@ -43,7 +43,7 @@ test('should generate plex headers', (t) => {
     device: 'device',
     deviceName: 'deviceName',
     platform: 'platform',
-    platformVersion: 'platformVersion',
+    platformVersion: 'platformVersion'
   })
 
   t.deepEqual(client.headers(), {
@@ -54,6 +54,6 @@ test('should generate plex headers', (t) => {
     'X-Plex-Device-Name': 'deviceName',
     'X-Plex-Platform': 'platform',
     'X-Plex-Platform-Version': 'platformVersion',
-    'X-Plex-Provides': 'controller',
+    'X-Plex-Provides': 'controller'
   })
 })

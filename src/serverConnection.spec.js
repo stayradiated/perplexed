@@ -1,14 +1,14 @@
 import test from 'ava'
 import nock from 'nock'
 
-import {ServerConnection} from '../lib'
+import ServerConnection from './serverConnection'
 
 const URI = 'http://192.168.1.100:32400'
 const PARENT_HEADERS = {
-  'X-Plex-Token': 'abc',
+  'X-Plex-Token': 'abc'
 }
 const PARENT = {
-  headers: () => PARENT_HEADERS,
+  headers: () => PARENT_HEADERS
 }
 
 test.beforeEach((t) => {
@@ -28,49 +28,51 @@ test('constructor with parent', (t) => {
 })
 
 test('headers', (t) => {
-  const {sc} = t.context
+  const { sc } = t.context
   t.deepEqual(sc.headers(), PARENT_HEADERS)
 })
 
 test('getUrl', (t) => {
-  const {sc} = t.context
-  const url = sc.getUrl('/path', {key: 'value'})
+  const { sc } = t.context
+  const url = sc.getUrl('/path', { key: 'value' })
   t.is(url, 'http://192.168.1.100:32400/path?key=value')
 })
 
 test('getAuthenticatedUrl', (t) => {
-  const {sc} = t.context
-  const url = sc.getAuthenticatedUrl('/path', {key: 'value'})
+  const { sc } = t.context
+  const url = sc.getAuthenticatedUrl('/path', { key: 'value' })
   t.is(url, 'http://192.168.1.100:32400/path?key=value&X-Plex-Token=abc')
 })
 
-test('fetch', (t) => {
-  const {sc} = t.context
+test('fetch', async (t) => {
+  const { sc } = t.context
 
   const scope = nock(URI)
     .get('/path')
     .reply(200, {})
 
-  return sc.fetch('/path').then((res) => {
-    scope.done()
-    t.deepEqual(res, {})
-  })
+  const res = await sc.fetch('/path')
+
+  t.deepEqual(res, {})
+
+  scope.done()
 })
 
-test('fetch with params', (t) => {
-  const {sc} = t.context
+test('fetch with params', async (t) => {
+  const { sc } = t.context
 
   const scope = nock(URI)
     .post('/path?key=value')
     .reply(200, {})
 
-  return sc.fetch('/path', {
+  const res = await sc.fetch('/path', {
     method: 'post',
     params: {
-      key: 'value',
-    },
-  }).then((res) => {
-    scope.done()
-    t.deepEqual(res, {})
+      key: 'value'
+    }
   })
+
+  t.deepEqual(res, {})
+
+  scope.done()
 })

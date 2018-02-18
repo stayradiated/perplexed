@@ -62,6 +62,7 @@ export function normalizeSync (data) {
  *
  * Returns a promise
  */
-export default function normalize (data) {
-  return Promise.resolve(data).then(normalizeSync)
+export default async function normalize (data) {
+  const resolvedData = await data
+  return normalizeSync(resolvedData)
 }

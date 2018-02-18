@@ -69,11 +69,12 @@ export default class Library {
    * @returns {Promise} - the query result
    */
 
-  fetch (url, options = {}) {
-    return this.api.fetch(url, {
+  async fetch (url, options = {}) {
+    const res = await this.api.fetch(url, {
       ...options,
       params: withContainerParams(options.params)
     })
+    return res
   }
 
   // ==========================================================================
@@ -84,8 +85,9 @@ export default class Library {
    * Get the status of all connected clients
    */
 
-  sessions () {
-    return this.fetch('/status/sessions')
+  async sessions () {
+    const res = await this.fetch('/status/sessions')
+    return res
   }
 
   /**
@@ -93,9 +95,9 @@ export default class Library {
    * @returns {Promise}
    */
 
-  sections () {
-    return this.fetch('/library/sections')
-      .then((res) => parseSectionContainer(res))
+  async sections () {
+    const res = await this.fetch('/library/sections')
+    return parseSectionContainer(res)
   }
 
   /**
@@ -105,8 +107,9 @@ export default class Library {
    * @returns {Promise}
    */
 
-  section (sectionId) {
-    return this.fetch(`/library/sections/${sectionId}`)
+  async section (sectionId) {
+    const res = await this.fetch(`/library/sections/${sectionId}`)
+    return res
   }
 
   /**
@@ -118,18 +121,18 @@ export default class Library {
    * @returns {Promise}
    */
 
-  sectionItems (sectionId, type, params = {}) {
+  async sectionItems (sectionId, type, params = {}) {
     assert(sectionId != null, 'Must specify section id')
     assert(typeof type === 'number', 'Must specify type')
 
     const path = `/library/sections/${sectionId}/all`
-    return this.fetch(path, {
+    const res = await this.fetch(path, {
       params: {
         ...params,
         type
       }
     })
-      .then((res) => parseType(type, res))
+    return parseType(type, res)
   }
 
   /**
@@ -156,13 +159,13 @@ export default class Library {
    * @returns {Promise}
    */
 
-  metadata (id, type, params = {}) {
+  async metadata (id, type, params = {}) {
     assert(id != null, 'Must specify item id')
     assert(typeof type === 'number', 'Must specify type')
 
     const path = `/library/metadata/${id}`
-    return this.fetch(path, { params })
-      .then((res) => parseType(type, res))
+    const res = await this.fetch(path, { params })
+    return parseType(type, res)
   }
 
   /**
@@ -174,13 +177,13 @@ export default class Library {
    * @returns {Promise}
    */
 
-  metadataChildren (id, type, params = {}) {
+  async metadataChildren (id, type, params = {}) {
     assert(id != null, 'Must specify item id')
     assert(typeof type === 'number', 'Must specify type')
 
     const path = `/library/metadata/${id}/children`
-    return this.fetch(path, { params })
-      .then((res) => parseType(type, res))
+    const res = await this.fetch(path, { params })
+    return parseType(type, res)
   }
 
   // ==========================================================================
@@ -194,8 +197,9 @@ export default class Library {
    * @param {Object} [params={}]
    */
 
-  tracks (sectionId, params = {}) {
-    return this.sectionItems(sectionId, TRACK, params)
+  async tracks (sectionId, params = {}) {
+    const tracks = await this.sectionItems(sectionId, TRACK, params)
+    return tracks
   }
 
   /**
@@ -205,8 +209,9 @@ export default class Library {
    * @returns {Promise}
    */
 
-  track (trackId) {
-    return this.metadata(trackId, TRACK)
+  async track (trackId) {
+    const track = await this.metadata(trackId, TRACK)
+    return track
   }
 
   // ==========================================================================
@@ -221,8 +226,9 @@ export default class Library {
    * @returns {Promise}
    */
 
-  albums (sectionId, params) {
-    return this.sectionItems(sectionId, ALBUM, params)
+  async albums (sectionId, params) {
+    const albums = await this.sectionItems(sectionId, ALBUM, params)
+    return albums
   }
 
   /**
@@ -232,8 +238,9 @@ export default class Library {
    * @returns {Promise}
    */
 
-  album (albumId) {
-    return this.metadata(albumId, ALBUM)
+  async album (albumId) {
+    const album = await this.metadata(albumId, ALBUM)
+    return album
   }
 
   /**
@@ -245,8 +252,9 @@ export default class Library {
    * @returns {Promise}
    */
 
-  albumTracks (albumId, params) {
-    return this.metadataChildren(albumId, TRACK, params)
+  async albumTracks (albumId, params) {
+    const albumTracks = await this.metadataChildren(albumId, TRACK, params)
+    return albumTracks
   }
 
   // ==========================================================================
@@ -260,8 +268,9 @@ export default class Library {
    * @param {Object} [params={}]
    */
 
-  artists (sectionId, params = {}) {
-    return this.sectionItems(sectionId, ARTIST, params)
+  async artists (sectionId, params = {}) {
+    const artists = await this.sectionItems(sectionId, ARTIST, params)
+    return artists
   }
 
   /**
@@ -273,10 +282,11 @@ export default class Library {
    * @returns {Promise}
    */
 
-  artist (artistId, { includePopular = false }) {
-    return this.metadata(artistId, ARTIST, {
+  async artist (artistId, { includePopular = false }) {
+    const artist = await this.metadata(artistId, ARTIST, {
       includePopularLeaves: includePopular ? 1 : 0
     })
+    return artist
   }
 
   /**
@@ -288,16 +298,17 @@ export default class Library {
    * @returns {Promise}
    */
 
-  artistAlbums (artistId, params) {
-    return this.metadataChildren(artistId, ALBUM, params)
+  async artistAlbums (artistId, params) {
+    const artistAlbums = await this.metadataChildren(artistId, ALBUM, params)
+    return artistAlbums
   }
 
   // ==========================================================================
   // PLAYLISTS
   // ==========================================================================
 
-  createSmartPlaylist (title, uri) {
-    return this.fetch('/playlists', {
+  async createSmartPlaylist (title, uri) {
+    const res = await this.fetch('/playlists', {
       method: 'POST',
       params: {
         type: 'audio',
@@ -306,7 +317,7 @@ export default class Library {
         uri
       }
     })
-      .then((res) => parsePlaylistContainer(res))
+    return parsePlaylistContainer(res)
   }
 
   /**
@@ -318,59 +329,64 @@ export default class Library {
    * @returns {Promise}
    */
 
-  playlists (params) {
+  async playlists (params) {
     const path = '/playlists/all'
-    return this.fetch(path, {
+    const res = await this.fetch(path, {
       params: {
         ...params,
         type: PLAYLIST
       }
     })
-      .then((res) => parsePlaylistContainer(res))
+    return parsePlaylistContainer(res)
   }
 
-  playlist (id) {
-    return this.fetch(`/playlists/${id}`)
-      .then((res) => parsePlaylistContainer(res))
+  async playlist (id) {
+    const res = await this.fetch(`/playlists/${id}`)
+    return parsePlaylistContainer(res)
   }
 
-  playlistTracks (id, params) {
+  async playlistTracks (id, params) {
     const path = `/playlists/${id}/items`
-    return this.fetch(path, { params })
-      .then((res) => parsePlaylist(res))
+    const res = await this.fetch(path, { params })
+    return parsePlaylist(res)
   }
 
-  editPlaylistDetails (playlistId, details) {
-    return this.fetch(`/library/metadata/${playlistId}`, {
+  async editPlaylistDetails (playlistId, details) {
+    const res = await this.fetch(`/library/metadata/${playlistId}`, {
       method: 'PUT',
       params: details
     })
+    return res
   }
 
-  editPlaylistTitle (playlistId, title) {
-    return this.editPlaylistDetails(playlistId, { title })
+  async editPlaylistTitle (playlistId, title) {
+    const res = await this.editPlaylistDetails(playlistId, { title })
+    return res
   }
 
-  editPlaylistSummary (playlistId, summary) {
-    return this.editPlaylistDetails(playlistId, { summary })
+  async editPlaylistSummary (playlistId, summary) {
+    const res = await this.editPlaylistDetails(playlistId, { summary })
+    return res
   }
 
-  addToPlaylist (playlistId, uri) {
-    return this.fetch(`/playlists/${playlistId}/items`, {
+  async addToPlaylist (playlistId, uri) {
+    const res = await this.fetch(`/playlists/${playlistId}/items`, {
       method: 'PUT',
       params: {
         uri
       }
     })
+    return res
   }
 
-  movePlaylistItem (playlistId, itemId, afterId) {
-    return this.fetch(`/playlists/${playlistId}/items/${itemId}/move`, {
+  async movePlaylistItem (playlistId, itemId, afterId) {
+    const res = await this.fetch(`/playlists/${playlistId}/items/${itemId}/move`, {
       method: 'PUT',
       params: {
         after: afterId
       }
     })
+    return res
   }
 
   /**
@@ -381,24 +397,25 @@ export default class Library {
    * @returns {Promise}
    */
 
-  removeFromPlaylist (playlistId, itemId) {
-    return this.fetch(`/playlists/${playlistId}/items/${itemId}`, {
+  async removeFromPlaylist (playlistId, itemId) {
+    const res = await this.fetch(`/playlists/${playlistId}/items/${itemId}`, {
       method: 'DELETE'
     })
+    return res
   }
 
   // ==========================================================================
   // SEARCH
   // ==========================================================================
 
-  searchAll (query, limit = 3) {
-    return this.fetch('/hubs/search', {
+  async searchAll (query, limit = 3) {
+    const res = await this.fetch('/hubs/search', {
       params: {
         query,
         limit
       }
     })
-      .then((res) => parseHubContainer(res))
+    return parseHubContainer(res)
   }
 
   /**
@@ -407,13 +424,14 @@ export default class Library {
    * @param {string} query
    */
 
-  searchTracks (sectionId, query) {
-    return this.fetch(`/library/sections/${sectionId}/search`, {
+  async searchTracks (sectionId, query) {
+    const res = await this.fetch(`/library/sections/${sectionId}/search`, {
       params: {
         type: TRACK,
         query
       }
     })
+    return res
   }
 
   // ==========================================================================
@@ -453,14 +471,15 @@ export default class Library {
    * @params {number} rating
    */
 
-  rate (trackId, rating) {
-    return this.fetch('/:/rate', {
+  async rate (trackId, rating) {
+    const res = await this.fetch('/:/rate', {
       params: {
         key: trackId,
         identifier: 'com.plexapp.plugins.library',
         rating
       }
     })
+    return res
   }
 
   // ==========================================================================
@@ -483,8 +502,8 @@ export default class Library {
    * @returns {Promise}
    */
 
-  createQueue (options = {}) {
-    return this.fetch('/playQueues', {
+  async createQueue (options = {}) {
+    const res = await this.fetch('/playQueues', {
       method: 'POST',
       params: {
         type: 'audio',
@@ -497,7 +516,7 @@ export default class Library {
         includeRelated: options.includeRelated ? 1 : 0
       }
     })
-      .then((res) => parseType(QUEUE, res))
+    return parseType(QUEUE, res)
   }
 
   /**
@@ -507,9 +526,9 @@ export default class Library {
    * @returns Promise
    */
 
-  playQueue (playQueueId) {
-    return this.fetch(`/playQueues/${playQueueId}`)
-      .then((res) => parseType(QUEUE, res))
+  async playQueue (playQueueId) {
+    const res = await this.fetch(`/playQueues/${playQueueId}`)
+    return parseType(QUEUE, res)
   }
 
   /**
@@ -521,14 +540,14 @@ export default class Library {
    * @returns Promise
    */
 
-  movePlayQueueItem (playQueueId, itemId, afterId) {
-    return this.fetch(`/playQueues/${playQueueId}/items/${itemId}/move`, {
+  async movePlayQueueItem (playQueueId, itemId, afterId) {
+    const res = await this.fetch(`/playQueues/${playQueueId}/items/${itemId}/move`, {
       method: 'PUT',
       params: {
         after: afterId
       }
     })
-      .then((res) => parseType(QUEUE, res))
+    return parseType(QUEUE, res)
   }
 
   /**
@@ -538,9 +557,11 @@ export default class Library {
    * @returns Promise
    */
 
-  shufflePlayQueue (playQueueId) {
-    return this.fetch(`/playQueues/${playQueueId}/shuffle`, { method: 'PUT' })
-      .then((res) => parseType(QUEUE, res))
+  async shufflePlayQueue (playQueueId) {
+    const res = await this.fetch(`/playQueues/${playQueueId}/shuffle`, {
+      method: 'PUT'
+    })
+    return parseType(QUEUE, res)
   }
 
   /**
@@ -550,9 +571,11 @@ export default class Library {
    * @returns Promise
    */
 
-  unshufflePlayQueue (playQueueId) {
-    return this.fetch(`/playQueues/${playQueueId}/unshuffle`, { method: 'PUT' })
-      .then((res) => parseType(QUEUE, res))
+  async unshufflePlayQueue (playQueueId) {
+    const res = await this.fetch(`/playQueues/${playQueueId}/unshuffle`, {
+      method: 'PUT'
+    })
+    return parseType(QUEUE, res)
   }
 
   // ==========================================================================
@@ -572,11 +595,11 @@ export default class Library {
    * @returns {Promise}
    */
 
-  timeline (options) {
+  async timeline (options) {
     const {
       currentTime, duration, queueItemId, ratingKey, key, playerState
     } = options
-    return this.fetch('/:/timeline', {
+    const res = await this.fetch('/:/timeline', {
       params: {
         hasMDE: 1,
         ratingKey,
@@ -587,6 +610,7 @@ export default class Library {
         duration
       }
     })
+    return res
   }
 
   // ==========================================================================
@@ -604,7 +628,7 @@ export default class Library {
    * @returns {Promise}
    */
 
-  modifyGenre (sectionId, type, id, addTags, removeTags = []) {
+  async modifyGenre (sectionId, type, id, addTags, removeTags = []) {
     const params = addTags.reduce((obj, tag, i) => {
       obj[`genre[${i}].tag.tag`] = tag
       return obj
@@ -614,7 +638,7 @@ export default class Library {
       params['genre[].tag.tag-'] = removeTags.map(encodeURIComponent).join(',')
     }
 
-    return this.api.fetch(`/library/sections/${sectionId}/all`, {
+    const res = await this.api.fetch(`/library/sections/${sectionId}/all`, {
       method: 'PUT',
       params: {
         ...params,
@@ -623,21 +647,24 @@ export default class Library {
         'genre.locked': 1
       }
     })
+    return res
   }
 
   /**
    * Modify the genre tags for an album
    */
 
-  modifyAlbumGenre (sectionId, albumId, addTags, removeTags) {
-    return this.modifyGenre(sectionId, ALBUM, albumId, addTags, removeTags)
+  async modifyAlbumGenre (sectionId, albumId, addTags, removeTags) {
+    const res = await this.modifyGenre(sectionId, ALBUM, albumId, addTags, removeTags)
+    return res
   }
 
   /**
    * Modify the genre tags for an artist
    */
 
-  modifyArtistGenre (sectionId, artistId, addTags, removeTags) {
-    return this.modifyGenre(sectionId, ARTIST, artistId, addTags, removeTags)
+  async modifyArtistGenre (sectionId, artistId, addTags, removeTags) {
+    const res = await this.modifyGenre(sectionId, ARTIST, artistId, addTags, removeTags)
+    return res
   }
 }

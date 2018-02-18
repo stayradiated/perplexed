@@ -30,20 +30,20 @@
     "babel-polyfill": "^6.26.0",
     "deep-diff": "^0.3.8",
     "difflet": "^1.0.1",
-    "es6-promisify": "^5.0.0",
+    "es6-promisify": "^6.0.0",
     "isomorphic-base64": "^1.0.2",
     "isomorphic-fetch": "^2.2.1",
-    "normalizr": "^3.2.3",
+    "normalizr": "^3.2.4",
     "qs": "^6.5.1",
-    "uuid": "^3.1.0",
+    "uuid": "^3.2.1",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
-    "nock": "^9.0.22",
-    "@mishguru/package": "^1.5.3",
+    "nock": "^9.1.6",
+    "@mishguru/package": "^1.15.5",
     "babel-plugin-external-helpers": "^6.22.0",
     "rollup-plugin-json": "^2.3.0",
-    "rollup": "^0.53.3",
+    "rollup": "^0.56.1",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-local-resolve": "^1.0.7",
     "eslint-config-mishguru": "^1.10.0"
@@ -69,7 +69,8 @@
   },
   "ava": {
     "require": [
-      "babel-register"
+      "babel-register",
+      "babel-polyfill"
     ],
     "babel": "inherit"
   }

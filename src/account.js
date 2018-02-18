@@ -75,38 +75,37 @@ export default class Account {
    * @returns {Promise} - User info
    */
 
-  authenticate (username, password) {
+  async authenticate (username, password) {
     const token = btoa(`${username}:${password}`)
     // we use requestJSON instead of this.fetch because if you send
     // the X-Plex-Token header it won't actually switch accounts.
-    return requestJSON(`${PLEX_API}/users/sign_in.json`, {
+    const res = await requestJSON(`${PLEX_API}/users/sign_in.json`, {
       method: 'POST',
       headers: {
         ...this.client.headers(),
         authorization: `Basic ${token}`
       }
     })
-      .then((res) => parseSignIn(res))
-      .then((user) => {
-        this.authToken = user.authToken
-        return user
-      })
+
+    const user = await parseSignIn(res)
+
+    this.authToken = user.authToken
+    return user
   }
 
-  requestPin () {
-    return this.fetch('/pins.json', { method: 'POST' })
-      .then((res) => parsePin(res))
+  async requestPin () {
+    const res = await this.fetch('/pins.json', { method: 'POST' })
+    const pin = parsePin(res)
+    return pin
   }
 
-  checkPin (pinId) {
-    return this.fetch(`/pins/${pinId}.json`)
-      .then((res) => parsePin(res))
-      .then((pin) => {
-        if (pin.authToken != null) {
-          this.authToken = pin.authToken
-        }
-        return pin
-      })
+  async checkPin (pinId) {
+    const res = await this.fetch(`/pins/${pinId}.json`)
+    const pin = parsePin(res)
+    if (pin.authToken != null) {
+      this.authToken = pin.authToken
+    }
+    return pin
   }
 
   /**
@@ -115,9 +114,9 @@ export default class Account {
    * @returns {Promise}
    */
 
-  info () {
-    return this.fetch('/api/v2/user')
-      .then((res) => parseUser(res))
+  async info () {
+    const res = await this.fetch('/api/v2/user')
+    return parseUser(res)
   }
 
   /**
@@ -130,14 +129,14 @@ export default class Account {
    * @returns {Promise}
    */
 
-  resources () {
-    return this.fetchXML('/api/resources', {
+  async resources () {
+    const res = await this.fetchXML('/api/resources', {
       params: {
         includeHttps: 1,
         includeRelay: 1
       }
     })
-      .then((res) => parseResources(res))
+    return parseResources(res)
   }
 
   /**
@@ -146,12 +145,13 @@ export default class Account {
    * @returns {Promise}
    */
 
-  servers () {
-    return this.resources().then((resources) => ({
+  async servers () {
+    const resources = await this.resources()
+    return {
       ...resources,
       devices: resources.devices.filter((device) =>
         device.provides.includes('server'))
-    }))
+    }
   }
 
   /**
@@ -160,17 +160,19 @@ export default class Account {
    * @returns {Promise}
    */
 
-  devices () {
-    return this.fetch('/devices.json')
+  async devices () {
+    const devices = await this.fetch('/devices.json')
+    return devices
   }
 
   /**
    * Remove a device from the account
    */
 
-  removeDevice (deviceId) {
-    return this.fetch(`/devices/${deviceId}.json`, {
+  async removeDevice (deviceId) {
+    await this.fetch(`/devices/${deviceId}.json`, {
       method: 'DELETE'
     })
+    return true
   }
 }
