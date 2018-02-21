@@ -20,6 +20,7 @@
   ],
   "scripts": {
     "build": "rollup -c",
+    "docs": "documentation build -f html -o ./docs src",
     "prepublish": "rollup -c",
     "test": "pkg-test",
     "coverage": "pkg-coverage",
@@ -30,6 +31,7 @@
     "babel-polyfill": "^6.26.0",
     "deep-diff": "^0.3.8",
     "difflet": "^1.0.1",
+    "documentation": "^5.4.0",
     "es6-promisify": "^6.0.0",
     "isomorphic-base64": "^1.0.2",
     "isomorphic-fetch": "^2.2.1",
