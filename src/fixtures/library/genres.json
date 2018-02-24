@@ -1,0 +1,3451 @@
+{
+  "MediaContainer": {
+    "size": 572,
+    "allowSync": false,
+    "art": "/:/resources/artist-fanart.jpg",
+    "content": "secondary",
+    "identifier": "com.plexapp.plugins.library",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1513172439,
+    "nocache": true,
+    "thumb": "/:/resources/artist.png",
+    "title1": "Music",
+    "title2": "By Genre",
+    "viewGroup": "secondary",
+    "viewMode": 65592,
+    "Directory": [
+      {
+        "fastKey": "/library/sections/1/all?genre=46098",
+        "key": "46098",
+        "title": "8-Bit",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1500",
+        "key": "1500",
+        "title": "60's Oldies",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=49",
+        "key": "49",
+        "title": "Acid Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=144810",
+        "key": "144810",
+        "title": "Acid Jazz, Electronic, Nu Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2613",
+        "key": "2613",
+        "title": "Acid Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46196",
+        "key": "46196",
+        "title": "Acoustic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4884",
+        "key": "4884",
+        "title": "Adult Alternative New Age",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=169",
+        "key": "169",
+        "title": "Adult Alternative Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=432",
+        "key": "432",
+        "title": "Adult Alternative Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=3241",
+        "key": "3241",
+        "title": "Adult Contemporary",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=78040",
+        "key": "78040",
+        "title": "Afrobeat",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=96759",
+        "key": "96759",
+        "title": "Afrobeat, Jazz, Funk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1348",
+        "key": "1348",
+        "title": "Alt Country",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=637",
+        "key": "637",
+        "title": "Alt-Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=242",
+        "key": "242",
+        "title": "Alternative",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2827",
+        "key": "2827",
+        "title": "Alternative Country",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7743",
+        "key": "7743",
+        "title": "Alternative Dance",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=61",
+        "key": "61",
+        "title": "Alternative Folk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=91579",
+        "key": "91579",
+        "title": "Alternative Hip Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=679",
+        "key": "679",
+        "title": "Alternative Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1260",
+        "key": "1260",
+        "title": "Alternative Pop Singer-Songwriter",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4108",
+        "key": "4108",
+        "title": "Alternative Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133335",
+        "key": "133335",
+        "title": "Alternative Rock, Indie Rock, Sadcore",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1261",
+        "key": "1261",
+        "title": "Alternative Singer-Songwriter",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4201",
+        "key": "4201",
+        "title": "Ambient",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=308",
+        "key": "308",
+        "title": "Ambient Breakbeat",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=6334",
+        "key": "6334",
+        "title": "Ambient Techno",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7596",
+        "key": "7596",
+        "title": "Ambient Trance",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136739",
+        "key": "136739",
+        "title": "Ambient, Orchestral",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1259",
+        "key": "1259",
+        "title": "American Trad. Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=3527",
+        "key": "3527",
+        "title": "Americana",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46041",
+        "key": "46041",
+        "title": "Anti-Folk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1181",
+        "key": "1181",
+        "title": "AOR Classic Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7661",
+        "key": "7661",
+        "title": "Art & Experimental Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46075",
+        "key": "46075",
+        "title": "Art Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7660",
+        "key": "7660",
+        "title": "Art Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133327",
+        "key": "133327",
+        "title": "Art Rock, Pop, Indie Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46047",
+        "key": "46047",
+        "title": "Avant-Garde",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46029",
+        "key": "46029",
+        "title": "Baroque Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=100327",
+        "key": "100327",
+        "title": "Beach Music, Country",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=83050",
+        "key": "83050",
+        "title": "Beat",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=8007",
+        "key": "8007",
+        "title": "Bebop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=81640",
+        "key": "81640",
+        "title": "Big Band",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=5207",
+        "key": "5207",
+        "title": "Big Band/Swing",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2865",
+        "key": "2865",
+        "title": "Big Beat",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=75169",
+        "key": "75169",
+        "title": "Black Metal",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46049",
+        "key": "46049",
+        "title": "Blue-Eyed Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=6039",
+        "key": "6039",
+        "title": "Bluegrass",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7219",
+        "key": "7219",
+        "title": "Blues",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=47968",
+        "key": "47968",
+        "title": "Blues Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=116873",
+        "key": "116873",
+        "title": "Blues, Soul, Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=91580",
+        "key": "91580",
+        "title": "Boogie",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46089",
+        "key": "46089",
+        "title": "Boogie & Southern Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=374",
+        "key": "374",
+        "title": "Boogie Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46061",
+        "key": "46061",
+        "title": "Bossa Nova",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46100",
+        "key": "46100",
+        "title": "Breakbeat",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1480",
+        "key": "1480",
+        "title": "British Invasion",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1479",
+        "key": "1479",
+        "title": "British Invasion Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46026",
+        "key": "46026",
+        "title": "Britpop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=91582",
+        "key": "91582",
+        "title": "Brutal Death Metal",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2986",
+        "key": "2986",
+        "title": "Bubblegum",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=17833",
+        "key": "17833",
+        "title": "Cabaret",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46094",
+        "key": "46094",
+        "title": "Calypso",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46195",
+        "key": "46195",
+        "title": "Canadian",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=8933",
+        "key": "8933",
+        "title": "Cello Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=8058",
+        "key": "8058",
+        "title": "Celtic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2731",
+        "key": "2731",
+        "title": "Chamber Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46013",
+        "key": "46013",
+        "title": "Chicago Blues",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1145",
+        "key": "1145",
+        "title": "Chillout",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=112634",
+        "key": "112634",
+        "title": "Chillout, Electronic, Ambient",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133358",
+        "key": "133358",
+        "title": "Chillout, Jazz, Hip Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46014",
+        "key": "46014",
+        "title": "Chillwave",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=79003",
+        "key": "79003",
+        "title": "Christian Alternative",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136705",
+        "key": "136705",
+        "title": "Christmas",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136689",
+        "key": "136689",
+        "title": "Christmas Music",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46037",
+        "key": "46037",
+        "title": "Classic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46095",
+        "key": "46095",
+        "title": "Classic Country",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1004",
+        "key": "1004",
+        "title": "Classic Folk Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=985",
+        "key": "985",
+        "title": "Classic Hard Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1699",
+        "key": "1699",
+        "title": "Classic Motown",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=5596",
+        "key": "5596",
+        "title": "Classic Pop Vocals",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=112",
+        "key": "112",
+        "title": "Classic Pop-Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2801",
+        "key": "2801",
+        "title": "Classic R&B",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=6650",
+        "key": "6650",
+        "title": "Classic Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=93076",
+        "key": "93076",
+        "title": "Classic Rock, Rock, Metal",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4972",
+        "key": "4972",
+        "title": "Classic Roots Reggae",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2027",
+        "key": "2027",
+        "title": "Classic Ska & Rock Steady",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=3247",
+        "key": "3247",
+        "title": "Classic Soft Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=331",
+        "key": "331",
+        "title": "Classic Soul/R&B",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=5206",
+        "key": "5206",
+        "title": "Classic Swing",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=774",
+        "key": "774",
+        "title": "Classic Techno",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=859",
+        "key": "859",
+        "title": "Classical",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=858",
+        "key": "858",
+        "title": "Classical Crossover",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1813",
+        "key": "1813",
+        "title": "Classical Crossover Instrumental",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=857",
+        "key": "857",
+        "title": "Classical Fusion",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=8671",
+        "key": "8671",
+        "title": "Classical Pops Orchestral",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=114",
+        "key": "114",
+        "title": "Club Dance",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=212",
+        "key": "212",
+        "title": "Comedy",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46077",
+        "key": "46077",
+        "title": "Comedy Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=137636",
+        "key": "137636",
+        "title": "Comedy, Spoken & Other",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46024",
+        "key": "46024",
+        "title": "Contemporary Classical",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=3253",
+        "key": "3253",
+        "title": "Contemporary Folk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2292",
+        "key": "2292",
+        "title": "Contemporary R&B",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2691",
+        "key": "2691",
+        "title": "Cool Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1898",
+        "key": "1898",
+        "title": "Country",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1899",
+        "key": "1899",
+        "title": "Country & Western",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4530",
+        "key": "4530",
+        "title": "Country Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136734",
+        "key": "136734",
+        "title": "Country, Country Rock, Southern Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136700",
+        "key": "136700",
+        "title": "Country, Pop, Pop Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=141028",
+        "key": "141028",
+        "title": "Country, Soul, Blues",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=81641",
+        "key": "81641",
+        "title": "Cuddlecore",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1443",
+        "key": "1443",
+        "title": "Dance",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=116",
+        "key": "116",
+        "title": "Dance & House",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=115",
+        "key": "115",
+        "title": "Dance Club",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=5227",
+        "key": "5227",
+        "title": "Dance Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=73624",
+        "key": "73624",
+        "title": "Dance-Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=91583",
+        "key": "91583",
+        "title": "Dance-Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=6287",
+        "key": "6287",
+        "title": "Dancehall",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=6288",
+        "key": "6288",
+        "title": "Dancehall Reggae",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46060",
+        "key": "46060",
+        "title": "Dark Ambient",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46093",
+        "key": "46093",
+        "title": "Darkwave",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=190",
+        "key": "190",
+        "title": "Data & Other",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46038",
+        "key": "46038",
+        "title": "Deep Funk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46006",
+        "key": "46006",
+        "title": "Deep House",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=330",
+        "key": "330",
+        "title": "Deep Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=91581",
+        "key": "91581",
+        "title": "Desi",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7501",
+        "key": "7501",
+        "title": "Disco",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1849",
+        "key": "1849",
+        "title": "Doo Wop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=32507",
+        "key": "32507",
+        "title": "Doom Metal",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=285",
+        "key": "285",
+        "title": "Downtempo",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1563",
+        "key": "1563",
+        "title": "Dream Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1564",
+        "key": "1564",
+        "title": "Dream Pop & Shoegazer",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133313",
+        "key": "133313",
+        "title": "Dream Pop, Electronica, Indie Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=103183",
+        "key": "103183",
+        "title": "Dream Pop, Indie Rock, Space Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46053",
+        "key": "46053",
+        "title": "Drone Doom",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7663",
+        "key": "7663",
+        "title": "Drum 'n' Bass",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=8336",
+        "key": "8336",
+        "title": "Dub",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4472",
+        "key": "4472",
+        "title": "Dub Electronica",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2496",
+        "key": "2496",
+        "title": "Dubstep",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=62380",
+        "key": "62380",
+        "title": "Dunedin Sound",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2230",
+        "key": "2230",
+        "title": "Early 60's Pop-Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4825",
+        "key": "4825",
+        "title": "Easy Listening",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=36633",
+        "key": "36633",
+        "title": "Electric Blues",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4378",
+        "key": "4378",
+        "title": "Electro",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46074",
+        "key": "46074",
+        "title": "Electro Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=91586",
+        "key": "91586",
+        "title": "Electro House",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46036",
+        "key": "46036",
+        "title": "Electro-Swing",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1444",
+        "key": "1444",
+        "title": "Electronic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=3094",
+        "key": "3094",
+        "title": "Electronic Ethno-Fusion",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46102",
+        "key": "46102",
+        "title": "Electronic Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=103761",
+        "key": "103761",
+        "title": "Electronic, 8-Bit, Electronica",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=112642",
+        "key": "112642",
+        "title": "Electronic, Ambient",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133385",
+        "key": "133385",
+        "title": "Electronic, Ambient, Indie Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=104700",
+        "key": "104700",
+        "title": "Electronic, Ambient, Krautrock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136737",
+        "key": "136737",
+        "title": "Electronic, Avant-Garde, Electronica",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136728",
+        "key": "136728",
+        "title": "Electronic, Dance",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=93031",
+        "key": "93031",
+        "title": "Electronic, Dance, Electronica",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133314",
+        "key": "133314",
+        "title": "Electronic, Downtempo, Chillwave",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133379",
+        "key": "133379",
+        "title": "Electronic, Downtempo, Idm",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=139081",
+        "key": "139081",
+        "title": "Electronic, Downtempo, Trip Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=117285",
+        "key": "117285",
+        "title": "Electronic, Electro, Electronica",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=114927",
+        "key": "114927",
+        "title": "Electronic, Electronica, Dance",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=114915",
+        "key": "114915",
+        "title": "Electronic, Electronica, Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136750",
+        "key": "136750",
+        "title": "Electronic, Glitch, Chillwave",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=137053",
+        "key": "137053",
+        "title": "Electronic, Hip Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=107914",
+        "key": "107914",
+        "title": "Electronic, House",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=120841",
+        "key": "120841",
+        "title": "Electronic, Pop, Indie Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136741",
+        "key": "136741",
+        "title": "Electronic, Pop, Synthpop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=122739",
+        "key": "122739",
+        "title": "Electronic, Soul, Ambient",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=103760",
+        "key": "103760",
+        "title": "Electronic, Synthpop, Witch House",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=33",
+        "key": "33",
+        "title": "Electronica",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=3095",
+        "key": "3095",
+        "title": "Electronica Fusion",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=32",
+        "key": "32",
+        "title": "Electronica Mainstream",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133392",
+        "key": "133392",
+        "title": "Electronica, Electronic, Downtempo",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46030",
+        "key": "46030",
+        "title": "Electropop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=137034",
+        "key": "137034",
+        "title": "Electropop, Indie Pop, Electronic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=99820",
+        "key": "99820",
+        "title": "Electropop, Pop, Indie Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=5968",
+        "key": "5968",
+        "title": "Emo",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=96521",
+        "key": "96521",
+        "title": "Ensembles",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1071",
+        "key": "1071",
+        "title": "Ethnic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=8964",
+        "key": "8964",
+        "title": "Euro House",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=78837",
+        "key": "78837",
+        "title": "Euro Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=128647",
+        "key": "128647",
+        "title": "European Rap/Hip-Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4443",
+        "key": "4443",
+        "title": "Experimental Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=8321",
+        "key": "8321",
+        "title": "Experimental Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=6628",
+        "key": "6628",
+        "title": "Film Score",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4259",
+        "key": "4259",
+        "title": "Flamenco",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=3254",
+        "key": "3254",
+        "title": "Folk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46028",
+        "key": "46028",
+        "title": "Folk Music",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=3440",
+        "key": "3440",
+        "title": "Folk Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=70233",
+        "key": "70233",
+        "title": "Folk Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133393",
+        "key": "133393",
+        "title": "Folk Punk, Punk Rock, Anti-Folk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=3766",
+        "key": "3766",
+        "title": "Folk Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=147304",
+        "key": "147304",
+        "title": "Folk Rock, Progressive Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=5009",
+        "key": "5009",
+        "title": "Folk-Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46020",
+        "key": "46020",
+        "title": "Folktronica",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=78038",
+        "key": "78038",
+        "title": "Freak-Folk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46046",
+        "key": "46046",
+        "title": "Free Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136740",
+        "key": "136740",
+        "title": "French Pop, Indie Pop, Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=796",
+        "key": "796",
+        "title": "Funk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46079",
+        "key": "46079",
+        "title": "Funk Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133324",
+        "key": "133324",
+        "title": "Funk Rock, Alternative Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=99808",
+        "key": "99808",
+        "title": "Funk, Contemporary R&B",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136736",
+        "key": "136736",
+        "title": "Funk, Electronic, Afrobeat",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=109364",
+        "key": "109364",
+        "title": "Funk, P-Funk, Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=145555",
+        "key": "145555",
+        "title": "Funk, Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=8469",
+        "key": "8469",
+        "title": "Funky House",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46091",
+        "key": "46091",
+        "title": "Gangsta Rap",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=129972",
+        "key": "129972",
+        "title": "Garage Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46018",
+        "key": "46018",
+        "title": "Garage Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1738",
+        "key": "1738",
+        "title": "Garage Rock Revival",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=147215",
+        "key": "147215",
+        "title": "Garage Rock, Psychedelic Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=636",
+        "key": "636",
+        "title": "General Alternative Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=79002",
+        "key": "79002",
+        "title": "General Christian Alt-Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2436",
+        "key": "2436",
+        "title": "General Classic Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=3252",
+        "key": "3252",
+        "title": "General Contemporary Folk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2291",
+        "key": "2291",
+        "title": "General Contemporary R&B",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1897",
+        "key": "1897",
+        "title": "General Country",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=36632",
+        "key": "36632",
+        "title": "General Electric Blues",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=99",
+        "key": "99",
+        "title": "General Film Music",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=3179",
+        "key": "3179",
+        "title": "General Hard Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=561",
+        "key": "561",
+        "title": "General Indie Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4600",
+        "key": "4600",
+        "title": "General Indie Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4858",
+        "key": "4858",
+        "title": "General New Age World Music",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1980",
+        "key": "1980",
+        "title": "General Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4658",
+        "key": "4658",
+        "title": "General Progressive House",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=134942",
+        "key": "134942",
+        "title": "General Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=57",
+        "key": "57",
+        "title": "General Rap/Hip-Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=114346",
+        "key": "114346",
+        "title": "German",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=81615",
+        "key": "81615",
+        "title": "Girl Group",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1759",
+        "key": "1759",
+        "title": "Girl Group Oldies",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=66531",
+        "key": "66531",
+        "title": "Glam Metal",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46082",
+        "key": "46082",
+        "title": "Glam Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=27336",
+        "key": "27336",
+        "title": "Glitch",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=79004",
+        "key": "79004",
+        "title": "Gospel & Christian",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46062",
+        "key": "46062",
+        "title": "Gregorian Chant",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=8958",
+        "key": "8958",
+        "title": "Grunge",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46066",
+        "key": "46066",
+        "title": "Gypsy Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46101",
+        "key": "46101",
+        "title": "Hard Bop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=986",
+        "key": "986",
+        "title": "Hard Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46067",
+        "key": "46067",
+        "title": "Hardcore Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46092",
+        "key": "46092",
+        "title": "Heartland Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46035",
+        "key": "46035",
+        "title": "Heavy Metal",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=101263",
+        "key": "101263",
+        "title": "Hip Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=124156",
+        "key": "124156",
+        "title": "Hip Hop, Classic, Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=100345",
+        "key": "100345",
+        "title": "Hip Hop, New Jack Swing, Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=119047",
+        "key": "119047",
+        "title": "Hip Hop, Rap, Classic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=140291",
+        "key": "140291",
+        "title": "Hip Hop, Rap, East Coast Hip Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4285",
+        "key": "4285",
+        "title": "Hip-Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=881",
+        "key": "881",
+        "title": "House",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133321",
+        "key": "133321",
+        "title": "House, Electronic, Dance",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136735",
+        "key": "136735",
+        "title": "House, Uk Garage, Deep House",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46005",
+        "key": "46005",
+        "title": "Humor",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46106",
+        "key": "46106",
+        "title": "Hymn",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46081",
+        "key": "46081",
+        "title": "Idm",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7364",
+        "key": "7364",
+        "title": "Idol Pop Vocals",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=8696",
+        "key": "8696",
+        "title": "Indi Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=8913",
+        "key": "8913",
+        "title": "Indian Film Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=8697",
+        "key": "8697",
+        "title": "Indian Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=62",
+        "key": "62",
+        "title": "Indie",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=3570",
+        "key": "3570",
+        "title": "Indie Cabaret Pop-Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1629",
+        "key": "1629",
+        "title": "Indie Dance",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=932",
+        "key": "932",
+        "title": "Indie Folk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=50",
+        "key": "50",
+        "title": "Indie Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=143308",
+        "key": "143308",
+        "title": "Indie Pop, Alternative Rock, Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=103182",
+        "key": "103182",
+        "title": "Indie Pop, Chamber Pop, Dream Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=139077",
+        "key": "139077",
+        "title": "Indie Pop, Chillout, Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=127269",
+        "key": "127269",
+        "title": "Indie Pop, Electronic, Electropop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=127149",
+        "key": "127149",
+        "title": "Indie Pop, Electronic, Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=93055",
+        "key": "93055",
+        "title": "Indie Pop, Indie Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136692",
+        "key": "136692",
+        "title": "Indie Pop, Indie Rock, Lo-Fi",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=103762",
+        "key": "103762",
+        "title": "Indie Pop, Indie Rock, Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136699",
+        "key": "136699",
+        "title": "Indie Pop, Jangle Pop, Indie Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136727",
+        "key": "136727",
+        "title": "Indie Pop, Jangle Pop, Post-Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=120444",
+        "key": "120444",
+        "title": "Indie Pop, Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=92449",
+        "key": "92449",
+        "title": "Indie Pop, Psychedelic Pop, Neo-Psychedelia",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=143035",
+        "key": "143035",
+        "title": "Indie Pop, Synthpop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1333",
+        "key": "1333",
+        "title": "Indie Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133325",
+        "key": "133325",
+        "title": "Indie Rock, Americana, Slowcore",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133359",
+        "key": "133359",
+        "title": "Indie Rock, Baroque Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133316",
+        "key": "133316",
+        "title": "Indie Rock, Folk Rock, Indie Folk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133317",
+        "key": "133317",
+        "title": "Indie Rock, Indie Folk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133381",
+        "key": "133381",
+        "title": "Indie Rock, Indie Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133315",
+        "key": "133315",
+        "title": "Indie Rock, Indie Pop, Art Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=143693",
+        "key": "143693",
+        "title": "Indie Rock, Indie Pop, Chamber Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=127235",
+        "key": "127235",
+        "title": "Indie Rock, Indie Pop, Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=145578",
+        "key": "145578",
+        "title": "Indie Rock, Pop, Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136696",
+        "key": "136696",
+        "title": "Indie Rock, Post-Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=122954",
+        "key": "122954",
+        "title": "Indie Rock, Post-Punk, Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133390",
+        "key": "133390",
+        "title": "Indie Rock, Post-Rock, Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=116791",
+        "key": "116791",
+        "title": "Indie Rock, Psychedelic Rock, Psychedelic Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=127197",
+        "key": "127197",
+        "title": "Indie Rock, Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133391",
+        "key": "133391",
+        "title": "Indie Rock, Rock, Post-Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=103758",
+        "key": "103758",
+        "title": "Indie Rock, Rock, Progressive Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133366",
+        "key": "133366",
+        "title": "Indie Rock, Rock, Space Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133380",
+        "key": "133380",
+        "title": "Indie Rock, Shoegaze, Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46019",
+        "key": "46019",
+        "title": "Indietronica",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=51",
+        "key": "51",
+        "title": "Instrumental Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46070",
+        "key": "46070",
+        "title": "Instrumental Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2010",
+        "key": "2010",
+        "title": "Intelligent (IDM)",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7517",
+        "key": "7517",
+        "title": "Italian",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=78039",
+        "key": "78039",
+        "title": "Italo Disco",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46085",
+        "key": "46085",
+        "title": "Jam Band",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=71081",
+        "key": "71081",
+        "title": "Jam Bands",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46055",
+        "key": "46055",
+        "title": "Jangle Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=5",
+        "key": "5",
+        "title": "Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46044",
+        "key": "46044",
+        "title": "Jazz Fusion",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=91578",
+        "key": "91578",
+        "title": "Jazz Rap",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=99362",
+        "key": "99362",
+        "title": "Jazz, Ambient, Easy Listening",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=120818",
+        "key": "120818",
+        "title": "Jazz, Avant-Garde",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=93631",
+        "key": "93631",
+        "title": "Jazz, Avant-Garde, Free Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136686",
+        "key": "136686",
+        "title": "Jazz, Broken Beat",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=92368",
+        "key": "92368",
+        "title": "Jazz, Classical, Vocal",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136702",
+        "key": "136702",
+        "title": "Jazz, Soul, Vocal",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46087",
+        "key": "46087",
+        "title": "Jive",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7664",
+        "key": "7664",
+        "title": "Jungle/Drum 'n' Bass",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=81639",
+        "key": "81639",
+        "title": "K-Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=5027",
+        "key": "5027",
+        "title": "Latin",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=5917",
+        "key": "5917",
+        "title": "Latin Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=5026",
+        "key": "5026",
+        "title": "Latin Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=9475",
+        "key": "9475",
+        "title": "Lo-Fi",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=93041",
+        "key": "93041",
+        "title": "Lo-Fi, Indie Folk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136695",
+        "key": "136695",
+        "title": "Lo-Fi, Indie Rock, Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133368",
+        "key": "133368",
+        "title": "Lo-Fi, Shoegaze, Indie Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=8962",
+        "key": "8962",
+        "title": "Lounge",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46084",
+        "key": "46084",
+        "title": "Lounge & Ambient",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=912",
+        "key": "912",
+        "title": "Mainstream Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46080",
+        "key": "46080",
+        "title": "Mambo",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46033",
+        "key": "46033",
+        "title": "Math Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=73623",
+        "key": "73623",
+        "title": "Mathcore",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7518",
+        "key": "7518",
+        "title": "Mediterranean",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=75170",
+        "key": "75170",
+        "title": "Melodic Death Metal",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46072",
+        "key": "46072",
+        "title": "Melodic Hardcore",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46105",
+        "key": "46105",
+        "title": "Melodic Trance",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1124",
+        "key": "1124",
+        "title": "Metal",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=99639",
+        "key": "99639",
+        "title": "Metal, Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46071",
+        "key": "46071",
+        "title": "Metalcore",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=81616",
+        "key": "81616",
+        "title": "Minimal Techno",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=100562",
+        "key": "100562",
+        "title": "Mixtape",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=91585",
+        "key": "91585",
+        "title": "Modal Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46057",
+        "key": "46057",
+        "title": "Modern Classical",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=18",
+        "key": "18",
+        "title": "Modern Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46008",
+        "key": "46008",
+        "title": "Motown",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46051",
+        "key": "46051",
+        "title": "Mpb",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46015",
+        "key": "46015",
+        "title": "Neo-Psychedelia",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1605",
+        "key": "1605",
+        "title": "Neo-Psychedelic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=5987",
+        "key": "5987",
+        "title": "Neo-Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46025",
+        "key": "46025",
+        "title": "Neoclassical",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46103",
+        "key": "46103",
+        "title": "Neofolk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=92365",
+        "key": "92365",
+        "title": "Nerdcore",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=6864",
+        "key": "6864",
+        "title": "New Acoustic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4860",
+        "key": "4860",
+        "title": "New Age",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4859",
+        "key": "4859",
+        "title": "New Age World Music",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4935",
+        "key": "4935",
+        "title": "New Romantic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=6038",
+        "key": "6038",
+        "title": "New Traditional Bluegrass",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=241",
+        "key": "241",
+        "title": "New Wave",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=240",
+        "key": "240",
+        "title": "New Wave Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1986",
+        "key": "1986",
+        "title": "New Wave Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=147291",
+        "key": "147291",
+        "title": "New Wave, Disco, Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133329",
+        "key": "133329",
+        "title": "New Wave, Rock, Pop Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46022",
+        "key": "46022",
+        "title": "New Weird America",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46010",
+        "key": "46010",
+        "title": "Noise Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133328",
+        "key": "133328",
+        "title": "Noise Pop, Indie Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=73622",
+        "key": "73622",
+        "title": "Noise Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4791",
+        "key": "4791",
+        "title": "Northern European",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46064",
+        "key": "46064",
+        "title": "Northern Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46007",
+        "key": "46007",
+        "title": "Nu Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46042",
+        "key": "46042",
+        "title": "Nu Metal",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2836",
+        "key": "2836",
+        "title": "Old School Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1005",
+        "key": "1005",
+        "title": "Oldies",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46099",
+        "key": "46099",
+        "title": "Orchestra",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1072",
+        "key": "1072",
+        "title": "Orchestral",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2255",
+        "key": "2255",
+        "title": "Orchestral Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=100",
+        "key": "100",
+        "title": "Original Film/TV Music",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1351",
+        "key": "1351",
+        "title": "Other",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1331",
+        "key": "1331",
+        "title": "Other Alternative Hip-Hop/Rap",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=5595",
+        "key": "5595",
+        "title": "Other Classic Pop Vocals",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=96522",
+        "key": "96522",
+        "title": "Other Classical",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=52",
+        "key": "52",
+        "title": "Other Easy Listening",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=880",
+        "key": "880",
+        "title": "Other House",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1981",
+        "key": "1981",
+        "title": "Other Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=129973",
+        "key": "129973",
+        "title": "Other Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=58",
+        "key": "58",
+        "title": "Other Rap/Hip-Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=62337",
+        "key": "62337",
+        "title": "Other Reggae",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46076",
+        "key": "46076",
+        "title": "Parody",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46068",
+        "key": "46068",
+        "title": "Piano Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=76",
+        "key": "76",
+        "title": "Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=31",
+        "key": "31",
+        "title": "Pop Electronica",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=8076",
+        "key": "8076",
+        "title": "Pop Female Singer-Songwriter",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=5882",
+        "key": "5882",
+        "title": "Pop Male Singer-Songwriter",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1123",
+        "key": "1123",
+        "title": "Pop Metal",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2947",
+        "key": "2947",
+        "title": "Pop Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=91584",
+        "key": "91584",
+        "title": "Pop Rap",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1006",
+        "key": "1006",
+        "title": "Pop Reggae",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46023",
+        "key": "46023",
+        "title": "Pop Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1499",
+        "key": "1499",
+        "title": "Pop Rock Oldies",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2060",
+        "key": "2060",
+        "title": "Pop Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=92366",
+        "key": "92366",
+        "title": "Pop, Classical, Vocal",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=147280",
+        "key": "147280",
+        "title": "Pop, Comedy, Humor",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=99723",
+        "key": "99723",
+        "title": "Pop, Dance",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136687",
+        "key": "136687",
+        "title": "Pop, Dance, Disco",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136733",
+        "key": "136733",
+        "title": "Pop, Dance, Oldies",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133318",
+        "key": "133318",
+        "title": "Pop, Disney",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=106130",
+        "key": "106130",
+        "title": "Pop, Indie Pop, Indie Folk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=107840",
+        "key": "107840",
+        "title": "Pop, Indie Pop, Indie Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136688",
+        "key": "136688",
+        "title": "Pop, New Wave, Dance",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=99816",
+        "key": "99816",
+        "title": "Pop, Pop Rock, Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=147270",
+        "key": "147270",
+        "title": "Pop, Power Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=116587",
+        "key": "116587",
+        "title": "Pop, Rock, Oldies",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136697",
+        "key": "136697",
+        "title": "Pop, Rock, Pop Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=99363",
+        "key": "99363",
+        "title": "Pop, Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=96775",
+        "key": "96775",
+        "title": "Pop, Soul, Blue-Eyed Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136738",
+        "key": "136738",
+        "title": "Pop, Soul, Electronic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133319",
+        "key": "133319",
+        "title": "Pop, Soul, Folk Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=99804",
+        "key": "99804",
+        "title": "Pop, Soul, Hip Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136730",
+        "key": "136730",
+        "title": "Pop, Soul, Neo Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=99692",
+        "key": "99692",
+        "title": "Pop, Soul, Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=99896",
+        "key": "99896",
+        "title": "Pop, Synthpop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=147299",
+        "key": "147299",
+        "title": "Pop, Synthpop, New Wave",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4885",
+        "key": "4885",
+        "title": "Popular New Age",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7135",
+        "key": "7135",
+        "title": "Post-Modern Art Music",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1273",
+        "key": "1273",
+        "title": "Post-Modern Art Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=3006",
+        "key": "3006",
+        "title": "Post-Modern Electronic Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2397",
+        "key": "2397",
+        "title": "Post-Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2396",
+        "key": "2396",
+        "title": "Post-Punk Revival",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136726",
+        "key": "136726",
+        "title": "Post-Punk, Art Rock, Indie Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=147258",
+        "key": "147258",
+        "title": "Post-Punk, Avant-Garde",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136703",
+        "key": "136703",
+        "title": "Post-Punk, Indie Rock, Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136690",
+        "key": "136690",
+        "title": "Post-Punk, Rock, Folk Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1272",
+        "key": "1272",
+        "title": "Post-Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133323",
+        "key": "133323",
+        "title": "Post-Rock, Experimental Rock, Noise Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=109370",
+        "key": "109370",
+        "title": "Post-Rock, Math Rock, Post-Hardcore",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1927",
+        "key": "1927",
+        "title": "Power Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46032",
+        "key": "46032",
+        "title": "Progressive Bluegrass",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=50349",
+        "key": "50349",
+        "title": "Progressive Electronic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46031",
+        "key": "46031",
+        "title": "Progressive Folk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4659",
+        "key": "4659",
+        "title": "Progressive House",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46069",
+        "key": "46069",
+        "title": "Progressive Metal",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1332",
+        "key": "1332",
+        "title": "Progressive Rap/Hip-Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4165",
+        "key": "4165",
+        "title": "Progressive Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=145558",
+        "key": "145558",
+        "title": "Progressive Rock, Rock, Hard Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46104",
+        "key": "46104",
+        "title": "Progressive Trance",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46039",
+        "key": "46039",
+        "title": "Psych Folk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1395",
+        "key": "1395",
+        "title": "Psychedelic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1394",
+        "key": "1394",
+        "title": "Psychedelic Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133333",
+        "key": "133333",
+        "title": "Psychedelic Pop, Neo-Psychedelia, Ambient",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2970",
+        "key": "2970",
+        "title": "Psychedelic Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2837",
+        "key": "2837",
+        "title": "Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=81642",
+        "key": "81642",
+        "title": "Punk Blues",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46065",
+        "key": "46065",
+        "title": "Punk Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=137256",
+        "key": "137256",
+        "title": "Punk Rock, Rock, Classic Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2475",
+        "key": "2475",
+        "title": "Radio Shows",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=14820",
+        "key": "14820",
+        "title": "Rap",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=124165",
+        "key": "124165",
+        "title": "Rap, Classic, Hip Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=124000",
+        "key": "124000",
+        "title": "Rap, Gangsta Rap",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=105950",
+        "key": "105950",
+        "title": "Rap, Gangsta Rap, Hip Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=97671",
+        "key": "97671",
+        "title": "Rap, Hip Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=124159",
+        "key": "124159",
+        "title": "Rap, Hip Hop, Classic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=143287",
+        "key": "143287",
+        "title": "Rap, Hip Hop, Electronic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=124150",
+        "key": "124150",
+        "title": "Rap, Hip Hop, Funk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133331",
+        "key": "133331",
+        "title": "Rap, Hip Hop, Hardcore Hip Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=97347",
+        "key": "97347",
+        "title": "Rap, Hip Hop, Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133378",
+        "key": "133378",
+        "title": "Rap, Hyphy, Hip Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=59",
+        "key": "59",
+        "title": "Rap/Hip-Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1008",
+        "key": "1008",
+        "title": "Reggae",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=114872",
+        "key": "114872",
+        "title": "Reggae, Chillout, Surf Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=98669",
+        "key": "98669",
+        "title": "Reggae, Classic Rock, Progressive Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=117180",
+        "key": "117180",
+        "title": "Reggae, Dub",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=97682",
+        "key": "97682",
+        "title": "Reggae, Dub, Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136685",
+        "key": "136685",
+        "title": "Reggae, Indie Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=139080",
+        "key": "139080",
+        "title": "Reggae, Pop, Rap",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=114841",
+        "key": "114841",
+        "title": "Reggae, Rock, Hip Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46088",
+        "key": "46088",
+        "title": "Religious",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=8968",
+        "key": "8968",
+        "title": "Rhapsody",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46004",
+        "key": "46004",
+        "title": "Rhythm And Blues",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=113",
+        "key": "113",
+        "title": "Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7336",
+        "key": "7336",
+        "title": "Rock And Roll",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136704",
+        "key": "136704",
+        "title": "Rock Christmas",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46078",
+        "key": "46078",
+        "title": "Rock Opera",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2026",
+        "key": "2026",
+        "title": "Rock Steady",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=99893",
+        "key": "99893",
+        "title": "Rock, Alternative Rock, Hard Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136691",
+        "key": "136691",
+        "title": "Rock, Alternative Rock, Post-Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=94938",
+        "key": "94938",
+        "title": "Rock, Brutal Death Metal, Alternative Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136731",
+        "key": "136731",
+        "title": "Rock, Christmas Music",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=99782",
+        "key": "99782",
+        "title": "Rock, Emo, Punk Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=100323",
+        "key": "100323",
+        "title": "Rock, Hard Rock, Alternative Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=93016",
+        "key": "93016",
+        "title": "Rock, Indie Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133360",
+        "key": "133360",
+        "title": "Rock, Indie Rock, Alternative Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133367",
+        "key": "133367",
+        "title": "Rock, Indie Rock, Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=93056",
+        "key": "93056",
+        "title": "Rock, Indie Rock, Post-Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=96467",
+        "key": "96467",
+        "title": "Rock, Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=96784",
+        "key": "96784",
+        "title": "Rock, Pop, Alternative Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=139079",
+        "key": "139079",
+        "title": "Rock, Post-Grunge, Hard Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=127214",
+        "key": "127214",
+        "title": "Rock, Punk Rock, Drum And Bass",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133364",
+        "key": "133364",
+        "title": "Rock, Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46090",
+        "key": "46090",
+        "title": "Rockabilly",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=3200",
+        "key": "3200",
+        "title": "Rockabilly Revival",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46107",
+        "key": "46107",
+        "title": "Rocksteady",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1007",
+        "key": "1007",
+        "title": "Roots Reggae",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7954",
+        "key": "7954",
+        "title": "Roots Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46083",
+        "key": "46083",
+        "title": "Rumba",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=47993",
+        "key": "47993",
+        "title": "Sadcore",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46009",
+        "key": "46009",
+        "title": "Shoegaze",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133365",
+        "key": "133365",
+        "title": "Shoegaze, Ambient, Post-Punk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133361",
+        "key": "133361",
+        "title": "Shoegaze, Pop, Indie Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=71125",
+        "key": "71125",
+        "title": "Shoegazer",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=14802",
+        "key": "14802",
+        "title": "Singer",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=5883",
+        "key": "5883",
+        "title": "Singer-Songwriter",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46017",
+        "key": "46017",
+        "title": "Ska",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46097",
+        "key": "46097",
+        "title": "Slack-Key Guitar",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=27332",
+        "key": "27332",
+        "title": "Slowcore",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46054",
+        "key": "46054",
+        "title": "Sludge Metal",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4528",
+        "key": "4528",
+        "title": "Smooth Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4527",
+        "key": "4527",
+        "title": "Smooth Jazz Instrumental",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=6130",
+        "key": "6130",
+        "title": "Soft Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46058",
+        "key": "46058",
+        "title": "Son",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=14803",
+        "key": "14803",
+        "title": "Songwriter",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=91587",
+        "key": "91587",
+        "title": "Sophisti-Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=6824",
+        "key": "6824",
+        "title": "Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=122740",
+        "key": "122740",
+        "title": "Soul, Downtempo, Electronic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=93078",
+        "key": "93078",
+        "title": "Soul, Electronic, Funk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133386",
+        "key": "133386",
+        "title": "Soul, Funk, Funk Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=124665",
+        "key": "124665",
+        "title": "Soul, Funk, Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133384",
+        "key": "133384",
+        "title": "Soul, Funk, Neo Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=147277",
+        "key": "147277",
+        "title": "Soul, Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133334",
+        "key": "133334",
+        "title": "Soul, Jazz, Motown",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=136701",
+        "key": "136701",
+        "title": "Soul, Pop, Funk",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=93053",
+        "key": "93053",
+        "title": "Soul, Rhythm And Blues, Nu Soul",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=332",
+        "key": "332",
+        "title": "Soul/R&B",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=65",
+        "key": "65",
+        "title": "Soundtrack",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=3132",
+        "key": "3132",
+        "title": "South Asian Electronica",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=5113",
+        "key": "5113",
+        "title": "Southern Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46096",
+        "key": "46096",
+        "title": "Space Age Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46021",
+        "key": "46021",
+        "title": "Space Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=62020",
+        "key": "62020",
+        "title": "Speech",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46063",
+        "key": "46063",
+        "title": "Spoken & Other",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2476",
+        "key": "2476",
+        "title": "Spoken Word",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=84131",
+        "key": "84131",
+        "title": "Stage Musicals",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46016",
+        "key": "46016",
+        "title": "Stoner Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46108",
+        "key": "46108",
+        "title": "Surf Music",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46040",
+        "key": "46040",
+        "title": "Surf Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=2567",
+        "key": "2567",
+        "title": "Surf Revival",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46012",
+        "key": "46012",
+        "title": "Surf Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46059",
+        "key": "46059",
+        "title": "Swamp Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46027",
+        "key": "46027",
+        "title": "Swing",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46086",
+        "key": "46086",
+        "title": "Symphonic Rock",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46034",
+        "key": "46034",
+        "title": "Synthpop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=145557",
+        "key": "145557",
+        "title": "Synthpop, Soft Rock, New Wave",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46045",
+        "key": "46045",
+        "title": "Tango",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=4726",
+        "key": "4726",
+        "title": "Tech House",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=775",
+        "key": "775",
+        "title": "Techno",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1961",
+        "key": "1961",
+        "title": "Techno Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=75",
+        "key": "75",
+        "title": "Teen Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=53",
+        "key": "53",
+        "title": "Traditional Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7597",
+        "key": "7597",
+        "title": "Trance",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7785",
+        "key": "7785",
+        "title": "Trance Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=117284",
+        "key": "117284",
+        "title": "Trance, Electronic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46048",
+        "key": "46048",
+        "title": "Trip-Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=133337",
+        "key": "133337",
+        "title": "Trip-Hop, Chillout, Downtempo",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=117415",
+        "key": "117415",
+        "title": "Trip-Hop, Electronic, Dream Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7744",
+        "key": "7744",
+        "title": "Turntablism",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=19564",
+        "key": "19564",
+        "title": "Twee Pop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=6113",
+        "key": "6113",
+        "title": "U.K. Garage",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=1416",
+        "key": "1416",
+        "title": "Underground Rap/Hip-Hop",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=71287",
+        "key": "71287",
+        "title": "Urban Crossover",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46050",
+        "key": "46050",
+        "title": "Vocal",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46073",
+        "key": "46073",
+        "title": "Vocal Jazz",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=137416",
+        "key": "137416",
+        "title": "West Coast Hip Hop, Hip Hop, Classic",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46043",
+        "key": "46043",
+        "title": "Witch House",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=98",
+        "key": "98",
+        "title": "World",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=7454",
+        "key": "7454",
+        "title": "World Fusion",
+        "type": "genre"
+      },
+      {
+        "fastKey": "/library/sections/1/all?genre=46052",
+        "key": "46052",
+        "title": "World Music",
+        "type": "genre"
+      }
+    ]
+  }
+}

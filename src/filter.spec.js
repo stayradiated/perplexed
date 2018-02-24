@@ -148,8 +148,8 @@ test('artistRating', (t) => {
 })
 
 test('artistGenre', (t) => {
-  const f = filter.artistGenre.is('value')
-  t.deepEqual(f, { 'artist.genre=': 'value' })
+  const f = filter.artistGenre.is(100)
+  t.deepEqual(f, { 'artist.genre': '100' })
 })
 
 test('artistCollection', (t) => {
@@ -158,8 +158,8 @@ test('artistCollection', (t) => {
 })
 
 test('artistCountry', (t) => {
-  const f = filter.artistCountry.is('value')
-  t.deepEqual(f, { 'artist.country=': 'value' })
+  const f = filter.artistCountry.is(100)
+  t.deepEqual(f, { 'artist.country': '100' })
 })
 
 test('dateArtistAdded', (t) => {
@@ -178,8 +178,8 @@ test('year', (t) => {
 })
 
 test('albumGenre', (t) => {
-  const f = filter.albumGenre.is('value')
-  t.deepEqual(f, { 'album.genre=': 'value' })
+  const f = filter.albumGenre.isNot(100)
+  t.deepEqual(f, { 'album.genre!': '100' })
 })
 
 test('albumPlays', (t) => {

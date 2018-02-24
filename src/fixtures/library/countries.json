@@ -1,0 +1,254 @@
+{
+  "MediaContainer": {
+    "size": 47,
+    "allowSync": false,
+    "art": "/:/resources/artist-fanart.jpg",
+    "content": "secondary",
+    "identifier": "com.plexapp.plugins.library",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1513172439,
+    "nocache": true,
+    "thumb": "/:/resources/artist.png",
+    "title1": "Music",
+    "title2": "By Country",
+    "viewGroup": "secondary",
+    "viewMode": 65592,
+    "Directory": [
+      {
+        "fastKey": "/library/sections/1/all?country=134875",
+        "key": "134875",
+        "title": "Argentina"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=581",
+        "key": "581",
+        "title": "Australia"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=4238",
+        "key": "4238",
+        "title": "Austria"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=8514",
+        "key": "8514",
+        "title": "Bahamas"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=86887",
+        "key": "86887",
+        "title": "Barbados"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=5777",
+        "key": "5777",
+        "title": "Belgium"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=7651",
+        "key": "7651",
+        "title": "Bolivia"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=8585",
+        "key": "8585",
+        "title": "Brazil"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=87132",
+        "key": "87132",
+        "title": "British Virgin Islands"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=798",
+        "key": "798",
+        "title": "Canada"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=82655",
+        "key": "82655",
+        "title": "Colombia"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=8934",
+        "key": "8934",
+        "title": "Croatia"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=4180",
+        "key": "4180",
+        "title": "Cuba"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=5135",
+        "key": "5135",
+        "title": "Denmark"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=7686",
+        "key": "7686",
+        "title": "Finland"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=659",
+        "key": "659",
+        "title": "France"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=968",
+        "key": "968",
+        "title": "Germany"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=8470",
+        "key": "8470",
+        "title": "Greece"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=89133",
+        "key": "89133",
+        "title": "Haiti"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=3478",
+        "key": "3478",
+        "title": "Iceland"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=8698",
+        "key": "8698",
+        "title": "India"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=7157",
+        "key": "7157",
+        "title": "Iran"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=1042",
+        "key": "1042",
+        "title": "Ireland"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=9635",
+        "key": "9635",
+        "title": "Israel"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=2256",
+        "key": "2256",
+        "title": "Italy"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=2028",
+        "key": "2028",
+        "title": "Jamaica"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=6308",
+        "key": "6308",
+        "title": "Japan"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=121000",
+        "key": "121000",
+        "title": "Mali"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=5028",
+        "key": "5028",
+        "title": "Mexico"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=1352",
+        "key": "1352",
+        "title": "Netherlands"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=2184",
+        "key": "2184",
+        "title": "New Zealand"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=96760",
+        "key": "96760",
+        "title": "Nigeria"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=30503",
+        "key": "30503",
+        "title": "North America"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=243",
+        "key": "243",
+        "title": "Norway"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=134870",
+        "key": "134870",
+        "title": "Puerto Rico"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=89072",
+        "key": "89072",
+        "title": "Romania"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=66311",
+        "key": "66311",
+        "title": "Senegal"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=73044",
+        "key": "73044",
+        "title": "South Africa"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=80890",
+        "key": "80890",
+        "title": "South Korea"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=7786",
+        "key": "7786",
+        "title": "Spain"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=1630",
+        "key": "1630",
+        "title": "Sweden"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=90498",
+        "key": "90498",
+        "title": "Switzerland"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=5058",
+        "key": "5058",
+        "title": "Ukraine"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=287",
+        "key": "287",
+        "title": "United Kingdom"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=147",
+        "key": "147",
+        "title": "United States"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=103234",
+        "key": "103234",
+        "title": "Venezuela"
+      },
+      {
+        "fastKey": "/library/sections/1/all?country=75548",
+        "key": "75548",
+        "title": "West Africa"
+      }
+    ]
+  }
+}

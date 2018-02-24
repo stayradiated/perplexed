@@ -1,1 +1,489 @@
-{"MediaContainer":{"size":10,"totalSize":17993,"allowSync":true,"art":"/:/resources/artist-fanart.jpg","identifier":"com.plexapp.plugins.library","librarySectionID":1,"librarySectionTitle":"Music","librarySectionUUID":"5085a855-78e9-4dd7-9d70-a4ac296e28ee","mediaTagPrefix":"/system/bundle/media/flags/","mediaTagVersion":1481837967,"nocache":true,"offset":0,"thumb":"/:/resources/artist.png","title1":"Music","title2":"All Artists","viewGroup":"artist","viewMode":65592,"Metadata":[{"ratingKey":"48107","key":"/library/metadata/48107","parentRatingKey":"8016","grandparentRatingKey":"8015","type":"track","title":"Closer","grandparentKey":"/library/metadata/8015","parentKey":"/library/metadata/8016","grandparentTitle":"Kings of Leon","parentTitle":"Only by the Night","originalTitle":"Kings of Leon","summary":"","index":1,"parentIndex":1,"ratingCount":8012613,"viewCount":1,"lastViewedAt":1485932058,"thumb":"/library/metadata/8016/thumb/1485829353","art":"/library/metadata/8015/art/1485829351","parentThumb":"/library/metadata/8016/thumb/1485829353","grandparentThumb":"/library/metadata/8015/thumb/1485829351","grandparentArt":"/library/metadata/8015/art/1485829351","duration":237531,"addedAt":1485829323,"updatedAt":1485829353,"Media":[{"id":61571,"duration":237531,"bitrate":332,"audioChannels":2,"audioCodec":"mp3","container":"mp3","Part":[{"id":61571,"key":"/library/parts/61571/1485829096/file.mp3","duration":237531,"file":"/mnt/data/music/albums/Kings of Leon/Only by the Night/01 Closer.mp3","size":9854994,"container":"mp3","hasThumbnail":"1"}]}]},{"ratingKey":"48108","key":"/library/metadata/48108","parentRatingKey":"8016","grandparentRatingKey":"8015","type":"track","title":"Crawl","grandparentKey":"/library/metadata/8015","parentKey":"/library/metadata/8016","grandparentTitle":"Kings of Leon","parentTitle":"Only by the Night","originalTitle":"Kings of Leon","summary":"","index":2,"parentIndex":1,"ratingCount":4035250,"thumb":"/library/metadata/8016/thumb/1485829353","art":"/library/metadata/8015/art/1485829351","parentThumb":"/library/metadata/8016/thumb/1485829353","grandparentThumb":"/library/metadata/8015/thumb/1485829351","grandparentArt":"/library/metadata/8015/art/1485829351","duration":246465,"addedAt":1485829323,"updatedAt":1485829353,"Media":[{"id":61572,"duration":246465,"bitrate":331,"audioChannels":2,"audioCodec":"mp3","container":"mp3","Part":[{"id":61572,"key":"/library/parts/61572/1485829096/file.mp3","duration":246465,"file":"/mnt/data/music/albums/Kings of Leon/Only by the Night/02 Crawl.mp3","size":10212705,"container":"mp3","hasThumbnail":"1"}]}]},{"ratingKey":"48109","key":"/library/metadata/48109","parentRatingKey":"8016","grandparentRatingKey":"8015","type":"track","title":"Manhattan","grandparentKey":"/library/metadata/8015","parentKey":"/library/metadata/8016","grandparentTitle":"Kings of Leon","parentTitle":"Only by the Night","originalTitle":"Kings of Leon","summary":"","index":5,"parentIndex":1,"ratingCount":4652056,"lastViewedAt":1485934353,"thumb":"/library/metadata/8016/thumb/1485829353","art":"/library/metadata/8015/art/1485829351","parentThumb":"/library/metadata/8016/thumb/1485829353","grandparentThumb":"/library/metadata/8015/thumb/1485829351","grandparentArt":"/library/metadata/8015/art/1485829351","duration":204278,"addedAt":1485829323,"updatedAt":1485829353,"Media":[{"id":61573,"duration":204278,"bitrate":334,"audioChannels":2,"audioCodec":"mp3","container":"mp3","Part":[{"id":61573,"key":"/library/parts/61573/1485829096/file.mp3","duration":204278,"file":"/mnt/data/music/albums/Kings of Leon/Only by the Night/05 Manhattan.mp3","size":8523512,"container":"mp3","hasThumbnail":"1"}]}]},{"ratingKey":"48110","key":"/library/metadata/48110","parentRatingKey":"8016","grandparentRatingKey":"8015","type":"track","title":"Revelry","grandparentKey":"/library/metadata/8015","parentKey":"/library/metadata/8016","grandparentTitle":"Kings of Leon","parentTitle":"Only by the Night","originalTitle":"Kings of Leon","summary":"","index":6,"parentIndex":1,"ratingCount":4786611,"lastViewedAt":1485934353,"thumb":"/library/metadata/8016/thumb/1485829353","art":"/library/metadata/8015/art/1485829351","parentThumb":"/library/metadata/8016/thumb/1485829353","grandparentThumb":"/library/metadata/8015/thumb/1485829351","grandparentArt":"/library/metadata/8015/art/1485829351","duration":201770,"addedAt":1485829323,"updatedAt":1485829353,"Media":[{"id":61574,"duration":201770,"bitrate":334,"audioChannels":2,"audioCodec":"mp3","container":"mp3","Part":[{"id":61574,"key":"/library/parts/61574/1485829096/file.mp3","duration":201770,"file":"/mnt/data/music/albums/Kings of Leon/Only by the Night/06 Revelry.mp3","size":8423099,"container":"mp3","hasThumbnail":"1"}]}]},{"ratingKey":"48111","key":"/library/metadata/48111","parentRatingKey":"8016","grandparentRatingKey":"8015","type":"track","title":"17","grandparentKey":"/library/metadata/8015","parentKey":"/library/metadata/8016","grandparentTitle":"Kings of Leon","parentTitle":"Only by the Night","originalTitle":"Kings of Leon","summary":"","index":7,"parentIndex":1,"ratingCount":3594742,"thumb":"/library/metadata/8016/thumb/1485829353","art":"/library/metadata/8015/art/1485829351","parentThumb":"/library/metadata/8016/thumb/1485829353","grandparentThumb":"/library/metadata/8015/thumb/1485829351","grandparentArt":"/library/metadata/8015/art/1485829351","duration":185417,"addedAt":1485829323,"updatedAt":1485829353,"Media":[{"id":61575,"duration":185417,"bitrate":335,"audioChannels":2,"audioCodec":"mp3","container":"mp3","Part":[{"id":61575,"key":"/library/parts/61575/1485829096/file.mp3","duration":185417,"file":"/mnt/data/music/albums/Kings of Leon/Only by the Night/07 17.mp3","size":7768333,"container":"mp3","hasThumbnail":"1"}]}]},{"ratingKey":"48112","key":"/library/metadata/48112","parentRatingKey":"8016","grandparentRatingKey":"8015","type":"track","title":"Notion","grandparentKey":"/library/metadata/8015","parentKey":"/library/metadata/8016","grandparentTitle":"Kings of Leon","parentTitle":"Only by the Night","originalTitle":"Kings of Leon","summary":"","index":8,"parentIndex":1,"ratingCount":4391724,"thumb":"/library/metadata/8016/thumb/1485829353","art":"/library/metadata/8015/art/1485829351","parentThumb":"/library/metadata/8016/thumb/1485829353","grandparentThumb":"/library/metadata/8015/thumb/1485829351","grandparentArt":"/library/metadata/8015/art/1485829351","duration":180872,"addedAt":1485829323,"updatedAt":1485829353,"Media":[{"id":61576,"duration":180872,"bitrate":336,"audioChannels":2,"audioCodec":"mp3","container":"mp3","Part":[{"id":61576,"key":"/library/parts/61576/1485829096/file.mp3","duration":180872,"file":"/mnt/data/music/albums/Kings of Leon/Only by the Night/08 Notion.mp3","size":7586344,"container":"mp3","hasThumbnail":"1"}]}]},{"ratingKey":"48113","key":"/library/metadata/48113","parentRatingKey":"8016","grandparentRatingKey":"8015","type":"track","title":"I Want You","grandparentKey":"/library/metadata/8015","parentKey":"/library/metadata/8016","grandparentTitle":"Kings of Leon","parentTitle":"Only by the Night","originalTitle":"Kings of Leon","summary":"","index":9,"parentIndex":1,"ratingCount":3614444,"thumb":"/library/metadata/8016/thumb/1485829353","art":"/library/metadata/8015/art/1485829351","parentThumb":"/library/metadata/8016/thumb/1485829353","grandparentThumb":"/library/metadata/8015/thumb/1485829351","grandparentArt":"/library/metadata/8015/art/1485829351","duration":307487,"addedAt":1485829323,"updatedAt":1485829353,"Media":[{"id":61577,"duration":307487,"bitrate":329,"audioChannels":2,"audioCodec":"mp3","container":"mp3","Part":[{"id":61577,"key":"/library/parts/61577/1485829096/file.mp3","duration":307487,"file":"/mnt/data/music/albums/Kings of Leon/Only by the Night/09 I Want You.mp3","size":12656032,"container":"mp3","hasThumbnail":"1"}]}]},{"ratingKey":"48114","key":"/library/metadata/48114","parentRatingKey":"8016","grandparentRatingKey":"8015","type":"track","title":"Be Somebody","grandparentKey":"/library/metadata/8015","parentKey":"/library/metadata/8016","grandparentTitle":"Kings of Leon","parentTitle":"Only by the Night","originalTitle":"Kings of Leon","summary":"","index":10,"parentIndex":1,"ratingCount":3927083,"thumb":"/library/metadata/8016/thumb/1485829353","art":"/library/metadata/8015/art/1485829351","parentThumb":"/library/metadata/8016/thumb/1485829353","grandparentThumb":"/library/metadata/8015/thumb/1485829351","grandparentArt":"/library/metadata/8015/art/1485829351","duration":227187,"addedAt":1485829323,"updatedAt":1485829353,"Media":[{"id":61578,"duration":227187,"bitrate":332,"audioChannels":2,"audioCodec":"mp3","container":"mp3","Part":[{"id":61578,"key":"/library/parts/61578/1485829096/file.mp3","duration":227187,"file":"/mnt/data/music/albums/Kings of Leon/Only by the Night/10 Be Somebody.mp3","size":9440806,"container":"mp3","hasThumbnail":"1"}]}]},{"ratingKey":"48115","key":"/library/metadata/48115","parentRatingKey":"8016","grandparentRatingKey":"8015","type":"track","title":"Cold Desert","grandparentKey":"/library/metadata/8015","parentKey":"/library/metadata/8016","grandparentTitle":"Kings of Leon","parentTitle":"Only by the Night","originalTitle":"Kings of Leon","summary":"","index":11,"parentIndex":1,"ratingCount":3263958,"thumb":"/library/metadata/8016/thumb/1485829353","art":"/library/metadata/8015/art/1485829351","parentThumb":"/library/metadata/8016/thumb/1485829353","grandparentThumb":"/library/metadata/8015/thumb/1485829351","grandparentArt":"/library/metadata/8015/art/1485829351","duration":334733,"addedAt":1485829323,"updatedAt":1485829353,"Media":[{"id":61579,"duration":334733,"bitrate":329,"audioChannels":2,"audioCodec":"mp3","container":"mp3","Part":[{"id":61579,"key":"/library/parts/61579/1485829096/file.mp3","duration":334733,"file":"/mnt/data/music/albums/Kings of Leon/Only by the Night/11 Cold Desert.mp3","size":13746953,"container":"mp3","hasThumbnail":"1"}]}]},{"ratingKey":"48097","key":"/library/metadata/48097","parentRatingKey":"48096","grandparentRatingKey":"8015","type":"track","title":"Waste a Moment","grandparentKey":"/library/metadata/8015","parentKey":"/library/metadata/48096","grandparentTitle":"Kings of Leon","parentTitle":"WALLS","originalTitle":"Kings of Leon","summary":"","index":1,"parentIndex":1,"userRating":8.0,"viewCount":2,"lastViewedAt":1486095944,"thumb":"/library/metadata/48096/thumb/1485829356","art":"/library/metadata/8015/art/1485829351","parentThumb":"/library/metadata/48096/thumb/1485829356","grandparentThumb":"/library/metadata/8015/thumb/1485829351","grandparentArt":"/library/metadata/8015/art/1485829351","duration":183144,"addedAt":1485829322,"updatedAt":1485829356,"Media":[{"id":61561,"duration":183144,"bitrate":328,"audioChannels":2,"audioCodec":"mp3","container":"mp3","Part":[{"id":61561,"key":"/library/parts/61561/1485829097/file.mp3","duration":183144,"file":"/mnt/data/music/albums/Kings of Leon/WALLS/01 Waste a Moment.mp3","size":7510404,"container":"mp3","hasThumbnail":"1"}]}]}]}}
+{
+  "MediaContainer": {
+    "size": 10,
+    "totalSize": 17993,
+    "allowSync": true,
+    "art": "/:/resources/artist-fanart.jpg",
+    "identifier": "com.plexapp.plugins.library",
+    "librarySectionID": 1,
+    "librarySectionTitle": "Music",
+    "librarySectionUUID": "5085a855-78e9-4dd7-9d70-a4ac296e28ee",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1481837967,
+    "nocache": true,
+    "offset": 0,
+    "thumb": "/:/resources/artist.png",
+    "title1": "Music",
+    "title2": "All Artists",
+    "viewGroup": "artist",
+    "viewMode": 65592,
+    "Metadata": [
+      {
+        "ratingKey": "48107",
+        "key": "/library/metadata/48107",
+        "parentRatingKey": "8016",
+        "grandparentRatingKey": "8015",
+        "type": "track",
+        "title": "Closer",
+        "grandparentKey": "/library/metadata/8015",
+        "parentKey": "/library/metadata/8016",
+        "grandparentTitle": "Kings of Leon",
+        "parentTitle": "Only by the Night",
+        "originalTitle": "Kings of Leon",
+        "summary": "",
+        "index": 1,
+        "parentIndex": 1,
+        "ratingCount": 8012613,
+        "viewCount": 1,
+        "lastViewedAt": 1485932058,
+        "thumb": "/library/metadata/8016/thumb/1485829353",
+        "art": "/library/metadata/8015/art/1485829351",
+        "parentThumb": "/library/metadata/8016/thumb/1485829353",
+        "grandparentThumb": "/library/metadata/8015/thumb/1485829351",
+        "grandparentArt": "/library/metadata/8015/art/1485829351",
+        "duration": 237531,
+        "addedAt": 1485829323,
+        "updatedAt": 1485829353,
+        "Media": [
+          {
+            "id": 61571,
+            "duration": 237531,
+            "bitrate": 332,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 61571,
+                "key": "/library/parts/61571/1485829096/file.mp3",
+                "duration": 237531,
+                "file": "/mnt/data/music/albums/Kings of Leon/Only by the Night/01 Closer.mp3",
+                "size": 9854994,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "48108",
+        "key": "/library/metadata/48108",
+        "parentRatingKey": "8016",
+        "grandparentRatingKey": "8015",
+        "type": "track",
+        "title": "Crawl",
+        "grandparentKey": "/library/metadata/8015",
+        "parentKey": "/library/metadata/8016",
+        "grandparentTitle": "Kings of Leon",
+        "parentTitle": "Only by the Night",
+        "originalTitle": "Kings of Leon",
+        "summary": "",
+        "index": 2,
+        "parentIndex": 1,
+        "ratingCount": 4035250,
+        "thumb": "/library/metadata/8016/thumb/1485829353",
+        "art": "/library/metadata/8015/art/1485829351",
+        "parentThumb": "/library/metadata/8016/thumb/1485829353",
+        "grandparentThumb": "/library/metadata/8015/thumb/1485829351",
+        "grandparentArt": "/library/metadata/8015/art/1485829351",
+        "duration": 246465,
+        "addedAt": 1485829323,
+        "updatedAt": 1485829353,
+        "Media": [
+          {
+            "id": 61572,
+            "duration": 246465,
+            "bitrate": 331,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 61572,
+                "key": "/library/parts/61572/1485829096/file.mp3",
+                "duration": 246465,
+                "file": "/mnt/data/music/albums/Kings of Leon/Only by the Night/02 Crawl.mp3",
+                "size": 10212705,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "48109",
+        "key": "/library/metadata/48109",
+        "parentRatingKey": "8016",
+        "grandparentRatingKey": "8015",
+        "type": "track",
+        "title": "Manhattan",
+        "grandparentKey": "/library/metadata/8015",
+        "parentKey": "/library/metadata/8016",
+        "grandparentTitle": "Kings of Leon",
+        "parentTitle": "Only by the Night",
+        "originalTitle": "Kings of Leon",
+        "summary": "",
+        "index": 5,
+        "parentIndex": 1,
+        "ratingCount": 4652056,
+        "lastViewedAt": 1485934353,
+        "thumb": "/library/metadata/8016/thumb/1485829353",
+        "art": "/library/metadata/8015/art/1485829351",
+        "parentThumb": "/library/metadata/8016/thumb/1485829353",
+        "grandparentThumb": "/library/metadata/8015/thumb/1485829351",
+        "grandparentArt": "/library/metadata/8015/art/1485829351",
+        "duration": 204278,
+        "addedAt": 1485829323,
+        "updatedAt": 1485829353,
+        "Media": [
+          {
+            "id": 61573,
+            "duration": 204278,
+            "bitrate": 334,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 61573,
+                "key": "/library/parts/61573/1485829096/file.mp3",
+                "duration": 204278,
+                "file": "/mnt/data/music/albums/Kings of Leon/Only by the Night/05 Manhattan.mp3",
+                "size": 8523512,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "48110",
+        "key": "/library/metadata/48110",
+        "parentRatingKey": "8016",
+        "grandparentRatingKey": "8015",
+        "type": "track",
+        "title": "Revelry",
+        "grandparentKey": "/library/metadata/8015",
+        "parentKey": "/library/metadata/8016",
+        "grandparentTitle": "Kings of Leon",
+        "parentTitle": "Only by the Night",
+        "originalTitle": "Kings of Leon",
+        "summary": "",
+        "index": 6,
+        "parentIndex": 1,
+        "ratingCount": 4786611,
+        "lastViewedAt": 1485934353,
+        "thumb": "/library/metadata/8016/thumb/1485829353",
+        "art": "/library/metadata/8015/art/1485829351",
+        "parentThumb": "/library/metadata/8016/thumb/1485829353",
+        "grandparentThumb": "/library/metadata/8015/thumb/1485829351",
+        "grandparentArt": "/library/metadata/8015/art/1485829351",
+        "duration": 201770,
+        "addedAt": 1485829323,
+        "updatedAt": 1485829353,
+        "Media": [
+          {
+            "id": 61574,
+            "duration": 201770,
+            "bitrate": 334,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 61574,
+                "key": "/library/parts/61574/1485829096/file.mp3",
+                "duration": 201770,
+                "file": "/mnt/data/music/albums/Kings of Leon/Only by the Night/06 Revelry.mp3",
+                "size": 8423099,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "48111",
+        "key": "/library/metadata/48111",
+        "parentRatingKey": "8016",
+        "grandparentRatingKey": "8015",
+        "type": "track",
+        "title": "17",
+        "grandparentKey": "/library/metadata/8015",
+        "parentKey": "/library/metadata/8016",
+        "grandparentTitle": "Kings of Leon",
+        "parentTitle": "Only by the Night",
+        "originalTitle": "Kings of Leon",
+        "summary": "",
+        "index": 7,
+        "parentIndex": 1,
+        "ratingCount": 3594742,
+        "thumb": "/library/metadata/8016/thumb/1485829353",
+        "art": "/library/metadata/8015/art/1485829351",
+        "parentThumb": "/library/metadata/8016/thumb/1485829353",
+        "grandparentThumb": "/library/metadata/8015/thumb/1485829351",
+        "grandparentArt": "/library/metadata/8015/art/1485829351",
+        "duration": 185417,
+        "addedAt": 1485829323,
+        "updatedAt": 1485829353,
+        "Media": [
+          {
+            "id": 61575,
+            "duration": 185417,
+            "bitrate": 335,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 61575,
+                "key": "/library/parts/61575/1485829096/file.mp3",
+                "duration": 185417,
+                "file": "/mnt/data/music/albums/Kings of Leon/Only by the Night/07 17.mp3",
+                "size": 7768333,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "48112",
+        "key": "/library/metadata/48112",
+        "parentRatingKey": "8016",
+        "grandparentRatingKey": "8015",
+        "type": "track",
+        "title": "Notion",
+        "grandparentKey": "/library/metadata/8015",
+        "parentKey": "/library/metadata/8016",
+        "grandparentTitle": "Kings of Leon",
+        "parentTitle": "Only by the Night",
+        "originalTitle": "Kings of Leon",
+        "summary": "",
+        "index": 8,
+        "parentIndex": 1,
+        "ratingCount": 4391724,
+        "thumb": "/library/metadata/8016/thumb/1485829353",
+        "art": "/library/metadata/8015/art/1485829351",
+        "parentThumb": "/library/metadata/8016/thumb/1485829353",
+        "grandparentThumb": "/library/metadata/8015/thumb/1485829351",
+        "grandparentArt": "/library/metadata/8015/art/1485829351",
+        "duration": 180872,
+        "addedAt": 1485829323,
+        "updatedAt": 1485829353,
+        "Media": [
+          {
+            "id": 61576,
+            "duration": 180872,
+            "bitrate": 336,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 61576,
+                "key": "/library/parts/61576/1485829096/file.mp3",
+                "duration": 180872,
+                "file": "/mnt/data/music/albums/Kings of Leon/Only by the Night/08 Notion.mp3",
+                "size": 7586344,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "48113",
+        "key": "/library/metadata/48113",
+        "parentRatingKey": "8016",
+        "grandparentRatingKey": "8015",
+        "type": "track",
+        "title": "I Want You",
+        "grandparentKey": "/library/metadata/8015",
+        "parentKey": "/library/metadata/8016",
+        "grandparentTitle": "Kings of Leon",
+        "parentTitle": "Only by the Night",
+        "originalTitle": "Kings of Leon",
+        "summary": "",
+        "index": 9,
+        "parentIndex": 1,
+        "ratingCount": 3614444,
+        "thumb": "/library/metadata/8016/thumb/1485829353",
+        "art": "/library/metadata/8015/art/1485829351",
+        "parentThumb": "/library/metadata/8016/thumb/1485829353",
+        "grandparentThumb": "/library/metadata/8015/thumb/1485829351",
+        "grandparentArt": "/library/metadata/8015/art/1485829351",
+        "duration": 307487,
+        "addedAt": 1485829323,
+        "updatedAt": 1485829353,
+        "Media": [
+          {
+            "id": 61577,
+            "duration": 307487,
+            "bitrate": 329,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 61577,
+                "key": "/library/parts/61577/1485829096/file.mp3",
+                "duration": 307487,
+                "file": "/mnt/data/music/albums/Kings of Leon/Only by the Night/09 I Want You.mp3",
+                "size": 12656032,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "48114",
+        "key": "/library/metadata/48114",
+        "parentRatingKey": "8016",
+        "grandparentRatingKey": "8015",
+        "type": "track",
+        "title": "Be Somebody",
+        "grandparentKey": "/library/metadata/8015",
+        "parentKey": "/library/metadata/8016",
+        "grandparentTitle": "Kings of Leon",
+        "parentTitle": "Only by the Night",
+        "originalTitle": "Kings of Leon",
+        "summary": "",
+        "index": 10,
+        "parentIndex": 1,
+        "ratingCount": 3927083,
+        "thumb": "/library/metadata/8016/thumb/1485829353",
+        "art": "/library/metadata/8015/art/1485829351",
+        "parentThumb": "/library/metadata/8016/thumb/1485829353",
+        "grandparentThumb": "/library/metadata/8015/thumb/1485829351",
+        "grandparentArt": "/library/metadata/8015/art/1485829351",
+        "duration": 227187,
+        "addedAt": 1485829323,
+        "updatedAt": 1485829353,
+        "Media": [
+          {
+            "id": 61578,
+            "duration": 227187,
+            "bitrate": 332,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 61578,
+                "key": "/library/parts/61578/1485829096/file.mp3",
+                "duration": 227187,
+                "file": "/mnt/data/music/albums/Kings of Leon/Only by the Night/10 Be Somebody.mp3",
+                "size": 9440806,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "48115",
+        "key": "/library/metadata/48115",
+        "parentRatingKey": "8016",
+        "grandparentRatingKey": "8015",
+        "type": "track",
+        "title": "Cold Desert",
+        "grandparentKey": "/library/metadata/8015",
+        "parentKey": "/library/metadata/8016",
+        "grandparentTitle": "Kings of Leon",
+        "parentTitle": "Only by the Night",
+        "originalTitle": "Kings of Leon",
+        "summary": "",
+        "index": 11,
+        "parentIndex": 1,
+        "ratingCount": 3263958,
+        "thumb": "/library/metadata/8016/thumb/1485829353",
+        "art": "/library/metadata/8015/art/1485829351",
+        "parentThumb": "/library/metadata/8016/thumb/1485829353",
+        "grandparentThumb": "/library/metadata/8015/thumb/1485829351",
+        "grandparentArt": "/library/metadata/8015/art/1485829351",
+        "duration": 334733,
+        "addedAt": 1485829323,
+        "updatedAt": 1485829353,
+        "Media": [
+          {
+            "id": 61579,
+            "duration": 334733,
+            "bitrate": 329,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 61579,
+                "key": "/library/parts/61579/1485829096/file.mp3",
+                "duration": 334733,
+                "file": "/mnt/data/music/albums/Kings of Leon/Only by the Night/11 Cold Desert.mp3",
+                "size": 13746953,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ratingKey": "48097",
+        "key": "/library/metadata/48097",
+        "parentRatingKey": "48096",
+        "grandparentRatingKey": "8015",
+        "type": "track",
+        "title": "Waste a Moment",
+        "grandparentKey": "/library/metadata/8015",
+        "parentKey": "/library/metadata/48096",
+        "grandparentTitle": "Kings of Leon",
+        "parentTitle": "WALLS",
+        "originalTitle": "Kings of Leon",
+        "summary": "",
+        "index": 1,
+        "parentIndex": 1,
+        "userRating": 8,
+        "viewCount": 2,
+        "lastViewedAt": 1486095944,
+        "thumb": "/library/metadata/48096/thumb/1485829356",
+        "art": "/library/metadata/8015/art/1485829351",
+        "parentThumb": "/library/metadata/48096/thumb/1485829356",
+        "grandparentThumb": "/library/metadata/8015/thumb/1485829351",
+        "grandparentArt": "/library/metadata/8015/art/1485829351",
+        "duration": 183144,
+        "addedAt": 1485829322,
+        "updatedAt": 1485829356,
+        "Media": [
+          {
+            "id": 61561,
+            "duration": 183144,
+            "bitrate": 328,
+            "audioChannels": 2,
+            "audioCodec": "mp3",
+            "container": "mp3",
+            "Part": [
+              {
+                "id": 61561,
+                "key": "/library/parts/61561/1485829097/file.mp3",
+                "duration": 183144,
+                "file": "/mnt/data/music/albums/Kings of Leon/WALLS/01 Waste a Moment.mp3",
+                "size": 7510404,
+                "container": "mp3",
+                "hasThumbnail": "1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -9,6 +9,8 @@ import { parseTrackContainer } from './types/track'
 import { parsePlayQueue } from './types/playQueue'
 import { parsePlaylist, parsePlaylistContainer } from './types/playlist'
 import { parseHubContainer } from './types/hub'
+import { parseCountryContainer } from './types/country'
+import { parseGenreContainer } from './types/genre'
 
 // plex media types-- https://github.com/Arcanemagus/plex-api/wiki/MediaTypes
 export const ARTIST = 8
@@ -184,6 +186,26 @@ export default class Library {
     const path = `/library/metadata/${id}/children`
     const res = await this.fetch(path, { params })
     return parseType(type, res)
+  }
+
+  // ==========================================================================
+  // COUNTRIES
+  // ==========================================================================
+
+  async countries (sectionId) {
+    const path = `/library/sections/${sectionId}/country`
+    const res = await this.fetch(path)
+    return parseCountryContainer(res)
+  }
+
+  // ==========================================================================
+  // GENRES
+  // ==========================================================================
+
+  async genres (sectionId) {
+    const path = `/library/sections/${sectionId}/genre`
+    const res = await this.fetch(path)
+    return parseGenreContainer(res)
   }
 
   // ==========================================================================

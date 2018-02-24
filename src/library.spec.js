@@ -129,6 +129,30 @@ test('metadataChildren', (t) => {
     .then(snapshot(t, scope))
 })
 
+test('countries', (t) => {
+  const { library } = t.context
+  const response = fixture('countries')
+
+  const scope = nock(URI)
+    .get('/library/sections/1/country')
+    .reply(200, response)
+
+  return library.countries(1)
+    .then(snapshot(t, scope))
+})
+
+test('genres', (t) => {
+  const { library } = t.context
+  const response = fixture('genres')
+
+  const scope = nock(URI)
+    .get('/library/sections/1/genre')
+    .reply(200, response)
+
+  return library.genres(1)
+    .then(snapshot(t, scope))
+})
+
 test('tracks', (t) => {
   const { library } = t.context
   const response = fixture('tracks')

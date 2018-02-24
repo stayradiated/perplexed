@@ -30,6 +30,26 @@ export class Filter {
   }
 }
 
+export class FilterReference extends Filter {
+  options () {
+    return {
+      ...super.options(),
+      is: 'is',
+      isNot: 'is not'
+    }
+  }
+
+  is (value) {
+    console.assert(typeof value === 'number', 'is value must be a number')
+    return this.filter('', value)
+  }
+
+  isNot (value) {
+    console.assert(typeof value === 'number', 'isNot value must be a number')
+    return this.filter('!', value)
+  }
+}
+
 export class FilterValue extends Filter {
   options () {
     return {
@@ -138,14 +158,14 @@ export class FilterDate extends Filter {
 
 export const artistTitle = new FilterString('artist.title')
 export const artistRating = new FilterNumber('artist.userRating')
-export const artistGenre = new FilterValue('artist.genre')
+export const artistGenre = new FilterReference('artist.genre')
 export const artistCollection = new FilterValue('artist.collection')
-export const artistCountry = new FilterValue('artist.country')
+export const artistCountry = new FilterReference('artist.country')
 export const dateArtistAdded = new FilterDate('artist.addedAt')
 
 export const albumTitle = new FilterString('album.title')
 export const year = new FilterNumber('album.year')
-export const albumGenre = new FilterValue('album.genre')
+export const albumGenre = new FilterReference('album.genre')
 export const albumPlays = new FilterNumber('album.viewCount')
 export const albumLastPlayed = new FilterDate('album.lastViewdAt')
 export const albumRating = new FilterNumber('album.userRating')
