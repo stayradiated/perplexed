@@ -17,16 +17,15 @@ export default {
       babelrc: false,
       exclude: 'node_modules/**',
       presets: [
-        'flow',
-        [ 'env', {
+        '@babel/preset-flow',
+        [ '@babel/preset-env', {
           forceAllTransforms: true,
           'modules': false,
           'useBuiltIns': 'entry'
         } ]
       ],
       plugins: [
-        'external-helpers',
-        'transform-object-rest-spread'
+        '@babel/plugin-external-helpers'
       ]
     })
   ]

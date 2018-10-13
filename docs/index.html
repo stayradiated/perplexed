@@ -2,19 +2,20 @@
 <html>
 <head>
   <meta charset='utf-8' />
-  <title>perplexed 4.2.2 | Documentation</title>
+  <title>perplexed 4.3.0 | Documentation</title>
   <meta name='viewport' content='width=device-width,initial-scale=1'>
   <link href='assets/bass.css' type='text/css' rel='stylesheet' />
   <link href='assets/style.css' type='text/css' rel='stylesheet' />
   <link href='assets/github.css' type='text/css' rel='stylesheet' />
   <link href='assets/split.css' type='text/css' rel='stylesheet' />
+  <meta name='description' content='Plex API Client'>
 </head>
 <body class='documentation m0'>
     <div class='flex'>
       <div id='split-left' class='overflow-auto fs0 height-viewport-100'>
         <div class='py1 px2'>
           <h3 class='mb0 no-anchor'>perplexed</h3>
-          <div class='mb1'><code>4.2.2</code></div>
+          <div class='mb1'><code>4.3.0</code></div>
           <input
             placeholder='Filter'
             id='filter-input'
@@ -363,7 +364,7 @@
       <div id='split-right' class='relative overflow-auto height-viewport-100'>
         
           
-            <section class='p2 mb2 clearfix bg-white minishadow'>
+          <section class='p2 mb2 clearfix bg-white minishadow'>
 
   
   <div class='clearfix'>
@@ -378,8 +379,10 @@
 
   <p>A plex.tv account</p>
 
-
-  <div class='pre p1 fill-light mt0'>new Account(authToken: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>?)</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>new Account(authToken: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>?)</div>
+   
   
   
 
@@ -434,8 +437,10 @@
 
   <p>Log in to a Plex account</p>
 
-
-  <div class='pre p1 fill-light mt0'>authenticate(username: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>, password: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>authenticate(username: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>, password: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -509,8 +514,10 @@
 
   <p>Fetch information about the currently logged in user</p>
 
-
-  <div class='pre p1 fill-light mt0'>info(): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>info(): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -566,8 +573,10 @@ Useful for figuring out which server to connect to.</p>
 <p>Note: this API doesn't support JSON at the moment, so we need
 to parse the response as XML.</p>
 
-
-  <div class='pre p1 fill-light mt0'>resources(): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>resources(): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -620,8 +629,10 @@ to parse the response as XML.</p>
 
   <p>Fetch a list of all the servers</p>
 
-
-  <div class='pre p1 fill-light mt0'>servers(): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>servers(): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -674,8 +685,10 @@ to parse the response as XML.</p>
 
   <p>Fetch a list of devices attached to an account</p>
 
-
-  <div class='pre p1 fill-light mt0'>devices(): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>devices(): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -728,8 +741,10 @@ to parse the response as XML.</p>
 
   <p>Remove a device from the account</p>
 
-
-  <div class='pre p1 fill-light mt0'>removeDevice(deviceId: any)</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>removeDevice(deviceId: any)</div>
+   
   
   
 
@@ -780,10 +795,9 @@ to parse the response as XML.</p>
   
 </section>
 
-          
         
           
-            <section class='p2 mb2 clearfix bg-white minishadow'>
+          <section class='p2 mb2 clearfix bg-white minishadow'>
 
   
   <div class='clearfix'>
@@ -798,8 +812,10 @@ to parse the response as XML.</p>
 
   <p>A Plex API client</p>
 
-
-  <div class='pre p1 fill-light mt0'>new Client(options: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>)</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>new Client(options: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>)</div>
+   
   
   
 
@@ -912,10 +928,9 @@ to parse the response as XML.</p>
   
 </section>
 
-          
         
           
-            <section class='p2 mb2 clearfix bg-white minishadow'>
+          <section class='p2 mb2 clearfix bg-white minishadow'>
 
   
   <div class='clearfix'>
@@ -930,8 +945,10 @@ to parse the response as XML.</p>
 
   <p>Parse a plex response based on the data type</p>
 
-
-  <div class='pre p1 fill-light mt0'>parseType(type: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, data: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>parseType(type: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, data: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></div>
+   
   
   
 
@@ -990,10 +1007,9 @@ to parse the response as XML.</p>
   
 </section>
 
-          
         
           
-            <section class='p2 mb2 clearfix bg-white minishadow'>
+          <section class='p2 mb2 clearfix bg-white minishadow'>
 
   
   <div class='clearfix'>
@@ -1008,8 +1024,10 @@ to parse the response as XML.</p>
 
   <p>Interact with a plex server</p>
 
-
-  <div class='pre p1 fill-light mt0'>new Library(config: (<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a> | <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>))</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>new Library(config: (<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a> | <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>))</div>
+   
   
   
 
@@ -1066,8 +1084,10 @@ to parse the response as XML.</p>
 
   <p>Get the status of all connected clients</p>
 
-
-  <div class='pre p1 fill-light mt0'>sessions()</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>sessions()</div>
+   
   
   
 
@@ -1112,8 +1132,10 @@ to parse the response as XML.</p>
 
   <p>Get all available sections in the library</p>
 
-
-  <div class='pre p1 fill-light mt0'>sections(): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>sections(): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -1166,8 +1188,10 @@ to parse the response as XML.</p>
 
   <p>Get a specific section in the library</p>
 
-
-  <div class='pre p1 fill-light mt0'>section(sectionId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>section(sectionId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -1234,8 +1258,10 @@ to parse the response as XML.</p>
 
   <p>Get all items in a section</p>
 
-
-  <div class='pre p1 fill-light mt0'>sectionItems(sectionId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, type: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>sectionItems(sectionId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, type: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -1318,8 +1344,10 @@ to parse the response as XML.</p>
 
   <p>Build library URI for use in creating queues and playlists</p>
 
-
-  <div class='pre p1 fill-light mt0'>buildLibraryURI(uuid: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>, path: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>?): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>buildLibraryURI(uuid: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>, path: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>?): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></div>
+   
   
   
 
@@ -1404,8 +1432,10 @@ to parse the response as XML.</p>
 
   <p>Fetch a metadata item</p>
 
-
-  <div class='pre p1 fill-light mt0'>metadata(id: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, type: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>?): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>metadata(id: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, type: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>?): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -1489,8 +1519,10 @@ to parse the response as XML.</p>
 
   <p>Fetch children of a metadata item</p>
 
-
-  <div class='pre p1 fill-light mt0'>metadataChildren(id: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, type: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>?): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>metadataChildren(id: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, type: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>?): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -1574,8 +1606,10 @@ to parse the response as XML.</p>
 
   <p>Query all the tracks in the library</p>
 
-
-  <div class='pre p1 fill-light mt0'>tracks(sectionId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>)</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>tracks(sectionId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>)</div>
+   
   
   
 
@@ -1643,8 +1677,10 @@ to parse the response as XML.</p>
 
   <p>Get information about a single track</p>
 
-
-  <div class='pre p1 fill-light mt0'>track(trackId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>track(trackId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -1710,8 +1746,10 @@ to parse the response as XML.</p>
 
   <p>Query all albums in the library</p>
 
-
-  <div class='pre p1 fill-light mt0'>albums(sectionId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>?): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>albums(sectionId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>?): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -1787,8 +1825,10 @@ to parse the response as XML.</p>
 
   <p>Get information about a single album</p>
 
-
-  <div class='pre p1 fill-light mt0'>album(albumId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>album(albumId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -1854,8 +1894,10 @@ to parse the response as XML.</p>
 
   <p>Get the tracks related to an album</p>
 
-
-  <div class='pre p1 fill-light mt0'>albumTracks(albumId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>?): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>albumTracks(albumId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>?): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -1955,8 +1997,10 @@ to parse the response as XML.</p>
 
   <p>Query all artists in the library</p>
 
-
-  <div class='pre p1 fill-light mt0'>artists(sectionId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>)</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>artists(sectionId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>)</div>
+   
   
   
 
@@ -2024,8 +2068,10 @@ to parse the response as XML.</p>
 
   <p>Get information about a single artist</p>
 
-
-  <div class='pre p1 fill-light mt0'>artist(artistId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, options: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>artist(artistId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, options: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -2126,8 +2172,10 @@ to parse the response as XML.</p>
 
   <p>Get the albums related to an artist</p>
 
-
-  <div class='pre p1 fill-light mt0'>artistAlbums(artistId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>?): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>artistAlbums(artistId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, params: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>?): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -2227,8 +2275,10 @@ to parse the response as XML.</p>
 
   <p>Fetch all playlists on the server</p>
 
-
-  <div class='pre p1 fill-light mt0'>playlists(params: any): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>playlists(params: any): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -2294,8 +2344,10 @@ to parse the response as XML.</p>
 
   <p>Remove an item from a playlist</p>
 
-
-  <div class='pre p1 fill-light mt0'>removeFromPlaylist(playlistId: any, itemId: any): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>removeFromPlaylist(playlistId: any, itemId: any): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -2369,8 +2421,10 @@ to parse the response as XML.</p>
 
   <p>Search the library for tracks matching a query</p>
 
-
-  <div class='pre p1 fill-light mt0'>searchTracks(sectionId: any, query: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>searchTracks(sectionId: any, query: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</div>
+   
   
   
 
@@ -2436,8 +2490,10 @@ to parse the response as XML.</p>
 
   <p>Resize a photo to a specific size</p>
 
-
-  <div class='pre p1 fill-light mt0'>resizePhoto(params: any): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>resizePhoto(params: any): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></div>
+   
   
   
 
@@ -2503,8 +2559,10 @@ to parse the response as XML.</p>
 
   <p>Set the user rating for a track</p>
 
-
-  <div class='pre p1 fill-light mt0'>rate(trackId: any, rating: any)</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>rate(trackId: any, rating: any)</div>
+   
   
   
 
@@ -2570,8 +2628,10 @@ to parse the response as XML.</p>
 
   <p>Create a play queue from a uri</p>
 
-
-  <div class='pre p1 fill-light mt0'>createQueue(options: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>createQueue(options: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -2718,8 +2778,10 @@ source, set this instead of
 
   <p>Fetch information about an existing play queue</p>
 
-
-  <div class='pre p1 fill-light mt0'>playQueue(playQueueId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>): any</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>playQueue(playQueueId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>): any</div>
+   
   
   
 
@@ -2785,8 +2847,10 @@ source, set this instead of
 
   <p>Move an item in the play queue to a new position</p>
 
-
-  <div class='pre p1 fill-light mt0'>movePlayQueueItem(playQueueId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>, itemId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>, afterId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>): any</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>movePlayQueueItem(playQueueId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>, itemId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>, afterId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>): any</div>
+   
   
   
 
@@ -2868,8 +2932,10 @@ source, set this instead of
 
   <p>Shuffle a play queue</p>
 
-
-  <div class='pre p1 fill-light mt0'>shufflePlayQueue(playQueueId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>): any</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>shufflePlayQueue(playQueueId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>): any</div>
+   
   
   
 
@@ -2935,8 +3001,10 @@ source, set this instead of
 
   <p>Unshuffle a play queue</p>
 
-
-  <div class='pre p1 fill-light mt0'>unshufflePlayQueue(playQueueId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>): any</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>unshufflePlayQueue(playQueueId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>): any</div>
+   
   
   
 
@@ -3002,8 +3070,10 @@ source, set this instead of
 
   <p>Update plex about the current timeline status.</p>
 
-
-  <div class='pre p1 fill-light mt0'>timeline(options: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>timeline(options: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -3139,8 +3209,10 @@ source, set this instead of
 
   <p>Modify the genre tags for an item</p>
 
-
-  <div class='pre p1 fill-light mt0'>modifyGenre(sectionId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, type: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, id: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, addTags: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>, removeTags: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>modifyGenre(sectionId: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, type: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, id: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, addTags: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>, removeTags: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -3244,8 +3316,10 @@ source, set this instead of
 
   <p>Modify the genre tags for an album</p>
 
-
-  <div class='pre p1 fill-light mt0'>modifyAlbumGenre(sectionId: any, albumId: any, addTags: any, removeTags: any)</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>modifyAlbumGenre(sectionId: any, albumId: any, addTags: any, removeTags: any)</div>
+   
   
   
 
@@ -3327,8 +3401,10 @@ source, set this instead of
 
   <p>Modify the genre tags for an artist</p>
 
-
-  <div class='pre p1 fill-light mt0'>modifyArtistGenre(sectionId: any, artistId: any, addTags: any, removeTags: any)</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>modifyArtistGenre(sectionId: any, artistId: any, addTags: any, removeTags: any)</div>
+   
   
   
 
@@ -3403,10 +3479,9 @@ source, set this instead of
   
 </section>
 
-          
         
           
-            <section class='p2 mb2 clearfix bg-white minishadow'>
+          <section class='p2 mb2 clearfix bg-white minishadow'>
 
   
   <div class='clearfix'>
@@ -3422,8 +3497,10 @@ source, set this instead of
   <p>Normalize a <strong>parsed</strong> plex response based on the data type.
 This is done based on the <code>_type</code> property all plex objects are given.</p>
 
-
-  <div class='pre p1 fill-light mt0'>dataSchema</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>dataSchema</div>
+   
   
   
 
@@ -3473,10 +3550,9 @@ This is done based on the <code>_type</code> property all plex objects are given
   
 </section>
 
-          
         
           
-            <section class='p2 mb2 clearfix bg-white minishadow'>
+          <section class='p2 mb2 clearfix bg-white minishadow'>
 
   
   <div class='clearfix'>
@@ -3491,8 +3567,10 @@ This is done based on the <code>_type</code> property all plex objects are given
 
   <p>A connection to a Plex server</p>
 
-
-  <div class='pre p1 fill-light mt0'>new ServerConnection(uri: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>, parent: (<a href="#account">Account</a> | <a href="#client">Client</a>))</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>new ServerConnection(uri: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>, parent: (<a href="#account">Account</a> | <a href="#client">Client</a>))</div>
+   
   
   
 
@@ -3554,8 +3632,10 @@ This is done based on the <code>_type</code> property all plex objects are given
 
   <p>Get headers</p>
 
-
-  <div class='pre p1 fill-light mt0'>headers()</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>headers()</div>
+   
   
   
 
@@ -3600,8 +3680,10 @@ This is done based on the <code>_type</code> property all plex objects are given
 
   <p>Given a path, return a fully qualified URL</p>
 
-
-  <div class='pre p1 fill-light mt0'>getUrl(path: any, params: any): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>getUrl(path: any, params: any): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></div>
+   
   
   
 
@@ -3676,8 +3758,10 @@ This is done based on the <code>_type</code> property all plex objects are given
   <p>Given a path, return a fully qualified URL
 Includes the X-Plex-Token parameter in the URL</p>
 
-
-  <div class='pre p1 fill-light mt0'>getAuthenticatedUrl(path: any, params: any): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>getAuthenticatedUrl(path: any, params: any): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></div>
+   
   
   
 
@@ -3752,8 +3836,10 @@ Includes the X-Plex-Token parameter in the URL</p>
   <p>Fetch a path on this server as JSON. If the response is not JSON, it will
 return a promise of the response.</p>
 
-
-  <div class='pre p1 fill-light mt0'>fetch(path: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>, options: any): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>fetch(path: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>, options: any): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
   
   
 
@@ -3821,7 +3907,6 @@ return a promise of the response.</p>
   
 </section>
 
-          
         
       </div>
     </div>
