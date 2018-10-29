@@ -8,7 +8,7 @@ export function parseMedia (data) {
     audioChannels = null,
     audioCodec = null,
     container = null,
-    Part = []
+    Part: parts = []
   } = data
 
   return {
@@ -19,6 +19,6 @@ export function parseMedia (data) {
     audioChannels,
     audioCodec,
     container,
-    part: Part.map(parsePart)
+    parts: parts.map(parsePart)
   }
 }

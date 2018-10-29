@@ -34,7 +34,7 @@ export function parseTrack (data) {
     updatedAt = null,
     userRating = null,
     viewCount = null,
-    Media = [],
+    Media: media = [],
     Related = null
   } = data
 
@@ -43,7 +43,7 @@ export function parseTrack (data) {
     id: parseInt(ratingKey, 10),
     parentId: parseInt(parentRatingKey, 10),
     grandparentId: parseInt(grandparentRatingKey, 10),
-    media: Media.map(parseMedia),
+    media: media.map(parseMedia),
     plexMix: Related && Related.Directory,
 
     addedAt,

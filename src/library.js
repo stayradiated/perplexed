@@ -479,7 +479,16 @@ export default class Library {
   // ==========================================================================
 
   trackSrc (track) {
-    return this.api.getAuthenticatedUrl(track.media[0].part[0].key)
+    return this.api.getAuthenticatedUrl(track.media[0].parts[0].key)
+  }
+
+  trackLyrics (track) {
+    const streams = track.media[0].parts[0].streams
+    const lyricStream = streams.find((stream) => stream.format === 'txt')
+    if (lyricStream == null) {
+      return null
+    }
+    return this.api.getAuthenticatedUrl(lyricStream.key)
   }
 
   // ==========================================================================

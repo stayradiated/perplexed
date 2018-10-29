@@ -1,4 +1,6 @@
-// import {parseStream} from './stream'
+import toArray from 'arrayify'
+
+import { parseStream } from './stream'
 
 export function parsePart (data) {
   const {
@@ -8,8 +10,8 @@ export function parsePart (data) {
     file = null,
     size = null,
     container = null,
-    hasThumbnail = null
-    // Stream,
+    hasThumbnail = null,
+    Stream: streams = []
   } = data
 
   return {
@@ -20,7 +22,7 @@ export function parsePart (data) {
     file,
     size,
     container,
-    hasThumbnail
-    // stream: parseStream(Stream),
+    hasThumbnail,
+    streams: toArray(streams).map(parseStream)
   }
 }

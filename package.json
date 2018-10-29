@@ -27,12 +27,13 @@
     "lint": "pkg-lint"
   },
   "dependencies": {
+    "arrayify": "^1.0.0",
     "assert": "^1.4.1",
     "babel-polyfill": "^6.26.0",
     "deep-diff": "^1.0.2",
     "difflet": "^1.0.1",
     "documentation": "^8.1.2",
-    "es6-promisify": "^6.0.0",
+    "es6-promisify": "^6.0.1",
     "isomorphic-base64": "^1.0.2",
     "isomorphic-fetch": "^2.2.1",
     "normalizr": "^3.3.0",
@@ -42,7 +43,7 @@
   },
   "devDependencies": {
     "@babel/plugin-external-helpers": "^7.0.0",
-    "@mishguru/package": "^4.17.0",
+    "@mishguru/package": "^5.0.0",
     "eslint-config-mishguru": "^2.0.2",
     "nock": "^10.0.1",
     "rollup": "^0.66.6",
