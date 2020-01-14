@@ -95,7 +95,7 @@ const toTrack = ($data: Prism<any>): Track => {
     grandparentGuid: $data.get<string>('grandparentGuid', { quiet: true })
       .value,
     guid: $data.get<string>('guid', { quiet: true }).value,
-    index: $data.get<number>('index').value,
+    index: $data.get<number>('index', { quiet: true }).value,
     key: $data.get<string>('key').value,
     lastRatedAt: $data
       .get<number>('lastRatedAt', { quiet: true })
@@ -117,8 +117,9 @@ const toTrack = ($data: Prism<any>): Track => {
     title: $data.get<string>('title').value,
     titleSort: $data.get<string>('titleSort', { quiet: true }).value,
     type: $data.get<string>('type').value,
-    updatedAt: $data.get<number>('updatedAt').transform(toDateFromSeconds)
-      .value,
+    updatedAt: $data
+      .get<number>('updatedAt', { quiet: true })
+      .transform(toDateFromSeconds).value,
     userRating: $data.get<number>('userRating', { quiet: true }).value,
     viewCount: $data.get<number>('viewCount', { quiet: true }).value,
   }
