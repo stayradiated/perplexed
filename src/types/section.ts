@@ -40,9 +40,9 @@ const toSectionContainer = ($data: Prism<any>) => {
   }
 
   return {
-    _type: 'sectionContainer',
-
     ...$data.transform(toMediaContainer).value,
+
+    _type: 'sectionContainer',
 
     title: $data.get('title1').value,
     sections: $data

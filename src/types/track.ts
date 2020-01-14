@@ -118,14 +118,14 @@ const toTrackContainer = ($data: Prism<any>): TrackContainer => {
   }
 
   return {
+    ...$data.transform(toMediaContainer).value,
+
     _type: 'trackContainer',
 
     tracks: $data
       .get('Metadata')
       .toArray()
       .map(toTrack),
-
-    ...$data.transform(toMediaContainer).value,
 
     allowSync: $data.get('allowSync').value,
     art: $data.get('art', { quiet: true }).value,

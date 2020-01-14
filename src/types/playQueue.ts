@@ -29,9 +29,9 @@ const toPlayQueue = ($data: Prism<any>) => {
   }
 
   return {
-    _type: 'playQueueContainer',
-
     ...$data.transform(toMediaContainer).value,
+
+    _type: 'playQueueContainer',
 
     id: $data.get('playQueueID').value,
     selectedItemId: $data.get('playQueueSelectedItemID').value,

@@ -6,6 +6,12 @@ export { default as Account } from './account'
 export { default as Client } from './client'
 export { default as ServerConnection } from './server-connection'
 export { default as normalize, normalizeSync } from './normalize'
+
+export { Album, AlbumContainer } from './types/album'
+export { Artist, ArtistContainer } from './types/artist'
+export { Device, Connection } from './types/device'
+export { Track, TrackContainer } from './types/track'
+
 export {
   default as Library,
   ARTIST,

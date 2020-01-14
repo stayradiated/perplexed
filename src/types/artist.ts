@@ -3,7 +3,7 @@ import { schema } from 'normalizr'
 
 import { createParser } from './parser'
 
-import { toMediaContainer } from './mediaContainer'
+import { MediaContainer, toMediaContainer } from './mediaContainer'
 import { Tag, toTagList } from './tags'
 import { Track, trackSchema, toTrack } from './track'
 import { toNumber, toDateFromSeconds } from './types'
@@ -26,7 +26,7 @@ const toPopularTracks = ($data: Prism<any>) => {
   return []
 }
 
-interface Artist {
+export interface Artist {
   _type: string,
   id: number,
 
@@ -83,15 +83,33 @@ const toArtist = ($data: Prism<any>): Artist => {
   }
 }
 
-const toArtistContainer = ($data: Prism<any>) => {
+export interface ArtistContainer extends MediaContainer {
+  _type: string,
+
+  artists: Artist[],
+
+  allowSync: boolean,
+  art: string,
+  librarySectionID: string,
+  librarySectionTitle: string,
+  librarySectionUUID: string,
+  nocache: string,
+  thumb: string,
+  title1: string,
+  title2: string,
+  viewGroup: string,
+  viewMode: string,
+}
+
+const toArtistContainer = ($data: Prism<any>): ArtistContainer => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
   }
 
   return {
-    _type: 'artistContainer',
-
     ...$data.transform(toMediaContainer).value,
+
+    _type: 'artistContainer',
 
     artists: $data
       .get('Metadata')
@@ -100,12 +118,10 @@ const toArtistContainer = ($data: Prism<any>) => {
 
     allowSync: $data.get('allowSync').value,
     art: $data.get('art', { quiet: true }).value,
-    identifier: $data.get('identifier').value,
     librarySectionID: $data.get('librarySectionID').value,
     librarySectionTitle: $data.get('librarySectionTitle').value,
     librarySectionUUID: $data.get('librarySectionUUID').value,
     nocache: $data.get('nocache', { quiet: true }).value,
-    offset: $data.get('offset', { quiet: true }).value,
     thumb: $data.get('thumb', { quiet: true }).value,
     title1: $data.get('title1', { quiet: true }).value,
     title2: $data.get('title2', { quiet: true }).value,

@@ -96,9 +96,9 @@ const toSyncList = ($data: Prism<any>) => {
   }
 
   return {
-    _type: 'syncList',
-
     ...$data.get('$').transform(toMediaContainer).value,
+
+    _type: 'syncList',
 
     device: $data
       .get('Device')

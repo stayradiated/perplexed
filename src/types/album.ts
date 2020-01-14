@@ -14,7 +14,7 @@ const albumContainerSchema = new schema.Object({
   albums: new schema.Array(albumSchema),
 })
 
-interface Album {
+export interface Album {
   _type: string,
 
   id: number,
@@ -145,13 +145,14 @@ const toAlbumContainer = ($data: Prism<any>): AlbumContainer => {
   }
 
   return {
+    ...$data.transform(toMediaContainer).value,
+
     _type: 'albumContainer',
+
     albums: $data
       .get('Metadata')
       .toArray()
       .map(toAlbum),
-
-    ...$data.transform(toMediaContainer).value,
 
     allowSync: $data.get('allowSync').value,
     art: $data.get('art', { quiet: true }).value,

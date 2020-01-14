@@ -34,9 +34,9 @@ const toPlaylist = ($data: Prism<any>) => {
   const playlistId = $data.get('ratingKey').transform(toNumber).value
 
   return {
-    _type: 'playlist',
-
     // ...$data.transform(toMediaContainer).value,
+
+    _type: 'playlist',
 
     id: $data.get('ratingKey').transform(toNumber).value,
 
@@ -68,9 +68,9 @@ const toPlaylistContainer = ($data: Prism<any>) => {
   }
 
   return {
-    _type: 'playlistContainer',
-
     ...$data.transform(toMediaContainer).value,
+
+    _type: 'playlistContainer',
 
     playlists: $data
       .get('Metadata')
