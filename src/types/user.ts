@@ -1,10 +1,51 @@
 import Prism from '@zwolf/prism'
 
 import { createParser } from './parser'
-import { toDateFromSeconds } from './types'
+import { toDate, toDateFromSeconds } from './types'
+
+export interface Profile {
+  autoSelectAudio: boolean,
+  defaultAudioLanguage: string,
+  defaultSubtitleLanguage: string,
+  autoSelectSubtitle: number,
+  defaultSubtitleAccessibility: number,
+  defaultSubtitleForced: number,
+}
+
+const toProfile = ($data: Prism<any>): Profile => {
+  return {
+    autoSelectAudio: $data.get<boolean>('autoSelectAudio').value,
+    defaultAudioLanguage: $data.get<string>('defaultAudioLanguage').value,
+    defaultSubtitleLanguage: $data.get<string>('defaultSubtitleLanguage').value,
+    autoSelectSubtitle: $data.get<number>('autoSelectSubtitle').value,
+    defaultSubtitleAccessibility: $data.get<number>(
+      'defaultSubtitleAccessibility',
+    ).value,
+    defaultSubtitleForced: $data.get<number>('defaultSubtitleForced').value,
+  }
+}
+
+export interface UserSubscription {
+  active: boolean,
+  subscribedAt: Date,
+  status: string,
+  paymentService: string,
+  plan: string,
+  features: string[],
+}
+
+const toUserSubscription = ($data: Prism<any>): UserSubscription => {
+  return {
+    active: $data.get<boolean>('active').value,
+    subscribedAt: $data.get<string>('subscribedAt').transform(toDate).value,
+    status: $data.get<string>('status').value,
+    paymentService: $data.get<string>('paymentService').value,
+    plan: $data.get<string>('plan').value,
+    features: $data.get<string[]>('features').value,
+  }
+}
 
 export interface Subscription {
-  _type: string,
   id: unknown,
   mode: string,
   renewsAt: number,
@@ -16,7 +57,6 @@ export interface Subscription {
 
 const toSubscription = ($data: Prism<any>): Subscription => {
   return {
-    _type: 'subscription',
     id: $data.get('id').value,
     mode: $data.get('mode').value,
     renewsAt: $data.get('renewsAt').value,
@@ -28,7 +68,6 @@ const toSubscription = ($data: Prism<any>): Subscription => {
 }
 
 export interface Service {
-  _type: string,
   identifier: string,
   endpoint: string,
   token: string,
@@ -37,7 +76,6 @@ export interface Service {
 
 const toService = ($data: Prism<any>): Service => {
   return {
-    _type: 'service',
     identifier: $data.get('identifier').value,
     endpoint: $data.get('endpoint').value,
     token: $data.get('token', { quiet: true }).value,
@@ -63,13 +101,16 @@ export interface User {
   mailingListActive: boolean,
   mailingListStatus: string,
   maxHomeSize: number,
+  profile: Profile,
   protected: boolean,
   queueEmail: string,
   queueUid: unknown,
   rememberExpiresAt: Date,
   restricted: boolean,
+  roles: string[],
   scrobbleTypes: string,
   services: Service[],
+  subscription: UserSubscription,
   subscriptionDescription: string,
   subscriptions: Subscription[],
   thumb: string,
@@ -99,6 +140,8 @@ const toUser = ($data: Prism<any>): User => {
     mailingListActive: $data.get<boolean>('mailingListActive').value,
     mailingListStatus: $data.get<string>('mailingListStatus').value,
     maxHomeSize: $data.get<number>('maxHomeSize').value,
+    profile: $data.get<Record<string, any>>('profile').transform(toProfile)
+      .value,
     protected: $data.get<boolean>('protected').value,
     queueEmail: $data.get<string>('queueEmail').value,
     queueUid: $data.get<unknown>('queueUid').value,
@@ -106,11 +149,15 @@ const toUser = ($data: Prism<any>): User => {
       .get<number>('rememberExpiresAt')
       .transform(toDateFromSeconds).value,
     restricted: $data.get<boolean>('restricted').value,
+    roles: $data.get<string[]>('roles').value,
     scrobbleTypes: $data.get<string>('scrobbleTypes').value,
     services: $data
       .get('services')
       .toArray()
       .map(toService),
+    subscription: $data
+      .get<Record<string, any>>('subscription')
+      .transform(toUserSubscription).value,
     subscriptionDescription: $data.get<string>('subscriptionDescription').value,
     subscriptions: $data
       .get('subscriptions')
