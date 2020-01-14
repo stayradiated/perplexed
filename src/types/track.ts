@@ -101,7 +101,7 @@ const toTrack = ($data: Prism<any>): Track => {
       .transform(toDateFromSeconds).value,
     originalTitle: $data.get<string>('originalTitle', { quiet: true }).value,
     parentGuid: $data.get<string>('parentGuid', { quiet: true }).value,
-    parentIndex: $data.get<number>('parentIndex').value,
+    parentIndex: $data.get<number>('parentIndex', { quiet: true }).value,
     parentKey: $data.get<string>('parentKey').value,
     parentRatingKey: $data.get<string>('parentRatingKey').value,
     parentThumb: $data.get<string>('parentThumb', { quiet: true }).value,
