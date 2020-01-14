@@ -30,17 +30,18 @@ export interface Track {
   plexMix: unknown,
 
   addedAt: Date,
+  deletedAt: Date,
   duration: number,
+  grandparentGuid: string,
   grandparentKey: string,
   grandparentRatingKey: string,
   grandparentThumb: string,
   grandparentTitle: string,
-  grandparentGuid: string,
   guid: string,
   index: number,
   key: string,
-  lastViewedAt: Date,
   lastRatedAt: Date,
+  lastViewedAt: Date,
   originalTitle: string,
   parentGuid: string,
   parentIndex: number,
@@ -82,6 +83,9 @@ const toTrack = ($data: Prism<any>): Track => {
       .get('Directory', { quiet: true }).value,
 
     addedAt: $data.get<number>('addedAt').transform(toDateFromSeconds).value,
+    deletedAt: $data
+      .get<number>('deletedAt', { quiet: true })
+      .transform(toDateFromSeconds).value,
     duration: $data.get<number>('duration').value,
     grandparentKey: $data.get<string>('grandparentKey').value,
     grandparentRatingKey: $data.get<string>('grandparentRatingKey').value,
