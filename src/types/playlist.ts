@@ -5,7 +5,7 @@ import { createParser } from './parser'
 
 import { Track, toTrack, trackSchema } from './track'
 import { MediaContainer, toMediaContainer } from './media-container'
-import { toBoolean, toNumber } from './types'
+import { toDateFromSeconds, toNumber } from './types'
 
 /**
  * @ignore
@@ -63,21 +63,23 @@ export interface Playlist extends MediaContainer {
   _type: string,
 
   id: number,
-  ratingKey: string,
-  key: string,
-  guid: string,
-  type: string,
-  title: string,
-  summary: string,
-  smart: boolean,
-  playlistType: string,
-  composite: boolean,
-  viewCount: number,
-  lastViewedAt: Date,
-  duration: number,
-  leafCount: number,
+
   addedAt: Date,
+  composite: string,
+  duration: number,
+  guid: string,
+  key: string,
+  lastViewedAt: Date,
+  leafCount: number,
+  playlistType: string,
+  ratingKey: string,
+  smart: boolean,
+  summary: string,
+  title: string,
+  type: string,
   updatedAt: Date,
+  viewCount: number,
+  titleSort: string,
 
   items: PlaylistItem[],
 }
@@ -103,21 +105,29 @@ const toPlaylist = ($data: Prism<any>): Playlist => {
 
     id: $data.get('ratingKey').transform(toNumber).value,
 
-    ratingKey: $data.get('ratingKey').value,
-    key: $data.get('key', { quiet: true }).value,
-    guid: $data.get('guid', { quiet: true }).value,
-    type: $data.get('type', { quiet: true }).value,
-    title: $data.get('title').value,
+    addedAt: $data
+      .get<number>('addedAt', { quiet: true })
+      .transform(toDateFromSeconds).value,
+    composite: $data.get<string>('composite').value,
+    duration: $data.get<number>('duration').value,
+    guid: $data.get<string>('guid', { quiet: true }).value,
+    key: $data.get<string>('key', { quiet: true }).value,
+    lastViewedAt: $data
+      .get<number>('lastViewedAt', { quiet: true })
+      .transform(toDateFromSeconds).value,
+    leafCount: $data.get<number>('leafCount').value,
+    playlistType: $data.get<string>('playlistType').value,
+    ratingKey: $data.get<string>('ratingKey').value,
+    smart: $data.get<boolean>('smart').value,
     summary: $data.get('summary', { quiet: true }).value,
-    smart: $data.get('smart').transform(toBoolean).value,
-    playlistType: $data.get('playlistType').value,
-    composite: $data.get('composite').value,
-    viewCount: $data.get('viewCount', { quiet: true }).value,
-    lastViewedAt: $data.get('lastViewedAt', { quiet: true }).value,
-    duration: $data.get('duration').value,
-    leafCount: $data.get('leafCount').value,
-    addedAt: $data.get('addedAt', { quiet: true }).value,
-    updatedAt: $data.get('updatedAt', { quiet: true }).value,
+    title: $data.get<string>('title').value,
+    titleSort: $data.get<string>('titleSort', { quiet: true }).value,
+    type: $data.get<string>('type', { quiet: true }).value,
+    updatedAt: $data
+      .get<number>('updatedAt', { quiet: true })
+      .transform(toDateFromSeconds).value,
+    viewCount: $data.get<number>('viewCount', { quiet: true }).value,
+
     items: $data
       .get('Metadata', { quiet: true })
       .toArray()

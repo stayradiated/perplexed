@@ -365,7 +365,7 @@ export default class Library {
    * @returns {Promise}
    */
 
-  async artistAlbums (artistId: number, searchParams: Params) {
+  async artistAlbums (artistId: number, searchParams: Params = {}) {
     const artistAlbums = await this.metadataChildren(
       artistId,
       MediaType.ALBUM,
