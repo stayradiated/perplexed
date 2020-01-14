@@ -1,9 +1,13 @@
 import { normalize as normalizeSchema, schema } from 'normalizr'
 
-import { albumSchema, albumContainerSchema } from './types/album'
-import { artistSchema, artistContainerSchema } from './types/artist'
+import { Album, albumSchema, albumContainerSchema } from './types/album'
+import { Artist, artistSchema, artistContainerSchema } from './types/artist'
 import { hubSchema, hubContainerSchema } from './types/hub'
-import { playlistSchema, playlistContainerSchema } from './types/playlist'
+import {
+  Playlist,
+  playlistSchema,
+  playlistContainerSchema,
+} from './types/playlist'
 import {
   playQueueItemSchema,
   playQueueContainerSchema,
@@ -15,7 +19,20 @@ import {
 } from './types/device'
 import { resourceContainerSchema } from './types/resources'
 import { sectionSchema, sectionContainerSchema } from './types/section'
-import { trackSchema, trackContainerSchema } from './types/track'
+import { Track, trackSchema, trackContainerSchema } from './types/track'
+
+export interface Normalized<T> {
+  entities: {
+    albums?: Record<string, Album>,
+    artists?: Record<string, Artist>,
+    playlists?: Record<string, Playlist>,
+    tracks?: Record<string, Track>,
+  },
+  result: {
+    schema: string,
+    id: T,
+  },
+}
 
 /**
  * @ignore
@@ -65,7 +82,9 @@ const dataSchema = new schema.Union(
  *
  * Returns an object
  */
-export function normalizeSync (data: Record<string, any>) {
+export function normalizeSync<T = any> (
+  data: Record<string, any>,
+): Normalized<T> {
   return normalizeSchema(data, dataSchema)
 }
 
@@ -76,7 +95,9 @@ export function normalizeSync (data: Record<string, any>) {
  *
  * Returns a promise
  */
-export default async function normalize (promise: Promise<Record<string, any>>) {
+export default async function normalize<T = any> (
+  promise: Promise<Record<string, any>>,
+): Promise<Normalized<T>> {
   const resolvedData = await promise
-  return normalizeSync(resolvedData)
+  return normalizeSync<T>(resolvedData)
 }

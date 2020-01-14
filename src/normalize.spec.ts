@@ -1,26 +1,43 @@
 import anyTest, { TestInterface } from 'ava'
 
-import normalizeResponse from './normalize'
+import { normalizeSync } from './normalize'
+import { Artist } from './types/artist'
 
 const test = anyTest as TestInterface<{}>
 
-test('normalizeResponse', async (t) => {
-  const res = await normalizeResponse(
-    Promise.resolve({
-      _type: 'artistContainer',
-      artists: [
-        {
-          _type: 'artist',
-          id: 1,
-        },
-      ],
-    }),
-  )
+const ARTIST: Artist = {
+  _type: 'artist',
+  id: 1,
+  genre: [],
+  country: [],
+  popularTracks: [],
+  addedAt: new Date(),
+  art: '',
+  deletedAt: new Date(),
+  guid: '',
+  index: 0,
+  key: '',
+  lastViewedAt: new Date(),
+  ratingKey: '',
+  summary: '',
+  thumb: '',
+  title: '',
+  titleSort: '',
+  type: '',
+  updatedAt: new Date(),
+  viewCount: 0,
+}
+
+test('normalizeSync', (t) => {
+  const res = normalizeSync({
+    _type: 'artistContainer',
+    artists: [ARTIST],
+  })
 
   t.deepEqual(res, {
     entities: {
       artists: {
-        1: { _type: 'artist', id: 1 },
+        1: ARTIST,
       },
     },
     result: {
