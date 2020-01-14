@@ -89,10 +89,7 @@ const toUser = ($data: Prism<any>): User => {
     country: $data.get<string>('country').value,
     email: $data.get<string>('email').value,
     emailOnlyAuth: $data.get<boolean>('emailOnlyAuth').value,
-    entitlements: $data
-      .get('entitlements')
-      .toArray()
-      .map(($data: Prism<string>) => $data.value),
+    entitlements: $data.get<string[]>('entitlements').value,
     guest: $data.get<boolean>('guest').value,
     hasPassword: $data.get<boolean>('hasPassword').value,
     home: $data.get<boolean>('home').value,
