@@ -75,7 +75,7 @@ export interface Playlist {
 /**
  * @ignore
  */
-const toPlaylist = ($data: Prism<any>) => {
+const toPlaylist = ($data: Prism<any>): Playlist => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
   }
@@ -119,7 +119,7 @@ export interface PlaylistContainer extends MediaContainer {
 /**
  * @ignore
  */
-const toPlaylistContainer = ($data: Prism<any>) => {
+const toPlaylistContainer = ($data: Prism<any>): PlaylistContainer => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
   }
