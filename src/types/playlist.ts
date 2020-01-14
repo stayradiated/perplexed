@@ -32,6 +32,9 @@ export interface PlaylistItem {
   _type: string,
   id: number,
   playlistId: number,
+  librarySectionID: number,
+  librarySectionKey: string,
+  librarySectionTitle: string,
   track: Track,
 }
 
@@ -47,7 +50,10 @@ const toPlaylistItem = (playlistId: number) => (
 ): PlaylistItem => {
   return {
     _type: 'playlistItem',
-    id: $data.get('playlistItemID').value,
+    id: $data.get<number>('playlistItemID').value,
+    librarySectionID: $data.get<number>('librarySectionID').value,
+    librarySectionKey: $data.get<string>('librarySectionKey').value,
+    librarySectionTitle: $data.get<string>('librarySectionTitle').value,
     playlistId,
     track: $data.transform(toTrack).value,
   }
