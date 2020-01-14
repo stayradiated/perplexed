@@ -35,6 +35,10 @@ export interface PlaylistItem {
   track: Track,
 }
 
+export interface NormalizedPlaylistItem extends Omit<PlaylistItem, 'track'> {
+  track: number,
+}
+
 /**
  * @ignore
  */
@@ -70,6 +74,10 @@ export interface Playlist extends MediaContainer {
   updatedAt: Date,
 
   items: PlaylistItem[],
+}
+
+export interface NormalizedPlaylist extends Omit<Playlist, 'items'> {
+  items: NormalizedPlaylistItem[],
 }
 
 /**
@@ -114,6 +122,11 @@ const toPlaylist = ($data: Prism<any>): Playlist => {
 export interface PlaylistContainer extends MediaContainer {
   _type: string,
   playlists: Playlist[],
+}
+
+export interface NormalizedPlaylistContainer
+  extends Omit<PlaylistContainer, 'playlists'> {
+  playlists: NormalizedPlaylist[],
 }
 
 /**

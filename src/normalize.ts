@@ -4,7 +4,7 @@ import { Album, albumSchema, albumContainerSchema } from './types/album'
 import { Artist, artistSchema, artistContainerSchema } from './types/artist'
 import { hubSchema, hubContainerSchema } from './types/hub'
 import {
-  Playlist,
+  NormalizedPlaylist,
   playlistSchema,
   playlistContainerSchema,
 } from './types/playlist'
@@ -25,7 +25,7 @@ export interface Normalized<T> {
   entities: {
     albums?: Record<string, Album>,
     artists?: Record<string, Artist>,
-    playlists?: Record<string, Playlist>,
+    playlists?: Record<string, NormalizedPlaylist>,
     tracks?: Record<string, Track>,
   },
   result: {
