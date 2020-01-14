@@ -2,7 +2,7 @@ import Prism from '@zwolf/prism'
 
 import { createParser } from './parser'
 
-import { toMediaContainer } from './mediaContainer'
+import { toMediaContainer } from './media-container'
 import { toDevice } from './device'
 
 /**

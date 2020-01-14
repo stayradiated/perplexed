@@ -11,7 +11,7 @@ import {
 import {
   playQueueItemSchema,
   playQueueContainerSchema,
-} from './types/playQueue'
+} from './types/play-queue'
 import {
   connectionSchema,
   deviceSchema,

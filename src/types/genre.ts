@@ -4,7 +4,7 @@ import { createParser } from './parser'
 
 import { toNumber } from './types'
 
-interface Genre {
+export interface Genre {
   id: number,
   title: string,
 }

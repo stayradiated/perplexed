@@ -3,7 +3,7 @@ import { schema } from 'normalizr'
 
 import { createParser } from './parser'
 
-import { MediaContainer, toMediaContainer } from './mediaContainer'
+import { MediaContainer, toMediaContainer } from './media-container'
 import { Media, toMedia } from './media'
 import { toNumber } from './types'
 

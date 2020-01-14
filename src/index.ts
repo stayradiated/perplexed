@@ -9,9 +9,25 @@ export { default as normalize, normalizeSync } from './normalize'
 
 export { Album, AlbumContainer } from './types/album'
 export { Artist, ArtistContainer } from './types/artist'
+export { Country } from './types/country'
+export { Genre } from './types/genre'
+export { Media } from './types/media'
+export { MediaContainer } from './types/media-container'
+export { Part } from './types/part'
+export { Pin } from './types/pin'
 export { Device, Connection } from './types/device'
-export { Track, TrackContainer } from './types/track'
+export { ResourceContainer } from './types/resources'
+export { Stream } from './types/stream'
 export { PlaylistItem, Playlist, PlaylistContainer } from './types/playlist'
+export { Tag } from './types/tag'
+export { Track, TrackContainer } from './types/track'
+export {
+  User,
+  UserSubscription,
+  Subscription,
+  Service,
+  Profile,
+} from './types/user'
 
 export {
   default as Library,

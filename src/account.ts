@@ -5,7 +5,7 @@ import { parseResourceContainer } from './types/resources'
 import { parseUser } from './types/user'
 import { parsePin } from './types/pin'
 import { parseDeviceList } from './types/device'
-import { parseSyncList } from './types/syncList'
+import { parseSyncList } from './types/sync-list'
 
 const PLEX_API = 'https://plex.tv'
 

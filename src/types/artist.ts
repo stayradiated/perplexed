@@ -3,8 +3,8 @@ import { schema } from 'normalizr'
 
 import { createParser } from './parser'
 
-import { MediaContainer, toMediaContainer } from './mediaContainer'
-import { Tag, toTagList } from './tags'
+import { MediaContainer, toMediaContainer } from './media-container'
+import { Tag, toTagList } from './tag'
 import { Track, trackSchema, toTrack } from './track'
 import { toNumber, toDateFromSeconds } from './types'
 

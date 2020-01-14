@@ -4,7 +4,7 @@ import { schema } from 'normalizr'
 import { createParser } from './parser'
 
 import { Track, toTrack, trackSchema } from './track'
-import { MediaContainer, toMediaContainer } from './mediaContainer'
+import { MediaContainer, toMediaContainer } from './media-container'
 import { toBoolean, toNumber } from './types'
 
 /**
