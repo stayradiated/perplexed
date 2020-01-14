@@ -121,19 +121,15 @@ const toDevice = ($data: Prism<any>): Device => {
   }
 }
 
-const toDeviceList = ($data: Prism<any>) => {
+const toDeviceList = ($data: Prism<any>): Device[] => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
   }
 
-  return {
-    _type: 'deviceContainer',
-    publicAddress: $data.get('$').get<string>('publicAddress').value,
-    devices: $data
-      .get('Device')
-      .toArray()
-      .map(toDevice),
-  }
+  return $data
+    .get('Device')
+    .toArray()
+    .map(toDevice)
 }
 
 const parseDeviceList = createParser('deviceList', toDeviceList)
