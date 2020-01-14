@@ -50,7 +50,8 @@ const toPlaylistItem = (playlistId: number) => (
 ): PlaylistItem => {
   return {
     _type: 'playlistItem',
-    id: $data.get<number>('playlistItemID').value,
+    // items in a smart playlist do not have a playlistItemID
+    id: $data.get<number>('playlistItemID', { quiet: true }).value,
     librarySectionID: $data.get<number>('librarySectionID').value,
     librarySectionKey: $data.get<string>('librarySectionKey').value,
     librarySectionTitle: $data.get<string>('librarySectionTitle').value,
