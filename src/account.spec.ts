@@ -56,7 +56,7 @@ test('headers', (t) => {
 test('fetch', async (t) => {
   const { account } = t.context
 
-  const scope = nock(PLEX_API)
+  const scope = nock(PLEX_API, { reqheaders: { accept: 'application/json' } })
     .get('/fetch')
     .reply(200, {
       key: 'value',
@@ -72,7 +72,7 @@ test('fetch', async (t) => {
 test('fetch with params', async (t) => {
   const { account } = t.context
 
-  const scope = nock(PLEX_API)
+  const scope = nock(PLEX_API, { reqheaders: { accept: 'application/json' } })
     .get('/fetch-with-params?name=plex')
     .reply(200, {
       key: 'value',

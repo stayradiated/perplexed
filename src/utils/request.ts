@@ -27,7 +27,13 @@ const request = (url: string, options: RequestOptions = {}) => {
 }
 
 const requestJSON = async (url: string, options: RequestOptions = {}) => {
-  const res = await request(url, options)
+  const res = await request(url, {
+    ...options,
+    headers: {
+      ...options.headers,
+      accept: 'application/json',
+    },
+  })
   return res.json()
 }
 
