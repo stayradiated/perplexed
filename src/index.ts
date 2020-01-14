@@ -29,14 +29,7 @@ export {
   Profile,
 } from './types/user'
 
-export {
-  default as Library,
-  ARTIST,
-  ALBUM,
-  TRACK,
-  PLAYLIST,
-  QUEUE,
-} from './library'
+export { default as Library, MediaType } from './library'
 
 const sort = (asc: string, desc = `${asc}:desc`) => [asc, desc]
 

@@ -14,13 +14,12 @@ import { parseCountryContainer } from './types/country'
 import { parseGenreContainer } from './types/genre'
 
 // plex media types-- https://github.com/Arcanemagus/plex-api/wiki/MediaTypes
-export const ARTIST = 8
-export const ALBUM = 9
-export const TRACK = 10
-export const PLAYLIST = 15
-
-// custom types
-export const QUEUE = 501
+export enum MediaType {
+  ARTIST = 8,
+  ALBUM = 9,
+  TRACK = 10,
+  PLAYLIST = 15,
+}
 
 /**
  * Parse a plex response based on the data type
@@ -30,18 +29,18 @@ export const QUEUE = 501
  * @returns {Object}
  */
 
-export function parseType (type: number, data: Record<string, any>) {
+export function parseType (type: MediaType, data: Record<string, any>) {
   switch (type) {
-    case ARTIST:
+    case MediaType.ARTIST:
       return parseArtistContainer(data)
-    case ALBUM:
+    case MediaType.ALBUM:
       return parseAlbumContainer(data)
-    case TRACK:
+    case MediaType.TRACK:
       return parseTrackContainer(data)
-    case QUEUE:
-      return parsePlayQueue(data)
+    case MediaType.PLAYLIST:
+      return parsePlaylistContainer(data)
     default:
-      return data
+      throw new Error(`Unknown MediaType: ${type}`)
   }
 }
 
@@ -120,7 +119,7 @@ export default class Library {
    * @returns {Promise}
    */
 
-  async sectionItems (sectionId: number, type: number, params: Params = {}) {
+  async sectionItems (sectionId: number, type: MediaType, params: Params = {}) {
     const path = `/library/sections/${sectionId}/all`
     const res = await this.fetch(path, {
       params: {
@@ -155,7 +154,7 @@ export default class Library {
    * @returns {Promise}
    */
 
-  async metadata (id: number, type: number, params: Params = {}) {
+  async metadata (id: number, type: MediaType, params: Params = {}) {
     const path = `/library/metadata/${id}`
     const res = await this.fetch(path, { params })
     return parseType(type, res)
@@ -170,7 +169,7 @@ export default class Library {
    * @returns {Promise}
    */
 
-  async metadataChildren (id: number, type: number, params: Params = {}) {
+  async metadataChildren (id: number, type: MediaType, params: Params = {}) {
     const path = `/library/metadata/${id}/children`
     const res = await this.fetch(path, { params })
     return parseType(type, res)
@@ -208,7 +207,7 @@ export default class Library {
    */
 
   async tracks (sectionId: number, params: Params = {}) {
-    const tracks = await this.sectionItems(sectionId, TRACK, params)
+    const tracks = await this.sectionItems(sectionId, MediaType.TRACK, params)
     return tracks
   }
 
@@ -220,7 +219,7 @@ export default class Library {
    */
 
   async track (trackId: number) {
-    const track = await this.metadata(trackId, TRACK)
+    const track = await this.metadata(trackId, MediaType.TRACK)
     return track
   }
 
@@ -237,7 +236,7 @@ export default class Library {
    */
 
   async albums (sectionId: number, params: Params = {}) {
-    const albums = await this.sectionItems(sectionId, ALBUM, params)
+    const albums = await this.sectionItems(sectionId, MediaType.ALBUM, params)
     return albums
   }
 
@@ -249,7 +248,7 @@ export default class Library {
    */
 
   async album (albumId: number) {
-    const album = await this.metadata(albumId, ALBUM)
+    const album = await this.metadata(albumId, MediaType.ALBUM)
     return album
   }
 
@@ -263,7 +262,11 @@ export default class Library {
    */
 
   async albumTracks (albumId: number, params: Params = {}) {
-    const albumTracks = await this.metadataChildren(albumId, TRACK, params)
+    const albumTracks = await this.metadataChildren(
+      albumId,
+      MediaType.TRACK,
+      params,
+    )
     return albumTracks
   }
 
@@ -279,7 +282,7 @@ export default class Library {
    */
 
   async artists (sectionId: number, params: Params = {}) {
-    const artists = await this.sectionItems(sectionId, ARTIST, params)
+    const artists = await this.sectionItems(sectionId, MediaType.ARTIST, params)
     return artists
   }
 
@@ -294,7 +297,7 @@ export default class Library {
 
   async artist (artistId: number, options: { includePopular?: boolean } = {}) {
     const { includePopular = false } = options
-    const artist = await this.metadata(artistId, ARTIST, {
+    const artist = await this.metadata(artistId, MediaType.ARTIST, {
       includePopularLeaves: includePopular ? 1 : 0,
     })
     return artist
@@ -310,7 +313,11 @@ export default class Library {
    */
 
   async artistAlbums (artistId: number, params: Params) {
-    const artistAlbums = await this.metadataChildren(artistId, ALBUM, params)
+    const artistAlbums = await this.metadataChildren(
+      artistId,
+      MediaType.ALBUM,
+      params,
+    )
     return artistAlbums
   }
 
@@ -345,7 +352,7 @@ export default class Library {
     const res = await this.fetch(path, {
       params: {
         ...params,
-        type: PLAYLIST,
+        type: MediaType.PLAYLIST,
       },
     })
     return parsePlaylistContainer(res)
@@ -448,7 +455,7 @@ export default class Library {
   async searchTracks (sectionId: number, query: string) {
     const res = await this.fetch(`/library/sections/${sectionId}/search`, {
       params: {
-        type: TRACK,
+        type: MediaType.TRACK,
         query,
       },
     })
@@ -556,7 +563,7 @@ export default class Library {
         includeRelated: options.includeRelated ? 1 : 0,
       },
     })
-    return parseType(QUEUE, res)
+    return parsePlayQueue(res)
   }
 
   /**
@@ -568,7 +575,7 @@ export default class Library {
 
   async playQueue (playQueueId: number) {
     const res = await this.fetch(`/playQueues/${playQueueId}`)
-    return parseType(QUEUE, res)
+    return parsePlayQueue(res)
   }
 
   /**
@@ -594,7 +601,7 @@ export default class Library {
         },
       },
     )
-    return parseType(QUEUE, res)
+    return parsePlayQueue(res)
   }
 
   /**
@@ -608,7 +615,7 @@ export default class Library {
     const res = await this.fetch(`/playQueues/${playQueueId}/shuffle`, {
       method: 'PUT',
     })
-    return parseType(QUEUE, res)
+    return parsePlayQueue(res)
   }
 
   /**
@@ -622,7 +629,7 @@ export default class Library {
     const res = await this.fetch(`/playQueues/${playQueueId}/unshuffle`, {
       method: 'PUT',
     })
-    return parseType(QUEUE, res)
+    return parsePlayQueue(res)
   }
 
   // ==========================================================================
@@ -679,7 +686,7 @@ export default class Library {
   async modifyListField (
     prop: string,
     sectionId: number,
-    type: number,
+    type: MediaType,
     id: number,
     addTags: string[] = [],
     removeTags: string[] = [],
@@ -720,7 +727,7 @@ export default class Library {
 
   async modifyGenre (
     sectionId: number,
-    type: number,
+    type: MediaType,
     id: number,
     add: string[],
     remove?: string[],
@@ -738,7 +745,13 @@ export default class Library {
     add: string[],
     remove?: string[],
   ) {
-    const res = await this.modifyGenre(sectionId, ALBUM, albumId, add, remove)
+    const res = await this.modifyGenre(
+      sectionId,
+      MediaType.ALBUM,
+      albumId,
+      add,
+      remove,
+    )
     return res
   }
 
@@ -752,13 +765,19 @@ export default class Library {
     add: string[],
     remove?: string[],
   ) {
-    const res = await this.modifyGenre(sectionId, ARTIST, artistId, add, remove)
+    const res = await this.modifyGenre(
+      sectionId,
+      MediaType.ARTIST,
+      artistId,
+      add,
+      remove,
+    )
     return res
   }
 
   async modifyCollection (
     sectionId: number,
-    type: number,
+    type: MediaType,
     id: number,
     add: string[],
     remove?: string[],
@@ -772,6 +791,12 @@ export default class Library {
     add: string[],
     remove?: string[],
   ) {
-    return this.modifyCollection(sessionId, ALBUM, albumId, add, remove)
+    return this.modifyCollection(
+      sessionId,
+      MediaType.ALBUM,
+      albumId,
+      add,
+      remove,
+    )
   }
 }

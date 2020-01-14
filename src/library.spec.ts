@@ -4,7 +4,7 @@ import nock from 'nock'
 
 import { fixture, snapshot } from './test-helpers'
 
-import Library, { ARTIST, ALBUM, TRACK } from './library'
+import Library, { MediaType } from './library'
 import ServerConnection from './server-connection'
 
 const URI = 'http://192.168.0.100:32400'
@@ -84,11 +84,11 @@ test('sectionItems', async (t) => {
   const scope = nock(URI)
     .get('/library/sections/1/all')
     .query({
-      type: ARTIST,
+      type: MediaType.ARTIST,
     })
     .reply(200, response)
 
-  await library.sectionItems(1, ARTIST).then(snapshot(t, scope))
+  await library.sectionItems(1, MediaType.ARTIST).then(snapshot(t, scope))
 })
 
 test('metadata', async (t) => {
@@ -99,7 +99,7 @@ test('metadata', async (t) => {
     .get('/library/metadata/74892')
     .reply(200, response)
 
-  await library.metadata(74892, ALBUM).then(snapshot(t, scope))
+  await library.metadata(74892, MediaType.ALBUM).then(snapshot(t, scope))
 })
 
 test('metadataChildren', async (t) => {
@@ -110,7 +110,9 @@ test('metadataChildren', async (t) => {
     .get('/library/metadata/41409/children')
     .reply(200, response)
 
-  await library.metadataChildren(41409, TRACK).then(snapshot(t, scope))
+  await library
+    .metadataChildren(41409, MediaType.TRACK)
+    .then(snapshot(t, scope))
 })
 
 test('countries', async (t) => {
