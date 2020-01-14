@@ -1,4 +1,4 @@
-export type Params = Record<string, number | string>
+export type Params = Record<string, number | string | string[]>
 
 export function withParams (url: string, params: Params = {}) {
   const paramsArray = Object.entries(params).map(([key, value]) => {
