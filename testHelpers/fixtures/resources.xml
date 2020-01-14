@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MediaContainer size="3">
+  <Device name="Otto" product="Plex Media Server" productVersion="1.18.4.2171-ac2afe5f8" platform="Linux" platformVersion="5.2.5-arch1-1-ARCH" device="Docker Container (LinuxServer.io)" clientIdentifier="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" createdAt="1483166243" lastSeenAt="1578873053" provides="server" owned="1" accessToken="xxxxxxxxxxxxxxxxxxxx" publicAddress="1.1.1.1" httpsRequired="1" synced="0" relay="1" dnsRebindingProtection="0" natLoopbackSupported="0" publicAddressMatches="1" presence="1">
+    <Connection protocol="https" address="1.1.1.1" port="32400" uri="https://100-101-102-103.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.plex.direct:32400" local="0"/>
+    <Connection protocol="https" address="1.1.1.1" port="32400" uri="https://192-168-0-100.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.plex.direct:32400" local="1"/>
+    <Connection protocol="https" address="1.1.1.1" port="32400" uri="https://200-201-202-203.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.plex.direct:32400" local="0"/>
+    <Connection protocol="https" address="1.1.1.1" port="8443" uri="https://50-51-52-53.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.plex.direct:8443" local="0" relay="1"/>
+  </Device>
+  <Device name="starmonkey" product="Plex for iOS" productVersion="6.6" platform="iOS" platformVersion="13.3" device="iPhone" clientIdentifier="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" createdAt="1514540132" lastSeenAt="1578856949" provides="client,controller,sync-target,player,pubsub-player,provider-playback" owned="1" publicAddress="1.1.1.1" publicAddressMatches="1" presence="0">
+    <Connection protocol="http" address="1.1.1.1" port="32500" uri="http://192.168.0.7:32500" local="1"/>
+  </Device>
+  <Device name="Firefox" product="Plex Web" productVersion="4.18.1" platform="Firefox" platformVersion="71.0" device="Linux" clientIdentifier="xxxxxxxxxxxxxxxxxxxxxxxx" createdAt="1576474896" lastSeenAt="1578874572" provides="client,player,pubsub-player" owned="1" publicAddress="1.1.1.1" publicAddressMatches="1" presence="1" accessToken="xxxxxxxxxxxxxxxxxxxx">
+    <Connection protocol="https" address="1.1.1.1" port="32400" uri="https://100-101-102-103.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.plex.direct:32400" local="0"/>
+    <Connection protocol="https" address="1.1.1.1" port="32400" uri="https://192-168-0-100.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.plex.direct:32400" local="1"/>
+    <Connection protocol="https" address="1.1.1.1" port="32400" uri="https://200-201-202-203.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.plex.direct:32400" local="0"/>
+  </Device>
+</MediaContainer>

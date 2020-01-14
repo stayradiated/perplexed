@@ -1,32 +1,14 @@
-import babel from 'rollup-plugin-babel'
-import json from 'rollup-plugin-json'
-import resolve from 'rollup-plugin-local-resolve'
+import commonjs from '@rollup/plugin-commonjs'
+import json from '@rollup/plugin-json'
 
 export default {
-  input: 'src/index.js',
+  input: './dist/index.js',
   output: {
-    file: 'dist/index.js',
+    file: './dist/bundle.js',
     format: 'cjs'
   },
   plugins: [
-    resolve(),
-    json({
-      exclude: 'node_modules/**'
-    }),
-    babel({
-      babelrc: false,
-      exclude: 'node_modules/**',
-      presets: [
-        '@babel/preset-flow',
-        [ '@babel/preset-env', {
-          forceAllTransforms: true,
-          'modules': false,
-          'useBuiltIns': 'entry'
-        } ]
-      ],
-      plugins: [
-        '@babel/plugin-external-helpers'
-      ]
-    })
+    json(),
+    commonjs(),
   ]
 }

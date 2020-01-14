@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MediaContainer publicAddress="1.1.1.1">
+  <Device name="Firefox" publicAddress="1.1.1.1" product="Plex Web" productVersion="4.18.1" platform="Firefox" platformVersion="71.0" device="Linux" model="hosted" vendor="" provides="client,player,pubsub-player" clientIdentifier="xxxxxxxxxxxxxxxxxxxxxxxx" version="4.18.1" id="000000001" token="xxxxxxxxxxxxxxxxxxxx" createdAt="1576474896" lastSeenAt="1578874572" screenResolution="1896x982,1920x1080" screenDensity="">
+  </Device>
+  <Device name="Otto" publicAddress="1.1.1.1" product="Plex Media Server" productVersion="1.18.4.2171-ac2afe5f8" platform="Linux" platformVersion="5.2.5-arch1-1-ARCH" device="Docker Container (LinuxServer.io)" model="x86_64" vendor="Docker" provides="server" clientIdentifier="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" version="1.18.4.2171-ac2afe5f8" id="90765041" token="xxxxxxxxxxxxxxxxxxxx" createdAt="1483166243" lastSeenAt="1578873053" screenResolution="" screenDensity="">
+    <Connection uri="https://100.101.102.103:32400"/>
+    <Connection uri="http://[fff0:eee:cccc:bbbb:aaaa:000:9999:8888]:32400"/>
+    <Connection uri="http://192.168.0.100:32400"/>
+    <Connection uri="https://192.168.0.100:32400"/>
+  </Device>
+  <Device name="Web Browser" publicAddress="1.1.1.1" product="hifi.kitchen" productVersion="1.0.0" platform="Web" platformVersion="v10.0.0" device="Web Browser" model="" vendor="" provides="controller" clientIdentifier="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" version="1.0.0" id="92000578" token="xxxxxxxxxxxxxxxxxxxx" createdAt="1483648880" lastSeenAt="1578857482" screenResolution="" screenDensity="">
+  </Device>
+  <Device name="starmonkey" publicAddress="1.1.1.1" product="Plex for iOS" productVersion="6.6" platform="iOS" platformVersion="13.3" device="iPhone" model="8,4" vendor="Apple" provides="client,controller,sync-target,player,pubsub-player,provider-playback" clientIdentifier="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" version="6.6" id="000000002" token="xxxxxxxxxxxxxxxxxxxx" createdAt="1514540132" lastSeenAt="1578856949" screenResolution="640x1136" screenDensity="2">
+    <SyncList itemsCompleteCount="1005" totalSize="8409123779" version="2"/>
+    <Connection uri="http://192.168.0.50:32500"/>
+  </Device>
+  <Device name="Firefox" publicAddress="1.1.1.1" product="Plex Web" productVersion="4.12.3" platform="Firefox" platformVersion="71.0" device="Linux" model="bundled" vendor="" provides="client,player,pubsub-player" clientIdentifier="xxxxxxxxxxxxxxxxxxxxxxxx" version="4.12.3" id="000000003" token="xxxxxxxxxxxxxxxxxxxx" createdAt="1576474804" lastSeenAt="1576474868" screenResolution="1920x1006,1920x1080" screenDensity="">
+  </Device>
+  <Device name="Firefox" publicAddress="1.1.1.1" product="Plex Web" productVersion="4.16.4" platform="Firefox" platformVersion="71.0" device="Linux" model="hosted" vendor="" provides="client,player,pubsub-player" clientIdentifier="xxxxxxxxxxxxxxxxxxxxxxxx" version="4.16.4" id="000000004" token="xxxxxxxxxxxxxxxxxxxx" createdAt="1555786318" lastSeenAt="1576472467" screenResolution="1920x1006,1920x1080" screenDensity="">
+  </Device>
+  <Device name="Firefox" publicAddress="1.1.1.1" product="Plex Web" productVersion="4.8.4" platform="Firefox" platformVersion="69.0" device="Linux" model="bundled" vendor="" provides="client,player,pubsub-player" clientIdentifier="xxxxxxxxxxxxxxxxxxxxxxxx" version="4.8.4" id="000000005" token="xxxxxxxxxxxxxxxxxxxx" createdAt="1570791927" lastSeenAt="1571040335" screenResolution="1896x982,1920x1080" screenDensity="">
+  </Device>
+  <Device name="Node.js App" publicAddress="1.1.1.1" product="Plex Tools" productVersion="1.0.0" platform="Node.js" platformVersion="7.2.0" device="linux" model="" vendor="" provides="controller" clientIdentifier="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" version="1.0.0" id="000000006" token="xxxxxxxxxxxxxxxxxxxx" createdAt="1549171989" lastSeenAt="1563715603" screenResolution="" screenDensity="">
+  </Device>
+  <Device name="benji" publicAddress="1.1.1.1" product="Plex Media Server" productVersion="1.14.1.5488-cc260c476" platform="Linux" platformVersion="5.0.0-arch1-1-ARCH" device="Docker Container (LinuxServer.io)" model="x86_64" vendor="Docker" provides="server" clientIdentifier="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" version="1.14.1.5488-cc260c476" id="000000007" token="xxxxxxxxxxxxxxxxxxxx" createdAt="1552473753" lastSeenAt="1552473753" screenResolution="" screenDensity="">
+    <Connection uri="http://192.168.0.200:32400"/>
+    <Connection uri="http://200.201.202.203:32400"/>
+  </Device>
+  <Device name="Plex Web" publicAddress="" product="Plex Web" productVersion="4.12.3" platform="Firefox" platformVersion="71.0" device="Linux" model="" vendor="" provides="" clientIdentifier="xxxxxxxxxxxxxxxxxxxxxxxx" version="4.12.3" id="000000008" token="xxxxxxxxxxxxxxxxxxxx" createdAt="1577064209" lastSeenAt="1577064209" screenResolution="1896x982,1920x1080" screenDensity="">
+  </Device>
+</MediaContainer>

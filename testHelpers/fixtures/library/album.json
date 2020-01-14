@@ -1,0 +1,60 @@
+{
+  "MediaContainer": {
+    "size": 1,
+    "allowSync": true,
+    "identifier": "com.plexapp.plugins.library",
+    "librarySectionID": 1,
+    "librarySectionTitle": "Music",
+    "librarySectionUUID": "5085a855-78e9-4dd7-9d70-a4ac296e28ee",
+    "mediaTagPrefix": "/system/bundle/media/flags/",
+    "mediaTagVersion": 1576869286,
+    "Metadata": [
+      {
+        "ratingKey": "40812",
+        "key": "/library/metadata/40812/children",
+        "parentRatingKey": "40811",
+        "guid": "com.plexapp.agents.plexmusic://gracenote/album/0556B27724C2CFD0/616746960-56B2773DE8F6B29DD4EA1DD8C5C3979B?lang=en",
+        "parentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/0556B27724C2CFD0?lang=en",
+        "studio": "Kobalt",
+        "type": "album",
+        "title": "Echo of Love",
+        "parentKey": "/library/metadata/40811",
+        "librarySectionTitle": "Music",
+        "librarySectionID": 1,
+        "librarySectionKey": "/library/sections/1",
+        "parentTitle": "The Shutes",
+        "summary": "",
+        "index": 1,
+        "viewCount": 56,
+        "lastViewedAt": 1572261532,
+        "year": 2012,
+        "thumb": "/library/metadata/40812/thumb/1483270420",
+        "parentThumb": "/library/metadata/40811/thumb/1569812433",
+        "originallyAvailableAt": "2012-01-01",
+        "leafCount": 5,
+        "viewedLeafCount": 5,
+        "addedAt": 1481060149,
+        "updatedAt": 1483270420,
+        "deletedAt": 1578805638,
+        "loudnessAnalysisVersion": "1",
+        "Genre": [
+          {
+            "id": 1980,
+            "filter": "genre=1980",
+            "tag": "General Pop"
+          },
+          {
+            "id": 1981,
+            "filter": "genre=1981",
+            "tag": "Other Pop"
+          },
+          {
+            "id": 76,
+            "filter": "genre=76",
+            "tag": "Pop"
+          }
+        ]
+      }
+    ]
+  }
+}

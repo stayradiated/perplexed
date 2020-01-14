@@ -1,0 +1,1259 @@
+{
+  "MediaContainer": {
+    "size": 17,
+    "Hub": [
+      {
+        "title": "Artists",
+        "type": "artist",
+        "hubIdentifier": "artist",
+        "size": 10,
+        "more": false,
+        "style": "shelf",
+        "Metadata": [
+          {
+            "childCount": 1,
+            "ratingKey": "1076",
+            "key": "/library/metadata/1076/children",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/artist/053302400073862A?lang=en",
+            "type": "artist",
+            "title": "War",
+            "index": 1,
+            "viewCount": 28,
+            "lastViewedAt": 1569918030,
+            "thumb": "/library/metadata/1076/thumb/1569812487",
+            "art": "/library/metadata/1076/art/1569812487",
+            "addedAt": 1438123273,
+            "updatedAt": 1569812487,
+            "Genre": [
+              {
+                "tag": "Funk"
+              },
+              {
+                "tag": "Soul/R&B"
+              }
+            ],
+            "Country": [
+              {
+                "tag": "United States"
+              }
+            ]
+          },
+          {
+            "childCount": 3,
+            "librarySectionTitle": "Music",
+            "ratingKey": "35327",
+            "key": "/library/metadata/35327/children",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/artist/058F24F91768EC2D?lang=en",
+            "type": "artist",
+            "title": "The War on Drugs",
+            "titleSort": "War on Drugs, The",
+            "index": 1,
+            "viewCount": 65,
+            "lastViewedAt": 1577511671,
+            "thumb": "/library/metadata/35327/thumb/1569897861",
+            "art": "/library/metadata/35327/art/1569897861",
+            "addedAt": 1473552985,
+            "updatedAt": 1569897861,
+            "deletedAt": 1578805639,
+            "Genre": [
+              {
+                "tag": "Indie Rock"
+              },
+              {
+                "tag": "Rock"
+              }
+            ],
+            "Country": [
+              {
+                "tag": "United States"
+              }
+            ]
+          },
+          {
+            "childCount": 1,
+            "librarySectionTitle": "Music",
+            "ratingKey": "7438",
+            "key": "/library/metadata/7438/children",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/artist/05EA852B0A3E7149?lang=en",
+            "type": "artist",
+            "title": "M. Ward",
+            "titleSort": "Ward, M.",
+            "index": 1,
+            "viewCount": 61,
+            "lastViewedAt": 1569772870,
+            "thumb": "/library/metadata/7438/thumb/1569812500",
+            "art": "/library/metadata/7438/art/1569812500",
+            "addedAt": 1445724498,
+            "updatedAt": 1569812500,
+            "Genre": [
+              {
+                "tag": "Americana"
+              },
+              {
+                "tag": "Indie Folk"
+              }
+            ],
+            "Country": [
+              {
+                "tag": "United States"
+              }
+            ]
+          },
+          {
+            "childCount": 3,
+            "librarySectionTitle": "Music",
+            "ratingKey": "11788",
+            "key": "/library/metadata/11788/children",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/artist/05E219370673B0EA?lang=en",
+            "type": "artist",
+            "title": "Dionne Warwick",
+            "titleSort": "Warwick, Dionne",
+            "index": 1,
+            "viewCount": 40,
+            "lastViewedAt": 1568464376,
+            "thumb": "/library/metadata/11788/thumb/1569812515",
+            "art": "/library/metadata/11788/art/1569812515",
+            "addedAt": 1437950850,
+            "updatedAt": 1569812515,
+            "Genre": [
+              {
+                "tag": "Soul"
+              },
+              {
+                "tag": "Pop"
+              }
+            ],
+            "Country": [
+              {
+                "tag": "United States"
+              }
+            ]
+          },
+          {
+            "childCount": 1,
+            "librarySectionTitle": "Music",
+            "ratingKey": "57808",
+            "key": "/library/metadata/57808/children",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/artist/055B3360268E3B60?lang=en",
+            "type": "artist",
+            "title": "Warpaint",
+            "index": 1,
+            "viewCount": 14,
+            "lastViewedAt": 1558784716,
+            "thumb": "/library/metadata/57808/thumb/1569898034",
+            "art": "/library/metadata/57808/art/1569898034",
+            "addedAt": 1493079442,
+            "updatedAt": 1569898034,
+            "Genre": [
+              {
+                "tag": "Dream Pop"
+              }
+            ],
+            "Country": [
+              {
+                "tag": "United States"
+              }
+            ]
+          },
+          {
+            "childCount": 2,
+            "librarySectionTitle": "Music",
+            "ratingKey": "59387",
+            "key": "/library/metadata/59387/children",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/artist/05C8236E004B02ED?lang=en",
+            "type": "artist",
+            "title": "Jennifer Warnes",
+            "titleSort": "Warnes, Jennifer",
+            "index": 1,
+            "viewCount": 8,
+            "lastViewedAt": 1577253930,
+            "thumb": "/library/metadata/59387/thumb/1569812511",
+            "addedAt": 1493582859,
+            "updatedAt": 1569812511,
+            "deletedAt": 1578746680,
+            "Genre": [
+              {
+                "tag": "Pop"
+              },
+              {
+                "tag": "Vocal"
+              }
+            ],
+            "Country": [
+              {
+                "tag": "Canada"
+              }
+            ]
+          },
+          {
+            "childCount": 146,
+            "librarySectionTitle": "Music",
+            "ratingKey": "1",
+            "key": "/library/metadata/1/children",
+            "guid": "plex://artist/5d07bbfc403c6402904a5ec9",
+            "type": "artist",
+            "title": "SOUNDTRACK/CAST ALBUM",
+            "titleSort": "Nate Dogg & Warren G",
+            "index": 1,
+            "userRating": 6,
+            "viewCount": 2624,
+            "lastViewedAt": 1578873387,
+            "lastRatedAt": 1578874935,
+            "thumb": "/library/metadata/1/thumb/1578805745",
+            "art": "/library/metadata/1/art/1578805745",
+            "addedAt": 1437950850,
+            "updatedAt": 1578805745,
+            "deletedAt": 1578746679
+          },
+          {
+            "childCount": 1,
+            "librarySectionTitle": "Music",
+            "ratingKey": "82607",
+            "key": "/library/metadata/82607/children",
+            "guid": "plex://artist/5d07bbfc403c6402904a5ec9",
+            "type": "artist",
+            "title": "SOUNDTRACK/CAST ALBUM",
+            "titleSort": "Nate Dogg & Warren G",
+            "index": 1,
+            "userRating": 6,
+            "viewCount": 2624,
+            "lastViewedAt": 1578873387,
+            "lastRatedAt": 1578874935,
+            "thumb": "/library/metadata/82607/thumb/1578625312",
+            "art": "/library/metadata/82607/art/1578625312",
+            "addedAt": 1578625280,
+            "updatedAt": 1578625312
+          },
+          {
+            "childCount": 3,
+            "librarySectionTitle": "Music",
+            "ratingKey": "63923",
+            "key": "/library/metadata/63923/children",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/artist/057793BE2A9F4E42?lang=en",
+            "type": "artist",
+            "title": "Flotation Toy Warning",
+            "index": 1,
+            "viewCount": 164,
+            "lastViewedAt": 1578719277,
+            "thumb": "/library/metadata/63923/thumb/1569996369",
+            "addedAt": 1498982227,
+            "updatedAt": 1569996369,
+            "Genre": [
+              {
+                "tag": "Indie Pop"
+              },
+              {
+                "tag": "Chamber Pop"
+              }
+            ],
+            "Country": [
+              {
+                "tag": "United Kingdom"
+              }
+            ]
+          },
+          {
+            "childCount": 1,
+            "librarySectionTitle": "Music",
+            "ratingKey": "35886",
+            "key": "/library/metadata/35886/children",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/artist/05B8C0801E7B5877?lang=en",
+            "type": "artist",
+            "title": "Madisen Ward and the Mama Bear",
+            "index": 1,
+            "viewCount": 80,
+            "lastViewedAt": 1570781588,
+            "thumb": "/library/metadata/35886/thumb/1570077127",
+            "addedAt": 1473890856,
+            "updatedAt": 1570077127,
+            "Genre": [
+              {
+                "tag": "Alternative Folk"
+              },
+              {
+                "tag": "Indie"
+              }
+            ],
+            "Country": [
+              {
+                "tag": "United States"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Albums",
+        "type": "album",
+        "hubIdentifier": "album",
+        "size": 10,
+        "more": false,
+        "style": "shelf",
+        "Metadata": [
+          {
+            "ratingKey": "1342",
+            "key": "/library/metadata/1342/children",
+            "parentRatingKey": "1341",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/album/0556FB2F005E0E75/6164085-56FB2F3BEE2FABD2A125A1CD12882CDC?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/0556FB2F005E0E75?lang=en",
+            "studio": "Island",
+            "type": "album",
+            "title": "War",
+            "parentKey": "/library/metadata/1341",
+            "parentTitle": "U2",
+            "index": 1,
+            "viewCount": 1,
+            "lastViewedAt": 1571239986,
+            "year": 1990,
+            "thumb": "/library/metadata/1342/thumb/1483270876",
+            "art": "/library/metadata/1341/art/1569812512",
+            "parentThumb": "/library/metadata/1341/thumb/1569812512",
+            "originallyAvailableAt": "1990-06-15",
+            "addedAt": 1438988765,
+            "updatedAt": 1483270876,
+            "loudnessAnalysisVersion": "1",
+            "Genre": [
+              {
+                "tag": "Adult Alternative Rock"
+              },
+              {
+                "tag": "Rock"
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "53143",
+            "key": "/library/metadata/53143/children",
+            "parentRatingKey": "53142",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/album/05D4586C265E7FEE/643727342-D4586CE8230F88B8BE7640DF6DF53F2A?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/05D4586C265E7FEE?lang=en",
+            "studio": "Atlantic Records UK",
+            "type": "album",
+            "title": "Warm on a Cold Night",
+            "parentKey": "/library/metadata/53142",
+            "parentTitle": "HONNE",
+            "index": 1,
+            "viewCount": 87,
+            "lastViewedAt": 1571498437,
+            "year": 2016,
+            "thumb": "/library/metadata/53143/thumb/1490654756",
+            "art": "/library/metadata/53142/art/1570077063",
+            "parentThumb": "/library/metadata/53142/thumb/1570077063",
+            "originallyAvailableAt": "2016-07-22",
+            "addedAt": 1490654585,
+            "updatedAt": 1490654756,
+            "loudnessAnalysisVersion": "1",
+            "Genre": [
+              {
+                "tag": "Electronic"
+              },
+              {
+                "tag": "Deep House"
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "61664",
+            "key": "/library/metadata/61664/children",
+            "parentRatingKey": "61663",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/album/054D612010EE4795/284051349-4D612075FCA4CA735A71534B61F99037?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/054D612010EE4795?lang=en",
+            "studio": "Jaxart Records",
+            "type": "album",
+            "title": "Warm Nothing",
+            "parentKey": "/library/metadata/61663",
+            "parentTitle": "So Many Wizards",
+            "index": 1,
+            "viewCount": 48,
+            "lastViewedAt": 1577667009,
+            "year": 2012,
+            "thumb": "/library/metadata/61664/thumb/1494938607",
+            "parentThumb": "/library/metadata/61663/thumb/1569812448",
+            "originallyAvailableAt": "2012-08-07",
+            "addedAt": 1494938536,
+            "updatedAt": 1494938607,
+            "loudnessAnalysisVersion": "1",
+            "Genre": [
+              {
+                "tag": "Indie Pop"
+              },
+              {
+                "tag": "Dream Pop"
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "35965",
+            "key": "/library/metadata/35965/children",
+            "parentRatingKey": "35964",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/album/052D438319F42393/435430291-2D4383C34C30AC6F1A935E7E6FE1CBDC?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/052D438319F42393?lang=en",
+            "studio": "Believe Digital",
+            "type": "album",
+            "title": "Warm Blanket",
+            "parentKey": "/library/metadata/35964",
+            "parentTitle": "Dent May",
+            "index": 1,
+            "viewCount": 36,
+            "lastViewedAt": 1555140145,
+            "year": 2013,
+            "thumb": "/library/metadata/35965/thumb/1487695694",
+            "parentThumb": "/library/metadata/35964/thumb/1570157786",
+            "originallyAvailableAt": "2013-09-02",
+            "addedAt": 1473890868,
+            "updatedAt": 1487695694,
+            "loudnessAnalysisVersion": "1",
+            "Genre": [
+              {
+                "tag": "Indie Pop"
+              },
+              {
+                "tag": "Pop"
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "74122",
+            "key": "/library/metadata/74122/children",
+            "parentRatingKey": "9297",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/album/055A96F22C383060/741879904-5A96F2BD9F3DE7601F1392601BF472FD?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/05BA2C1B209342C2?lang=en",
+            "studio": "Transgressive",
+            "type": "album",
+            "title": "Warm Glow",
+            "parentKey": "/library/metadata/9297",
+            "parentTitle": "Hippo Campus",
+            "index": 1,
+            "viewCount": 8,
+            "lastViewedAt": 1534861159,
+            "year": 2017,
+            "thumb": "/library/metadata/74122/thumb/1530873821",
+            "parentThumb": "/library/metadata/9297/thumb/1570077055",
+            "originallyAvailableAt": "2017-01-01",
+            "addedAt": 1530873797,
+            "updatedAt": 1530873821,
+            "loudnessAnalysisVersion": "1",
+            "Genre": [
+              {
+                "tag": "General Indie Pop"
+              },
+              {
+                "tag": "Indie Pop"
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "4277",
+            "key": "/library/metadata/4277/children",
+            "parentRatingKey": "4276",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/album/050DDA041A4CB0DA/441233626-0DDA043604DF482023A80988FE34ABD4?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/050DDA041A4CB0DA?lang=en",
+            "studio": "Dualtone Music, Inc.",
+            "type": "album",
+            "title": "And the War Came",
+            "parentKey": "/library/metadata/4276",
+            "parentTitle": "Shakey Graves",
+            "index": 1,
+            "viewCount": 41,
+            "lastViewedAt": 1564054623,
+            "year": 2014,
+            "thumb": "/library/metadata/4277/thumb/1483270338",
+            "parentThumb": "/library/metadata/4276/thumb/1569812418",
+            "originallyAvailableAt": "2014-10-07",
+            "addedAt": 1461004956,
+            "updatedAt": 1483270338,
+            "loudnessAnalysisVersion": "1",
+            "Genre": [
+              {
+                "tag": "Americana"
+              },
+              {
+                "tag": "Lo-Fi"
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "52734",
+            "key": "/library/metadata/52734/children",
+            "parentRatingKey": "52733",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/album/0506DE3624E5E958/619047256-06DE36BADFBFBF9C1DF008A024EE73AE?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/0506DE3624E5E958?lang=en",
+            "studio": "Cinematic Music Group",
+            "type": "album",
+            "title": "Otero War",
+            "parentKey": "/library/metadata/52733",
+            "parentTitle": "Caveman",
+            "index": 1,
+            "viewCount": 27,
+            "lastViewedAt": 1559320003,
+            "year": 2016,
+            "thumb": "/library/metadata/52734/thumb/1490313524",
+            "parentThumb": "/library/metadata/52733/thumb/1569996279",
+            "originallyAvailableAt": "2016-06-16",
+            "addedAt": 1490313399,
+            "updatedAt": 1490313524,
+            "loudnessAnalysisVersion": "1",
+            "Genre": [
+              {
+                "tag": "Indie Rock"
+              },
+              {
+                "tag": "Hip-Hop"
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "80321",
+            "key": "/library/metadata/80321/children",
+            "parentRatingKey": "11788",
+            "guid": "local://80321",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/05E219370673B0EA?lang=en",
+            "type": "album",
+            "title": "Make Way for Dionne Warwick",
+            "parentKey": "/library/metadata/11788",
+            "parentTitle": "Dionne Warwick",
+            "index": 1,
+            "viewCount": 22,
+            "lastViewedAt": 1568464376,
+            "year": 1964,
+            "thumb": "/library/metadata/11788/thumb/1569812515",
+            "art": "/library/metadata/11788/art/1569812515",
+            "parentThumb": "/library/metadata/11788/thumb/1569812515",
+            "originallyAvailableAt": "1964-01-01",
+            "addedAt": 1564603070,
+            "updatedAt": 1564603085,
+            "loudnessAnalysisVersion": "1"
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "3091",
+            "key": "/library/metadata/3091/children",
+            "parentRatingKey": "3075",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/album/0542026705D592E9/97882857-42026783F3CBB366EA58A21DE4444F1F?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/05E4568D008B8438?lang=en",
+            "studio": "Warner Bros.",
+            "type": "album",
+            "title": "At War With the Mystics",
+            "parentKey": "/library/metadata/3075",
+            "parentTitle": "The Flaming Lips",
+            "index": 1,
+            "viewCount": 15,
+            "lastViewedAt": 1526978481,
+            "year": 2006,
+            "thumb": "/library/metadata/3091/thumb/1483267605",
+            "art": "/library/metadata/3075/art/1569996356",
+            "parentThumb": "/library/metadata/3075/thumb/1569996356",
+            "originallyAvailableAt": "2006-01-01",
+            "addedAt": 1464454636,
+            "updatedAt": 1483267605,
+            "loudnessAnalysisVersion": "1",
+            "Genre": [
+              {
+                "tag": "Alternative Rock"
+              },
+              {
+                "tag": "Rock"
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "60792",
+            "key": "/library/metadata/60792/children",
+            "parentRatingKey": "3896",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/album/05B89EA7025C45AB/39601579-B89EA7F1D2917079EEFC09496EB55E01?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/05506A43007A8C17?lang=en",
+            "studio": "Reprise / Rhino",
+            "type": "album",
+            "title": "Electric Warrior",
+            "parentKey": "/library/metadata/3896",
+            "parentTitle": "T. Rex",
+            "index": 1,
+            "viewCount": 10,
+            "lastViewedAt": 1566894590,
+            "year": 1971,
+            "thumb": "/library/metadata/60792/thumb/1494162670",
+            "art": "/library/metadata/3896/art/1569812460",
+            "parentThumb": "/library/metadata/3896/thumb/1569812460",
+            "originallyAvailableAt": "1971-09-24",
+            "addedAt": 1494162561,
+            "updatedAt": 1494162670,
+            "deletedAt": 1578805639,
+            "loudnessAnalysisVersion": "1",
+            "Genre": [
+              {
+                "tag": "Glam Rock"
+              },
+              {
+                "tag": "Classic Rock"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Tracks",
+        "type": "track",
+        "hubIdentifier": "track",
+        "size": 10,
+        "more": false,
+        "style": "shelf",
+        "Metadata": [
+          {
+            "ratingKey": "8012",
+            "key": "/library/metadata/8012",
+            "parentRatingKey": "7998",
+            "grandparentRatingKey": "7982",
+            "guid": "local://8012",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/album/05A4AF5E1D871F71/495394673-A4AF5E08399A7B90CB81B4BB961EC4D6?lang=en",
+            "grandparentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/052B96C714C675DB?lang=en",
+            "type": "track",
+            "title": "",
+            "titleSort": "War",
+            "grandparentKey": "/library/metadata/7982",
+            "parentKey": "/library/metadata/7998",
+            "grandparentTitle": "Kodaline",
+            "parentTitle": "Coming Up for Air",
+            "originalTitle": "Kodaline",
+            "index": 14,
+            "parentIndex": 1,
+            "ratingCount": 37425,
+            "userRating": 8,
+            "viewCount": 1,
+            "lastViewedAt": 1460184993,
+            "lastRatedAt": 1457394766,
+            "thumb": "/library/metadata/7998/thumb/1519694858",
+            "art": "/library/metadata/7982/art/1570077099",
+            "parentThumb": "/library/metadata/7998/thumb/1519694858",
+            "grandparentThumb": "/library/metadata/7982/thumb/1570077099",
+            "grandparentArt": "/library/metadata/7982/art/1570077099",
+            "duration": 211539,
+            "addedAt": 1457394766,
+            "updatedAt": 1554562633,
+            "Media": [
+              {
+                "id": 7902,
+                "duration": 211539,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 7902,
+                    "key": "/library/parts/7902/1578739111/file.mp3",
+                    "duration": 211539,
+                    "file": "/mnt/data/music/albums/Kodaline/Coming Up for Air/14 War.mp3",
+                    "size": 8576579,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ratingKey": "53805",
+            "key": "/library/metadata/53805",
+            "parentRatingKey": "53804",
+            "grandparentRatingKey": "13102",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/track/63144867-2F41F276B7C5BFED56731F3CFA05FBEF/63144875-36F9D55DA24A18F21DA27C7760B1F94E?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/album/052F41F203C383A3/63144867-2F41F276B7C5BFED56731F3CFA05FBEF?lang=en",
+            "grandparentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/053F2594013ABB18?lang=en",
+            "type": "track",
+            "title": "War",
+            "grandparentKey": "/library/metadata/13102",
+            "parentKey": "/library/metadata/53804",
+            "grandparentTitle": "Bob Marley & The Wailers",
+            "parentTitle": "Live in Pittsburgh (Final Concert)",
+            "originalTitle": "Bob Marley",
+            "index": 8,
+            "parentIndex": 1,
+            "ratingCount": 233879,
+            "userRating": 8,
+            "lastViewedAt": 43200,
+            "lastRatedAt": 1490998404,
+            "thumb": "/library/metadata/53804/thumb/1519695743",
+            "art": "/library/metadata/13102/art/1570157783",
+            "parentThumb": "/library/metadata/53804/thumb/1519695743",
+            "grandparentThumb": "/library/metadata/13102/thumb/1570157783",
+            "grandparentArt": "/library/metadata/13102/art/1570157783",
+            "duration": 238471,
+            "addedAt": 1490998404,
+            "updatedAt": 1554562395,
+            "Media": [
+              {
+                "id": 66651,
+                "duration": 238471,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 66657,
+                    "key": "/library/parts/66657/1578733787/file.mp3",
+                    "duration": 238471,
+                    "file": "/mnt/data/music/albums/Bob Marley & The Wailers/Live in Pittsburgh (Final Concert)/08 War.mp3",
+                    "size": 9735220,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ratingKey": "5794",
+            "key": "/library/metadata/5794",
+            "parentRatingKey": "5785",
+            "grandparentRatingKey": "5784",
+            "guid": "plex://track/5d07cebf403c6402900cd0cd",
+            "parentGuid": "plex://album/5d07c173403c640290846b36",
+            "grandparentGuid": "plex://artist/5d07bbfc403c6402904a6105",
+            "type": "track",
+            "title": "War",
+            "grandparentKey": "/library/metadata/5784",
+            "parentKey": "/library/metadata/5785",
+            "grandparentTitle": "OutKast",
+            "parentTitle": "Speakerboxxx / The Love Below",
+            "index": 8,
+            "parentIndex": 1,
+            "ratingCount": 78491,
+            "userRating": 3,
+            "viewCount": 1,
+            "lastViewedAt": 1468085205,
+            "lastRatedAt": 1452197301,
+            "thumb": "/library/metadata/5785/thumb/1576815710",
+            "art": "/library/metadata/5784/art/1576815701",
+            "parentThumb": "/library/metadata/5785/thumb/1576815710",
+            "grandparentThumb": "/library/metadata/5784/thumb/1576815701",
+            "grandparentArt": "/library/metadata/5784/art/1576815701",
+            "duration": 163813,
+            "addedAt": 1452197301,
+            "updatedAt": 1578794743,
+            "Media": [
+              {
+                "id": 5634,
+                "duration": 163813,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 5634,
+                    "key": "/library/parts/5634/1578786603/file.mp3",
+                    "duration": 163813,
+                    "file": "/mnt/data/music/albums/OutKast/Speakerboxxx _ The Love Below/08 War.mp3",
+                    "size": 6607232,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ratingKey": "11235",
+            "key": "/library/metadata/11235",
+            "parentRatingKey": "11234",
+            "grandparentRatingKey": "11233",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/track/74442159-44EE7A33A9842DC8FA95300C1EF998D3/74442160-AFACDC34EF98D5E2A4049DA9137AF433?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/album/0544EE7A046FE5AF/74442159-44EE7A33A9842DC8FA95300C1EF998D3?lang=en",
+            "grandparentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/0544EE7A046FE5AF?lang=en",
+            "type": "track",
+            "title": "War",
+            "grandparentKey": "/library/metadata/11233",
+            "parentKey": "/library/metadata/11234",
+            "grandparentTitle": "Edwin Starr",
+            "parentTitle": "War & Peace",
+            "originalTitle": "Edwin Starr",
+            "index": 1,
+            "parentIndex": 1,
+            "ratingCount": 1131018,
+            "userRating": 10,
+            "viewCount": 5,
+            "lastViewedAt": 1540749061,
+            "lastRatedAt": 1438123273,
+            "thumb": "/library/metadata/11234/thumb/1483270539",
+            "art": "/library/metadata/11233/art/1569812469",
+            "parentThumb": "/library/metadata/11234/thumb/1483270539",
+            "grandparentThumb": "/library/metadata/11233/thumb/1569812469",
+            "grandparentArt": "/library/metadata/11233/art/1569812469",
+            "duration": 200437,
+            "addedAt": 1438123273,
+            "updatedAt": 1554562667,
+            "Media": [
+              {
+                "id": 10887,
+                "duration": 200437,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 10887,
+                    "key": "/library/parts/10887/1578735940/file.mp3",
+                    "duration": 200437,
+                    "file": "/mnt/data/music/albums/Edwin Starr/War & Peace/01 War.mp3",
+                    "size": 8073404,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ratingKey": "1078",
+            "key": "/library/metadata/1078",
+            "parentRatingKey": "1077",
+            "grandparentRatingKey": "1076",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/track/7570986-3302403C6811C0DFEFE2AD06A3C293AA/7570993-8738B8895A873A961AAF0602F84A6EF0?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/album/053302400073862A/7570986-3302403C6811C0DFEFE2AD06A3C293AA?lang=en",
+            "grandparentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/053302400073862A?lang=en",
+            "type": "track",
+            "title": "Low Rider",
+            "grandparentKey": "/library/metadata/1076",
+            "parentKey": "/library/metadata/1077",
+            "grandparentTitle": "War",
+            "parentTitle": "Why Can't We Be Friends?",
+            "originalTitle": "War",
+            "index": 7,
+            "parentIndex": 1,
+            "userRating": 10,
+            "viewCount": 17,
+            "lastViewedAt": 1569918030,
+            "lastRatedAt": 1438123273,
+            "thumb": "/library/metadata/1077/thumb/1519700536",
+            "art": "/library/metadata/1076/art/1569812487",
+            "parentThumb": "/library/metadata/1077/thumb/1519700536",
+            "grandparentThumb": "/library/metadata/1076/thumb/1569812487",
+            "grandparentArt": "/library/metadata/1076/art/1569812487",
+            "duration": 188865,
+            "addedAt": 1438123273,
+            "updatedAt": 1554562561,
+            "Media": [
+              {
+                "id": 1025,
+                "duration": 188865,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 1025,
+                    "key": "/library/parts/1025/1578795455/file.mp3",
+                    "duration": 188865,
+                    "file": "/mnt/data/music/albums/War/Why Can't We Be Friends_/07 Low Rider.mp3",
+                    "size": 8790946,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ratingKey": "1079",
+            "key": "/library/metadata/1079",
+            "parentRatingKey": "1077",
+            "grandparentRatingKey": "1076",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/track/7570986-3302403C6811C0DFEFE2AD06A3C293AA/7570995-40C91D8013D385F83E386C1BB36119F4?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/album/053302400073862A/7570986-3302403C6811C0DFEFE2AD06A3C293AA?lang=en",
+            "grandparentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/053302400073862A?lang=en",
+            "type": "track",
+            "title": "Why Can't We Be Friends?",
+            "grandparentKey": "/library/metadata/1076",
+            "parentKey": "/library/metadata/1077",
+            "grandparentTitle": "War",
+            "parentTitle": "Why Can't We Be Friends?",
+            "originalTitle": "War",
+            "index": 9,
+            "parentIndex": 1,
+            "userRating": 8,
+            "viewCount": 11,
+            "lastViewedAt": 1462725199,
+            "lastRatedAt": 1438123273,
+            "thumb": "/library/metadata/1077/thumb/1519700536",
+            "art": "/library/metadata/1076/art/1569812487",
+            "parentThumb": "/library/metadata/1077/thumb/1519700536",
+            "grandparentThumb": "/library/metadata/1076/thumb/1569812487",
+            "grandparentArt": "/library/metadata/1076/art/1569812487",
+            "duration": 226899,
+            "addedAt": 1438123273,
+            "updatedAt": 1554562561,
+            "Media": [
+              {
+                "id": 1026,
+                "duration": 226899,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 1026,
+                    "key": "/library/parts/1026/1578795455/file.mp3",
+                    "duration": 226899,
+                    "file": "/mnt/data/music/albums/War/Why Can't We Be Friends_/09 Why Can't We Be Friends_.mp3",
+                    "size": 10313855,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ratingKey": "54269",
+            "key": "/library/metadata/54269",
+            "parentRatingKey": "54266",
+            "grandparentRatingKey": "54265",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/track/637235616-C4D578104DA3BB83DBB91DAEC6075D65/637235619-FBB4980A6C9B738FF9628F4FA35720FF?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/album/05C4D57825FB71A0/637235616-C4D578104DA3BB83DBB91DAEC6075D65?lang=en",
+            "grandparentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/05C4D57825FB71A0?lang=en",
+            "type": "track",
+            "title": "The War",
+            "titleSort": "War",
+            "grandparentKey": "/library/metadata/54265",
+            "parentKey": "/library/metadata/54266",
+            "grandparentTitle": "Haux",
+            "parentTitle": "All We've Known",
+            "originalTitle": "Haux",
+            "index": 3,
+            "parentIndex": 1,
+            "ratingCount": 17871,
+            "thumb": "/library/metadata/54266/thumb/1491171824",
+            "parentThumb": "/library/metadata/54266/thumb/1491171824",
+            "grandparentThumb": "/library/metadata/54265/thumb/1570077050",
+            "duration": 237714,
+            "addedAt": 1491171741,
+            "updatedAt": 1554562393,
+            "Media": [
+              {
+                "id": 67082,
+                "duration": 237714,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 67092,
+                    "key": "/library/parts/67092/1578737181/file.mp3",
+                    "duration": 237714,
+                    "file": "/mnt/data/music/albums/Haux/All We've Known/03 The War.mp3",
+                    "size": 10133106,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "64743",
+            "key": "/library/metadata/64743",
+            "parentRatingKey": "64734",
+            "grandparentRatingKey": "14015",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/track/459859135-20D7703B593D7D014C641B41F09242A3/459859144-329E86B4550FC659F0847250B2A6C75C?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/album/0520D7701B68E4BF/459859135-20D7703B593D7D014C641B41F09242A3?lang=en",
+            "grandparentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/0520D7701B68E4BF?lang=en",
+            "type": "track",
+            "title": "Warm Foothills",
+            "grandparentKey": "/library/metadata/14015",
+            "parentKey": "/library/metadata/64734",
+            "grandparentTitle": "alt-J",
+            "parentTitle": "This Is All Yours",
+            "originalTitle": "alt-J",
+            "index": 9,
+            "parentIndex": 2,
+            "ratingCount": 899597,
+            "userRating": 10,
+            "viewCount": 6,
+            "lastViewedAt": 1540048885,
+            "lastRatedAt": 1503388644,
+            "thumb": "/library/metadata/64734/thumb/1503388677",
+            "art": "/library/metadata/14015/art/1569898179",
+            "parentThumb": "/library/metadata/64734/thumb/1503388677",
+            "grandparentThumb": "/library/metadata/14015/thumb/1569898179",
+            "grandparentArt": "/library/metadata/14015/art/1569898179",
+            "duration": 225044,
+            "addedAt": 1503388644,
+            "updatedAt": 1554562041,
+            "Media": [
+              {
+                "id": 76770,
+                "duration": 225044,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 76782,
+                    "key": "/library/parts/76782/1578731299/file.mp3",
+                    "duration": 225044,
+                    "file": "/mnt/data/music/albums/alt-J/This Is All Yours/09 Warm Foothills.mp3",
+                    "size": 9117384,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "33632",
+            "key": "/library/metadata/33632",
+            "parentRatingKey": "11984",
+            "grandparentRatingKey": "11955",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/track/8718187-961B8E17A3AB98C07E5714DAFB6DC1E5/8718195-5BC77BBC280442EE5F28D5511C1D8461?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/album/05961B8E0085076B/8718187-961B8E17A3AB98C07E5714DAFB6DC1E5?lang=en",
+            "grandparentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/0571CD8D006FAD9A?lang=en",
+            "type": "track",
+            "title": "Warszawa",
+            "grandparentKey": "/library/metadata/11955",
+            "parentKey": "/library/metadata/11984",
+            "grandparentTitle": "David Bowie",
+            "parentTitle": "Low",
+            "originalTitle": "David Bowie",
+            "index": 8,
+            "parentIndex": 1,
+            "ratingCount": 628796,
+            "userRating": 8,
+            "viewCount": 6,
+            "lastViewedAt": 1530991477,
+            "lastRatedAt": 1471769926,
+            "thumb": "/library/metadata/11984/thumb/1483266601",
+            "art": "/library/metadata/11955/art/1570077102",
+            "parentThumb": "/library/metadata/11984/thumb/1483266601",
+            "grandparentThumb": "/library/metadata/11955/thumb/1570077102",
+            "grandparentArt": "/library/metadata/11955/art/1570077102",
+            "duration": 383712,
+            "addedAt": 1471769926,
+            "updatedAt": 1554561944,
+            "Media": [
+              {
+                "id": 47937,
+                "duration": 383712,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 47937,
+                    "key": "/library/parts/47937/1578735098/file.mp3",
+                    "duration": 383712,
+                    "file": "/mnt/data/music/albums/David Bowie/Low/08 Warszawa.mp3",
+                    "size": 15576151,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "librarySectionTitle": "Music",
+            "ratingKey": "74919",
+            "key": "/library/metadata/74919",
+            "parentRatingKey": "74915",
+            "grandparentRatingKey": "74914",
+            "guid": "com.plexapp.agents.plexmusic://gracenote/track/36268970-CEE0A56FBC2333DDD29DF030E14E7723/36268979-A26C75A2C0127D46C0D354CB621839EC?lang=en",
+            "parentGuid": "com.plexapp.agents.plexmusic://gracenote/album/05CEE0A502296BAA/36268970-CEE0A56FBC2333DDD29DF030E14E7723?lang=en",
+            "grandparentGuid": "com.plexapp.agents.plexmusic://gracenote/artist/05CEE0A502296BAA?lang=en",
+            "type": "track",
+            "title": "Wäre er echt",
+            "titleSort": "Ware er echt",
+            "grandparentKey": "/library/metadata/74914",
+            "parentKey": "/library/metadata/74915",
+            "grandparentTitle": "Kettcar",
+            "parentTitle": "Du und wieviel von deinen Freunden",
+            "originalTitle": "Kettcar",
+            "index": 4,
+            "parentIndex": 1,
+            "ratingCount": 171156,
+            "userRating": 10,
+            "viewCount": 7,
+            "lastViewedAt": 1565982287,
+            "lastRatedAt": 1538728115,
+            "thumb": "/library/metadata/74915/thumb/1538728157",
+            "art": "/library/metadata/74914/art/1569812532",
+            "parentThumb": "/library/metadata/74915/thumb/1538728157",
+            "grandparentThumb": "/library/metadata/74914/thumb/1569812532",
+            "grandparentArt": "/library/metadata/74914/art/1569812532",
+            "duration": 191477,
+            "addedAt": 1538728115,
+            "updatedAt": 1554561918,
+            "Media": [
+              {
+                "id": 86893,
+                "duration": 191477,
+                "bitrate": 320,
+                "audioChannels": 2,
+                "audioCodec": "mp3",
+                "container": "mp3",
+                "Part": [
+                  {
+                    "id": 87074,
+                    "key": "/library/parts/87074/1578738991/file.mp3",
+                    "duration": 191477,
+                    "file": "/mnt/data/music/albums/Kettcar/Du und wieviel von deinen Freunden/04 Ware er echt.mp3",
+                    "size": 7994273,
+                    "container": "mp3",
+                    "hasThumbnail": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Shows",
+        "type": "show",
+        "hubIdentifier": "show",
+        "size": 0,
+        "more": false,
+        "style": "shelf"
+      },
+      {
+        "title": "Places",
+        "type": "place",
+        "hubIdentifier": "place",
+        "size": 0,
+        "more": false,
+        "style": "shelf"
+      },
+      {
+        "title": "Movies",
+        "type": "movie",
+        "hubIdentifier": "movie",
+        "size": 0,
+        "more": false,
+        "style": "shelf"
+      },
+      {
+        "title": "Shared",
+        "type": "shared",
+        "hubIdentifier": "shared",
+        "size": 0,
+        "more": false,
+        "style": "shelf"
+      },
+      {
+        "title": "Playlists",
+        "type": "playlist",
+        "hubIdentifier": "playlist",
+        "size": 1,
+        "more": false,
+        "style": "shelf",
+        "Metadata": [
+          {
+            "ratingKey": "55541",
+            "key": "/playlists/55541/items",
+            "guid": "com.plexapp.agents.none://6713b69b-9393-4fe6-8095-6659088ddfa5",
+            "type": "playlist",
+            "title": "0 - Grooving On A Warm Afternoon",
+            "smart": false,
+            "playlistType": "audio",
+            "composite": "/playlists/55541/composite/1535183913",
+            "viewCount": 3,
+            "lastViewedAt": 1538951414,
+            "duration": 391000,
+            "leafCount": 2,
+            "addedAt": 1491519373,
+            "updatedAt": 1535183913
+          }
+        ]
+      },
+      {
+        "title": "Collections",
+        "type": "collection",
+        "hubIdentifier": "collection",
+        "size": 0,
+        "more": false,
+        "style": "shelf"
+      },
+      {
+        "title": "Genres",
+        "type": "genre",
+        "hubIdentifier": "genre",
+        "size": 0,
+        "more": false,
+        "style": "shelf"
+      },
+      {
+        "title": "Directors",
+        "type": "director",
+        "hubIdentifier": "director",
+        "size": 0,
+        "more": false,
+        "style": "shelf"
+      },
+      {
+        "title": "Actors",
+        "type": "actor",
+        "hubIdentifier": "actor",
+        "size": 0,
+        "more": false,
+        "style": "shelf"
+      },
+      {
+        "title": "Tags",
+        "type": "tag",
+        "hubIdentifier": "tag",
+        "size": 0,
+        "more": false,
+        "style": "shelf"
+      },
+      {
+        "title": "Photos",
+        "type": "photo",
+        "hubIdentifier": "photo",
+        "size": 0,
+        "more": false,
+        "style": "shelf"
+      },
+      {
+        "title": "Automatic Tags",
+        "type": "autotag",
+        "hubIdentifier": "autotag",
+        "size": 0,
+        "more": false,
+        "style": "shelf"
+      },
+      {
+        "title": "Photo Albums",
+        "type": "photoalbum",
+        "hubIdentifier": "photoalbum",
+        "size": 0,
+        "more": false,
+        "style": "shelf"
+      },
+      {
+        "title": "Episodes",
+        "type": "episode",
+        "hubIdentifier": "episode",
+        "size": 0,
+        "more": false,
+        "style": "shelf"
+      }
+    ]
+  }
+}

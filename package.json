@@ -19,36 +19,31 @@
     "client"
   ],
   "scripts": {
-    "build": "rollup -c",
-    "docs": "documentation build -f html -o ./docs src",
-    "prepublish": "rollup -c",
+    "build": "pkg-build",
+    "docs": "pkg-docs",
     "test": "pkg-test",
-    "coverage": "pkg-coverage",
-    "lint": "pkg-lint"
+    "precommit": "pkg-precommit",
+    "lint": "pkg-lint",
+    "tidy": "pkg-tidy"
   },
   "dependencies": {
-    "arrayify": "^1.0.0",
-    "assert": "^1.4.1",
-    "babel-polyfill": "^6.26.0",
-    "deep-diff": "^1.0.2",
-    "difflet": "^1.0.1",
-    "documentation": "^8.1.2",
-    "es6-promisify": "^6.0.1",
-    "isomorphic-base64": "^1.0.2",
-    "isomorphic-fetch": "^2.2.1",
-    "normalizr": "^3.3.0",
-    "qs": "^6.5.2",
-    "uuid": "^3.3.2",
-    "xml2js": "^0.4.19"
+    "@zwolf/prism": "2.8.0",
+    "isomorphic-fetch": "2.2.1",
+    "normalizr": "3.4.1",
+    "uuid": "3.3.3",
+    "xml2js": "0.4.23"
   },
   "devDependencies": {
-    "@babel/plugin-external-helpers": "^7.0.0",
-    "@mishguru/package": "^5.0.0",
-    "eslint-config-mishguru": "^2.0.2",
-    "nock": "^10.0.1",
-    "rollup": "^0.66.6",
-    "rollup-plugin-babel": "^4.0.3",
-    "rollup-plugin-json": "^3.1.0",
-    "rollup-plugin-local-resolve": "^1.0.7"
-  }
+    "@stayradiated/pkg": "3.11.0",
+    "@types/isomorphic-fetch": "0.0.35",
+    "@types/node": "12.12.24",
+    "@types/uuid": "3.4.6",
+    "@types/xml2js": "0.4.5",
+    "nock": "11.7.2"
+  },
+  "docsExternal": [
+    "./src/types/*",
+    "./src/utils/*",
+    "./src/test-helpers.ts"
+  ]
 }

@@ -1,0 +1,207 @@
+{
+  "id": 1212121,
+  "uuid": "xxxxxxxxxxxxxxxx",
+  "username": "xxxxxxxxxxxx",
+  "title": "xxxxxxxxxxxx",
+  "email": "xxxxxxxxxxxxxxxxxxx",
+  "locale": "en",
+  "emailOnlyAuth": false,
+  "hasPassword": true,
+  "protected": false,
+  "thumb": "https://plex.tv/users/xxxxxxxxxxxxxxxx/avatar?c=1563901808",
+  "authToken": "xxxxxxxxxxxxxxxxxxxx",
+  "mailingListStatus": "active",
+  "mailingListActive": true,
+  "scrobbleTypes": "",
+  "country": "NZ",
+  "subscription": {
+    "active": true,
+    "subscribedAt": "2016-01-01T01:00:00Z",
+    "status": "Active",
+    "paymentService": "braintree",
+    "plan": "lifetime",
+    "features": [
+      "webhooks",
+      "content_filter",
+      "camera_upload",
+      "home",
+      "music_videos",
+      "trailers",
+      "pass",
+      "dvr",
+      "session_bandwidth_restrictions",
+      "adaptive_bitrate",
+      "collections",
+      "photos-metadata-edition",
+      "premium_music_metadata",
+      "cloudsync",
+      "lyrics",
+      "sync",
+      "hardware_transcoding",
+      "session_kick",
+      "radio",
+      "tuner-sharing",
+      "hwtranscode",
+      "photos-favorites",
+      "photosV6-tv-albums",
+      "photosV6-edit",
+      "federated-auth",
+      "item_clusters",
+      "livetv",
+      "Android - PiP",
+      "publishing_platform",
+      "news",
+      "photos-v5",
+      "unsupportedtuners",
+      "kevin-bacon",
+      "client-radio-stations",
+      "imagga-v2",
+      "silence-removal",
+      "boost-voices",
+      "volume-leveling",
+      "sweet-fades",
+      "sleep-timer",
+      "TREBLE-show-features",
+      "web_server_dashboard",
+      "visualizers",
+      "premium-dashboard",
+      "conan_redirect_qa",
+      "conan_redirect_alpha",
+      "conan_redirect_beta",
+      "conan_redirect_public",
+      "news_local_now",
+      "nominatim",
+      "transcoder_cache",
+      "live-tv-support-incomplete-segments",
+      "dvr-block-unsupported-countries",
+      "companions_sonos",
+      "allow_dvr",
+      "signin_notification",
+      "drm_support",
+      "epg-recent-channels",
+      "spring_serve_ad_provider",
+      "conan_redirect_nightlies",
+      "conan_redirect_nightly"
+    ]
+  },
+  "subscriptionDescription": "Lifetime Plex Pass",
+  "restricted": false,
+  "home": false,
+  "guest": false,
+  "homeSize": 1,
+  "homeAdmin": false,
+  "maxHomeSize": 15,
+  "certificateVersion": 2,
+  "rememberExpiresAt": 1580113467,
+  "profile": {
+    "autoSelectAudio": false,
+    "defaultAudioLanguage": "en",
+    "defaultSubtitleLanguage": "en",
+    "autoSelectSubtitle": 0,
+    "defaultSubtitleAccessibility": 0,
+    "defaultSubtitleForced": 0
+  },
+  "entitlements": [
+    "ios",
+    "all",
+    "roku",
+    "android",
+    "xbox_one",
+    "xbox_360",
+    "windows",
+    "windows_phone"
+  ],
+  "roles": [
+    "plexpass"
+  ],
+  "subscriptions": [
+    {
+      "id": null,
+      "mode": "lifetime",
+      "renewsAt": null,
+      "endsAt": null,
+      "type": "plexpass",
+      "transfer": false,
+      "state": "active"
+    }
+  ],
+  "trials": [],
+  "services": [
+    {
+      "identifier": "epg",
+      "endpoint": "https://epg.provider.plex.tv",
+      "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "status": "online"
+    },
+    {
+      "identifier": "epg-dev",
+      "endpoint": "https://epg-dev.provider.plex.tv",
+      "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "status": "online"
+    },
+    {
+      "identifier": "eyeq",
+      "endpoint": "https://c4412416.ipg.web.cddbp.net/webapi/xml/1.0/",
+      "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "status": "online"
+    },
+    {
+      "identifier": "eyeq-channel-icons",
+      "endpoint": "http://akamai-b.cdn.cddbp.net/cds/2.0/image",
+      "status": "online"
+    },
+    {
+      "identifier": "imagga-v2",
+      "endpoint": "https://api.imagga.com/v2",
+      "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "status": "online"
+    },
+    {
+      "identifier": "nominatim",
+      "endpoint": "https://locationiq.org/v1",
+      "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "status": "online"
+    },
+    {
+      "identifier": "metadata",
+      "endpoint": "https://metadata.provider.plex.tv",
+      "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "status": "online"
+    },
+    {
+      "identifier": "metadata-dev",
+      "endpoint": "https://metadata-dev.provider.plex.tv",
+      "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "status": "online"
+    },
+    {
+      "identifier": "metadata-provider",
+      "endpoint": "https://mpm.plex.tv/",
+      "status": "online"
+    },
+    {
+      "identifier": "tmsapi",
+      "endpoint": "https://tmsapi.plex.tv/v1.1/",
+      "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "status": "online"
+    },
+    {
+      "identifier": "subtitles-search",
+      "endpoint": "https://metadata.provider.plex.tv/library/metadata/matches",
+      "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "status": "online"
+    },
+    {
+      "identifier": "acoustid",
+      "endpoint": "https://acoustid.plex.tv/",
+      "token": "xxxxxxxxxxxxxxxxxxxxxxxx",
+      "status": "online"
+    }
+  ],
+  "adsConsent": null,
+  "adsConsentSetAt": null,
+  "adsConsentReminderAt": null,
+  "queueEmail": "queue+xxxxxxxxxxxxxxxxxxxx@save.plex.tv",
+  "queueUid": {}
+}
