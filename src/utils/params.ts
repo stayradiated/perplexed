@@ -1,12 +1,8 @@
-export type Params = Record<string, number | string | string[]>
+export type Params = Record<string, string | number | boolean>
 
-export function withParams (url: string, params: Params = {}) {
-  const paramsArray = Object.entries(params).map(([key, value]) => {
-    return [key, value == null ? '' : value.toString()]
-  })
-
-  if (paramsArray.length > 0) {
-    const searchParams = new URLSearchParams(paramsArray)
+const withParams = (url: string, params: Params = {}) => {
+  if (Object.keys(params).length > 0) {
+    const searchParams = new URLSearchParams(params as Record<string, string>)
     return `${url}?${searchParams.toString()}`
   }
   return url
@@ -25,11 +21,14 @@ interface WithContainerParamsOptions extends Params {
   size?: number,
 }
 
-export function withContainerParams (options: WithContainerParamsOptions = {}) {
-  const { start, size, ...params } = options
+const withContainerParams = (params: WithContainerParamsOptions = {}) => {
+  const { start, size, ...searchParams } = params
   if (size != null) {
-    params['X-Plex-Container-Size'] = size.toString()
-    params['X-Plex-Container-Start'] = start != null ? start.toString() : '0'
+    searchParams['X-Plex-Container-Size'] = size.toString()
+    searchParams['X-Plex-Container-Start'] =
+      start != null ? start.toString() : '0'
   }
-  return params
+  return searchParams
 }
+
+export { withParams, withContainerParams }

@@ -87,7 +87,7 @@ export default class Library {
   async fetch (url: string, options: RequestOptions = {}) {
     const res = await this.api.fetch(url, {
       ...options,
-      params: withContainerParams(options.params),
+      searchParams: withContainerParams(options.searchParams),
     })
     return res
   }
@@ -139,12 +139,12 @@ export default class Library {
   async sectionItems<T extends MediaType> (
     sectionId: number,
     type: T,
-    params: Params = {},
+    searchParams: Params = {},
   ): Promise<ReturnType<T>> {
     const path = `/library/sections/${sectionId}/all`
     const res = await this.fetch(path, {
-      params: {
-        ...params,
+      searchParams: {
+        ...searchParams,
         type,
       },
     })
@@ -160,8 +160,8 @@ export default class Library {
    * @returns {string}
    */
 
-  buildLibraryURI (uuid: string, path: string, params: Params = {}) {
-    const uri = withParams(path, params)
+  buildLibraryURI (uuid: string, path: string, searchParams: Params = {}) {
+    const uri = withParams(path, searchParams)
     const encodedURI = encodeURIComponent(uri)
     return `library://${uuid}/directory/${encodedURI}`
   }
@@ -178,10 +178,10 @@ export default class Library {
   async metadata<T extends MediaType> (
     id: number,
     type: T,
-    params: Params = {},
+    searchParams: Params = {},
   ): Promise<ReturnType<T>> {
     const path = `/library/metadata/${id}`
-    const res = await this.fetch(path, { params })
+    const res = await this.fetch(path, { searchParams })
     return parseType<T>(type, res)
   }
 
@@ -197,10 +197,10 @@ export default class Library {
   async metadataChildren<T extends MediaType> (
     id: number,
     type: T,
-    params: Params = {},
+    searchParams: Params = {},
   ): Promise<ReturnType<T>> {
     const path = `/library/metadata/${id}/children`
-    const res = await this.fetch(path, { params })
+    const res = await this.fetch(path, { searchParams })
     return parseType<T>(type, res)
   }
 
@@ -237,9 +237,13 @@ export default class Library {
 
   async tracks (
     sectionId: number,
-    params: Params = {},
+    searchParams: Params = {},
   ): Promise<TrackContainer> {
-    const tracks = await this.sectionItems(sectionId, MediaType.TRACK, params)
+    const tracks = await this.sectionItems(
+      sectionId,
+      MediaType.TRACK,
+      searchParams,
+    )
     return tracks
   }
 
@@ -269,9 +273,13 @@ export default class Library {
 
   async albums (
     sectionId: number,
-    params: Params = {},
+    searchParams: Params = {},
   ): Promise<AlbumContainer> {
-    const albums = await this.sectionItems(sectionId, MediaType.ALBUM, params)
+    const albums = await this.sectionItems(
+      sectionId,
+      MediaType.ALBUM,
+      searchParams,
+    )
     return albums
   }
 
@@ -298,12 +306,12 @@ export default class Library {
 
   async albumTracks (
     albumId: number,
-    params: Params = {},
+    searchParams: Params = {},
   ): Promise<TrackContainer> {
     const albumTracks = await this.metadataChildren(
       albumId,
       MediaType.TRACK,
-      params,
+      searchParams,
     )
     return albumTracks
   }
@@ -321,9 +329,13 @@ export default class Library {
 
   async artists (
     sectionId: number,
-    params: Params = {},
+    searchParams: Params = {},
   ): Promise<ArtistContainer> {
-    const artists = await this.sectionItems(sectionId, MediaType.ARTIST, params)
+    const artists = await this.sectionItems(
+      sectionId,
+      MediaType.ARTIST,
+      searchParams,
+    )
     return artists
   }
 
@@ -353,11 +365,11 @@ export default class Library {
    * @returns {Promise}
    */
 
-  async artistAlbums (artistId: number, params: Params) {
+  async artistAlbums (artistId: number, searchParams: Params) {
     const artistAlbums = await this.metadataChildren(
       artistId,
       MediaType.ALBUM,
-      params,
+      searchParams,
     )
     return artistAlbums
   }
@@ -369,7 +381,7 @@ export default class Library {
   async createSmartPlaylist (title: string, uri: string) {
     const res = await this.fetch('/playlists', {
       method: 'POST',
-      params: {
+      searchParams: {
         type: 'audio',
         title,
         smart: 1,
@@ -388,11 +400,11 @@ export default class Library {
    * @returns {Promise}
    */
 
-  async playlists (params: Params = {}) {
+  async playlists (searchParams: Params = {}) {
     const path = '/playlists/all'
     const res = await this.fetch(path, {
-      params: {
-        ...params,
+      searchParams: {
+        ...searchParams,
         type: MediaType.PLAYLIST,
       },
     })
@@ -404,16 +416,16 @@ export default class Library {
     return parsePlaylistContainer(res)
   }
 
-  async playlistTracks (id: number, params: Params = {}) {
+  async playlistTracks (id: number, searchParams: Params = {}) {
     const path = `/playlists/${id}/items`
-    const res = await this.fetch(path, { params })
+    const res = await this.fetch(path, { searchParams })
     return parsePlaylist(res)
   }
 
-  async editPlaylistDetails (playlistId: number, params: Params = {}) {
+  async editPlaylistDetails (playlistId: number, searchParams: Params = {}) {
     const res = await this.fetch(`/library/metadata/${playlistId}`, {
       method: 'PUT',
-      params,
+      searchParams,
     })
     return res
   }
@@ -431,7 +443,7 @@ export default class Library {
   async addToPlaylist (playlistId: number, uri: string) {
     const res = await this.fetch(`/playlists/${playlistId}/items`, {
       method: 'PUT',
-      params: {
+      searchParams: {
         uri,
       },
     })
@@ -443,7 +455,7 @@ export default class Library {
       `/playlists/${playlistId}/items/${itemId}/move`,
       {
         method: 'PUT',
-        params: {
+        searchParams: {
           after: afterId,
         },
       },
@@ -479,7 +491,7 @@ export default class Library {
 
   async searchAll (query: string, limit = 3) {
     const res = await this.fetch('/hubs/search', {
-      params: {
+      searchParams: {
         query,
         limit,
       },
@@ -495,7 +507,7 @@ export default class Library {
 
   async searchTracks (sectionId: number, query: string) {
     const res = await this.fetch(`/library/sections/${sectionId}/search`, {
-      params: {
+      searchParams: {
         type: MediaType.TRACK,
         query,
       },
@@ -517,8 +529,8 @@ export default class Library {
    * @returns {string}
    */
 
-  resizePhoto (params: Params = {}) {
-    return this.api.getAuthenticatedUrl('/photo/:/transcode', params)
+  resizePhoto (searchParams: Params = {}) {
+    return this.api.getAuthenticatedUrl('/photo/:/transcode', searchParams)
   }
 
   // ==========================================================================
@@ -551,7 +563,7 @@ export default class Library {
 
   async rate (trackId: number, rating: number) {
     const res = await this.fetch('/:/rate', {
-      params: {
+      searchParams: {
         key: trackId,
         identifier: 'com.plexapp.plugins.library',
         rating,
@@ -593,7 +605,7 @@ export default class Library {
   ) {
     const res = await this.fetch('/playQueues', {
       method: 'POST',
-      params: {
+      searchParams: {
         type: 'audio',
         playlistID: options.playlistId,
         uri: options.uri,
@@ -637,7 +649,7 @@ export default class Library {
       `/playQueues/${playQueueId}/items/${itemId}/move`,
       {
         method: 'PUT',
-        params: {
+        searchParams: {
           after: afterId,
         },
       },
@@ -707,7 +719,7 @@ export default class Library {
       playerState,
     } = options
     const res = await this.fetch('/:/timeline', {
-      params: {
+      searchParams: {
         hasMDE: 1,
         ratingKey,
         key,
@@ -745,7 +757,7 @@ export default class Library {
 
     const res = await this.api.fetch(`/library/sections/${sectionId}/all`, {
       method: 'PUT',
-      params: {
+      searchParams: {
         ...params,
         type,
         id,

@@ -141,7 +141,7 @@ export default class Account {
 
   async resources () {
     const res = await this.fetchXML('/api/resources', {
-      params: {
+      searchParams: {
         includeHttps: '1',
         includeRelay: '1',
       },

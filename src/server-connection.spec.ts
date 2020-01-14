@@ -71,7 +71,7 @@ test('fetch with params', async (t) => {
 
   const res = await sc.fetch('/path', {
     method: 'post',
-    params: {
+    searchParams: {
       key: 'value',
     },
   })

@@ -43,7 +43,7 @@ test('fetch', async (t) => {
     .reply(200, { value: true })
 
   const res = await library.fetch('/path', {
-    params: {
+    searchParams: {
       key: 'value',
       start: '5',
       size: '10',

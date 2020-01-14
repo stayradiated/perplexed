@@ -6,6 +6,8 @@ import { fixture, snapshot } from './test-helpers'
 import Account from './account'
 import Client from './client'
 
+nock.disableNetConnect()
+
 const test = anyTest as TestInterface<{
   client: Client,
   account: Account,
@@ -54,13 +56,13 @@ test('headers', (t) => {
 test('fetch', async (t) => {
   const { account } = t.context
 
-  const scope = nock(PLEX_API, { reqheaders: { accept: 'application/json' } })
-    .get('/path')
+  const scope = nock(PLEX_API)
+    .get('/fetch')
     .reply(200, {
       key: 'value',
     })
 
-  const res = await account.fetch('/path')
+  const res = await account.fetch('/fetch')
 
   t.deepEqual(res, { key: 'value' })
 
@@ -70,14 +72,14 @@ test('fetch', async (t) => {
 test('fetch with params', async (t) => {
   const { account } = t.context
 
-  const scope = nock(PLEX_API, { reqheaders: { accept: 'application/json' } })
-    .get('/path?name=plex')
+  const scope = nock(PLEX_API)
+    .get('/fetch-with-params?name=plex')
     .reply(200, {
       key: 'value',
     })
 
-  const res = await account.fetch('/path', {
-    params: {
+  const res = await account.fetch('/fetch-with-params', {
+    searchParams: {
       name: 'plex',
     },
   })
@@ -91,10 +93,10 @@ test('fetchXML', async (t) => {
   const { account } = t.context
 
   const scope = nock(PLEX_API)
-    .get('/path')
+    .get('/fetch-xml')
     .reply(200, '<container size="20"><name>Plex</name></container>')
 
-  const res = await account.fetchXML('/path')
+  const res = await account.fetchXML('/fetch-xml')
 
   t.deepEqual(res, {
     container: {
@@ -110,11 +112,11 @@ test('fetchXML with params', async (t) => {
   const { account } = t.context
 
   const scope = nock(PLEX_API)
-    .get('/path?name=plex')
+    .get('/fetch-xml-with-params?name=plex')
     .reply(200, '<container size="20"><name>Plex</name></container>')
 
-  const res = await account.fetchXML('/path', {
-    params: {
+  const res = await account.fetchXML('/fetch-xml-with-params', {
+    searchParams: {
       name: 'plex',
     },
   })
@@ -146,7 +148,8 @@ test('authenticate failure', async (t) => {
   try {
     await account.authenticate(username, password)
   } catch (error) {
-    t.deepEqual(error.response, {
+    const errorRes = await error.response.json()
+    t.deepEqual(errorRes, {
       error: 'Invalid email, username, or password.',
     })
   }

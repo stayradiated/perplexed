@@ -1,19 +1,11 @@
 import xml2js from 'xml2js'
-import fetch from 'isomorphic-fetch'
 import { promisify } from 'util'
+import ky, { Options as KyOptions } from 'ky-universal'
 
-import { Params, withParams } from './params'
+import { Params } from './params'
 
-export interface RequestOptions extends RequestInit {
-  params?: Params,
-}
-
-class RequestError extends Error {
-  public response: Response
-  constructor (message: string, response: Response) {
-    super(message)
-    this.response = response
-  }
+export interface RequestOptions extends KyOptions {
+  searchParams?: Params,
 }
 
 const parseXMLString = promisify(xml2js.parseString)
@@ -29,43 +21,14 @@ const cleanHeaders = (headers: Record<string, string> = {}) => {
   return headers
 }
 
-const request = async (url: string, options: RequestOptions = {}) => {
-  const { params, ...otherOptions } = options
-  const urlWithParams = withParams(url, params)
-  cleanHeaders(otherOptions.headers as Record<string, string>)
-  const res = await fetch(urlWithParams, otherOptions)
-  if (res.status >= 400) {
-    const error = new RequestError(`Request Error: ${res.status}`, res)
-    throw error
-  }
-  return res
+const request = (url: string, options: RequestOptions = {}) => {
+  cleanHeaders(options.headers as Record<string, string>)
+  return ky(url, options)
 }
 
 const requestJSON = async (url: string, options: RequestOptions = {}) => {
-  let res = null
-  try {
-    res = await request(url, {
-      ...options,
-      headers: {
-        ...options.headers,
-        accept: 'application/json',
-      },
-    })
-  } catch (error) {
-    if (error instanceof RequestError) {
-      const json = await error.response.json()
-      error.response = json
-      throw error
-    }
-    throw error
-  }
-
-  try {
-    const json = await res.json()
-    return json
-  } catch (error) {
-    return res
-  }
+  const res = await request(url, options)
+  return res.json()
 }
 
 const requestXML = async (url: string, options: RequestOptions) => {
