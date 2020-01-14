@@ -3,15 +3,19 @@ import ServerConnection from './server-connection'
 import { RequestOptions } from './utils/request'
 import { Params, withParams, withContainerParams } from './utils/params'
 
-import { parseSectionContainer } from './types/section'
-import { parseAlbumContainer } from './types/album'
-import { parseArtistContainer } from './types/artist'
-import { Track, parseTrackContainer } from './types/track'
-import { parsePlayQueue } from './types/play-queue'
-import { parsePlaylist, parsePlaylistContainer } from './types/playlist'
+import { CountryRecord, parseCountryRecord } from './types/country'
+import { GenreRecord, parseGenreRecord } from './types/genre'
+import { TrackContainer, Track, parseTrackContainer } from './types/track'
+import { AlbumContainer, parseAlbumContainer } from './types/album'
+import { ArtistContainer, parseArtistContainer } from './types/artist'
 import { parseHubContainer } from './types/hub'
-import { parseCountryContainer } from './types/country'
-import { parseGenreContainer } from './types/genre'
+import { parsePlayQueue } from './types/play-queue'
+import {
+  PlaylistContainer,
+  parsePlaylist,
+  parsePlaylistContainer,
+} from './types/playlist'
+import { parseSectionContainer } from './types/section'
 
 // plex media types-- https://github.com/Arcanemagus/plex-api/wiki/MediaTypes
 export enum MediaType {
@@ -29,16 +33,29 @@ export enum MediaType {
  * @returns {Object}
  */
 
-export function parseType (type: MediaType, data: Record<string, any>) {
+type ReturnType<T> = T extends MediaType.ARTIST
+  ? ArtistContainer
+  : T extends MediaType.ALBUM
+    ? AlbumContainer
+    : T extends MediaType.TRACK
+      ? TrackContainer
+      : T extends MediaType.PLAYLIST
+        ? PlaylistContainer
+        : never
+
+export function parseType<T extends MediaType> (
+  type: T,
+  data: Record<string, any>,
+): ReturnType<T> {
   switch (type) {
     case MediaType.ARTIST:
-      return parseArtistContainer(data)
+      return parseArtistContainer(data) as ReturnType<T>
     case MediaType.ALBUM:
-      return parseAlbumContainer(data)
+      return parseAlbumContainer(data) as ReturnType<T>
     case MediaType.TRACK:
-      return parseTrackContainer(data)
+      return parseTrackContainer(data) as ReturnType<T>
     case MediaType.PLAYLIST:
-      return parsePlaylistContainer(data)
+      return parsePlaylistContainer(data) as ReturnType<T>
     default:
       throw new Error(`Unknown MediaType: ${type}`)
   }
@@ -119,7 +136,11 @@ export default class Library {
    * @returns {Promise}
    */
 
-  async sectionItems (sectionId: number, type: MediaType, params: Params = {}) {
+  async sectionItems<T extends MediaType> (
+    sectionId: number,
+    type: T,
+    params: Params = {},
+  ): Promise<ReturnType<T>> {
     const path = `/library/sections/${sectionId}/all`
     const res = await this.fetch(path, {
       params: {
@@ -127,7 +148,7 @@ export default class Library {
         type,
       },
     })
-    return parseType(type, res)
+    return parseType<T>(type, res) as ReturnType<T>
   }
 
   /**
@@ -154,10 +175,14 @@ export default class Library {
    * @returns {Promise}
    */
 
-  async metadata (id: number, type: MediaType, params: Params = {}) {
+  async metadata<T extends MediaType> (
+    id: number,
+    type: T,
+    params: Params = {},
+  ): Promise<ReturnType<T>> {
     const path = `/library/metadata/${id}`
     const res = await this.fetch(path, { params })
-    return parseType(type, res)
+    return parseType<T>(type, res)
   }
 
   /**
@@ -169,30 +194,34 @@ export default class Library {
    * @returns {Promise}
    */
 
-  async metadataChildren (id: number, type: MediaType, params: Params = {}) {
+  async metadataChildren<T extends MediaType> (
+    id: number,
+    type: T,
+    params: Params = {},
+  ): Promise<ReturnType<T>> {
     const path = `/library/metadata/${id}/children`
     const res = await this.fetch(path, { params })
-    return parseType(type, res)
+    return parseType<T>(type, res)
   }
 
   // ==========================================================================
   // COUNTRIES
   // ==========================================================================
 
-  async countries (sectionId: number) {
+  async countries (sectionId: number): Promise<CountryRecord> {
     const path = `/library/sections/${sectionId}/country`
     const res = await this.fetch(path)
-    return parseCountryContainer(res)
+    return parseCountryRecord(res)
   }
 
   // ==========================================================================
   // GENRES
   // ==========================================================================
 
-  async genres (sectionId: number) {
+  async genres (sectionId: number): Promise<GenreRecord> {
     const path = `/library/sections/${sectionId}/genre`
     const res = await this.fetch(path)
-    return parseGenreContainer(res)
+    return parseGenreRecord(res)
   }
 
   // ==========================================================================
@@ -206,7 +235,10 @@ export default class Library {
    * @param {Object} [params={}]
    */
 
-  async tracks (sectionId: number, params: Params = {}) {
+  async tracks (
+    sectionId: number,
+    params: Params = {},
+  ): Promise<TrackContainer> {
     const tracks = await this.sectionItems(sectionId, MediaType.TRACK, params)
     return tracks
   }
@@ -218,7 +250,7 @@ export default class Library {
    * @returns {Promise}
    */
 
-  async track (trackId: number) {
+  async track (trackId: number): Promise<TrackContainer> {
     const track = await this.metadata(trackId, MediaType.TRACK)
     return track
   }
@@ -235,7 +267,10 @@ export default class Library {
    * @returns {Promise}
    */
 
-  async albums (sectionId: number, params: Params = {}) {
+  async albums (
+    sectionId: number,
+    params: Params = {},
+  ): Promise<AlbumContainer> {
     const albums = await this.sectionItems(sectionId, MediaType.ALBUM, params)
     return albums
   }
@@ -247,7 +282,7 @@ export default class Library {
    * @returns {Promise}
    */
 
-  async album (albumId: number) {
+  async album (albumId: number): Promise<AlbumContainer> {
     const album = await this.metadata(albumId, MediaType.ALBUM)
     return album
   }
@@ -261,7 +296,10 @@ export default class Library {
    * @returns {Promise}
    */
 
-  async albumTracks (albumId: number, params: Params = {}) {
+  async albumTracks (
+    albumId: number,
+    params: Params = {},
+  ): Promise<TrackContainer> {
     const albumTracks = await this.metadataChildren(
       albumId,
       MediaType.TRACK,
@@ -281,7 +319,10 @@ export default class Library {
    * @param {Object} [params={}]
    */
 
-  async artists (sectionId: number, params: Params = {}) {
+  async artists (
+    sectionId: number,
+    params: Params = {},
+  ): Promise<ArtistContainer> {
     const artists = await this.sectionItems(sectionId, MediaType.ARTIST, params)
     return artists
   }

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>perplexed - v5.7.0 | perplexed - v5.7.0</title>
+	<title>perplexed - v5.9.0 | perplexed - v5.9.0</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">/*! normalize.css v1.1.3 | MIT License | git.io/normalize */
@@ -2335,7 +2335,7 @@ img {
 		<div class="container">
 			<div class="table-wrap">
 				<div class="table-cell">
-					<strong><a href="index.html">perplexed - v5.7.0</a></strong>
+					<strong><a href="index.html">perplexed - v5.9.0</a></strong>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -2363,6 +2363,9 @@ img {
 </header>
 <nav class="tsd-navigation secondary">
 	<ul>
+		<li class=" tsd-kind-enum">
+			<a href="enums/mediatype.html" class="tsd-kind-icon">Media<wbr>Type</a>
+		</li>
 		<li class=" tsd-kind-class">
 			<a href="classes/account.html" class="tsd-kind-icon">Account</a>
 		</li>
@@ -2478,13 +2481,16 @@ img {
 			<a href="interfaces/usersubscription.html" class="tsd-kind-icon">User<wbr>Subscription</a>
 		</li>
 		<li class=" tsd-kind-type-alias">
+			<a href="globals.html#countryrecord" class="tsd-kind-icon">Country<wbr>Record</a>
+		</li>
+		<li class=" tsd-kind-type-alias">
+			<a href="globals.html#genrerecord" class="tsd-kind-icon">Genre<wbr>Record</a>
+		</li>
+		<li class=" tsd-kind-type-alias tsd-has-type-parameter">
+			<a href="globals.html#returntype" class="tsd-kind-icon">Return<wbr>Type</a>
+		</li>
+		<li class=" tsd-kind-type-alias">
 			<a href="globals.html#value" class="tsd-kind-icon">Value</a>
-		</li>
-		<li class=" tsd-kind-variable">
-			<a href="globals.html#album" class="tsd-kind-icon">ALBUM</a>
-		</li>
-		<li class=" tsd-kind-variable">
-			<a href="globals.html#artist" class="tsd-kind-icon">ARTIST</a>
 		</li>
 		<li class=" tsd-kind-variable">
 			<a href="globals.html#days" class="tsd-kind-icon">DAYS</a>
@@ -2499,9 +2505,6 @@ img {
 			<a href="globals.html#months" class="tsd-kind-icon">MONTHS</a>
 		</li>
 		<li class=" tsd-kind-variable">
-			<a href="globals.html#playlist" class="tsd-kind-icon">PLAYLIST</a>
-		</li>
-		<li class=" tsd-kind-variable">
 			<a href="globals.html#playlist_type_music" class="tsd-kind-icon">PLAYLIST_<wbr>TYPE_<wbr>MUSIC</a>
 		</li>
 		<li class=" tsd-kind-variable">
@@ -2512,9 +2515,6 @@ img {
 		</li>
 		<li class=" tsd-kind-variable">
 			<a href="globals.html#plex_api" class="tsd-kind-icon">PLEX_<wbr>API</a>
-		</li>
-		<li class=" tsd-kind-variable">
-			<a href="globals.html#queue" class="tsd-kind-icon">QUEUE</a>
 		</li>
 		<li class=" tsd-kind-variable">
 			<a href="globals.html#seconds" class="tsd-kind-icon">SECONDS</a>
@@ -2607,9 +2607,6 @@ img {
 			<a href="globals.html#sort_tracks_by_year" class="tsd-kind-icon">SORT_<wbr>TRACKS_<wbr>BY_<wbr>YEAR</a>
 		</li>
 		<li class=" tsd-kind-variable">
-			<a href="globals.html#track" class="tsd-kind-icon">TRACK</a>
-		</li>
-		<li class=" tsd-kind-variable">
 			<a href="globals.html#weeks" class="tsd-kind-icon">WEEKS</a>
 		</li>
 		<li class=" tsd-kind-variable">
@@ -2687,7 +2684,7 @@ img {
 		<li class=" tsd-kind-function tsd-has-type-parameter">
 			<a href="globals.html#normalizesync" class="tsd-kind-icon">normalize<wbr>Sync</a>
 		</li>
-		<li class=" tsd-kind-function">
+		<li class=" tsd-kind-function tsd-has-type-parameter">
 			<a href="globals.html#parsetype" class="tsd-kind-icon">parse<wbr>Type</a>
 		</li>
 		<li class=" tsd-kind-function">
@@ -2765,6 +2762,12 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 			<section class="tsd-panel tsd-index-panel">
 				<div class="tsd-index-content">
 					<section class="tsd-index-section ">
+						<h3>Enumerations</h3>
+						<ul class="tsd-index-list">
+							<li class="tsd-kind-enum"><a href="enums/mediatype.html" class="tsd-kind-icon">Media<wbr>Type</a></li>
+						</ul>
+					</section>
+					<section class="tsd-index-section ">
 						<h3>Classes</h3>
 						<ul class="tsd-index-list">
 							<li class="tsd-kind-class"><a href="classes/account.html" class="tsd-kind-icon">Account</a></li>
@@ -2815,24 +2818,23 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<section class="tsd-index-section ">
 						<h3>Type aliases</h3>
 						<ul class="tsd-index-list">
+							<li class="tsd-kind-type-alias"><a href="globals.html#countryrecord" class="tsd-kind-icon">Country<wbr>Record</a></li>
+							<li class="tsd-kind-type-alias"><a href="globals.html#genrerecord" class="tsd-kind-icon">Genre<wbr>Record</a></li>
+							<li class="tsd-kind-type-alias tsd-has-type-parameter"><a href="globals.html#returntype" class="tsd-kind-icon">Return<wbr>Type</a></li>
 							<li class="tsd-kind-type-alias"><a href="globals.html#value" class="tsd-kind-icon">Value</a></li>
 						</ul>
 					</section>
 					<section class="tsd-index-section ">
 						<h3>Variables</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-variable"><a href="globals.html#album" class="tsd-kind-icon">ALBUM</a></li>
-							<li class="tsd-kind-variable"><a href="globals.html#artist" class="tsd-kind-icon">ARTIST</a></li>
 							<li class="tsd-kind-variable"><a href="globals.html#days" class="tsd-kind-icon">DAYS</a></li>
 							<li class="tsd-kind-variable"><a href="globals.html#hours" class="tsd-kind-icon">HOURS</a></li>
 							<li class="tsd-kind-variable"><a href="globals.html#minutes" class="tsd-kind-icon">MINUTES</a></li>
 							<li class="tsd-kind-variable"><a href="globals.html#months" class="tsd-kind-icon">MONTHS</a></li>
-							<li class="tsd-kind-variable"><a href="globals.html#playlist" class="tsd-kind-icon">PLAYLIST</a></li>
 							<li class="tsd-kind-variable"><a href="globals.html#playlist_type_music" class="tsd-kind-icon">PLAYLIST_<wbr>TYPE_<wbr>MUSIC</a></li>
 							<li class="tsd-kind-variable"><a href="globals.html#playlist_type_photo" class="tsd-kind-icon">PLAYLIST_<wbr>TYPE_<wbr>PHOTO</a></li>
 							<li class="tsd-kind-variable"><a href="globals.html#playlist_type_video" class="tsd-kind-icon">PLAYLIST_<wbr>TYPE_<wbr>VIDEO</a></li>
 							<li class="tsd-kind-variable"><a href="globals.html#plex_api" class="tsd-kind-icon">PLEX_<wbr>API</a></li>
-							<li class="tsd-kind-variable"><a href="globals.html#queue" class="tsd-kind-icon">QUEUE</a></li>
 							<li class="tsd-kind-variable"><a href="globals.html#seconds" class="tsd-kind-icon">SECONDS</a></li>
 							<li class="tsd-kind-variable"><a href="globals.html#sort_albums_by_album_artist" class="tsd-kind-icon">SORT_<wbr>ALBUMS_<wbr>BY_<wbr>ALBUM_<wbr>ARTIST</a></li>
 							<li class="tsd-kind-variable"><a href="globals.html#sort_albums_by_date_added" class="tsd-kind-icon">SORT_<wbr>ALBUMS_<wbr>BY_<wbr>DATE_<wbr>ADDED</a></li>
@@ -2863,7 +2865,6 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 							<li class="tsd-kind-variable"><a href="globals.html#sort_tracks_by_rating" class="tsd-kind-icon">SORT_<wbr>TRACKS_<wbr>BY_<wbr>RATING</a></li>
 							<li class="tsd-kind-variable"><a href="globals.html#sort_tracks_by_title" class="tsd-kind-icon">SORT_<wbr>TRACKS_<wbr>BY_<wbr>TITLE</a></li>
 							<li class="tsd-kind-variable"><a href="globals.html#sort_tracks_by_year" class="tsd-kind-icon">SORT_<wbr>TRACKS_<wbr>BY_<wbr>YEAR</a></li>
-							<li class="tsd-kind-variable"><a href="globals.html#track" class="tsd-kind-icon">TRACK</a></li>
 							<li class="tsd-kind-variable"><a href="globals.html#weeks" class="tsd-kind-icon">WEEKS</a></li>
 							<li class="tsd-kind-variable"><a href="globals.html#years" class="tsd-kind-icon">YEARS</a></li>
 							<li class="tsd-kind-variable"><a href="globals.html#albumcollection" class="tsd-kind-icon">album<wbr>Collection</a></li>
@@ -2895,7 +2896,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 							<li class="tsd-kind-function"><a href="globals.html#limit" class="tsd-kind-icon">limit</a></li>
 							<li class="tsd-kind-function tsd-has-type-parameter"><a href="globals.html#normalize" class="tsd-kind-icon">normalize</a></li>
 							<li class="tsd-kind-function tsd-has-type-parameter"><a href="globals.html#normalizesync" class="tsd-kind-icon">normalize<wbr>Sync</a></li>
-							<li class="tsd-kind-function"><a href="globals.html#parsetype" class="tsd-kind-icon">parse<wbr>Type</a></li>
+							<li class="tsd-kind-function tsd-has-type-parameter"><a href="globals.html#parsetype" class="tsd-kind-icon">parse<wbr>Type</a></li>
 							<li class="tsd-kind-function"><a href="globals.html#serialize" class="tsd-kind-icon">serialize</a></li>
 							<li class="tsd-kind-function"><a href="globals.html#sort" class="tsd-kind-icon">sort</a></li>
 						</ul>
@@ -2913,12 +2914,63 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Type aliases</h2>
 			<section class="tsd-panel tsd-member tsd-kind-type-alias">
+				<a name="countryrecord" class="tsd-anchor"></a>
+				<h3>Country<wbr>Record</h3>
+				<div class="tsd-signature tsd-kind-icon">Country<wbr>Record<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/types/country.ts#L22">types/country.ts:22</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-type-alias">
+				<a name="genrerecord" class="tsd-anchor"></a>
+				<h3>Genre<wbr>Record</h3>
+				<div class="tsd-signature tsd-kind-icon">Genre<wbr>Record<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/types/genre.ts#L22">types/genre.ts:22</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-has-type-parameter">
+				<a name="returntype" class="tsd-anchor"></a>
+				<h3>Return<wbr>Type</h3>
+				<div class="tsd-signature tsd-kind-icon">Return<wbr>Type&lt;T&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T extends ARTIST ? ArtistContainer : T extends ALBUM ? AlbumContainer : T extends TRACK ? TrackContainer : T extends PLAYLIST ? PlaylistContainer : never</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/library.ts#L36">library.ts:36</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Parse a plex response based on the data type</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>param</dt>
+						<dd><p>data type</p>
+						</dd>
+						<dt>param</dt>
+						<dd><p>response from plex api</p>
+						</dd>
+						<dt>returns</dt>
+						<dd></dd>
+					</dl>
+				</div>
+				<h4 class="tsd-type-parameters-title">Type parameters</h4>
+				<ul class="tsd-type-parameters">
+					<li>
+						<h4>T</h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-type-alias">
 				<a name="value" class="tsd-anchor"></a>
 				<h3>Value</h3>
 				<div class="tsd-signature tsd-kind-icon">Value<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L9">filter.ts:9</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L9">filter.ts:9</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -2926,32 +2978,12 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Variables</h2>
 			<section class="tsd-panel tsd-member tsd-kind-variable">
-				<a name="album" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagConst">Const</span> ALBUM</h3>
-				<div class="tsd-signature tsd-kind-icon">ALBUM<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">9</span><span class="tsd-signature-symbol"> =&nbsp;9</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/library.ts#L18">library.ts:18</a></li>
-					</ul>
-				</aside>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-variable">
-				<a name="artist" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagConst">Const</span> ARTIST</h3>
-				<div class="tsd-signature tsd-kind-icon">ARTIST<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">8</span><span class="tsd-signature-symbol"> =&nbsp;8</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/library.ts#L17">library.ts:17</a></li>
-					</ul>
-				</aside>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-variable">
 				<a name="days" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagConst">Const</span> DAYS</h3>
 				<div class="tsd-signature tsd-kind-icon">DAYS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"d"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;d&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L4">filter.ts:4</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L4">filter.ts:4</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -2961,7 +2993,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">HOURS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"h"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;h&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L3">filter.ts:3</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L3">filter.ts:3</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -2971,7 +3003,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">MINUTES<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"m"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;m&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L2">filter.ts:2</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L2">filter.ts:2</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -2981,17 +3013,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">MONTHS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"mon"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;mon&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L6">filter.ts:6</a></li>
-					</ul>
-				</aside>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-variable">
-				<a name="playlist" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagConst">Const</span> PLAYLIST</h3>
-				<div class="tsd-signature tsd-kind-icon">PLAYLIST<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">15</span><span class="tsd-signature-symbol"> =&nbsp;15</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/library.ts#L20">library.ts:20</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L6">filter.ts:6</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3001,7 +3023,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">PLAYLIST_<wbr>TYPE_<wbr>MUSIC<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"audio"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;audio&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L85">index.ts:85</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L78">index.ts:78</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3011,7 +3033,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">PLAYLIST_<wbr>TYPE_<wbr>PHOTO<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"photo"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;photo&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L86">index.ts:86</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L79">index.ts:79</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3021,7 +3043,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">PLAYLIST_<wbr>TYPE_<wbr>VIDEO<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"video"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;video&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L87">index.ts:87</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L80">index.ts:80</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3031,17 +3053,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">PLEX_<wbr>API<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"https://plex.tv"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;https://plex.tv&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/account.ts#L10">account.ts:10</a></li>
-					</ul>
-				</aside>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-variable">
-				<a name="queue" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagConst">Const</span> QUEUE</h3>
-				<div class="tsd-signature tsd-kind-icon">QUEUE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">501</span><span class="tsd-signature-symbol"> =&nbsp;501</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/library.ts#L23">library.ts:23</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/account.ts#L10">account.ts:10</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3051,7 +3063,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SECONDS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"s"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;s&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L1">filter.ts:1</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L1">filter.ts:1</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3061,7 +3073,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>ALBUMS_<wbr>BY_<wbr>ALBUM_<wbr>ARTIST<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;artist.titleSort,album.year&#x27;,&#x27;artist.titleSort:desc,album.year&#x27;,)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L50">index.ts:50</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L43">index.ts:43</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3071,7 +3083,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>ALBUMS_<wbr>BY_<wbr>DATE_<wbr>ADDED<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;addedAt&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L57">index.ts:57</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L50">index.ts:50</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3081,7 +3093,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>ALBUMS_<wbr>BY_<wbr>DATE_<wbr>PLAYED<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;lastViewedAt&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L58">index.ts:58</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L51">index.ts:51</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3091,7 +3103,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>ALBUMS_<wbr>BY_<wbr>RATING<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;userRating&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L56">index.ts:56</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L49">index.ts:49</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3101,7 +3113,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>ALBUMS_<wbr>BY_<wbr>RELEASE_<wbr>DATE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;originallyAvailableAt&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L55">index.ts:55</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L48">index.ts:48</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3111,7 +3123,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>ALBUMS_<wbr>BY_<wbr>TITLE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;titleSort&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L49">index.ts:49</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L42">index.ts:42</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3121,7 +3133,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>ALBUMS_<wbr>BY_<wbr>VIEWS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;viewCount&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L59">index.ts:59</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L52">index.ts:52</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3131,7 +3143,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>ALBUMS_<wbr>BY_<wbr>YEAR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;year&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L54">index.ts:54</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L47">index.ts:47</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3141,7 +3153,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>ARTISTS_<wbr>BY_<wbr>DATE_<wbr>ADDED<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;addedAt&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L45">index.ts:45</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L38">index.ts:38</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3151,7 +3163,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>ARTISTS_<wbr>BY_<wbr>DATE_<wbr>PLAYED<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;lastViewedAt&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L46">index.ts:46</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L39">index.ts:39</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3161,7 +3173,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>ARTISTS_<wbr>BY_<wbr>PLAYS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;viewCount&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L47">index.ts:47</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L40">index.ts:40</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3171,7 +3183,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>ARTISTS_<wbr>BY_<wbr>TITLE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;titleSort&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L44">index.ts:44</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L37">index.ts:37</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3181,7 +3193,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>PLAYLISTS_<wbr>BY_<wbr>DATE_<wbr>ADDED<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;addedAt&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L65">index.ts:65</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L58">index.ts:58</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3191,7 +3203,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>PLAYLISTS_<wbr>BY_<wbr>DURATION<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;duration&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L64">index.ts:64</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L57">index.ts:57</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3201,7 +3213,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>PLAYLISTS_<wbr>BY_<wbr>ITEM_<wbr>COUNT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;mediaCount&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L66">index.ts:66</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L59">index.ts:59</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3211,7 +3223,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>PLAYLISTS_<wbr>BY_<wbr>LAST_<wbr>PLAYED<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;lastViewedAt&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L63">index.ts:63</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L56">index.ts:56</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3221,7 +3233,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>PLAYLISTS_<wbr>BY_<wbr>NAME<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;titleSort&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L61">index.ts:61</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L54">index.ts:54</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3231,7 +3243,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>PLAYLISTS_<wbr>BY_<wbr>PLAYS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;viewCount&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L62">index.ts:62</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L55">index.ts:55</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3241,7 +3253,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>TRACKS_<wbr>BY_<wbr>ALBUM<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;album.titleSort,track.index&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L75">index.ts:75</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L68">index.ts:68</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3251,7 +3263,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>TRACKS_<wbr>BY_<wbr>ALBUM_<wbr>ARTIST<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;artist.titleSort,album.titleSort,track.index&#x27;,)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L69">index.ts:69</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L62">index.ts:62</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3261,7 +3273,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>TRACKS_<wbr>BY_<wbr>ARTIST<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;track.originalTitle,album.titleSort,track.index&#x27;,)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L72">index.ts:72</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L65">index.ts:65</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3271,7 +3283,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>TRACKS_<wbr>BY_<wbr>BITRATE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;mediaBitrate&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L81">index.ts:81</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L74">index.ts:74</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3281,7 +3293,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>TRACKS_<wbr>BY_<wbr>DATE_<wbr>ADDED<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;addedAt&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L80">index.ts:80</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L73">index.ts:73</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3291,7 +3303,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>TRACKS_<wbr>BY_<wbr>DURATION<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;duration&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L78">index.ts:78</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L71">index.ts:71</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3301,7 +3313,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>TRACKS_<wbr>BY_<wbr>PLAYS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;viewCount&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L79">index.ts:79</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L72">index.ts:72</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3311,7 +3323,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>TRACKS_<wbr>BY_<wbr>POPULARITY<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;ratingCount&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L82">index.ts:82</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L75">index.ts:75</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3321,7 +3333,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>TRACKS_<wbr>BY_<wbr>RATING<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;userRating&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L77">index.ts:77</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L70">index.ts:70</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3331,7 +3343,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>TRACKS_<wbr>BY_<wbr>TITLE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;titleSort&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L68">index.ts:68</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L61">index.ts:61</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3341,17 +3353,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">SORT_<wbr>TRACKS_<wbr>BY_<wbr>YEAR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;sort(&#x27;year&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L76">index.ts:76</a></li>
-					</ul>
-				</aside>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-variable">
-				<a name="track" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagConst">Const</span> TRACK</h3>
-				<div class="tsd-signature tsd-kind-icon">TRACK<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">10</span><span class="tsd-signature-symbol"> =&nbsp;10</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/library.ts#L19">library.ts:19</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L69">index.ts:69</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3361,7 +3363,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">WEEKS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"w"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;w&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L5">filter.ts:5</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L5">filter.ts:5</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3371,7 +3373,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">YEARS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"y"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;y&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L7">filter.ts:7</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L7">filter.ts:7</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3381,7 +3383,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">album<wbr>Collection<span class="tsd-signature-symbol">:</span> <a href="classes/filtervalue.html" class="tsd-signature-type">FilterValue</a><span class="tsd-signature-symbol"> =&nbsp;new FilterValue(&#x27;album.collection&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L161">filter.ts:161</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L161">filter.ts:161</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3391,7 +3393,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">album<wbr>Decade<span class="tsd-signature-symbol">:</span> <a href="classes/filternumber.html" class="tsd-signature-type">FilterNumber</a><span class="tsd-signature-symbol"> =&nbsp;new FilterNumber(&#x27;album.decade&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L160">filter.ts:160</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L160">filter.ts:160</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3401,7 +3403,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">album<wbr>Genre<span class="tsd-signature-symbol">:</span> <a href="classes/filterreference.html" class="tsd-signature-type">FilterReference</a><span class="tsd-signature-symbol"> =&nbsp;new FilterReference(&#x27;album.genre&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L156">filter.ts:156</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L156">filter.ts:156</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3411,7 +3413,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">album<wbr>Last<wbr>Played<span class="tsd-signature-symbol">:</span> <a href="classes/filterdate.html" class="tsd-signature-type">FilterDate</a><span class="tsd-signature-symbol"> =&nbsp;new FilterDate(&#x27;album.lastViewdAt&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L158">filter.ts:158</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L158">filter.ts:158</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3421,7 +3423,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">album<wbr>Plays<span class="tsd-signature-symbol">:</span> <a href="classes/filternumber.html" class="tsd-signature-type">FilterNumber</a><span class="tsd-signature-symbol"> =&nbsp;new FilterNumber(&#x27;album.viewCount&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L157">filter.ts:157</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L157">filter.ts:157</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3431,7 +3433,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">album<wbr>Rating<span class="tsd-signature-symbol">:</span> <a href="classes/filternumber.html" class="tsd-signature-type">FilterNumber</a><span class="tsd-signature-symbol"> =&nbsp;new FilterNumber(&#x27;album.userRating&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L159">filter.ts:159</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L159">filter.ts:159</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3441,7 +3443,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">album<wbr>Title<span class="tsd-signature-symbol">:</span> <a href="classes/filterstring.html" class="tsd-signature-type">FilterString</a><span class="tsd-signature-symbol"> =&nbsp;new FilterString(&#x27;album.title&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L154">filter.ts:154</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L154">filter.ts:154</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3451,7 +3453,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">artist<wbr>Collection<span class="tsd-signature-symbol">:</span> <a href="classes/filtervalue.html" class="tsd-signature-type">FilterValue</a><span class="tsd-signature-symbol"> =&nbsp;new FilterValue(&#x27;artist.collection&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L150">filter.ts:150</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L150">filter.ts:150</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3461,7 +3463,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">artist<wbr>Country<span class="tsd-signature-symbol">:</span> <a href="classes/filterreference.html" class="tsd-signature-type">FilterReference</a><span class="tsd-signature-symbol"> =&nbsp;new FilterReference(&#x27;artist.country&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L151">filter.ts:151</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L151">filter.ts:151</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3471,7 +3473,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">artist<wbr>Genre<span class="tsd-signature-symbol">:</span> <a href="classes/filterreference.html" class="tsd-signature-type">FilterReference</a><span class="tsd-signature-symbol"> =&nbsp;new FilterReference(&#x27;artist.genre&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L149">filter.ts:149</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L149">filter.ts:149</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3481,7 +3483,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">artist<wbr>Rating<span class="tsd-signature-symbol">:</span> <a href="classes/filternumber.html" class="tsd-signature-type">FilterNumber</a><span class="tsd-signature-symbol"> =&nbsp;new FilterNumber(&#x27;artist.userRating&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L148">filter.ts:148</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L148">filter.ts:148</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3491,7 +3493,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">artist<wbr>Title<span class="tsd-signature-symbol">:</span> <a href="classes/filterstring.html" class="tsd-signature-type">FilterString</a><span class="tsd-signature-symbol"> =&nbsp;new FilterString(&#x27;artist.title&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L147">filter.ts:147</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L147">filter.ts:147</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3501,7 +3503,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">date<wbr>Album<wbr>Added<span class="tsd-signature-symbol">:</span> <a href="classes/filterdate.html" class="tsd-signature-type">FilterDate</a><span class="tsd-signature-symbol"> =&nbsp;new FilterDate(&#x27;album.addedAt&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L162">filter.ts:162</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L162">filter.ts:162</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3511,7 +3513,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">date<wbr>Artist<wbr>Added<span class="tsd-signature-symbol">:</span> <a href="classes/filterdate.html" class="tsd-signature-type">FilterDate</a><span class="tsd-signature-symbol"> =&nbsp;new FilterDate(&#x27;artist.addedAt&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L152">filter.ts:152</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L152">filter.ts:152</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3521,7 +3523,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">track<wbr>Last<wbr>Played<span class="tsd-signature-symbol">:</span> <a href="classes/filterdate.html" class="tsd-signature-type">FilterDate</a><span class="tsd-signature-symbol"> =&nbsp;new FilterDate(&#x27;track.viewCount&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L166">filter.ts:166</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L166">filter.ts:166</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3531,7 +3533,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">track<wbr>Last<wbr>Skipped<span class="tsd-signature-symbol">:</span> <a href="classes/filterdate.html" class="tsd-signature-type">FilterDate</a><span class="tsd-signature-symbol"> =&nbsp;new FilterDate(&#x27;track.lastSkippedAt&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L168">filter.ts:168</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L168">filter.ts:168</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3541,7 +3543,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">track<wbr>Plays<span class="tsd-signature-symbol">:</span> <a href="classes/filternumber.html" class="tsd-signature-type">FilterNumber</a><span class="tsd-signature-symbol"> =&nbsp;new FilterNumber(&#x27;track.viewCount&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L165">filter.ts:165</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L165">filter.ts:165</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3551,7 +3553,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">track<wbr>Rating<span class="tsd-signature-symbol">:</span> <a href="classes/filternumber.html" class="tsd-signature-type">FilterNumber</a><span class="tsd-signature-symbol"> =&nbsp;new FilterNumber(&#x27;track.userRating&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L169">filter.ts:169</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L169">filter.ts:169</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3561,7 +3563,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">track<wbr>Skips<span class="tsd-signature-symbol">:</span> <a href="classes/filternumber.html" class="tsd-signature-type">FilterNumber</a><span class="tsd-signature-symbol"> =&nbsp;new FilterNumber(&#x27;track.skipCount&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L167">filter.ts:167</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L167">filter.ts:167</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3571,7 +3573,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">track<wbr>Title<span class="tsd-signature-symbol">:</span> <a href="classes/filterstring.html" class="tsd-signature-type">FilterString</a><span class="tsd-signature-symbol"> =&nbsp;new FilterString(&#x27;track.title&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L164">filter.ts:164</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L164">filter.ts:164</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3581,7 +3583,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">year<span class="tsd-signature-symbol">:</span> <a href="classes/filternumber.html" class="tsd-signature-type">FilterNumber</a><span class="tsd-signature-symbol"> =&nbsp;new FilterNumber(&#x27;album.year&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L155">filter.ts:155</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L155">filter.ts:155</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3598,7 +3600,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L207">filter.ts:207</a></li>
+								<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L207">filter.ts:207</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-parameters-title">Parameters</h4>
@@ -3626,7 +3628,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/normalize.ts#L98">normalize.ts:98</a></li>
+								<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/normalize.ts#L98">normalize.ts:98</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -3655,7 +3657,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/normalize.ts#L85">normalize.ts:85</a></li>
+								<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/normalize.ts#L85">normalize.ts:85</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -3674,42 +3676,35 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					</li>
 				</ul>
 			</section>
-			<section class="tsd-panel tsd-member tsd-kind-function">
+			<section class="tsd-panel tsd-member tsd-kind-function tsd-has-type-parameter">
 				<a name="parsetype" class="tsd-anchor"></a>
 				<h3>parse<wbr>Type</h3>
-				<ul class="tsd-signatures tsd-kind-function">
-					<li class="tsd-signature tsd-kind-icon">parse<wbr>Type<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span></li>
+				<ul class="tsd-signatures tsd-kind-function tsd-has-type-parameter">
+					<li class="tsd-signature tsd-kind-icon">parse<wbr>Type&lt;T&gt;<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span>, data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="globals.html#returntype" class="tsd-signature-type">ReturnType</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
 				</ul>
 				<ul class="tsd-descriptions">
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/library.ts#L33">library.ts:33</a></li>
+								<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/library.ts#L46">library.ts:46</a></li>
 							</ul>
 						</aside>
-						<div class="tsd-comment tsd-typography">
-							<div class="lead">
-								<p>Parse a plex response based on the data type</p>
-							</div>
-						</div>
+						<h4 class="tsd-type-parameters-title">Type parameters</h4>
+						<ul class="tsd-type-parameters">
+							<li>
+								<h4>T<span class="tsd-signature-symbol">: </span><a href="enums/mediatype.html" class="tsd-signature-type">MediaType</a></h4>
+							</li>
+						</ul>
 						<h4 class="tsd-parameters-title">Parameters</h4>
 						<ul class="tsd-parameters">
 							<li>
-								<h5>type: <span class="tsd-signature-type">number</span></h5>
-								<div class="tsd-comment tsd-typography">
-									<p>data type</p>
-								</div>
+								<h5>type: <span class="tsd-signature-type">T</span></h5>
 							</li>
 							<li>
 								<h5>data: <span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h5>
-								<div class="tsd-comment tsd-typography">
-									<p>response from plex api</p>
-								</div>
 							</li>
 						</ul>
-						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">object</span></h4>
-						<ul class="tsd-parameters">
-						</ul>
+						<h4 class="tsd-returns-title">Returns <a href="globals.html#returntype" class="tsd-signature-type">ReturnType</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
 					</li>
 				</ul>
 			</section>
@@ -3723,7 +3718,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L11">filter.ts:11</a></li>
+								<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L11">filter.ts:11</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-parameters-title">Parameters</h4>
@@ -3746,7 +3741,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/index.ts#L41">index.ts:41</a></li>
+								<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/index.ts#L34">index.ts:34</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-parameters-title">Parameters</h4>
@@ -3771,7 +3766,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">available<wbr>Date<wbr>Units<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L197">filter.ts:197</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L197">filter.ts:197</a></li>
 					</ul>
 				</aside>
 				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
@@ -3780,13 +3775,13 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">__computed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Years&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L198">filter.ts:198</a></li>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L199">filter.ts:199</a></li>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L200">filter.ts:200</a></li>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L201">filter.ts:201</a></li>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L202">filter.ts:202</a></li>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L203">filter.ts:203</a></li>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L204">filter.ts:204</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L198">filter.ts:198</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L199">filter.ts:199</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L200">filter.ts:200</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L201">filter.ts:201</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L202">filter.ts:202</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L203">filter.ts:203</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L204">filter.ts:204</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3797,7 +3792,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 				<div class="tsd-signature tsd-kind-icon">available<wbr>Track<wbr>Options<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L171">filter.ts:171</a></li>
+						<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L171">filter.ts:171</a></li>
 					</ul>
 				</aside>
 				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
@@ -3806,7 +3801,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">album<wbr>Collection<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Album Collection&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L186">filter.ts:186</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L186">filter.ts:186</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3816,7 +3811,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">album<wbr>Decade<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Album Decade&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L185">filter.ts:185</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L185">filter.ts:185</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3826,7 +3821,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">album<wbr>Genre<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Album Genre&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L181">filter.ts:181</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L181">filter.ts:181</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3836,7 +3831,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">album<wbr>Last<wbr>Played<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Album Last Played&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L183">filter.ts:183</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L183">filter.ts:183</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3846,7 +3841,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">album<wbr>Plays<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Album Plays&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L182">filter.ts:182</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L182">filter.ts:182</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3856,7 +3851,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">album<wbr>Rating<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Album Rating&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L184">filter.ts:184</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L184">filter.ts:184</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3866,7 +3861,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">album<wbr>Title<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Album Title&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L179">filter.ts:179</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L179">filter.ts:179</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3876,7 +3871,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">artist<wbr>Collection<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Artist Collection&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L175">filter.ts:175</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L175">filter.ts:175</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3886,7 +3881,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">artist<wbr>Country<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Artist Country&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L176">filter.ts:176</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L176">filter.ts:176</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3896,7 +3891,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">artist<wbr>Genre<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Artist Genre&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L174">filter.ts:174</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L174">filter.ts:174</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3906,7 +3901,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">artist<wbr>Rating<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Artist Rating&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L173">filter.ts:173</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L173">filter.ts:173</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3916,7 +3911,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">artist<wbr>Title<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Artist Title&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L172">filter.ts:172</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L172">filter.ts:172</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3926,7 +3921,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">date<wbr>Album<wbr>Added<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Date Album Added&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L187">filter.ts:187</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L187">filter.ts:187</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3936,7 +3931,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">date<wbr>Artist<wbr>Added<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Date Artist Added&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L177">filter.ts:177</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L177">filter.ts:177</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3946,7 +3941,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">track<wbr>Last<wbr>Played<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Track Last Played&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L191">filter.ts:191</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L191">filter.ts:191</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3956,7 +3951,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">track<wbr>Last<wbr>Skipped<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Track Last Skipped&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L193">filter.ts:193</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L193">filter.ts:193</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3966,7 +3961,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">track<wbr>Plays<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Track Plays&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L190">filter.ts:190</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L190">filter.ts:190</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3976,7 +3971,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">track<wbr>Rating<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Track Rating&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L194">filter.ts:194</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L194">filter.ts:194</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3986,7 +3981,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">track<wbr>Skips<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Track Skips&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L192">filter.ts:192</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L192">filter.ts:192</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3996,7 +3991,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">track<wbr>Title<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Track Title&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L189">filter.ts:189</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L189">filter.ts:189</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -4006,7 +4001,7 @@ library.playlists().then(<span class="hljs-function">(<span class="hljs-params">
 					<div class="tsd-signature tsd-kind-icon">year<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Year&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/2d2924a/src/filter.ts#L180">filter.ts:180</a></li>
+							<li>Defined in <a href="https://github.com/stayradiated/perplexed/blob/8f8f6a9/src/filter.ts#L180">filter.ts:180</a></li>
 						</ul>
 					</aside>
 				</section>

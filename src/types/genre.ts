@@ -19,10 +19,12 @@ const toGenre = ($data: Prism<any>): Genre => {
   }
 }
 
+export type GenreRecord = Record<string, number>
+
 /**
  * @ignore
  */
-const toGenreContainer = ($data: Prism<any>): Record<string, number> => {
+const toGenreRecord = ($data: Prism<any>): GenreRecord => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
   }
@@ -43,6 +45,6 @@ const toGenreContainer = ($data: Prism<any>): Record<string, number> => {
 /**
  * @ignore
  */
-const parseGenreContainer = createParser('genreContainer', toGenreContainer)
+const parseGenreRecord = createParser('genreRecord', toGenreRecord)
 
-export { toGenre, toGenreContainer, parseGenreContainer }
+export { toGenre, toGenreRecord, parseGenreRecord }

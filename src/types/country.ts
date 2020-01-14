@@ -19,10 +19,12 @@ const toCountry = ($data: Prism<any>): Country => {
   }
 }
 
+export type CountryRecord = Record<string, number>
+
 /**
  * @ignore
  */
-const toCountryContainer = ($data: Prism<any>): Record<string, number> => {
+const toCountryRecord = ($data: Prism<any>): CountryRecord => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
   }
@@ -43,9 +45,6 @@ const toCountryContainer = ($data: Prism<any>): Record<string, number> => {
 /**
  * @ignore
  */
-const parseCountryContainer = createParser(
-  'countryContainer',
-  toCountryContainer,
-)
+const parseCountryRecord = createParser('countryRecord', toCountryRecord)
 
-export { parseCountryContainer }
+export { parseCountryRecord }
