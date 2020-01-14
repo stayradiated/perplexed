@@ -6,11 +6,21 @@ import { createParser } from './parser'
 import { toMediaContainer } from './mediaContainer'
 import { toNumber } from './types'
 
+/**
+ * @ignore
+ */
 const sectionSchema = new schema.Entity('sections')
+
+/**
+ * @ignore
+ */
 const sectionContainerSchema = new schema.Object({
   sections: new schema.Array(sectionSchema),
 })
 
+/**
+ * @ignore
+ */
 const toSection = ($data: Prism<any>) => {
   return {
     _type: 'section',
@@ -34,6 +44,9 @@ const toSection = ($data: Prism<any>) => {
   }
 }
 
+/**
+ * @ignore
+ */
 const toSectionContainer = ($data: Prism<any>) => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
@@ -52,6 +65,9 @@ const toSectionContainer = ($data: Prism<any>) => {
   }
 }
 
+/**
+ * @ignore
+ */
 const parseSectionContainer = createParser(
   'sectionContainer',
   toSectionContainer,

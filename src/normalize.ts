@@ -18,6 +18,8 @@ import { sectionSchema, sectionContainerSchema } from './types/section'
 import { trackSchema, trackContainerSchema } from './types/track'
 
 /**
+ * @ignore
+ *
  * Normalize a __parsed__ plex response based on the data type.
  * This is done based on the `_type` property all plex objects are given.
  *
@@ -74,7 +76,7 @@ export function normalizeSync (data: Record<string, any>) {
  *
  * Returns a promise
  */
-export default async function normalize (data: Record<string, any>) {
-  const resolvedData = await data
+export default async function normalize (promise: Promise<Record<string, any>>) {
+  const resolvedData = await promise
   return normalizeSync(resolvedData)
 }

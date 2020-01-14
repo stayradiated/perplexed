@@ -15,6 +15,9 @@ export interface Part {
   streams: Stream[],
 }
 
+/**
+ * @ignore
+ */
 const toPart = ($data: Prism<any>) => {
   return {
     _type: 'part',

@@ -5,6 +5,9 @@ import { createParser } from './parser'
 
 import { toBoolean, toDateFromSeconds } from './types'
 
+/**
+ * @ignore
+ */
 const connectionSchema = new schema.Entity(
   'connections',
   {},
@@ -12,9 +15,17 @@ const connectionSchema = new schema.Entity(
     idAttribute: 'uri',
   },
 )
+
+/**
+ * @ignore
+ */
 const deviceSchema = new schema.Entity('devices', {
   connections: new schema.Array(connectionSchema),
 })
+
+/**
+ * @ignore
+ */
 const deviceContainerSchema = new schema.Object({
   devices: new schema.Array(deviceSchema),
 })
@@ -28,6 +39,9 @@ export interface Connection {
   local: boolean,
 }
 
+/**
+ * @ignore
+ */
 const toConnection = ($data: Prism<any>): Connection => {
   const $prop = $data.get('$')
   return {
@@ -68,6 +82,9 @@ export interface Device {
   presence: boolean,
 }
 
+/**
+ * @ignore
+ */
 const toDevice = ($data: Prism<any>): Device => {
   const $prop = $data.get('$')
 
@@ -121,6 +138,9 @@ const toDevice = ($data: Prism<any>): Device => {
   }
 }
 
+/**
+ * @ignore
+ */
 const toDeviceList = ($data: Prism<any>): Device[] => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
@@ -132,6 +152,9 @@ const toDeviceList = ($data: Prism<any>): Device[] => {
     .map(toDevice)
 }
 
+/**
+ * @ignore
+ */
 const parseDeviceList = createParser('deviceList', toDeviceList)
 
 export {

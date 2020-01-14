@@ -6,13 +6,23 @@ import { createParser } from './parser'
 import { toMediaContainer } from './mediaContainer'
 import { toTrack, trackSchema } from './track'
 
+/**
+ * @ignore
+ */
 const playQueueItemSchema = new schema.Object({
   track: trackSchema,
 })
+
+/**
+ * @ignore
+ */
 const playQueueContainerSchema = new schema.Object({
   items: new schema.Array(playQueueItemSchema),
 })
 
+/**
+ * @ignore
+ */
 const toPlayQueueItem = ($data: Prism<any>) => {
   return {
     _type: 'playQueueItem',
@@ -23,6 +33,9 @@ const toPlayQueueItem = ($data: Prism<any>) => {
   }
 }
 
+/**
+ * @ignore
+ */
 const toPlayQueue = ($data: Prism<any>) => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
@@ -49,6 +62,9 @@ const toPlayQueue = ($data: Prism<any>) => {
   }
 }
 
+/**
+ * @ignore
+ */
 const parsePlayQueue = createParser('playQueue', toPlayQueue)
 
 export {

@@ -4,14 +4,25 @@ import { createParser } from './parser'
 
 import { toNumber } from './types'
 
-const toCountry = ($data: Prism<any>) => {
+export interface Country {
+  id: number,
+  title: string,
+}
+
+/**
+ * @ignore
+ */
+const toCountry = ($data: Prism<any>): Country => {
   return {
     id: $data.get('key').transform(toNumber).value,
     title: $data.get('title').value,
   }
 }
 
-const toCountryContainer = ($data: Prism<any>) => {
+/**
+ * @ignore
+ */
+const toCountryContainer = ($data: Prism<any>): Record<string, number> => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
   }
@@ -29,6 +40,9 @@ const toCountryContainer = ($data: Prism<any>) => {
   return countriesObject
 }
 
+/**
+ * @ignore
+ */
 const parseCountryContainer = createParser(
   'countryContainer',
   toCountryContainer,

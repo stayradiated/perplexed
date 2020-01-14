@@ -5,12 +5,18 @@ import { createParser } from './parser'
 import { toMediaContainer } from './mediaContainer'
 import { toDevice } from './device'
 
+/**
+ * @ignore
+ */
 const toServer = ($data: Prism<any>) => {
   return {
     machineIdentifier: $data.get('machineIdentifier').value,
   }
 }
 
+/**
+ * @ignore
+ */
 const toStatus = ($data: Prism<any>) => {
   return {
     failureCode: $data.get('failureCode').value,
@@ -25,6 +31,9 @@ const toStatus = ($data: Prism<any>) => {
   }
 }
 
+/**
+ * @ignore
+ */
 const toMediaSettings = ($data: Prism<any>) => {
   return {
     audioBoost: $data.get('audioBoost').value,
@@ -38,6 +47,9 @@ const toMediaSettings = ($data: Prism<any>) => {
   }
 }
 
+/**
+ * @ignore
+ */
 const toPolicy = ($data: Prism<any>) => {
   return {
     scope: $data.get('scope').value,
@@ -45,12 +57,18 @@ const toPolicy = ($data: Prism<any>) => {
   }
 }
 
+/**
+ * @ignore
+ */
 const toLocation = ($data: Prism<any>) => {
   return {
     uri: $data.get('uri').value,
   }
 }
 
+/**
+ * @ignore
+ */
 const toSyncItem = ($data: Prism<any>) => {
   const $prop = $data.get('$')
 
@@ -90,6 +108,9 @@ const toSyncItem = ($data: Prism<any>) => {
   }
 }
 
+/**
+ * @ignore
+ */
 const toSyncList = ($data: Prism<any>) => {
   if ($data.has('SyncList')) {
     $data = $data.get('SyncList')
@@ -113,6 +134,9 @@ const toSyncList = ($data: Prism<any>) => {
   }
 }
 
+/**
+ * @ignore
+ */
 const parseSyncList = createParser('syncList', toSyncList)
 
 export { parseSyncList }

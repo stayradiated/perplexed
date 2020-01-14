@@ -11,6 +11,7 @@ export { Album, AlbumContainer } from './types/album'
 export { Artist, ArtistContainer } from './types/artist'
 export { Device, Connection } from './types/device'
 export { Track, TrackContainer } from './types/track'
+export { PlaylistItem, Playlist, PlaylistContainer } from './types/playlist'
 
 export {
   default as Library,

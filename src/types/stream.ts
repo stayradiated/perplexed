@@ -19,6 +19,9 @@ export interface Stream {
   timed: boolean,
 }
 
+/**
+ * @ignore
+ */
 const toStream = ($data: Prism<any>): Stream => {
   return {
     _type: 'stream',

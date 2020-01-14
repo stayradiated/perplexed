@@ -5,6 +5,9 @@ import { createParser } from './parser'
 
 import { Device, toDevice, deviceSchema } from './device'
 
+/**
+ * @ignore
+ */
 const resourceContainerSchema = new schema.Object({
   devices: new schema.Array(deviceSchema),
 })
@@ -14,6 +17,9 @@ export interface ResourceContainer {
   devices: Device[],
 }
 
+/**
+ * @ignore
+ */
 const toResourceContainer = ($data: Prism<any>): ResourceContainer => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
@@ -29,6 +35,9 @@ const toResourceContainer = ($data: Prism<any>): ResourceContainer => {
   }
 }
 
+/**
+ * @ignore
+ */
 const parseResourceContainer = createParser(
   'resourceContainer',
   toResourceContainer,

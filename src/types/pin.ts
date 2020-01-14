@@ -2,7 +2,19 @@ import Prism from '@zwolf/prism'
 
 import { createParser } from './parser'
 
-const toPin = ($data: Prism<any>) => {
+export interface Pin {
+  id: number,
+  code: string,
+  expiresAt: Date,
+  userId: string,
+  clientIdentifier: string,
+  authToken: string,
+}
+
+/**
+ * @ignore
+ */
+const toPin = ($data: Prism<any>): Pin => {
   return {
     id: $data.get('id').value,
     code: $data.get('code').value,
@@ -13,6 +25,9 @@ const toPin = ($data: Prism<any>) => {
   }
 }
 
+/**
+ * @ignore
+ */
 const parsePin = createParser('pin', toPin)
 
 export { parsePin }

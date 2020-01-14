@@ -13,6 +13,9 @@ export interface Media {
   parts: Part[],
 }
 
+/**
+ * @ignore
+ */
 const toMedia = ($data: Prism<any>): Media => {
   return {
     _type: 'media',

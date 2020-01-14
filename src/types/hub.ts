@@ -8,6 +8,9 @@ import { toArtist, artistSchema } from './artist'
 import { toTrack, trackSchema } from './track'
 import { toPlaylist, playlistSchema } from './playlist'
 
+/**
+ * @ignore
+ */
 const hubSchema = new schema.Entity(
   'hubs',
   {
@@ -27,14 +30,27 @@ const hubSchema = new schema.Entity(
     idAttribute: 'type',
   },
 )
+
+/**
+ * @ignore
+ */
 const hubContainerSchema = new schema.Object({
   hubs: new schema.Array(hubSchema),
 })
 
+/**
+ * @ignore
+ */
 type TransformFunction = ($data: Prism<any>) => Record<string, any>
 
+/**
+ * @ignore
+ */
 const defaultTransformFunction: TransformFunction = ($data) => $data.value
 
+/**
+ * @ignore
+ */
 const getTransformFunction = (type: string): TransformFunction => {
   switch (type) {
     case 'album':
@@ -50,6 +66,9 @@ const getTransformFunction = (type: string): TransformFunction => {
   }
 }
 
+/**
+ * @ignore
+ */
 const toHub = ($data: Prism<any>) => {
   const transformFunction = getTransformFunction($data.get('type').value)
 
@@ -77,6 +96,9 @@ const toHub = ($data: Prism<any>) => {
   }
 }
 
+/**
+ * @ignore
+ */
 const toHubContainer = ($data: Prism<any>) => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
@@ -91,6 +113,9 @@ const toHubContainer = ($data: Prism<any>) => {
   }
 }
 
+/**
+ * @ignore
+ */
 const parseHubContainer = createParser('hubContainer', toHubContainer)
 
 export { hubSchema, hubContainerSchema, parseHubContainer }

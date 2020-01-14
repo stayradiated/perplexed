@@ -6,6 +6,9 @@ export interface Tag {
   tag: string,
 }
 
+/**
+ * @ignore
+ */
 const toTag = ($data: Prism<any>): Tag => {
   return {
     id: $data.get<number>('id', { quiet: true }).value,
@@ -14,6 +17,9 @@ const toTag = ($data: Prism<any>): Tag => {
   }
 }
 
+/**
+ * @ignore
+ */
 const toTagList = ($data: Prism<any>) => {
   return $data.toArray().map(toTag)
 }

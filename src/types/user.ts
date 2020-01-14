@@ -12,6 +12,9 @@ export interface Profile {
   defaultSubtitleForced: number,
 }
 
+/**
+ * @ignore
+ */
 const toProfile = ($data: Prism<any>): Profile => {
   return {
     autoSelectAudio: $data.get<boolean>('autoSelectAudio').value,
@@ -34,6 +37,9 @@ export interface UserSubscription {
   features: string[],
 }
 
+/**
+ * @ignore
+ */
 const toUserSubscription = ($data: Prism<any>): UserSubscription => {
   return {
     active: $data.get<boolean>('active').value,
@@ -55,6 +61,9 @@ export interface Subscription {
   state: string,
 }
 
+/**
+ * @ignore
+ */
 const toSubscription = ($data: Prism<any>): Subscription => {
   return {
     id: $data.get('id').value,
@@ -74,6 +83,9 @@ export interface Service {
   status: string,
 }
 
+/**
+ * @ignore
+ */
 const toService = ($data: Prism<any>): Service => {
   return {
     identifier: $data.get('identifier').value,
@@ -119,6 +131,9 @@ export interface User {
   uuid: string,
 }
 
+/**
+ * @ignore
+ */
 const toUser = ($data: Prism<any>): User => {
   return {
     _type: 'user',
@@ -170,6 +185,9 @@ const toUser = ($data: Prism<any>): User => {
   }
 }
 
+/**
+ * @ignore
+ */
 const parseUser = createParser('user', toUser)
 
 export { toUser, parseUser }

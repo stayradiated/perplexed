@@ -3,7 +3,7 @@ import { ExecutionContext } from 'ava'
 import { join } from 'path'
 import { Scope } from 'nock'
 
-import normalize from './normalize'
+import { normalizeSync } from './normalize'
 
 const fixture = (name: string) => {
   const path = join(__dirname, '../testHelpers/fixtures', name)
@@ -18,9 +18,7 @@ const snapshot = (t: ExecutionContext, scope: Scope) => {
   return async (res: Record<string, any>) => {
     scope.done()
     t.snapshot(res)
-    const nres = await normalize(res)
-    t.snapshot(nres)
-    return nres
+    t.snapshot(normalizeSync(res))
   }
 }
 

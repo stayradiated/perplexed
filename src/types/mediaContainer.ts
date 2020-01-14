@@ -2,6 +2,9 @@ import Prism from '@zwolf/prism'
 
 import { toNumber } from './types'
 
+/**
+ * @ignore
+ */
 const toTotalSize = ($data: Prism<any>): number => {
   if ($data.has('totalSize')) {
     return $data.get('totalSize').transform(toNumber).value
@@ -19,6 +22,9 @@ export interface MediaContainer {
   mediaTagVersion: string,
 }
 
+/**
+ * @ignore
+ */
 const toMediaContainer = ($data: Prism<any>): MediaContainer => {
   return {
     _type: 'mediaContainer',

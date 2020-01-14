@@ -3,21 +3,44 @@ import { schema } from 'normalizr'
 
 import { createParser } from './parser'
 
-import { toTrack, trackSchema } from './track'
-import { toMediaContainer } from './mediaContainer'
+import { Track, toTrack, trackSchema } from './track'
+import { MediaContainer, toMediaContainer } from './mediaContainer'
 import { toBoolean, toNumber } from './types'
 
+/**
+ * @ignore
+ */
 const playlistItemSchema = new schema.Object({
   track: trackSchema,
 })
+
+/**
+ * @ignore
+ */
 const playlistSchema = new schema.Entity('playlists', {
   items: new schema.Array(playlistItemSchema),
 })
+
+/**
+ * @ignore
+ */
 const playlistContainerSchema = new schema.Object({
   playlists: new schema.Array(playlistSchema),
 })
 
-const toPlaylistItem = (playlistId: number) => ($data: Prism<any>) => {
+export interface PlaylistItem {
+  _type: string,
+  id: number,
+  playlistId: number,
+  track: Track,
+}
+
+/**
+ * @ignore
+ */
+const toPlaylistItem = (playlistId: number) => (
+  $data: Prism<any>,
+): PlaylistItem => {
   return {
     _type: 'playlistItem',
     id: $data.get('playlistItemID').value,
@@ -26,6 +49,32 @@ const toPlaylistItem = (playlistId: number) => ($data: Prism<any>) => {
   }
 }
 
+export interface Playlist {
+  _type: string,
+
+  id: number,
+  ratingKey: string,
+  key: string,
+  guid: string,
+  type: string,
+  title: string,
+  summary: string,
+  smart: boolean,
+  playlistType: string,
+  composite: boolean,
+  viewCount: number,
+  lastViewedAt: Date,
+  duration: number,
+  leafCount: number,
+  addedAt: Date,
+  updatedAt: Date,
+
+  items: PlaylistItem[],
+}
+
+/**
+ * @ignore
+ */
 const toPlaylist = ($data: Prism<any>) => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
@@ -62,6 +111,14 @@ const toPlaylist = ($data: Prism<any>) => {
   }
 }
 
+export interface PlaylistContainer extends MediaContainer {
+  _type: string,
+  playlists: Playlist[],
+}
+
+/**
+ * @ignore
+ */
 const toPlaylistContainer = ($data: Prism<any>) => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
@@ -79,8 +136,14 @@ const toPlaylistContainer = ($data: Prism<any>) => {
   }
 }
 
+/**
+ * @ignore
+ */
 const parsePlaylist = createParser('playlist', toPlaylist)
 
+/**
+ * @ignore
+ */
 const parsePlaylistContainer = createParser(
   'playlistContainer',
   toPlaylistContainer,

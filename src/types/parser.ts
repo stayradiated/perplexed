@@ -1,5 +1,8 @@
 import Prism, { printWarnings } from '@zwolf/prism'
 
+/**
+ * @ignore
+ */
 const createParser = <T>(
   name: string,
   transformer: ($data: Prism<any>) => T,

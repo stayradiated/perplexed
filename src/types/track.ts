@@ -7,7 +7,14 @@ import { MediaContainer, toMediaContainer } from './mediaContainer'
 import { Media, toMedia } from './media'
 import { toNumber } from './types'
 
+/**
+ * @ignore
+ */
 const trackSchema = new schema.Entity('tracks')
+
+/**
+ * @ignore
+ */
 const trackContainerSchema = new schema.Object({
   tracks: new schema.Array(trackSchema),
 })
@@ -45,6 +52,9 @@ export interface Track {
   viewCount: string,
 }
 
+/**
+ * @ignore
+ */
 const toTrack = ($data: Record<string, any>): Track => {
   return {
     _type: 'track',
@@ -112,6 +122,9 @@ export interface TrackContainer extends MediaContainer {
   viewMode: string,
 }
 
+/**
+ * @ignore
+ */
 const toTrackContainer = ($data: Prism<any>): TrackContainer => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
@@ -149,6 +162,9 @@ const toTrackContainer = ($data: Prism<any>): TrackContainer => {
   }
 }
 
+/**
+ * @ignore
+ */
 const parseTrackContainer = createParser('trackContainer', toTrackContainer)
 
 export {

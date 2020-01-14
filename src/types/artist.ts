@@ -8,13 +8,23 @@ import { Tag, toTagList } from './tags'
 import { Track, trackSchema, toTrack } from './track'
 import { toNumber, toDateFromSeconds } from './types'
 
+/**
+ * @ignore
+ */
 const artistSchema = new schema.Entity('artists', {
   popularTracks: new schema.Array(trackSchema),
 })
+
+/**
+ * @ignore
+ */
 const artistContainerSchema = new schema.Object({
   artists: new schema.Array(artistSchema),
 })
 
+/**
+ * @ignore
+ */
 const toPopularTracks = ($data: Prism<any>) => {
   if ($data.has('PopularLeaves')) {
     return $data
@@ -51,6 +61,9 @@ export interface Artist {
   viewCount: number,
 }
 
+/**
+ * @ignore
+ */
 const toArtist = ($data: Prism<any>): Artist => {
   return {
     _type: 'artist',
@@ -101,6 +114,9 @@ export interface ArtistContainer extends MediaContainer {
   viewMode: string,
 }
 
+/**
+ * @ignore
+ */
 const toArtistContainer = ($data: Prism<any>): ArtistContainer => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
@@ -130,6 +146,9 @@ const toArtistContainer = ($data: Prism<any>): ArtistContainer => {
   }
 }
 
+/**
+ * @ignore
+ */
 const parseArtistContainer = createParser('artistContainer', toArtistContainer)
 
 export {

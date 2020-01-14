@@ -9,7 +9,14 @@ import { MediaContainer, toMediaContainer } from './mediaContainer'
 import { Tag, toTagList } from './tags'
 import { toNumber, toTimestamp, toDate } from './types'
 
+/**
+ * @ignore
+ */
 const albumSchema = new schema.Entity('albums')
+
+/**
+ * @ignore
+ */
 const albumContainerSchema = new schema.Object({
   albums: new schema.Array(albumSchema),
 })
@@ -57,6 +64,9 @@ export interface Album {
   year: number,
 }
 
+/**
+ * @ignore
+ */
 const toAlbum = ($data: Prism<any>): Album => {
   return {
     _type: 'album',
@@ -139,6 +149,9 @@ export interface AlbumContainer extends MediaContainer {
   viewMode: number,
 }
 
+/**
+ * @ignore
+ */
 const toAlbumContainer = ($data: Prism<any>): AlbumContainer => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
@@ -166,6 +179,9 @@ const toAlbumContainer = ($data: Prism<any>): AlbumContainer => {
   }
 }
 
+/**
+ * @ignore
+ */
 const parseAlbumContainer = createParser('albumContainer', toAlbumContainer)
 
 export {

@@ -4,14 +4,25 @@ import { createParser } from './parser'
 
 import { toNumber } from './types'
 
-const toGenre = ($data: Prism<any>) => {
+interface Genre {
+  id: number,
+  title: string,
+}
+
+/**
+ * @ignore
+ */
+const toGenre = ($data: Prism<any>): Genre => {
   return {
     id: $data.get<string>('key').transform(toNumber).value,
     title: $data.get<string>('title').value,
   }
 }
 
-const toGenreContainer = ($data: Prism<any>) => {
+/**
+ * @ignore
+ */
+const toGenreContainer = ($data: Prism<any>): Record<string, number> => {
   if ($data.has('MediaContainer')) {
     $data = $data.get('MediaContainer')
   }
@@ -29,6 +40,9 @@ const toGenreContainer = ($data: Prism<any>) => {
   return genresObject
 }
 
+/**
+ * @ignore
+ */
 const parseGenreContainer = createParser('genreContainer', toGenreContainer)
 
 export { toGenre, toGenreContainer, parseGenreContainer }
