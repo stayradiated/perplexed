@@ -9,7 +9,7 @@ const toTotalSize = ($data: Prism<any>): number => {
   if ($data.has('totalSize')) {
     return $data.get('totalSize').transform(toNumber).value
   }
-  return $data.get('size').transform(toNumber).value
+  return $data.get('size', { quiet: true }).transform(toNumber).value
 }
 
 export interface MediaContainer {
@@ -29,7 +29,7 @@ const toMediaContainer = ($data: Prism<any>): MediaContainer => {
   return {
     _type: 'mediaContainer',
 
-    size: $data.get('size').transform(toNumber).value,
+    size: $data.get('size', { quiet: true }).transform(toNumber).value,
     totalSize: $data.transform(toTotalSize).value,
     offset: $data.get('offset', { quiet: true }).transform(toNumber).value,
 

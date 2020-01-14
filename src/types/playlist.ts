@@ -49,7 +49,7 @@ const toPlaylistItem = (playlistId: number) => (
   }
 }
 
-export interface Playlist {
+export interface Playlist extends MediaContainer {
   _type: string,
 
   id: number,
@@ -83,7 +83,7 @@ const toPlaylist = ($data: Prism<any>): Playlist => {
   const playlistId = $data.get('ratingKey').transform(toNumber).value
 
   return {
-    // ...$data.transform(toMediaContainer).value,
+    ...$data.transform(toMediaContainer).value,
 
     _type: 'playlist',
 
