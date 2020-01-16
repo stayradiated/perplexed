@@ -34,7 +34,12 @@ const requestJSON = async (url: string, options: RequestOptions = {}) => {
       accept: 'application/json',
     },
   })
-  return res.json()
+
+  if (res.headers.get('content-type').includes('application/json')) {
+    return res.json()
+  }
+
+  return res.text()
 }
 
 const requestXML = async (url: string, options: RequestOptions) => {

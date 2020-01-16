@@ -11,6 +11,9 @@ const withParams = (url: string, params: Params = {}) => {
 /**
  * Handle container params.
  *
+ * Important: the `start` parameter is only respected by Plex if you pass the
+ * `size` parameter as well.
+ *
  * @private
  * @params {Object} [options={}]
  * @returns {Object}
@@ -23,11 +26,13 @@ interface WithContainerParamsOptions extends Params {
 
 const withContainerParams = (params: WithContainerParamsOptions = {}) => {
   const { start, size, ...searchParams } = params
+
   if (size != null) {
     searchParams['X-Plex-Container-Size'] = size.toString()
     searchParams['X-Plex-Container-Start'] =
       start != null ? start.toString() : '0'
   }
+
   return searchParams
 }
 

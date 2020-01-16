@@ -162,7 +162,7 @@ const toTrackContainer = ($data: Prism<any>): TrackContainer => {
     _type: 'trackContainer',
 
     tracks: $data
-      .get('Metadata')
+      .get('Metadata', { quiet: true })
       .toArray()
       .map(toTrack),
 

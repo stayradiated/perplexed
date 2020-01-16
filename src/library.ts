@@ -563,6 +563,7 @@ export default class Library {
 
   async rate (trackId: number, rating: number) {
     const res = await this.fetch('/:/rate', {
+      method: 'PUT',
       searchParams: {
         key: trackId,
         identifier: 'com.plexapp.plugins.library',
