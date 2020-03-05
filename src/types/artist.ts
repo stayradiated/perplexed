@@ -128,7 +128,7 @@ const toArtistContainer = ($data: Prism<any>): ArtistContainer => {
     _type: 'artistContainer',
 
     artists: $data
-      .get('Metadata')
+      .get('Metadata', { quiet: true })
       .toArray()
       .map(toArtist),
 

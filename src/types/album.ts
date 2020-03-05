@@ -163,7 +163,7 @@ const toAlbumContainer = ($data: Prism<any>): AlbumContainer => {
     _type: 'albumContainer',
 
     albums: $data
-      .get('Metadata')
+      .get('Metadata', { quiet: true })
       .toArray()
       .map(toAlbum),
 

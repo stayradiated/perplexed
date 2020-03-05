@@ -1,11 +1,13 @@
 import xml2js from 'xml2js'
 import { promisify } from 'util'
-import ky, { Options as KyOptions } from 'ky-universal'
+import { Options as KyOptions } from 'ky'
+import ky from 'ky-universal'
 
 import { Params } from './params'
 
 export interface RequestOptions extends KyOptions {
   searchParams?: Params,
+  headers?: Record<string, string>,
 }
 
 const parseXMLString = promisify(xml2js.parseString)
@@ -22,17 +24,44 @@ const cleanHeaders = (headers: Record<string, string> = {}) => {
 }
 
 const request = (url: string, options: RequestOptions = {}) => {
+  const {
+    method,
+    json,
+    searchParams,
+    prefixUrl,
+    retry,
+    timeout,
+    throwHttpErrors,
+    headers,
+  } = options
+
   cleanHeaders(options.headers as Record<string, string>)
-  return ky(url, options)
+
+  return ky(url, {
+    method,
+    json,
+    searchParams,
+    prefixUrl,
+    retry,
+    timeout,
+    throwHttpErrors,
+    hooks: {
+      beforeRequest: [
+        (request) => {
+          Object.keys(headers).forEach((key) => {
+            request.headers.set(key, headers[key])
+          })
+        },
+      ],
+    },
+  })
 }
 
 const requestJSON = async (url: string, options: RequestOptions = {}) => {
   const res = await request(url, {
+    timeout: 1000 * 60,
     ...options,
-    headers: {
-      ...options.headers,
-      accept: 'application/json',
-    },
+    headers: Object.assign({ accept: 'application/json' }, options.headers),
   })
 
   if (res.headers.get('content-type').includes('application/json')) {

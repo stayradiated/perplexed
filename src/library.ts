@@ -5,12 +5,13 @@ import { Params, withParams, withContainerParams } from './utils/params'
 
 import { CountryRecord, parseCountryRecord } from './types/country'
 import { GenreRecord, parseGenreRecord } from './types/genre'
-import { TrackContainer, Track, parseTrackContainer } from './types/track'
-import { AlbumContainer, parseAlbumContainer } from './types/album'
-import { ArtistContainer, parseArtistContainer } from './types/artist'
+import { Track, TrackContainer, parseTrackContainer } from './types/track'
+import { Album, AlbumContainer, parseAlbumContainer } from './types/album'
+import { Artist, ArtistContainer, parseArtistContainer } from './types/artist'
 import { parseHubContainer } from './types/hub'
 import { parsePlayQueue } from './types/play-queue'
 import {
+  Playlist,
   PlaylistContainer,
   parsePlaylist,
   parsePlaylistContainer,
@@ -33,7 +34,7 @@ export enum MediaType {
  * @returns {Object}
  */
 
-type ReturnType<T> = T extends MediaType.ARTIST
+type ContainerReturnType<T> = T extends MediaType.ARTIST
   ? ArtistContainer
   : T extends MediaType.ALBUM
     ? AlbumContainer
@@ -43,19 +44,47 @@ type ReturnType<T> = T extends MediaType.ARTIST
         ? PlaylistContainer
         : never
 
-export function parseType<T extends MediaType> (
+export function parseContainerType<T extends MediaType> (
   type: T,
   data: Record<string, any>,
-): ReturnType<T> {
+): ContainerReturnType<T> {
   switch (type) {
     case MediaType.ARTIST:
-      return parseArtistContainer(data) as ReturnType<T>
+      return parseArtistContainer(data) as ContainerReturnType<T>
     case MediaType.ALBUM:
-      return parseAlbumContainer(data) as ReturnType<T>
+      return parseAlbumContainer(data) as ContainerReturnType<T>
     case MediaType.TRACK:
-      return parseTrackContainer(data) as ReturnType<T>
+      return parseTrackContainer(data) as ContainerReturnType<T>
     case MediaType.PLAYLIST:
-      return parsePlaylistContainer(data) as ReturnType<T>
+      return parsePlaylistContainer(data) as ContainerReturnType<T>
+    default:
+      throw new Error(`Unknown MediaType: ${type}`)
+  }
+}
+
+type ReturnType<T> = T extends MediaType.ARTIST
+  ? Artist
+  : T extends MediaType.ALBUM
+    ? Album
+    : T extends MediaType.TRACK
+      ? Track
+      : T extends MediaType.PLAYLIST
+        ? Playlist
+        : never
+
+export function getItems<T extends MediaType> (
+  type: T,
+  container: ContainerReturnType<T>,
+): ReturnType<T>[] {
+  switch (type) {
+    case MediaType.ARTIST:
+      return (container as ArtistContainer).artists as ReturnType<T>[]
+    case MediaType.ALBUM:
+      return (container as AlbumContainer).albums as ReturnType<T>[]
+    case MediaType.TRACK:
+      return (container as TrackContainer).tracks as ReturnType<T>[]
+    case MediaType.PLAYLIST:
+      return (container as PlaylistContainer).playlists as ReturnType<T>[]
     default:
       throw new Error(`Unknown MediaType: ${type}`)
   }
@@ -140,7 +169,7 @@ export default class Library {
     sectionId: number,
     type: T,
     searchParams: Params = {},
-  ): Promise<ReturnType<T>> {
+  ): Promise<ContainerReturnType<T>> {
     const path = `/library/sections/${sectionId}/all`
     const res = await this.fetch(path, {
       searchParams: {
@@ -148,7 +177,7 @@ export default class Library {
         type,
       },
     })
-    return parseType<T>(type, res) as ReturnType<T>
+    return parseContainerType<T>(type, res) as ContainerReturnType<T>
   }
 
   /**
@@ -179,10 +208,22 @@ export default class Library {
     id: number,
     type: T,
     searchParams: Params = {},
-  ): Promise<ReturnType<T>> {
+  ): Promise<ContainerReturnType<T>> {
     const path = `/library/metadata/${id}`
     const res = await this.fetch(path, { searchParams })
-    return parseType<T>(type, res)
+    return parseContainerType<T>(type, res)
+  }
+
+  async typedMetadata<T extends MediaType> (
+    id: number,
+    mediaType: T,
+    options?: RequestOptions,
+  ): Promise<ReturnType<T>> {
+    const path = `/library/metadata/${id}`
+    const res = await this.fetch(path, options)
+    const container = parseContainerType<T>(mediaType, res)
+    const items = getItems<T>(mediaType, container)
+    return items[0]
   }
 
   /**
@@ -198,10 +239,20 @@ export default class Library {
     id: number,
     type: T,
     searchParams: Params = {},
-  ): Promise<ReturnType<T>> {
+  ): Promise<ContainerReturnType<T>> {
     const path = `/library/metadata/${id}/children`
     const res = await this.fetch(path, { searchParams })
-    return parseType<T>(type, res)
+    return parseContainerType<T>(type, res)
+  }
+
+  async unmatch (id: number, params: Params = {}) {
+    const path = `/library/metadata/${id}/unmatch`
+    await this.fetch(path, { method: 'PUT', ...params })
+  }
+
+  async refreshMetadata (id: number, params: Params = {}) {
+    const path = `/library/metadata/${id}/refresh`
+    await this.fetch(path, { method: 'PUT', ...params })
   }
 
   // ==========================================================================
