@@ -26,6 +26,7 @@ const cleanHeaders = (headers: Record<string, string> = {}) => {
 const request = (url: string, options: RequestOptions = {}) => {
   const {
     method,
+    body,
     json,
     searchParams,
     prefixUrl,
@@ -39,6 +40,7 @@ const request = (url: string, options: RequestOptions = {}) => {
 
   return ky(url, {
     method,
+    body,
     json,
     searchParams,
     prefixUrl,

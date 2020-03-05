@@ -158,8 +158,8 @@ const toUser = ($data: Prism<any>): User => {
     profile: $data.get<Record<string, any>>('profile').transform(toProfile)
       .value,
     protected: $data.get<boolean>('protected').value,
-    queueEmail: $data.get<string>('queueEmail').value,
-    queueUid: $data.get<unknown>('queueUid').value,
+    queueEmail: $data.get<string>('queueEmail', { quiet: true }).value,
+    queueUid: $data.get<unknown>('queueUid', { quiet: true }).value,
     rememberExpiresAt: $data
       .get<number>('rememberExpiresAt')
       .transform(toDateFromSeconds).value,
