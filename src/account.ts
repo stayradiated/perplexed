@@ -77,14 +77,16 @@ export default class Account {
    *
    * @param {string} username
    * @param {string} password
+   * @param {string} code - Two-factor authentication code
    * @returns {Promise} - User info
    */
 
-  async authenticate (username: string, password: string) {
+  async authenticate (username: string, password: string, code?: string) {
     const formData = new URLSearchParams()
     formData.append('login', username)
     formData.append('password', password)
     formData.append('rememberMe', 'true')
+    if (code) formData.append('verificationCode', code)
 
     // we use requestJSON instead of this.fetch because if you send
     // the X-Plex-Token header it won't actually switch accounts.
